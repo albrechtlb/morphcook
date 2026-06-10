@@ -41,3 +41,4 @@ Thumbs.db
 **/*.keystore
 # Play publishing service account
 **/play-service-account.json
+**/__pycache__/
