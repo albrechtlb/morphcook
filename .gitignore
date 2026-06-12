@@ -42,3 +42,6 @@ Thumbs.db
 # Play publishing service account
 **/play-service-account.json
 **/__pycache__/
+
+# Wave-4 lattice pipeline working state (regenerable; corpus lands in app/assets)
+claude-fable-5/pipeline/wave4/

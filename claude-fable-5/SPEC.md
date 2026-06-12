@@ -30,9 +30,16 @@ not a filtered subset of someone else's.
 
 **Each variant is its own recipe, linked to a dish concept.**
 
-- "Döner" is a **dish** (concept).
-- "Classic Döner", "Vegan Döner", "Keto Döner Bowl", "Halal Döner" are **recipes**,
-  all siblings under dish `doener`.
+- "Döner" is a **dish** (concept). The user always sees the dish — cards say
+  "döner", never "vegan döner". Diet is a coordinate, not an identity.
+- Its recipes form a **complete lattice** (wave 4 contract, see
+  `docs/corpus-brief-4.md`): diet columns (classic + vegetarian/vegan where
+  genuinely distinct) × two honest effort levels × two calorie levels —
+  every combination fully authored. Sparse coverage extras (gluten-free,
+  low-fodmap) exist where every lattice cell would otherwise carry the
+  blocking allergen.
+- Recipe titles sell the food ("seitan döner", not "vegan döner") — the
+  coordinates carry the diet.
 - Recipes carry **contains-flags** (what they have: pork, dairy, gluten…) and
   **attributes** (effort, time bucket, technique).
 - The user profile carries **avoid-flags** (what to exclude) and **preferences**
@@ -65,8 +72,12 @@ Zero migrations, zero engine code changes.
   - One row per dimension (diet, effort, calorie-level, any future axis).
   - Each row collapsed by default, showing only the currently-selected variant.
   - Tap to reveal alternatives. Defaults pulled from profile.
-  - Unreachable combinations (no recipe exists for diet=vegan × effort=pro)
-    are disabled with a note, not hidden.
+  - Combinations that don't exist (sparse coverage extras only — the core
+    lattice is complete) are disabled with a note, not hidden.
+  - Combinations **outside the profile** are never locked: the profile
+    preselects, it doesn't imprison. Such chips render quieter (muted) and
+    a one-line note appears when the selected version conflicts with the
+    profile.
 - **Cookbook (saved).** User saves a **specific variant** (recipe ID), not a
   dish — you save *your* Döner.
 - **Search** by free text + tag filters, results respect profile filters.
@@ -450,13 +461,15 @@ Tapping a dimension chevron expands its chips:
 
 ```
 │ — diet ——————————————————— vegan  ⌃   │
-│   [classic] [vegan ●] [keto] [halal]   │
+│   [classic] [vegetarian] [vegan ●]     │
 ```
 
-Defaults: profile. Switching one dimension narrows available combos;
-unreachable combos show disabled with a note ("no vegan × keto version yet").
-Switching happens in-place — ingredients morph-animate on change (highlight
-flash + fade), method re-renders smoothly.
+Defaults: profile. The core lattice is complete, so core chips always land
+on a real recipe. Chips whose target sits outside the profile render muted
+but stay tappable — the profile preselects, it never locks. Only sparse
+coverage extras (gluten-free, low-fodmap) can be disabled with a note
+("not written yet — maybe soon"). Switching happens in-place — ingredients
+morph-animate on change (highlight flash + fade), method re-renders smoothly.
 
 ---
 

@@ -29,6 +29,9 @@ check "per-stage agent flags are accepted" \
     --agent-verifier codex --agent-nutrition opencode/minimax \
     --agent-copy claude --agent-reviewer codex --max-retries 1 --dry-run
 
+check "wave4 lattice pipeline self-test" \
+  python3 "$DIR/../wave4_lattice.py" --self-test
+
 # --- shipped corpus parses ---
 for f in "$ASSETS"/*.json; do
   check "parses: $(basename "$f")" jq empty "$f"
