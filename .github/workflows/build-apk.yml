@@ -1,0 +1,23 @@
+name: Build APK
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+      - run: flutter pub get
+        working-directory: claude-fable-5/app
+      - run: flutter build apk --debug
+        working-directory: claude-fable-5/app
+      - uses: actions/upload-artifact@v4
+        with:
+          name: morphcook-apk
+          path: claude-fable-5/app/build/app/outputs/flutter-apk/app-debug.apk
+
+  
