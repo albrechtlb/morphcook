@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "seitan",
+      "name": {"en": "seitan", "de": "seitan"},
+      "description": {"en": "Wheat-gluten protein with a chewy, meaty bite. Stars in vegan versions of sliced-meat dishes.", "de": "Weizen-gluten-protein mit kernigem, fleischigem biss. Hauptrolle in veganen versionen von tranchiert-fleisch-gerichten."},
+      "usage": {"en": "Slice thin, sear hot, glaze with soy.", "de": "Dünn schneiden, heiß anbraten, mit soja glasieren."},
+      "storage": {"en": "Keeps 5 days refrigerated in broth.", "de": "Hält 5 tage gekühlt in brühe."},
+      "where_to_find": {"en": "Health-food stores, asian markets, or make from vital wheat gluten.", "de": "Reformhäuser, asiatische märkte, oder aus weizengluten selbst machen."}
+    },
+    {
+      "id": "cashews",
+      "name": {"en": "cashews", "de": "cashewkerne"},
+      "description": {"en": "Creamy tree nut. Soaked and blended, they mimic dairy cream in vegan alfredos.", "de": "Cremige schalennuss. Eingeweicht und püriert ahmen sie sahne in veganen alfredos nach."},
+      "usage": {"en": "Soak 30 min, blend with water + lemon + salt for cream.", "de": "30 min einweichen, mit wasser + zitrone + salz zu sahne pürieren."},
+      "storage": {"en": "Airtight, cool, dark — 3 months.", "de": "Luftdicht, kühl, dunkel — 3 monate."},
+      "where_to_find": {"en": "Baking aisle or bulk section.", "de": "Backabteilung oder lose-waren-theke."}
+    },
+    {
+      "id": "tofu",
+      "name": {"en": "tofu", "de": "tofu"},
+      "description": {"en": "Coagulated soy curd. Firm tofu holds its shape when seared; silken blends into sauces.", "de": "Geronnene soja-masse. Fester tofu behält form beim braten; seidiger püriert zu saucen."},
+      "usage": {"en": "Press firm tofu, cube, pan-fry hot. Don't stir for 3 min.", "de": "Festen tofu pressen, würfeln, heiß braten. 3 min nicht wenden."},
+      "storage": {"en": "Submerged in water, refrigerated, 5 days.", "de": "In wasser bedeckt, gekühlt, 5 tage."},
+      "where_to_find": {"en": "Asian aisle or refrigerator section.", "de": "Asien-abteilung oder kühlregal."}
+    },
+    {
+      "id": "nutritional-yeast",
+      "name": {"en": "nutritional yeast", "de": "hefeflocken"},
+      "description": {"en": "Inactive yeast flakes with a savoury, cheesy, umami profile. Vegan parmesan substitute.", "de": "Inaktive hefeflocken mit würzigem, käsigem umami. Veganer parmesan-ersatz."},
+      "usage": {"en": "Stir into risotto or sprinkle over pasta.", "de": "Unter risotto rühren oder über pasta streuen."},
+      "storage": {"en": "Airtight, dark, 1 year.", "de": "Luftdicht, dunkel, 1 jahr."},
+      "where_to_find": {"en": "Health-food stores, baking aisle.", "de": "Reformhäuser, backabteilung."}
+    },
+    {
+      "id": "oats",
+      "name": {"en": "oats", "de": "hafer"},
+      "description": {"en": "Whole grain. Oat milk is the sweet, creamy base for vegan pancakes.", "de": "Vollkorn. Haferdrink ist die süße, cremige basis für vegane pfannkuchen."},
+      "usage": {"en": "Blend rolled oats with water, strain for oat milk.", "de": "Haferflocken mit wasser pürieren, passieren für haferdrink."},
+      "storage": {"en": "Airtight, 6 months.", "de": "Luftdicht, 6 monate."},
+      "where_to_find": {"en": "Cereal aisle.", "de": "Müsli-abteilung."}
+    },
+    {
+      "id": "halloumi",
+      "name": {"en": "halloumi", "de": "halloumi"},
+      "description": {"en": "Brined Cypriot cheese with a high melting point — it grills instead of melting.", "de": "Gepresster zyprischer käse mit hohem schmelzpunkt — er gart statt zu schmelzen."},
+      "usage": {"en": "Slice 8mm, dry pan, medium heat, 2 min per side.", "de": "8mm schneiden, trockene pfanne, mittelhitze, 2 min pro seite."},
+      "storage": {"en": "In brine, refrigerated, 2 weeks unopened.", "de": "In lake, gekühlt, 2 wochen ungeöffnet."},
+      "where_to_find": {"en": "Cheese counter or mediterranean aisle.", "de": "Käsetheke oder mittelmeer-abteilung."}
+    },
+    {
+      "id": "pork-belly",
+      "name": {"en": "pork belly", "de": "schweinebauch"},
+      "description": {"en": "Fatty, forgiving cut. Long slow heat renders it silken; a final sear crisps the rind.", "de": "Fettiges, verzeihendes stück. Lange langsame hitze macht es seidig; ein letztes anbraten knusprig die schwarte."},
+      "usage": {"en": "Braise 2 hours skin-down, then sear skin-side up.", "de": "2 stunden scharte nach unten schmoren, dann schwarte nach oben anbraten."},
+      "storage": {"en": "Refrigerated, 3 days; freeze for longer.", "de": "Gekühlt, 3 tage; einfrieren für länger."},
+      "where_to_find": {"en": "Butcher counter.", "de": "Fleischtheke."}
+    }
+  ]
+}

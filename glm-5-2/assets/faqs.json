@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "what-is-morphcook",
+      "category": "general",
+      "question": {"en": "What is MorphCook?", "de": "Was ist MorphCook?"},
+      "answer": {"en": "MorphCook is an offline recipe cookbook. The same dish exists for every body — every diet, every effort level. No filtered subsets of someone else's recipe book. Each variant is its own fully-authored recipe.", "de": "MorphCook ist ein offline-kochbuch. Dasselbe gericht existiert für jeden — jede ernährung, jede aufwandstufe. Keine gefilterten teile eines fremden kochbuchs. Jede variante ist ein eigenes, vollständig verfasstes rezept."}
+    },
+    {
+      "id": "what-is-a-variant",
+      "category": "recipes",
+      "question": {"en": "What is a variant?", "de": "Was ist eine variante?"},
+      "answer": {"en": "A variant is one complete recipe of a dish, written for a specific diet, effort and calorie level. Switching diet on the dish page swaps in a fully-written recipe — never a watered-down swap.", "de": "Eine variante ist ein vollständiges rezept eines gerichts, geschrieben für eine bestimmte ernährung, aufwand und kalorienstufe. Das wechseln der ernährung auf der gerichtseite tauscht ein vollständiges rezept ein — niemals ein verwässerter ersatz."}
+    },
+    {
+      "id": "why-recipe-disappeared",
+      "category": "diet",
+      "question": {"en": "Why did a recipe disappear?", "de": "Warum ist ein rezept verschwunden?"},
+      "answer": {"en": "Recipes are hidden only when they contain a class or specific ingredient you avoid in your profile. Open Settings → Diet & Allergies to review your avoidances. Sparse extras (gluten-free, low-fodmap) that aren't written yet show a 'not written yet' note instead of hiding.", "de": "Rezepte werden nur ausgeblendet, wenn sie eine klasse oder einen bestimmten, von dir gemiedenen, bestandteil enthalten. Öffne Einstellungen → Ernährung & Allergien, um deine meiden-liste zu prüfen. Noch nicht geschriebene extras (glutenfrei, low-fodmap) zeigen einen hinweis statt zu verschwinden."}
+    },
+    {
+      "id": "halal-kosher-certified",
+      "category": "diet",
+      "question": {"en": "Are halal/kosher recipes certified?", "de": "Sind halal/koscher rezepte zertifiziert?"},
+      "answer": {"en": "No. MorphCook only surfaces halal-compatible and kosher-compatible ingredient lists. Certification is a property of sourcing (slaughter, supervision), not of a recipe text. Always verify your sourcing.", "de": "Nein. MorphCook zeigt nur halal-kompatible und koscher-kompatible zutatenlisten. Zertifizierung ist eine eigenschaft der bezugsquelle (schlachtung, aufsicht), nicht des rezepttextes. Prüfe immer deine bezugsquelle."}
+    },
+    {
+      "id": "how-matching-works",
+      "category": "diet",
+      "question": {"en": "How does recipe matching work?", "de": "Wie funktioniert die rezeptzuordnung?"},
+      "answer": {"en": "A recipe is visible if its contains-flags don't intersect your avoid-flags, no avoided specific ingredient appears, your required attributes (e.g. halal) are met, and time + calorie targets fit. When multiple variants pass, the closest on effort/time/calorie wins.", "de": "Ein rezept ist sichtbar, wenn seine enthält-flaggen deine meiden-flaggen nicht schneiden, keine gemiedene spezifische zutat vorkommt, deine erforderlichen attribute (z.b. halal) erfüllt sind und zeit- + kalorienziele passen. Bei mehreren passenden varianten gewinnt die nächstliegende auf aufwand/zeit/kalorien."}
+    },
+    {
+      "id": "can-i-save-a-specific-variant",
+      "category": "cookbook",
+      "question": {"en": "Can I save a specific variant?", "de": "Kann ich eine bestimmte variante speichern?"},
+      "answer": {"en": "Yes — you save your specific variant (recipe ID), not just the dish. Your Döner stays your Döner until you swap it.", "de": "Ja — du speicherst deine bestimmte variante (rezept-ID), nicht nur das gericht. Dein Döner bleibt dein Döner, bis du ihn wechselst."}
+    },
+    {
+      "id": "shopping-list-units",
+      "category": "shopping",
+      "question": {"en": "How does shopping list aggregation work?", "de": "Wie funktioniert die einkaufslisten-zusammenfassung?"},
+      "answer": {"en": "Quantities of the same unit are summed (2 cloves + 3 cloves = 5 cloves). For compatible ingredients, ml and tbsp are converted automatically. Items are grouped by aisle.", "de": "Mengen derselben einheit werden summiert (2 zehen + 3 zehen = 5 zehen). Bei kompatiblen zutaten werden ml und el automatisch umgerechnet. Artikel werden nach gang gruppiert."}
+    },
+    {
+      "id": "backup-encryption",
+      "category": "backup",
+      "question": {"en": "How does backup encryption work?", "de": "Wie funktioniert die backup-verschlüsselung?"},
+      "answer": {"en": "When you set a password, the JSON file is encrypted with AES-256-GCM and PBKDF2 key derivation (10,000 iterations). The GZip file stays unencrypted for compatibility. Encrypted files carry magic bytes 'ENC' for detection.", "de": "Wenn du ein passwort setzt, wird die JSON-datei mit AES-256-GCM und PBKDF2 schlüsselableitung (10.000 iterationen) verschlüsselt. Die GZip-datei bleibt unverschlüsselt für kompatibilität. Verschlüsselte dateien tragen die magic bytes 'ENC' zur erkennung."}
+    },
+    {
+      "id": "cook-mode-quick-tap",
+      "category": "cook-mode",
+      "question": {"en": "What is quick-tap in cook mode?", "de": "Was ist der schnell-tipp im kochmodus?"},
+      "answer": {"en": "Quick-tap advances to the next step with a single tap on the step content, handy for one-handed cooking. It's opt-in via cook-mode settings and has a 300ms debounce to prevent accidental triggers. Respects reduce-motion.", "de": "Schnell-tipp wechselt mit einem einzigen tippen auf den schrittinhalt zum nächsten schritt, praktisch für einhändiges kochen. Es ist optional über die kochmodus-einstellungen und hat eine 300ms entprellung gegen versehentliche auslösung. Respektiert reduzierte bewegung."}
+    },
+    {
+      "id": "no-account",
+      "category": "general",
+      "question": {"en": "Do I need an account?", "de": "Brauche ich ein konto?"},
+      "answer": {"en": "No. MorphCook is offline-only with no backend, no account system, no cloud sync and no telemetry. Your data lives on your device.", "de": "Nein. MorphCook ist nur offline, ohne backend, ohne kontensystem, ohne cloud-sync und ohne telemetrie. Deine daten leben auf deinem gerät."}
+    },
+    {
+      "id": "content-requests",
+      "category": "general",
+      "question": {"en": "I searched for a dish and got nothing. What happens?", "de": "Ich habe nach einem gericht gesucht und nichts gefunden. was passiert?"},
+      "answer": {"en": "Searches that return zero results are logged locally as content requests and exported with your backup. This helps the corpus team prioritize new dishes.", "de": "Suchen ohne ergebnisse werden lokal als inhaltsanfragen protokolliert und mit deinem backup exportiert. Dies hilft dem corpus-team, neue gerichte zu priorisieren."}
+    }
+  ]
+}

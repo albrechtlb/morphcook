@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "contains_flags": {
+    "pork": {"en": "pork", "de": "Schwein"},
+    "beef": {"en": "beef", "de": "Rind"},
+    "lamb": {"en": "lamb", "de": "Lamm"},
+    "poultry": {"en": "poultry", "de": "Geflügel"},
+    "fish": {"en": "fish", "de": "Fisch"},
+    "shellfish": {"en": "shellfish", "de": "Schalentiere"},
+    "molluscs": {"en": "molluscs", "de": "Weichtiere"},
+    "egg": {"en": "egg", "de": "Ei"},
+    "dairy": {"en": "dairy", "de": "Milchprodukte"},
+    "gluten": {"en": "gluten", "de": "Gluten"},
+    "soy": {"en": "soy", "de": "Soja"},
+    "peanuts": {"en": "peanuts", "de": "Erdnüsse"},
+    "tree-nuts": {"en": "tree nuts", "de": "Baumnüsse"},
+    "almonds": {"en": "almonds", "de": "Mandeln"},
+    "walnuts": {"en": "walnuts", "de": "Walnüsse"},
+    "sesame": {"en": "sesame", "de": "Sesam"},
+    "mustard": {"en": "mustard", "de": "Senf"},
+    "celery": {"en": "celery", "de": "Sellerie"},
+    "lupin": {"en": "lupin", "de": "Lupine"},
+    "sulphites": {"en": "sulphites", "de": "Sulfite"},
+    "alcohol": {"en": "alcohol", "de": "Alkohol"},
+    "caffeine": {"en": "caffeine", "de": "Koffein"},
+    "added-sugar": {"en": "added sugar", "de": "zugesetzter Zucker"},
+    "honey": {"en": "honey", "de": "Honig"},
+    "gelatin-non-halal": {"en": "non-halal gelatin", "de": "nicht-halales Gelatine"},
+    "gelatin-non-kosher": {"en": "non-kosher gelatin", "de": "nicht-koschere Gelatine"},
+    "high-fodmap": {"en": "high-FODMAP", "de": "hoher FODMAP-Anteil"}
+  },
+  "compound_flags": {
+    "vegan": ["pork", "beef", "lamb", "poultry", "fish", "shellfish", "molluscs", "egg", "dairy", "honey", "gelatin-non-halal", "gelatin-non-kosher"],
+    "vegetarian": ["pork", "beef", "lamb", "poultry", "fish", "shellfish", "molluscs", "gelatin-non-halal", "gelatin-non-kosher"],
+    "pescatarian": ["pork", "beef", "lamb", "poultry", "gelatin-non-halal", "gelatin-non-kosher"],
+    "halal": ["pork", "alcohol", "gelatin-non-halal"],
+    "kosher": ["pork", "shellfish", "molluscs", "gelatin-non-kosher"],
+    "low-fodmap": ["high-fodmap"],
+    "sugar-free": ["added-sugar"],
+    "lactose-free": ["dairy"]
+  },
+  "attributes": {
+    "effort": {
+      "easy": {"en": "easy", "de": "einfach"},
+      "medium": {"en": "medium", "de": "mittel"},
+      "hard": {"en": "hard", "de": "aufwendig"}
+    },
+    "time_bucket": {
+      "≤15": {"en": "≤15 min", "de": "≤15 Min"},
+      "≤30": {"en": "≤30 min", "de": "≤30 Min"},
+      "≤60": {"en": "≤60 min", "de": "≤60 Min"},
+      ">60": {"en": ">60 min", "de": ">60 Min"}
+    },
+    "calorie_bucket": {
+      "≤400": {"en": "≤400 kcal", "de": "≤400 kcal"},
+      "≤600": {"en": "≤600 kcal", "de": "≤600 kcal"},
+      "≤800": {"en": "≤800 kcal", "de": "≤800 kcal"},
+      ">800": {"en": ">800 kcal", "de": ">800 kcal"}
+    },
+    "meal": {
+      "breakfast": {"en": "breakfast", "de": "Frühstück"},
+      "lunch": {"en": "lunch", "de": "Mittag"},
+      "dinner": {"en": "dinner", "de": "Abendessen"},
+      "snack": {"en": "snack", "de": "Snack"}
+    },
+    "technique": {
+      "bake": {"en": "bake", "de": "backen"},
+      "sauté": {"en": "sauté", "de": "sautieren"},
+      "simmer": {"en": "simmer", "de": "köcheln"},
+      "raw": {"en": "raw", "de": "roh"},
+      "grill": {"en": "grill", "de": "grillen"},
+      "fry": {"en": "fry", "de": "braten"},
+      "steam": {"en": "steam", "de": "dämpfen"},
+      "roast": {"en": "roast", "de": "rösten"},
+      "broil": {"en": "broil", "de": "grillen"},
+      "pan-fry": {"en": "pan-fry", "de": "anbraten"},
+      "deep-fry": {"en": "deep-fry", "de": "frittieren"},
+      "stir-fry": {"en": "stir-fry", "de": "wok-brutzeln"},
+      "poach": {"en": "poach", "de": "pochieren"},
+      "blanch": {"en": "blanch", "de": "blanchieren"}
+    }
+  }
+}

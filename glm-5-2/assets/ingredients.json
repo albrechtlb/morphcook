@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "tree": {
+    "dairy": {
+      "name": {"en": "dairy", "de": "milchprodukte"},
+      "children": {
+        "cow-milk": {
+          "name": {"en": "cow's milk", "de": "kuhmilch"},
+          "children": {
+            "whole-milk": {"name": {"en": "whole milk", "de": "vollmilch"}, "children": {}},
+            "skim-milk": {"name": {"en": "skim milk", "de": "fettarme milch"}, "children": {}},
+            "cream": {"name": {"en": "cream", "de": "sahne"}, "children": {}}
+          }
+        },
+        "goat-milk": {"name": {"en": "goat milk", "de": "ziegenmilch"}, "children": {}},
+        "cheese": {
+          "name": {"en": "cheese", "de": "käse"},
+          "children": {
+            "parmesan": {"name": {"en": "parmesan", "de": "parmesan"}, "children": {}},
+            "feta": {"name": {"en": "feta", "de": "feta"}, "children": {}},
+            "mozzarella": {"name": {"en": "mozzarella", "de": "mozzarella"}, "children": {}},
+            "cheddar": {"name": {"en": "cheddar", "de": "cheddar"}, "children": {}}
+          }
+        },
+        "butter": {"name": {"en": "butter", "de": "butter"}, "children": {}},
+        "yogurt": {"name": {"en": "yogurt", "de": "joghurt"}, "children": {}}
+      }
+    },
+    "nuts": {
+      "name": {"en": "nuts", "de": "nüsse"},
+      "children": {
+        "tree-nuts": {
+          "name": {"en": "tree nuts", "de": "schalennüsse"},
+          "children": {
+            "walnuts": {"name": {"en": "walnuts", "de": "walnüsse"}, "children": {}},
+            "almonds": {"name": {"en": "almonds", "de": "mandeln"}, "children": {}},
+            "cashews": {"name": {"en": "cashews", "de": "cashewkerne"}, "children": {}},
+            "pistachios": {"name": {"en": "pistachios", "de": "pistazien"}, "children": {}},
+            "pecans": {"name": {"en": "pecans", "de": "pekannüsse"}, "children": {}},
+            "hazelnuts": {"name": {"en": "hazelnuts", "de": "haselnüsse"}, "children": {}}
+          }
+        },
+        "peanuts": {"name": {"en": "peanuts", "de": "erdnüsse"}, "children": {}}
+      }
+    },
+    "meat": {
+      "name": {"en": "meat", "de": "fleisch"},
+      "children": {
+        "pork": {"name": {"en": "pork", "de": "schweinefleisch"}, "children": {}},
+        "beef": {"name": {"en": "beef", "de": "rindfleisch"}, "children": {}},
+        "lamb": {"name": {"en": "lamb", "de": "lamm"}, "children": {}},
+        "poultry": {
+          "name": {"en": "poultry", "de": "geflügel"},
+          "children": {
+            "chicken": {"name": {"en": "chicken", "de": "hähnchen"}, "children": {}},
+            "turkey": {"name": {"en": "turkey", "de": "pute"}, "children": {}}
+          }
+        }
+      }
+    },
+    "seafood": {
+      "name": {"en": "seafood", "de": "meeresfrüchte"},
+      "children": {
+        "fish": {"name": {"en": "fish", "de": "fisch"}, "children": {}},
+        "shellfish": {"name": {"en": "shellfish", "de": "schalentiere"}, "children": {}},
+        "molluscs": {"name": {"en": "molluscs", "de": "weichtiere"}, "children": {}}
+      }
+    },
+    "egg": {"name": {"en": "egg", "de": "ei"}, "children": {}},
+    "gluten": {
+      "name": {"en": "gluten", "de": "gluten"},
+      "children": {
+        "wheat": {"name": {"en": "wheat", "de": "weizen"}, "children": {}},
+        "rye": {"name": {"en": "rye", "de": "roggen"}, "children": {}},
+        "barley": {"name": {"en": "barley", "de": "gerste"}, "children": {}}
+      }
+    },
+    "soy": {"name": {"en": "soy", "de": "soja"}, "children": {}},
+    "sesame": {"name": {"en": "sesame", "de": "sesam"}, "children": {}},
+    "vegetables": {
+      "name": {"en": "vegetables", "de": "gemüse"},
+      "children": {
+        "tomato": {"name": {"en": "tomato", "de": "tomate"}, "children": {}},
+        "onion": {"name": {"en": "onion", "de": "zwiebel"}, "children": {}},
+        "garlic": {"name": {"en": "garlic", "de": "knoblauch"}, "children": {}},
+        "bell-pepper": {"name": {"en": "bell pepper", "de": "paprika"}, "children": {}},
+        "mushroom": {"name": {"en": "mushroom", "de": "pilz"}, "children": {}},
+        "spinach": {"name": {"en": "spinach", "de": "spinat"}, "children": {}}
+      }
+    },
+    "fruits": {
+      "name": {"en": "fruits", "de": "obst"},
+      "children": {
+        "apple": {"name": {"en": "apple", "de": "apfel"}, "children": {}},
+        "lemon": {"name": {"en": "lemon", "de": "zitrone"}, "children": {}},
+        "lime": {"name": {"en": "lime", "de": "limette"}, "children": {}}
+      }
+    },
+    "herbs": {
+      "name": {"en": "herbs", "de": "kräuter"},
+      "children": {
+        "cilantro": {"name": {"en": "cilantro", "de": "koriander"}, "children": {}},
+        "basil": {"name": {"en": "basil", "de": "basilikum"}, "children": {}},
+        "mint": {"name": {"en": "mint", "de": "minze"}, "children": {}},
+        "parsley": {"name": {"en": "parsley", "de": "petersilie"}, "children": {}}
+      }
+    },
+    "spices": {
+      "name": {"en": "spices", "de": "gewürze"},
+      "children": {
+        "cumin": {"name": {"en": "cumin", "de": "kreuzkümmel"}, "children": {}},
+        "paprika": {"name": {"en": "paprika", "de": "paprikapulver"}, "children": {}},
+        "chili": {"name": {"en": "chili", "de": "chili"}, "children": {}}
+      }
+    },
+    "grains": {
+      "name": {"en": "grains", "de": "getreide"},
+      "children": {
+        "rice": {"name": {"en": "rice", "de": "reis"}, "children": {}},
+        "oats": {"name": {"en": "oats", "de": "hafer"}, "children": {}},
+        "corn": {"name": {"en": "corn", "de": "mais"}, "children": {}}
+      }
+    }
+  }
+}

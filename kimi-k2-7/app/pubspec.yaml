@@ -1,0 +1,81 @@
+name: morphcook
+description: "MorphCook — your complete cookbook, for every body."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI / UX
+  cupertino_icons: ^1.0.8
+  flutter_animate: ^4.5.0
+
+  # State + persistence
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Files / sharing / picking
+  path_provider: ^2.1.2
+  share_plus: ^7.2.2
+  file_picker: ^10.0.0
+
+  # Crypto / compression / encoding
+  encrypt: ^5.0.1
+  archive: ^3.4.10
+  crypto: ^3.0.3
+  pointycastle: ^3.9.1
+
+  # i18n / formatting
+  intl: ^0.19.0
+
+  # Utilities
+  collection: ^1.18.0
+  uuid: ^4.3.3
+  flutter_slidable: ^3.0.1
+
+  # Timer/audio
+  audioplayers: ^5.2.1
+  wakelock_plus: ^1.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/partition-manifest.json
+    - assets/core-recipes.json
+    - assets/extended-recipes.json
+    - assets/cuisine-italian.json
+    - assets/cuisine-asian.json
+    - assets/cuisine-middle-eastern.json
+    - assets/dishes.json
+    - assets/ontology.json
+    - assets/ingredients.json
+    - assets/ingredient-guide.json
+    - assets/faqs.json
+    - assets/images/
+
+  fonts:
+    - family: PlayfairDisplay
+      fonts:
+        - asset: assets/fonts/PlayfairDisplay.ttf
+        - asset: assets/fonts/PlayfairDisplay-Italic.ttf
+          style: italic
+    - family: JetBrainsMono
+      fonts:
+        - asset: assets/fonts/JetBrainsMono.ttf
+        - asset: assets/fonts/JetBrainsMono-Italic.ttf
+          style: italic
+    - family: Caveat
+      fonts:
+        - asset: assets/fonts/Caveat.ttf

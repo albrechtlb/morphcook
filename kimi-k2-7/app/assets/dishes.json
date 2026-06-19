@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "dishes": [
+    {
+      "id": "doener",
+      "canonical_name": {"en": "döner", "de": "Döner"},
+      "hero_text": {"en": "The Berlin classic, written for you — meaty, vegan, halal, or however you eat today.", "de": "Der Berliner Klassiker, für dich verfasst — fleischig, vegan, halal oder wie auch immer du heute isst."},
+      "cap_caption": {"en": "a warm pita moment", "de": "ein warmer Fladenbrot-Moment"},
+      "stripe_color": "#E26D5A",
+      "variant_recipe_ids": [
+        "doener-classic-easy-520",
+        "doener-classic-hard-750",
+        "doener-vegan-easy-480",
+        "doener-vegan-hard-700",
+        "doener-vegetarian-easy-500",
+        "doener-halal-easy-540"
+      ],
+      "partition_id": "core",
+      "secondary_partitions": [],
+      "cuisine_tags": ["turkish", "german", "street-food"],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "padthai",
+      "canonical_name": {"en": "pad thai", "de": "Pad Thai"},
+      "hero_text": {"en": "Sweet, sour, salty, hot — every version keeps the wok char.", "de": "Süß, sauer, salzig, scharf — jede Version behält den Wok-Geschmack."},
+      "cap_caption": {"en": "wok-scented noodles", "de": "wokduftende Nudeln"},
+      "stripe_color": "#F4A261",
+      "variant_recipe_ids": [
+        "padthai-classic-medium-580",
+        "padthai-vegan-medium-520",
+        "padthai-pescatarian-medium-540"
+      ],
+      "partition_id": "core",
+      "secondary_partitions": ["cuisine-asian"],
+      "cuisine_tags": ["thai", "asian", "street-food"],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "alfredo",
+      "canonical_name": {"en": "alfredo", "de": "Alfredo"},
+      "hero_text": {"en": "Creamy, twirlable comfort — with dairy, without dairy, or without gluten.", "de": "Cremig, wickelbarer Komfort — mit Milch, ohne Milch oder ohne Gluten."},
+      "cap_caption": {"en": "twirl with abandon", "de": "unbekümmert aufwickeln"},
+      "stripe_color": "#E9C46A",
+      "variant_recipe_ids": [
+        "alfredo-classic-easy-620",
+        "alfredo-vegan-easy-480",
+        "alfredo-glutenfree-easy-500"
+      ],
+      "partition_id": "core",
+      "secondary_partitions": ["cuisine-italian"],
+      "cuisine_tags": ["italian", "comfort"],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "shakshuka",
+      "canonical_name": {"en": "shakshuka", "de": "Shakshuka"},
+      "hero_text": {"en": "A simmering pan of tomatoes and spices — eggs or silken tofu, you choose.", "de": "Eine köchelnde Pfanne aus Tomaten und Gewürzen — Eier oder Seidentofu, du wählst."},
+      "cap_caption": {"en": "spiced tomato warmth", "de": "würzige Tomatenwärme"},
+      "stripe_color": "#C75B39",
+      "variant_recipe_ids": [
+        "shakshuka-classic-easy-340",
+        "shakshuka-vegan-easy-280"
+      ],
+      "partition_id": "core",
+      "secondary_partitions": ["cuisine-middle-eastern"],
+      "cuisine_tags": ["middle-eastern", "north-african", "brunch"],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "buddhabowl",
+      "canonical_name": {"en": "buddha bowl", "de": "Buddha Bowl"},
+      "hero_text": {"en": "A bowl that fits your day: vegan greens, lemon chicken, or ginger salmon.", "de": "Eine Schüssel für deinen Tag: veganes Grün, Zitronen-Hähnchen oder Ingwer-Lachs."},
+      "cap_caption": {"en": "balanced in every bite", "de": "ausgewogen in jedem Bissen"},
+      "stripe_color": "#2A9D8F",
+      "variant_recipe_ids": [
+        "buddhabowl-vegan-easy-420",
+        "buddhabowl-chicken-easy-460",
+        "buddhabowl-salmon-easy-480"
+      ],
+      "partition_id": "core",
+      "secondary_partitions": [],
+      "cuisine_tags": ["modern", "bowl", "healthy"],
+      "frequency_tier": "core"
+    }
+  ]
+}

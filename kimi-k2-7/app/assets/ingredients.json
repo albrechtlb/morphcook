@@ -1,0 +1,99 @@
+{
+  "id": "root",
+  "name": {"en": "all ingredients", "de": "alle Zutaten"},
+  "children": [
+    {
+      "id": "dairy",
+      "name": {"en": "dairy", "de": "Milchprodukte"},
+      "children": [
+        {"id": "cow-milk", "name": {"en": "cow milk", "de": "Kuhmilch"}, "children": [
+          {"id": "whole-milk", "name": {"en": "whole milk", "de": "Vollmilch"}},
+          {"id": "skim-milk", "name": {"en": "skim milk", "de": "fettarme Milch"}}
+        ]},
+        {"id": "goat-milk", "name": {"en": "goat milk", "de": "Ziegenmilch"}},
+        {"id": "cheese", "name": {"en": "cheese", "de": "Käse"}, "children": [
+          {"id": "parmesan", "name": {"en": "parmesan", "de": "Parmesan"}},
+          {"id": "feta", "name": {"en": "feta", "de": "Feta"}},
+          {"id": "cheddar", "name": {"en": "cheddar", "de": "Cheddar"}}
+        ]},
+        {"id": "yogurt", "name": {"en": "yogurt", "de": "Joghurt"}}
+      ]
+    },
+    {
+      "id": "meat",
+      "name": {"en": "meat", "de": "Fleisch"},
+      "children": [
+        {"id": "pork", "name": {"en": "pork", "de": "Schweinefleisch"}},
+        {"id": "beef", "name": {"en": "beef", "de": "Rindfleisch"}},
+        {"id": "lamb", "name": {"en": "lamb", "de": "Lamm"}},
+        {"id": "poultry", "name": {"en": "poultry", "de": "Geflügel"}, "children": [
+          {"id": "chicken", "name": {"en": "chicken", "de": "Hähnchen"}},
+          {"id": "turkey", "name": {"en": "turkey", "de": "Pute"}}
+        ]}
+      ]
+    },
+    {
+      "id": "seafood",
+      "name": {"en": "seafood", "de": "Meeresfrüchte"},
+      "children": [
+        {"id": "fish", "name": {"en": "fish", "de": "Fisch"}},
+        {"id": "shellfish", "name": {"en": "shellfish", "de": "Schalentiere"}},
+        {"id": "molluscs", "name": {"en": "molluscs", "de": "Weichtiere"}}
+      ]
+    },
+    {
+      "id": "nuts",
+      "name": {"en": "nuts", "de": "Nüsse"},
+      "children": [
+        {"id": "tree-nuts", "name": {"en": "tree nuts", "de": "Baumnüsse"}, "children": [
+          {"id": "walnuts", "name": {"en": "walnuts", "de": "Walnüsse"}},
+          {"id": "almonds", "name": {"en": "almonds", "de": "Mandeln"}},
+          {"id": "pistachios", "name": {"en": "pistachios", "de": "Pistazien"}},
+          {"id": "cashews", "name": {"en": "cashews", "de": "Cashewnüsse"}}
+        ]},
+        {"id": "peanuts", "name": {"en": "peanuts", "de": "Erdnüsse"}}
+      ]
+    },
+    {
+      "id": "grains",
+      "name": {"en": "grains", "de": "Getreide"},
+      "children": [
+        {"id": "wheat", "name": {"en": "wheat", "de": "Weizen"}, "children": [
+          {"id": "bread", "name": {"en": "bread", "de": "Brot"}},
+          {"id": "pasta", "name": {"en": "pasta", "de": "Nudeln"}}
+        ]},
+        {"id": "rice", "name": {"en": "rice", "de": "Reis"}},
+        {"id": "oats", "name": {"en": "oats", "de": "Hafer"}}
+      ]
+    },
+    {
+      "id": "produce",
+      "name": {"en": "produce", "de": "Obst & Gemüse"},
+      "children": [
+        {"id": "apples", "name": {"en": "apples", "de": "Äpfel"}},
+        {"id": "cilantro", "name": {"en": "cilantro", "de": "Koriander"}},
+        {"id": "bell-peppers", "name": {"en": "bell peppers", "de": "Paprika"}},
+        {"id": "garlic", "name": {"en": "garlic", "de": "Knoblauch"}},
+        {"id": "onion", "name": {"en": "onion", "de": "Zwiebel"}},
+        {"id": "tomato", "name": {"en": "tomato", "de": "Tomate"}},
+        {"id": "cucumber", "name": {"en": "cucumber", "de": "Gurke"}},
+        {"id": "lemon", "name": {"en": "lemon", "de": "Zitrone"}},
+        {"id": "potato", "name": {"en": "potato", "de": "Kartoffel"}}
+      ]
+    },
+    {
+      "id": "pantry",
+      "name": {"en": "pantry", "de": "Vorratskammer"},
+      "children": [
+        {"id": "tofu", "name": {"en": "tofu", "de": "Tofu"}},
+        {"id": "seitan", "name": {"en": "seitan", "de": "Seitan"}},
+        {"id": "soy-sauce", "name": {"en": "soy sauce", "de": "Sojasauce"}},
+        {"id": "tahini", "name": {"en": "tahini", "de": "Tahini"}},
+        {"id": "sesame", "name": {"en": "sesame", "de": "Sesam"}},
+        {"id": "olive-oil", "name": {"en": "olive oil", "de": "Olivenöl"}},
+        {"id": "sugar", "name": {"en": "sugar", "de": "Zucker"}},
+        {"id": "honey", "name": {"en": "honey", "de": "Honig"}}
+      ]
+    }
+  ]
+}

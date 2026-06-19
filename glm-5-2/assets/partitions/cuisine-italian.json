@@ -1,0 +1,3422 @@
+{
+  "schema_version": 1,
+  "recipes": [
+    {
+      "id": "alfredo-classic-easy-low",
+      "dish_id": "alfredo",
+      "title": {
+        "en": "fettuccine alfredo",
+        "de": "fettuccine alfredo"
+      },
+      "diet": "classic",
+      "effort": "easy",
+      "calorie_level": "low",
+      "extra_tags": [],
+      "contains": [
+        "dairy",
+        "gluten",
+        "egg"
+      ],
+      "attributes": {
+        "effort": "easy",
+        "time_bucket": "<=30",
+        "calorie_bucket": "<=600",
+        "technique": [
+          "simmer",
+          "pan-fry"
+        ],
+        "meal_type": [
+          "dinner"
+        ]
+      },
+      "time_minutes": 20,
+      "calories_per_serving": 480,
+      "macros": {
+        "protein": 30,
+        "carbs": 54,
+        "fat": 16
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cream",
+          "name": {
+            "en": "cream",
+            "de": "sahne"
+          },
+          "quantity": 150.0,
+          "unit": "ml",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 60,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cream",
+          "name": {
+            "en": "double cream",
+            "de": "sahne"
+          },
+          "quantity": 150,
+          "unit": "ml",
+          "aisle": "dairy"
+        },
+        {
+          "id": "wheat-noodle",
+          "name": {
+            "en": "wheat noodles",
+            "de": "weizennudeln"
+          },
+          "quantity": 250,
+          "unit": "g",
+          "aisle": "grains"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. parmesan & butter, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. parmesan & butter, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. simmer.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. simmer."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the parmesan & butter and cook with intent — let the edges catch colour.",
+            "de": "den parmesan & butter zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "italian",
+        "pasta",
+        "simmer",
+        "pan-fry",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "italian",
+        "pasta"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "alfredo-classic-easy-high",
+      "dish_id": "alfredo",
+      "title": {
+        "en": "fettuccine alfredo",
+        "de": "fettuccine alfredo"
+      },
+      "diet": "classic",
+      "effort": "easy",
+      "calorie_level": "high",
+      "extra_tags": [],
+      "contains": [
+        "dairy",
+        "gluten",
+        "egg"
+      ],
+      "attributes": {
+        "effort": "easy",
+        "time_bucket": "<=30",
+        "calorie_bucket": "<=800",
+        "technique": [
+          "simmer",
+          "pan-fry"
+        ],
+        "meal_type": [
+          "dinner"
+        ]
+      },
+      "time_minutes": 20,
+      "calories_per_serving": 720,
+      "macros": {
+        "protein": 45,
+        "carbs": 81,
+        "fat": 24
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cream",
+          "name": {
+            "en": "cream",
+            "de": "sahne"
+          },
+          "quantity": 150.0,
+          "unit": "ml",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 60,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cream",
+          "name": {
+            "en": "double cream",
+            "de": "sahne"
+          },
+          "quantity": 150,
+          "unit": "ml",
+          "aisle": "dairy"
+        },
+        {
+          "id": "wheat-noodle",
+          "name": {
+            "en": "wheat noodles",
+            "de": "weizennudeln"
+          },
+          "quantity": 250,
+          "unit": "g",
+          "aisle": "grains"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. parmesan & butter, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. parmesan & butter, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. simmer.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. simmer."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the parmesan & butter and cook with intent — let the edges catch colour.",
+            "de": "den parmesan & butter zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "italian",
+        "pasta",
+        "simmer",
+        "pan-fry",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "italian",
+        "pasta"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "alfredo-classic-medium-low",
+      "dish_id": "alfredo",
+      "title": {
+        "en": "fettuccine alfredo",
+        "de": "fettuccine alfredo"
+      },
+      "diet": "classic",
+      "effort": "medium",
+      "calorie_level": "low",
+      "extra_tags": [],
+      "contains": [
+        "dairy",
+        "gluten",
+        "egg"
+      ],
+      "attributes": {
+        "effort": "medium",
+        "time_bucket": "<=60",
+        "calorie_bucket": "<=600",
+        "technique": [
+          "simmer",
+          "pan-fry"
+        ],
+        "meal_type": [
+          "dinner"
+        ]
+      },
+      "time_minutes": 45,
+      "calories_per_serving": 500,
+      "macros": {
+        "protein": 31,
+        "carbs": 56,
+        "fat": 17
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cream",
+          "name": {
+            "en": "cream",
+            "de": "sahne"
+          },
+          "quantity": 150.0,
+          "unit": "ml",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 60,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cream",
+          "name": {
+            "en": "double cream",
+            "de": "sahne"
+          },
+          "quantity": 150,
+          "unit": "ml",
+          "aisle": "dairy"
+        },
+        {
+          "id": "wheat-noodle",
+          "name": {
+            "en": "wheat noodles",
+            "de": "weizennudeln"
+          },
+          "quantity": 250,
+          "unit": "g",
+          "aisle": "grains"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. parmesan & butter, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. parmesan & butter, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. simmer.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. simmer."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the parmesan & butter and cook with intent — let the edges catch colour.",
+            "de": "den parmesan & butter zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "italian",
+        "pasta",
+        "simmer",
+        "pan-fry",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "italian",
+        "pasta"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "alfredo-classic-medium-high",
+      "dish_id": "alfredo",
+      "title": {
+        "en": "fettuccine alfredo",
+        "de": "fettuccine alfredo"
+      },
+      "diet": "classic",
+      "effort": "medium",
+      "calorie_level": "high",
+      "extra_tags": [],
+      "contains": [
+        "dairy",
+        "gluten",
+        "egg"
+      ],
+      "attributes": {
+        "effort": "medium",
+        "time_bucket": "<=60",
+        "calorie_bucket": "<=800",
+        "technique": [
+          "simmer",
+          "pan-fry"
+        ],
+        "meal_type": [
+          "dinner"
+        ]
+      },
+      "time_minutes": 45,
+      "calories_per_serving": 740,
+      "macros": {
+        "protein": 46,
+        "carbs": 83,
+        "fat": 25
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cream",
+          "name": {
+            "en": "cream",
+            "de": "sahne"
+          },
+          "quantity": 150.0,
+          "unit": "ml",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 60,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cream",
+          "name": {
+            "en": "double cream",
+            "de": "sahne"
+          },
+          "quantity": 150,
+          "unit": "ml",
+          "aisle": "dairy"
+        },
+        {
+          "id": "wheat-noodle",
+          "name": {
+            "en": "wheat noodles",
+            "de": "weizennudeln"
+          },
+          "quantity": 250,
+          "unit": "g",
+          "aisle": "grains"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. parmesan & butter, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. parmesan & butter, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. simmer.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. simmer."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the parmesan & butter and cook with intent — let the edges catch colour.",
+            "de": "den parmesan & butter zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "italian",
+        "pasta",
+        "simmer",
+        "pan-fry",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "italian",
+        "pasta"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "alfredo-vegetarian-easy-low",
+      "dish_id": "alfredo",
+      "title": {
+        "en": "fettuccine alfredo",
+        "de": "fettuccine alfredo"
+      },
+      "diet": "vegetarian",
+      "effort": "easy",
+      "calorie_level": "low",
+      "extra_tags": [],
+      "contains": [
+        "dairy",
+        "gluten",
+        "egg"
+      ],
+      "attributes": {
+        "effort": "easy",
+        "time_bucket": "<=30",
+        "calorie_bucket": "<=600",
+        "technique": [
+          "simmer",
+          "pan-fry"
+        ],
+        "meal_type": [
+          "dinner"
+        ]
+      },
+      "time_minutes": 20,
+      "calories_per_serving": 480,
+      "macros": {
+        "protein": 30,
+        "carbs": 54,
+        "fat": 16
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cream",
+          "name": {
+            "en": "cream",
+            "de": "sahne"
+          },
+          "quantity": 150.0,
+          "unit": "ml",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 60,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "wheat-noodle",
+          "name": {
+            "en": "wheat noodles",
+            "de": "weizennudeln"
+          },
+          "quantity": 250,
+          "unit": "g",
+          "aisle": "grains"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. parmesan & butter, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. parmesan & butter, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. simmer.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. simmer."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the parmesan & butter and cook with intent — let the edges catch colour.",
+            "de": "den parmesan & butter zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "italian",
+        "pasta",
+        "simmer",
+        "pan-fry",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "italian",
+        "pasta"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "alfredo-vegetarian-easy-high",
+      "dish_id": "alfredo",
+      "title": {
+        "en": "fettuccine alfredo",
+        "de": "fettuccine alfredo"
+      },
+      "diet": "vegetarian",
+      "effort": "easy",
+      "calorie_level": "high",
+      "extra_tags": [],
+      "contains": [
+        "dairy",
+        "gluten",
+        "egg"
+      ],
+      "attributes": {
+        "effort": "easy",
+        "time_bucket": "<=30",
+        "calorie_bucket": "<=800",
+        "technique": [
+          "simmer",
+          "pan-fry"
+        ],
+        "meal_type": [
+          "dinner"
+        ]
+      },
+      "time_minutes": 20,
+      "calories_per_serving": 720,
+      "macros": {
+        "protein": 45,
+        "carbs": 81,
+        "fat": 24
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cream",
+          "name": {
+            "en": "cream",
+            "de": "sahne"
+          },
+          "quantity": 150.0,
+          "unit": "ml",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 60,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "wheat-noodle",
+          "name": {
+            "en": "wheat noodles",
+            "de": "weizennudeln"
+          },
+          "quantity": 250,
+          "unit": "g",
+          "aisle": "grains"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. parmesan & butter, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. parmesan & butter, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. simmer.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. simmer."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the parmesan & butter and cook with intent — let the edges catch colour.",
+            "de": "den parmesan & butter zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "italian",
+        "pasta",
+        "simmer",
+        "pan-fry",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "italian",
+        "pasta"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "alfredo-vegetarian-medium-low",
+      "dish_id": "alfredo",
+      "title": {
+        "en": "fettuccine alfredo",
+        "de": "fettuccine alfredo"
+      },
+      "diet": "vegetarian",
+      "effort": "medium",
+      "calorie_level": "low",
+      "extra_tags": [],
+      "contains": [
+        "dairy",
+        "gluten",
+        "egg"
+      ],
+      "attributes": {
+        "effort": "medium",
+        "time_bucket": "<=60",
+        "calorie_bucket": "<=600",
+        "technique": [
+          "simmer",
+          "pan-fry"
+        ],
+        "meal_type": [
+          "dinner"
+        ]
+      },
+      "time_minutes": 45,
+      "calories_per_serving": 500,
+      "macros": {
+        "protein": 31,
+        "carbs": 56,
+        "fat": 17
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cream",
+          "name": {
+            "en": "cream",
+            "de": "sahne"
+          },
+          "quantity": 150.0,
+          "unit": "ml",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 60,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "wheat-noodle",
+          "name": {
+            "en": "wheat noodles",
+            "de": "weizennudeln"
+          },
+          "quantity": 250,
+          "unit": "g",
+          "aisle": "grains"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. parmesan & butter, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. parmesan & butter, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. simmer.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. simmer."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the parmesan & butter and cook with intent — let the edges catch colour.",
+            "de": "den parmesan & butter zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "italian",
+        "pasta",
+        "simmer",
+        "pan-fry",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "italian",
+        "pasta"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "alfredo-vegetarian-medium-high",
+      "dish_id": "alfredo",
+      "title": {
+        "en": "fettuccine alfredo",
+        "de": "fettuccine alfredo"
+      },
+      "diet": "vegetarian",
+      "effort": "medium",
+      "calorie_level": "high",
+      "extra_tags": [],
+      "contains": [
+        "dairy",
+        "gluten",
+        "egg"
+      ],
+      "attributes": {
+        "effort": "medium",
+        "time_bucket": "<=60",
+        "calorie_bucket": "<=800",
+        "technique": [
+          "simmer",
+          "pan-fry"
+        ],
+        "meal_type": [
+          "dinner"
+        ]
+      },
+      "time_minutes": 45,
+      "calories_per_serving": 740,
+      "macros": {
+        "protein": 46,
+        "carbs": 83,
+        "fat": 25
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cream",
+          "name": {
+            "en": "cream",
+            "de": "sahne"
+          },
+          "quantity": 150.0,
+          "unit": "ml",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 60,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "wheat-noodle",
+          "name": {
+            "en": "wheat noodles",
+            "de": "weizennudeln"
+          },
+          "quantity": 250,
+          "unit": "g",
+          "aisle": "grains"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. parmesan & butter, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. parmesan & butter, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. simmer.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. simmer."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the parmesan & butter and cook with intent — let the edges catch colour.",
+            "de": "den parmesan & butter zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "italian",
+        "pasta",
+        "simmer",
+        "pan-fry",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "italian",
+        "pasta"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "alfredo-vegan-easy-low",
+      "dish_id": "alfredo",
+      "title": {
+        "en": "cashew alfredo",
+        "de": "cashew alfredo"
+      },
+      "diet": "vegan",
+      "effort": "easy",
+      "calorie_level": "low",
+      "extra_tags": [],
+      "contains": [
+        "tree-nuts",
+        "cashews",
+        "gluten"
+      ],
+      "attributes": {
+        "effort": "easy",
+        "time_bucket": "<=30",
+        "calorie_bucket": "<=600",
+        "technique": [
+          "simmer",
+          "pan-fry"
+        ],
+        "meal_type": [
+          "dinner"
+        ]
+      },
+      "time_minutes": 20,
+      "calories_per_serving": 480,
+      "macros": {
+        "protein": 30,
+        "carbs": 54,
+        "fat": 16
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cream",
+          "name": {
+            "en": "cream",
+            "de": "sahne"
+          },
+          "quantity": 150.0,
+          "unit": "ml",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cashews",
+          "name": {
+            "en": "cashews",
+            "de": "cashewkerne"
+          },
+          "quantity": 120,
+          "unit": "g",
+          "aisle": "nuts"
+        },
+        {
+          "id": "soy",
+          "name": {
+            "en": "soy cream",
+            "de": "sojasahne"
+          },
+          "quantity": 150,
+          "unit": "ml",
+          "aisle": "asian"
+        },
+        {
+          "id": "wheat-noodle",
+          "name": {
+            "en": "wheat noodles",
+            "de": "weizennudeln"
+          },
+          "quantity": 250,
+          "unit": "g",
+          "aisle": "grains"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. cashew cream, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. cashew cream, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. simmer.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. simmer."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the cashew cream and cook with intent — let the edges catch colour.",
+            "de": "den cashew cream zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "italian",
+        "pasta",
+        "simmer",
+        "pan-fry",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "italian",
+        "pasta"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "alfredo-vegan-easy-high",
+      "dish_id": "alfredo",
+      "title": {
+        "en": "cashew alfredo",
+        "de": "cashew alfredo"
+      },
+      "diet": "vegan",
+      "effort": "easy",
+      "calorie_level": "high",
+      "extra_tags": [],
+      "contains": [
+        "tree-nuts",
+        "cashews",
+        "gluten"
+      ],
+      "attributes": {
+        "effort": "easy",
+        "time_bucket": "<=30",
+        "calorie_bucket": "<=800",
+        "technique": [
+          "simmer",
+          "pan-fry"
+        ],
+        "meal_type": [
+          "dinner"
+        ]
+      },
+      "time_minutes": 20,
+      "calories_per_serving": 720,
+      "macros": {
+        "protein": 45,
+        "carbs": 81,
+        "fat": 24
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cream",
+          "name": {
+            "en": "cream",
+            "de": "sahne"
+          },
+          "quantity": 150.0,
+          "unit": "ml",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cashews",
+          "name": {
+            "en": "cashews",
+            "de": "cashewkerne"
+          },
+          "quantity": 120,
+          "unit": "g",
+          "aisle": "nuts"
+        },
+        {
+          "id": "soy",
+          "name": {
+            "en": "soy cream",
+            "de": "sojasahne"
+          },
+          "quantity": 150,
+          "unit": "ml",
+          "aisle": "asian"
+        },
+        {
+          "id": "wheat-noodle",
+          "name": {
+            "en": "wheat noodles",
+            "de": "weizennudeln"
+          },
+          "quantity": 250,
+          "unit": "g",
+          "aisle": "grains"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. cashew cream, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. cashew cream, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. simmer.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. simmer."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the cashew cream and cook with intent — let the edges catch colour.",
+            "de": "den cashew cream zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "italian",
+        "pasta",
+        "simmer",
+        "pan-fry",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "italian",
+        "pasta"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "alfredo-vegan-medium-low",
+      "dish_id": "alfredo",
+      "title": {
+        "en": "cashew alfredo",
+        "de": "cashew alfredo"
+      },
+      "diet": "vegan",
+      "effort": "medium",
+      "calorie_level": "low",
+      "extra_tags": [],
+      "contains": [
+        "tree-nuts",
+        "cashews",
+        "gluten"
+      ],
+      "attributes": {
+        "effort": "medium",
+        "time_bucket": "<=60",
+        "calorie_bucket": "<=600",
+        "technique": [
+          "simmer",
+          "pan-fry"
+        ],
+        "meal_type": [
+          "dinner"
+        ]
+      },
+      "time_minutes": 45,
+      "calories_per_serving": 500,
+      "macros": {
+        "protein": 31,
+        "carbs": 56,
+        "fat": 17
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cream",
+          "name": {
+            "en": "cream",
+            "de": "sahne"
+          },
+          "quantity": 150.0,
+          "unit": "ml",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cashews",
+          "name": {
+            "en": "cashews",
+            "de": "cashewkerne"
+          },
+          "quantity": 120,
+          "unit": "g",
+          "aisle": "nuts"
+        },
+        {
+          "id": "soy",
+          "name": {
+            "en": "soy cream",
+            "de": "sojasahne"
+          },
+          "quantity": 150,
+          "unit": "ml",
+          "aisle": "asian"
+        },
+        {
+          "id": "wheat-noodle",
+          "name": {
+            "en": "wheat noodles",
+            "de": "weizennudeln"
+          },
+          "quantity": 250,
+          "unit": "g",
+          "aisle": "grains"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. cashew cream, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. cashew cream, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. simmer.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. simmer."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the cashew cream and cook with intent — let the edges catch colour.",
+            "de": "den cashew cream zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "italian",
+        "pasta",
+        "simmer",
+        "pan-fry",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "italian",
+        "pasta"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "alfredo-vegan-medium-high",
+      "dish_id": "alfredo",
+      "title": {
+        "en": "cashew alfredo",
+        "de": "cashew alfredo"
+      },
+      "diet": "vegan",
+      "effort": "medium",
+      "calorie_level": "high",
+      "extra_tags": [],
+      "contains": [
+        "tree-nuts",
+        "cashews",
+        "gluten"
+      ],
+      "attributes": {
+        "effort": "medium",
+        "time_bucket": "<=60",
+        "calorie_bucket": "<=800",
+        "technique": [
+          "simmer",
+          "pan-fry"
+        ],
+        "meal_type": [
+          "dinner"
+        ]
+      },
+      "time_minutes": 45,
+      "calories_per_serving": 740,
+      "macros": {
+        "protein": 46,
+        "carbs": 83,
+        "fat": 25
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cream",
+          "name": {
+            "en": "cream",
+            "de": "sahne"
+          },
+          "quantity": 150.0,
+          "unit": "ml",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cashews",
+          "name": {
+            "en": "cashews",
+            "de": "cashewkerne"
+          },
+          "quantity": 120,
+          "unit": "g",
+          "aisle": "nuts"
+        },
+        {
+          "id": "soy",
+          "name": {
+            "en": "soy cream",
+            "de": "sojasahne"
+          },
+          "quantity": 150,
+          "unit": "ml",
+          "aisle": "asian"
+        },
+        {
+          "id": "wheat-noodle",
+          "name": {
+            "en": "wheat noodles",
+            "de": "weizennudeln"
+          },
+          "quantity": 250,
+          "unit": "g",
+          "aisle": "grains"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. cashew cream, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. cashew cream, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. simmer.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. simmer."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the cashew cream and cook with intent — let the edges catch colour.",
+            "de": "den cashew cream zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "italian",
+        "pasta",
+        "simmer",
+        "pan-fry",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "italian",
+        "pasta"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "alfredo-vegan-medium-high-gf",
+      "dish_id": "alfredo",
+      "title": {
+        "en": "cashew alfredo",
+        "de": "cashew alfredo"
+      },
+      "diet": "vegan",
+      "effort": "medium",
+      "calorie_level": "high",
+      "extra_tags": [
+        "gluten-free"
+      ],
+      "contains": [
+        "tree-nuts",
+        "cashews"
+      ],
+      "attributes": {
+        "effort": "medium",
+        "time_bucket": "<=60",
+        "calorie_bucket": "<=800",
+        "technique": [
+          "simmer",
+          "pan-fry"
+        ],
+        "meal_type": [
+          "dinner"
+        ]
+      },
+      "time_minutes": 45,
+      "calories_per_serving": 740,
+      "macros": {
+        "protein": 46,
+        "carbs": 83,
+        "fat": 25
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cream",
+          "name": {
+            "en": "cream",
+            "de": "sahne"
+          },
+          "quantity": 150.0,
+          "unit": "ml",
+          "aisle": "dairy"
+        },
+        {
+          "id": "cashews",
+          "name": {
+            "en": "cashews",
+            "de": "cashewkerne"
+          },
+          "quantity": 120,
+          "unit": "g",
+          "aisle": "nuts"
+        },
+        {
+          "id": "soy",
+          "name": {
+            "en": "soy cream",
+            "de": "sojasahne"
+          },
+          "quantity": 150,
+          "unit": "ml",
+          "aisle": "asian"
+        },
+        {
+          "id": "rice-noodle",
+          "name": {
+            "en": "rice noodles",
+            "de": "reisnudeln"
+          },
+          "quantity": 250,
+          "unit": "g",
+          "aisle": "grains"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. cashew cream, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. cashew cream, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. simmer.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. simmer."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the cashew cream and cook with intent — let the edges catch colour.",
+            "de": "den cashew cream zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. gluten-free base goes in now.",
+            "de": "die gewürze unterheben. probieren. glutenfreie basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "italian",
+        "pasta",
+        "simmer",
+        "pan-fry",
+        "dinner",
+        "gluten-free"
+      ],
+      "cuisine_tags": [
+        "italian",
+        "pasta"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "risotto-classic-medium-low",
+      "dish_id": "risotto",
+      "title": {
+        "en": "mushroom risotto",
+        "de": "pilz risotto"
+      },
+      "diet": "classic",
+      "effort": "medium",
+      "calorie_level": "low",
+      "extra_tags": [],
+      "contains": [
+        "dairy",
+        "rice"
+      ],
+      "attributes": {
+        "effort": "medium",
+        "time_bucket": "<=60",
+        "calorie_bucket": "<=600",
+        "technique": [
+          "simmer",
+          "sauté"
+        ],
+        "meal_type": [
+          "dinner"
+        ]
+      },
+      "time_minutes": 45,
+      "calories_per_serving": 500,
+      "macros": {
+        "protein": 31,
+        "carbs": 56,
+        "fat": 17
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "onion",
+          "name": {
+            "en": "onion",
+            "de": "zwiebel"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "mushroom",
+          "name": {
+            "en": "mushroom",
+            "de": "pilz"
+          },
+          "quantity": 200.0,
+          "unit": "g",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50,
+          "unit": "g",
+          "aisle": "dairy"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. parmesan & butter, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. parmesan & butter, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. simmer.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. simmer."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the parmesan & butter and cook with intent — let the edges catch colour.",
+            "de": "den parmesan & butter zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "italian",
+        "rice",
+        "simmer",
+        "sauté",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "italian",
+        "rice"
+      ],
+      "frequency_tier": "extended"
+    },
+    {
+      "id": "risotto-classic-medium-high",
+      "dish_id": "risotto",
+      "title": {
+        "en": "mushroom risotto",
+        "de": "pilz risotto"
+      },
+      "diet": "classic",
+      "effort": "medium",
+      "calorie_level": "high",
+      "extra_tags": [],
+      "contains": [
+        "dairy",
+        "rice"
+      ],
+      "attributes": {
+        "effort": "medium",
+        "time_bucket": "<=60",
+        "calorie_bucket": "<=800",
+        "technique": [
+          "simmer",
+          "sauté"
+        ],
+        "meal_type": [
+          "dinner"
+        ]
+      },
+      "time_minutes": 45,
+      "calories_per_serving": 740,
+      "macros": {
+        "protein": 46,
+        "carbs": 83,
+        "fat": 25
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "onion",
+          "name": {
+            "en": "onion",
+            "de": "zwiebel"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "mushroom",
+          "name": {
+            "en": "mushroom",
+            "de": "pilz"
+          },
+          "quantity": 200.0,
+          "unit": "g",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50,
+          "unit": "g",
+          "aisle": "dairy"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. parmesan & butter, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. parmesan & butter, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. simmer.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. simmer."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the parmesan & butter and cook with intent — let the edges catch colour.",
+            "de": "den parmesan & butter zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "italian",
+        "rice",
+        "simmer",
+        "sauté",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "italian",
+        "rice"
+      ],
+      "frequency_tier": "extended"
+    },
+    {
+      "id": "risotto-vegetarian-medium-low",
+      "dish_id": "risotto",
+      "title": {
+        "en": "mushroom risotto",
+        "de": "pilz risotto"
+      },
+      "diet": "vegetarian",
+      "effort": "medium",
+      "calorie_level": "low",
+      "extra_tags": [],
+      "contains": [
+        "dairy",
+        "rice"
+      ],
+      "attributes": {
+        "effort": "medium",
+        "time_bucket": "<=60",
+        "calorie_bucket": "<=600",
+        "technique": [
+          "simmer",
+          "sauté"
+        ],
+        "meal_type": [
+          "dinner"
+        ]
+      },
+      "time_minutes": 45,
+      "calories_per_serving": 500,
+      "macros": {
+        "protein": 31,
+        "carbs": 56,
+        "fat": 17
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "onion",
+          "name": {
+            "en": "onion",
+            "de": "zwiebel"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "mushroom",
+          "name": {
+            "en": "mushroom",
+            "de": "pilz"
+          },
+          "quantity": 200.0,
+          "unit": "g",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 60,
+          "unit": "g",
+          "aisle": "dairy"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. parmesan & butter, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. parmesan & butter, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. simmer.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. simmer."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the parmesan & butter and cook with intent — let the edges catch colour.",
+            "de": "den parmesan & butter zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "italian",
+        "rice",
+        "simmer",
+        "sauté",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "italian",
+        "rice"
+      ],
+      "frequency_tier": "extended"
+    },
+    {
+      "id": "risotto-vegetarian-medium-high",
+      "dish_id": "risotto",
+      "title": {
+        "en": "mushroom risotto",
+        "de": "pilz risotto"
+      },
+      "diet": "vegetarian",
+      "effort": "medium",
+      "calorie_level": "high",
+      "extra_tags": [],
+      "contains": [
+        "dairy",
+        "rice"
+      ],
+      "attributes": {
+        "effort": "medium",
+        "time_bucket": "<=60",
+        "calorie_bucket": "<=800",
+        "technique": [
+          "simmer",
+          "sauté"
+        ],
+        "meal_type": [
+          "dinner"
+        ]
+      },
+      "time_minutes": 45,
+      "calories_per_serving": 740,
+      "macros": {
+        "protein": 46,
+        "carbs": 83,
+        "fat": 25
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "onion",
+          "name": {
+            "en": "onion",
+            "de": "zwiebel"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "mushroom",
+          "name": {
+            "en": "mushroom",
+            "de": "pilz"
+          },
+          "quantity": 200.0,
+          "unit": "g",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 60,
+          "unit": "g",
+          "aisle": "dairy"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. parmesan & butter, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. parmesan & butter, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. simmer.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. simmer."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the parmesan & butter and cook with intent — let the edges catch colour.",
+            "de": "den parmesan & butter zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "italian",
+        "rice",
+        "simmer",
+        "sauté",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "italian",
+        "rice"
+      ],
+      "frequency_tier": "extended"
+    },
+    {
+      "id": "risotto-vegan-easy-low",
+      "dish_id": "risotto",
+      "title": {
+        "en": "vegan mushroom risotto",
+        "de": "veganes pilz risotto"
+      },
+      "diet": "vegan",
+      "effort": "easy",
+      "calorie_level": "low",
+      "extra_tags": [],
+      "contains": [
+        "rice",
+        "high-fodmap"
+      ],
+      "attributes": {
+        "effort": "easy",
+        "time_bucket": "<=30",
+        "calorie_bucket": "<=600",
+        "technique": [
+          "simmer",
+          "sauté"
+        ],
+        "meal_type": [
+          "dinner"
+        ]
+      },
+      "time_minutes": 20,
+      "calories_per_serving": 480,
+      "macros": {
+        "protein": 30,
+        "carbs": 54,
+        "fat": 16
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "onion",
+          "name": {
+            "en": "onion",
+            "de": "zwiebel"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "mushroom",
+          "name": {
+            "en": "mushroom",
+            "de": "pilz"
+          },
+          "quantity": 200.0,
+          "unit": "g",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "nutritional-yeast",
+          "name": {
+            "en": "nutritional yeast",
+            "de": "hefeflocken"
+          },
+          "quantity": 30,
+          "unit": "g",
+          "aisle": "asian"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. nutritional yeast, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. nutritional yeast, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. simmer.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. simmer."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the nutritional yeast and cook with intent — let the edges catch colour.",
+            "de": "den nutritional yeast zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "italian",
+        "rice",
+        "simmer",
+        "sauté",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "italian",
+        "rice"
+      ],
+      "frequency_tier": "extended"
+    },
+    {
+      "id": "risotto-vegan-easy-high",
+      "dish_id": "risotto",
+      "title": {
+        "en": "vegan mushroom risotto",
+        "de": "veganes pilz risotto"
+      },
+      "diet": "vegan",
+      "effort": "easy",
+      "calorie_level": "high",
+      "extra_tags": [],
+      "contains": [
+        "rice",
+        "high-fodmap"
+      ],
+      "attributes": {
+        "effort": "easy",
+        "time_bucket": "<=30",
+        "calorie_bucket": "<=800",
+        "technique": [
+          "simmer",
+          "sauté"
+        ],
+        "meal_type": [
+          "dinner"
+        ]
+      },
+      "time_minutes": 20,
+      "calories_per_serving": 720,
+      "macros": {
+        "protein": 45,
+        "carbs": 81,
+        "fat": 24
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "onion",
+          "name": {
+            "en": "onion",
+            "de": "zwiebel"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "mushroom",
+          "name": {
+            "en": "mushroom",
+            "de": "pilz"
+          },
+          "quantity": 200.0,
+          "unit": "g",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "nutritional-yeast",
+          "name": {
+            "en": "nutritional yeast",
+            "de": "hefeflocken"
+          },
+          "quantity": 30,
+          "unit": "g",
+          "aisle": "asian"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. nutritional yeast, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. nutritional yeast, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. simmer.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. simmer."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the nutritional yeast and cook with intent — let the edges catch colour.",
+            "de": "den nutritional yeast zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "italian",
+        "rice",
+        "simmer",
+        "sauté",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "italian",
+        "rice"
+      ],
+      "frequency_tier": "extended"
+    },
+    {
+      "id": "risotto-vegan-medium-low",
+      "dish_id": "risotto",
+      "title": {
+        "en": "vegan mushroom risotto",
+        "de": "veganes pilz risotto"
+      },
+      "diet": "vegan",
+      "effort": "medium",
+      "calorie_level": "low",
+      "extra_tags": [],
+      "contains": [
+        "rice",
+        "high-fodmap"
+      ],
+      "attributes": {
+        "effort": "medium",
+        "time_bucket": "<=60",
+        "calorie_bucket": "<=600",
+        "technique": [
+          "simmer",
+          "sauté"
+        ],
+        "meal_type": [
+          "dinner"
+        ]
+      },
+      "time_minutes": 45,
+      "calories_per_serving": 500,
+      "macros": {
+        "protein": 31,
+        "carbs": 56,
+        "fat": 17
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "onion",
+          "name": {
+            "en": "onion",
+            "de": "zwiebel"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "mushroom",
+          "name": {
+            "en": "mushroom",
+            "de": "pilz"
+          },
+          "quantity": 200.0,
+          "unit": "g",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "nutritional-yeast",
+          "name": {
+            "en": "nutritional yeast",
+            "de": "hefeflocken"
+          },
+          "quantity": 30,
+          "unit": "g",
+          "aisle": "asian"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. nutritional yeast, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. nutritional yeast, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. simmer.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. simmer."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the nutritional yeast and cook with intent — let the edges catch colour.",
+            "de": "den nutritional yeast zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "italian",
+        "rice",
+        "simmer",
+        "sauté",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "italian",
+        "rice"
+      ],
+      "frequency_tier": "extended"
+    },
+    {
+      "id": "risotto-vegan-medium-high",
+      "dish_id": "risotto",
+      "title": {
+        "en": "vegan mushroom risotto",
+        "de": "veganes pilz risotto"
+      },
+      "diet": "vegan",
+      "effort": "medium",
+      "calorie_level": "high",
+      "extra_tags": [],
+      "contains": [
+        "rice",
+        "high-fodmap"
+      ],
+      "attributes": {
+        "effort": "medium",
+        "time_bucket": "<=60",
+        "calorie_bucket": "<=800",
+        "technique": [
+          "simmer",
+          "sauté"
+        ],
+        "meal_type": [
+          "dinner"
+        ]
+      },
+      "time_minutes": 45,
+      "calories_per_serving": 740,
+      "macros": {
+        "protein": 46,
+        "carbs": 83,
+        "fat": 25
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "onion",
+          "name": {
+            "en": "onion",
+            "de": "zwiebel"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "mushroom",
+          "name": {
+            "en": "mushroom",
+            "de": "pilz"
+          },
+          "quantity": 200.0,
+          "unit": "g",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "butter",
+          "name": {
+            "en": "butter",
+            "de": "butter"
+          },
+          "quantity": 50.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "parmesan",
+          "name": {
+            "en": "parmesan",
+            "de": "parmesan"
+          },
+          "quantity": 80.0,
+          "unit": "g",
+          "aisle": "dairy"
+        },
+        {
+          "id": "nutritional-yeast",
+          "name": {
+            "en": "nutritional yeast",
+            "de": "hefeflocken"
+          },
+          "quantity": 30,
+          "unit": "g",
+          "aisle": "asian"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. nutritional yeast, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. nutritional yeast, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. simmer.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. simmer."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the nutritional yeast and cook with intent — let the edges catch colour.",
+            "de": "den nutritional yeast zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "italian",
+        "rice",
+        "simmer",
+        "sauté",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "italian",
+        "rice"
+      ],
+      "frequency_tier": "extended"
+    }
+  ]
+}

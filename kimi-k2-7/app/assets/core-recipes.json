@@ -1,0 +1,538 @@
+{
+  "schema_version": 1,
+  "recipes": [
+    {
+      "id": "doener-classic-easy-520",
+      "dish_id": "doener",
+      "title": {"en": "döner", "de": "Döner"},
+      "subtitle": {"en": "rotisserie-spiced beef & lamb", "de": "Dönerfleisch aus Rind & Lamm"},
+      "diet": "classic",
+      "effort": "easy",
+      "calories_per_serving": 520,
+      "time_minutes": 25,
+      "servings": 1,
+      "contains": ["beef", "lamb", "gluten", "dairy"],
+      "attributes": ["medium", "≤30", "≤600", "pan-fry", "lunch", "dinner"],
+      "cuisine_tags": ["turkish", "german", "street-food"],
+      "partition_id": "core",
+      "ingredients": [
+        {"ingredient_id": "beef", "name": {"en": "thin-sliced beef", "de": "dünn geschnittenes Rindfleisch"}, "quantity": 120, "unit": "g"},
+        {"ingredient_id": "lamb", "name": {"en": "ground lamb", "de": "Lammhack"}, "quantity": 60, "unit": "g"},
+        {"ingredient_id": "pita-bread", "name": {"en": "pita bread", "de": "Fladenbrot"}, "quantity": 1, "unit": "piece"},
+        {"ingredient_id": "garlic", "name": {"en": "garlic", "de": "Knoblauch"}, "quantity": 2, "unit": "clove"},
+        {"ingredient_id": "yogurt", "name": {"en": "yogurt", "de": "Joghurt"}, "quantity": 60, "unit": "ml"},
+        {"ingredient_id": "cucumber", "name": {"en": "cucumber", "de": "Gurke"}, "quantity": 0.5, "unit": "piece"},
+        {"ingredient_id": "tomato", "name": {"en": "tomato", "de": "Tomate"}, "quantity": 1, "unit": "piece"},
+        {"ingredient_id": "onion", "name": {"en": "red onion", "de": "rote Zwiebel"}, "quantity": 0.25, "unit": "piece"},
+        {"ingredient_id": "olive-oil", "name": {"en": "olive oil", "de": "Olivenöl"}, "quantity": 1, "unit": "tbsp"}
+      ],
+      "method": [
+        {"text": {"en": "Warm the pita in a dry pan for 30 seconds each side.", "de": "Das Fladenbrot 30 Sekunden pro Seite in einer trockenen Pfanne erwärmen."}, "timer_seconds": 60},
+        {"text": {"en": "Sear the spiced meat over medium-high heat until edges crisp.", "de": "Das gewürzte Fleisch bei mittelhoher Hitze scharf anbraten, bis es knusprige Kanten bekommt."}, "timer_seconds": 300},
+        {"text": {"en": "Whisk yogurt with crushed garlic and a pinch of salt.", "de": "Joghurt mit gepresstem Knoblauch und einer Prise Salz verrühren."}, "timer_seconds": 0},
+        {"text": {"en": "Stuff the pita with meat, vegetables, and garlic sauce.", "de": "Füll das Fladenbrot mit Fleisch, Gemüse und Knoblauchsauce."}, "timer_seconds": 0}
+      ],
+      "tags": ["spicy", "comfort"]
+    },
+    {
+      "id": "doener-classic-hard-750",
+      "dish_id": "doener",
+      "title": {"en": "döner", "de": "Döner"},
+      "subtitle": {"en": "homemade spit-roast platter", "de": "Hausgemachte Spießplatte"},
+      "diet": "classic",
+      "effort": "hard",
+      "calories_per_serving": 750,
+      "time_minutes": 90,
+      "servings": 4,
+      "contains": ["beef", "lamb", "gluten", "dairy"],
+      "attributes": ["hard", ">60", "≤800", "roast", "pan-fry", "dinner"],
+      "cuisine_tags": ["turkish", "german", "street-food"],
+      "partition_id": "core",
+      "ingredients": [
+        {"ingredient_id": "beef", "name": {"en": "beef steak strips", "de": "Rindersteak-Streifen"}, "quantity": 500, "unit": "g"},
+        {"ingredient_id": "lamb", "name": {"en": "lamb mince", "de": "Lammhack"}, "quantity": 250, "unit": "g"},
+        {"ingredient_id": "pita-bread", "name": {"en": "pita bread", "de": "Fladenbrot"}, "quantity": 4, "unit": "piece"},
+        {"ingredient_id": "garlic", "name": {"en": "garlic", "de": "Knoblauch"}, "quantity": 6, "unit": "clove"},
+        {"ingredient_id": "yogurt", "name": {"en": "yogurt", "de": "Joghurt"}, "quantity": 200, "unit": "ml"},
+        {"ingredient_id": "onion", "name": {"en": "red onion", "de": "rote Zwiebel"}, "quantity": 1, "unit": "piece"},
+        {"ingredient_id": "tomato", "name": {"en": "tomato", "de": "Tomate"}, "quantity": 3, "unit": "piece"},
+        {"ingredient_id": "olive-oil", "name": {"en": "olive oil", "de": "Olivenöl"}, "quantity": 3, "unit": "tbsp"}
+      ],
+      "method": [
+        {"text": {"en": "Marinate meat and form into a compact loaf on a skewer.", "de": "Fleisch marinieren und zu einem festen Braten um einen Spieß formen."}, "timer_seconds": 0},
+        {"text": {"en": "Roast until edges are deeply browned, basting occasionally.", "de": "Begeißern, bis die Kanten dunkel gebräunt sind."}, "timer_seconds": 3600},
+        {"text": {"en": "Rest the meat 10 minutes before slicing thin.", "de": "Das Fleisch 10 Minuten ruhen lassen, bevor du es dünn schneidest."}, "timer_seconds": 600},
+        {"text": {"en": "Build each plate with warm pita, sliced meat, and salad.", "de": "Jeden Teller mit warmem Fladenbrot, geschnittenem Fleisch und Salat aufbauen."}, "timer_seconds": 0}
+      ],
+      "tags": ["weekend", "sharing"]
+    },
+    {
+      "id": "doener-vegan-easy-480",
+      "dish_id": "doener",
+      "title": {"en": "döner", "de": "Döner"},
+      "subtitle": {"en": "seitan döner", "de": "Seitan-Döner"},
+      "diet": "vegan",
+      "effort": "easy",
+      "calories_per_serving": 480,
+      "time_minutes": 20,
+      "servings": 1,
+      "contains": ["gluten", "soy", "sesame"],
+      "attributes": ["easy", "≤30", "≤600", "pan-fry", "lunch", "dinner"],
+      "cuisine_tags": ["turkish", "german", "street-food"],
+      "partition_id": "core",
+      "ingredients": [
+        {"ingredient_id": "seitan", "name": {"en": "sliced seitan", "de": "geschnittener Seitan"}, "quantity": 150, "unit": "g"},
+        {"ingredient_id": "pita-bread", "name": {"en": "pita bread", "de": "Fladenbrot"}, "quantity": 1, "unit": "piece"},
+        {"ingredient_id": "tahini", "name": {"en": "tahini", "de": "Tahini"}, "quantity": 1, "unit": "tbsp"},
+        {"ingredient_id": "garlic", "name": {"en": "garlic", "de": "Knoblauch"}, "quantity": 2, "unit": "clove"},
+        {"ingredient_id": "lemon", "name": {"en": "lemon", "de": "Zitrone"}, "quantity": 0.5, "unit": "piece"},
+        {"ingredient_id": "cucumber", "name": {"en": "cucumber", "de": "Gurke"}, "quantity": 0.5, "unit": "piece"},
+        {"ingredient_id": "tomato", "name": {"en": "tomato", "de": "Tomate"}, "quantity": 1, "unit": "piece"},
+        {"ingredient_id": "sesame", "name": {"en": "toasted sesame seeds", "de": "geröstete Sesamkörner"}, "quantity": 1, "unit": "tsp"}
+      ],
+      "method": [
+        {"text": {"en": "Pan-fry seitan slices until golden and crisp.", "de": "Seitanscheiben goldgelb und knusprig anbraten."}, "timer_seconds": 300},
+        {"text": {"en": "Whisk tahini, lemon juice, garlic, and a splash of water.", "de": "Tahini, Zitronensaft, Knoblauch und etwas Wasser verrühren."}, "timer_seconds": 0},
+        {"text": {"en": "Toast the pita briefly, then stuff with seitan and salad.", "de": "Brot kurz rösten, dann mit Seitan und Salat füllen."}, "timer_seconds": 60}
+      ],
+      "tags": ["vegan", "comfort"]
+    },
+    {
+      "id": "doener-vegan-hard-700",
+      "dish_id": "doener",
+      "title": {"en": "döner", "de": "Döner"},
+      "subtitle": {"en": "smoky seitan spit", "de": "geräucherter Seitan-Spieß"},
+      "diet": "vegan",
+      "effort": "hard",
+      "calories_per_serving": 700,
+      "time_minutes": 110,
+      "servings": 4,
+      "contains": ["gluten", "soy", "sesame"],
+      "attributes": ["hard", ">60", "≤800", "roast", "pan-fry", "dinner"],
+      "cuisine_tags": ["turkish", "german", "street-food"],
+      "partition_id": "core",
+      "ingredients": [
+        {"ingredient_id": "seitan", "name": {"en": "vital wheat gluten", "de": "Weizengluten"}, "quantity": 250, "unit": "g"},
+        {"ingredient_id": "soy-sauce", "name": {"en": "soy sauce", "de": "Sojasauce"}, "quantity": 2, "unit": "tbsp"},
+        {"ingredient_id": "smoked-paprika", "name": {"en": "smoked paprika", "de": "geräuchertes Paprikapulver"}, "quantity": 1, "unit": "tbsp"},
+        {"ingredient_id": "pita-bread", "name": {"en": "pita bread", "de": "Fladenbrot"}, "quantity": 4, "unit": "piece"},
+        {"ingredient_id": "tahini", "name": {"en": "tahini", "de": "Tahini"}, "quantity": 4, "unit": "tbsp"},
+        {"ingredient_id": "garlic", "name": {"en": "garlic", "de": "Knoblauch"}, "quantity": 6, "unit": "clove"},
+        {"ingredient_id": "lemon", "name": {"en": "lemon", "de": "Zitrone"}, "quantity": 2, "unit": "piece"},
+        {"ingredient_id": "sesame", "name": {"en": "sesame seeds", "de": "Sesamkörner"}, "quantity": 2, "unit": "tbsp"}
+      ],
+      "method": [
+        {"text": {"en": "Knead seitan dough with spices, rest 30 minutes.", "de": "Seitanteig mit Gewürzen kneten und 30 Minuten ruhen lassen."}, "timer_seconds": 1800},
+        {"text": {"en": "Simmer in broth, then roast on a skewer for color.", "de": "In Brühe köcheln, dann am Spieß für Farbe rösten."}, "timer_seconds": 3600},
+        {"text": {"en": "Slice thin and serve with tahini-lemon sauce.", "de": "Dünn schneiden und mit Tahini-Zitronen-Sauce servieren."}, "timer_seconds": 0}
+      ],
+      "tags": ["weekend", "vegan"]
+    },
+    {
+      "id": "doener-vegetarian-easy-500",
+      "dish_id": "doener",
+      "title": {"en": "döner", "de": "Döner"},
+      "subtitle": {"en": "halloumi döner", "de": "Halloumi-Döner"},
+      "diet": "vegetarian",
+      "effort": "easy",
+      "calories_per_serving": 500,
+      "time_minutes": 20,
+      "servings": 1,
+      "contains": ["dairy", "gluten"],
+      "attributes": ["easy", "≤30", "≤600", "pan-fry", "lunch", "dinner"],
+      "cuisine_tags": ["turkish", "german", "street-food"],
+      "partition_id": "core",
+      "ingredients": [
+        {"ingredient_id": "cheese", "name": {"en": "halloumi", "de": "Halloumi"}, "quantity": 120, "unit": "g"},
+        {"ingredient_id": "pita-bread", "name": {"en": "pita bread", "de": "Fladenbrot"}, "quantity": 1, "unit": "piece"},
+        {"ingredient_id": "garlic", "name": {"en": "garlic", "de": "Knoblauch"}, "quantity": 2, "unit": "clove"},
+        {"ingredient_id": "yogurt", "name": {"en": "yogurt", "de": "Joghurt"}, "quantity": 60, "unit": "ml"},
+        {"ingredient_id": "cucumber", "name": {"en": "cucumber", "de": "Gurke"}, "quantity": 0.5, "unit": "piece"},
+        {"ingredient_id": "tomato", "name": {"en": "tomato", "de": "Tomate"}, "quantity": 1, "unit": "piece"},
+        {"ingredient_id": "olive-oil", "name": {"en": "olive oil", "de": "Olivenöl"}, "quantity": 1, "unit": "tbsp"}
+      ],
+      "method": [
+        {"text": {"en": "Grill halloumi strips until golden.", "de": "Halloumi-Streifen goldgelb grillen."}, "timer_seconds": 240},
+        {"text": {"en": "Mix yogurt with crushed garlic and olive oil.", "de": "Joghurt mit Knoblauch und Olivenöl verrühren."}, "timer_seconds": 0},
+        {"text": {"en": "Warm pita and pack with halloumi, veg, and sauce.", "de": "Brot wärmen und mit Halloumi, Gemüse und Sauce füllen."}, "timer_seconds": 60}
+      ],
+      "tags": ["vegetarian", "comfort"]
+    },
+    {
+      "id": "doener-halal-easy-540",
+      "dish_id": "doener",
+      "title": {"en": "döner", "de": "Döner"},
+      "subtitle": {"en": "halal-style chicken döner", "de": "Halal-Hähnchen-Döner"},
+      "diet": "halal",
+      "effort": "easy",
+      "calories_per_serving": 540,
+      "time_minutes": 25,
+      "servings": 1,
+      "contains": ["poultry", "gluten", "dairy"],
+      "attributes": ["easy", "≤30", "≤600", "pan-fry", "lunch", "dinner"],
+      "cuisine_tags": ["turkish", "german", "street-food"],
+      "partition_id": "core",
+      "ingredients": [
+        {"ingredient_id": "chicken", "name": {"en": "chicken thighs", "de": "Hähnchenschenkel"}, "quantity": 150, "unit": "g"},
+        {"ingredient_id": "pita-bread", "name": {"en": "pita bread", "de": "Fladenbrot"}, "quantity": 1, "unit": "piece"},
+        {"ingredient_id": "yogurt", "name": {"en": "yogurt", "de": "Joghurt"}, "quantity": 60, "unit": "ml"},
+        {"ingredient_id": "garlic", "name": {"en": "garlic", "de": "Knoblauch"}, "quantity": 2, "unit": "clove"},
+        {"ingredient_id": "cucumber", "name": {"en": "cucumber", "de": "Gurke"}, "quantity": 0.5, "unit": "piece"},
+        {"ingredient_id": "tomato", "name": {"en": "tomato", "de": "Tomate"}, "quantity": 1, "unit": "piece"},
+        {"ingredient_id": "onion", "name": {"en": "red onion", "de": "rote Zwiebel"}, "quantity": 0.25, "unit": "piece"}
+      ],
+      "method": [
+        {"text": {"en": "Marinate chicken in yogurt and spices for at least 10 minutes.", "de": "Hähnchen mindestens 10 Minuten in Joghurt und Gewürzen marinieren."}, "timer_seconds": 600},
+        {"text": {"en": "Pan-fry until fully cooked and lightly charred.", "de": "Anbraten, bis es durchgegart und leicht angebräunt ist."}, "timer_seconds": 420},
+        {"text": {"en": "Wrap in warm pita with vegetables and yogurt sauce.", "de": "In warmes Fladenbrot mit Gemüse und Joghurtsauce wickeln."}, "timer_seconds": 0}
+      ],
+      "tags": ["halal", "comfort"]
+    },
+    {
+      "id": "padthai-classic-medium-580",
+      "dish_id": "padthai",
+      "title": {"en": "pad thai", "de": "Pad Thai"},
+      "subtitle": {"en": "tamarind shrimp & rice noodles", "de": "Tamarinden-Garnelen mit Reisnudeln"},
+      "diet": "classic",
+      "effort": "medium",
+      "calories_per_serving": 580,
+      "time_minutes": 35,
+      "servings": 2,
+      "contains": ["shellfish", "fish", "egg", "peanuts", "soy", "gluten"],
+      "attributes": ["medium", "≤60", "≤600", "stir-fry", "molluscs", "dinner"],
+      "cuisine_tags": ["thai", "asian", "street-food"],
+      "partition_id": "core",
+      "ingredients": [
+        {"ingredient_id": "rice-noodles", "name": {"en": "rice noodles", "de": "Reisnudeln"}, "quantity": 150, "unit": "g"},
+        {"ingredient_id": "shrimp", "name": {"en": "shrimp", "de": "Garnelen"}, "quantity": 150, "unit": "g"},
+        {"ingredient_id": "egg", "name": {"en": "egg", "de": "Ei"}, "quantity": 2, "unit": "piece"},
+        {"ingredient_id": "peanuts", "name": {"en": "peanuts", "de": "Erdnüsse"}, "quantity": 2, "unit": "tbsp"},
+        {"ingredient_id": "fish-sauce", "name": {"en": "fish sauce", "de": "Fischsauce"}, "quantity": 2, "unit": "tbsp"},
+        {"ingredient_id": "tamarind", "name": {"en": "tamarind paste", "de": "Tamarindenpaste"}, "quantity": 1, "unit": "tbsp"},
+        {"ingredient_id": "garlic", "name": {"en": "garlic", "de": "Knoblauch"}, "quantity": 2, "unit": "clove"},
+        {"ingredient_id": "cilantro", "name": {"en": "cilantro", "de": "Koriander"}, "quantity": 1, "unit": "handful"},
+        {"ingredient_id": "lime", "name": {"en": "lime", "de": "Limette"}, "quantity": 1, "unit": "piece"},
+        {"ingredient_id": "sugar", "name": {"en": "palm sugar", "de": "Palmzucker"}, "quantity": 1, "unit": "tbsp"}
+      ],
+      "method": [
+        {"text": {"en": "Soak rice noodles in warm water until pliable.", "de": "Reisnudeln in warmem Wasser einweichen, bis sie biegsam sind."}, "timer_seconds": 900},
+        {"text": {"en": "Whisk tamarind, fish sauce, sugar, and water.", "de": "Tamarinde, Fischsauce, Zucker und Wasser verrühren."}, "timer_seconds": 0},
+        {"text": {"en": "Stir-fry garlic and shrimp until pink.", "de": "Knoblauch und Garnelen anbraten, bis sie rosa sind."}, "timer_seconds": 180},
+        {"text": {"en": "Push to side, scramble eggs, then toss noodles and sauce.", "de": "Zur Seite schieben, Eier rühren, dann Nudeln und Sauce hineinwerfen."}, "timer_seconds": 300},
+        {"text": {"en": "Top with peanuts, cilantro, and lime.", "de": "Mit Erdnüssen, Koriander und Limette servieren."}, "timer_seconds": 0}
+      ],
+      "tags": ["tangy", "umami"]
+    },
+    {
+      "id": "padthai-vegan-medium-520",
+      "dish_id": "padthai",
+      "title": {"en": "pad thai", "de": "Pad Thai"},
+      "subtitle": {"en": "tofu & tamarind rice noodles", "de": "Tofu-Pad-Thai mit Tamarinde"},
+      "diet": "vegan",
+      "effort": "medium",
+      "calories_per_serving": 520,
+      "time_minutes": 35,
+      "servings": 2,
+      "contains": ["soy", "peanuts", "gluten", "sesame"],
+      "attributes": ["medium", "≤60", "≤600", "stir-fry", "dinner"],
+      "cuisine_tags": ["thai", "asian", "street-food"],
+      "partition_id": "core",
+      "ingredients": [
+        {"ingredient_id": "rice-noodles", "name": {"en": "rice noodles", "de": "Reisnudeln"}, "quantity": 150, "unit": "g"},
+        {"ingredient_id": "tofu", "name": {"en": "firm tofu", "de": "fester Tofu"}, "quantity": 200, "unit": "g"},
+        {"ingredient_id": "peanuts", "name": {"en": "peanuts", "de": "Erdnüsse"}, "quantity": 2, "unit": "tbsp"},
+        {"ingredient_id": "soy-sauce", "name": {"en": "soy sauce", "de": "Sojasauce"}, "quantity": 2, "unit": "tbsp"},
+        {"ingredient_id": "tamarind", "name": {"en": "tamarind paste", "de": "Tamarindenpaste"}, "quantity": 1, "unit": "tbsp"},
+        {"ingredient_id": "garlic", "name": {"en": "garlic", "de": "Knoblauch"}, "quantity": 2, "unit": "clove"},
+        {"ingredient_id": "sesame", "name": {"en": "sesame oil", "de": "Sesamöl"}, "quantity": 1, "unit": "tsp"},
+        {"ingredient_id": "cilantro", "name": {"en": "cilantro", "de": "Koriander"}, "quantity": 1, "unit": "handful"},
+        {"ingredient_id": "lime", "name": {"en": "lime", "de": "Limette"}, "quantity": 1, "unit": "piece"}
+      ],
+      "method": [
+        {"text": {"en": "Soak noodles and press tofu dry.", "de": "Nudeln einweichen und Tofu trockenpressen."}, "timer_seconds": 1200},
+        {"text": {"en": "Whisk tamarind, soy sauce, sugar, and water.", "de": "Tamarinde, Sojasauce, Zucker und Wasser verrühren."}, "timer_seconds": 0},
+        {"text": {"en": "Pan-fry tofu cubes until golden.", "de": "Tofuwürfel goldgelb anbraten."}, "timer_seconds": 360},
+        {"text": {"en": "Toss noodles and sauce, then finish with herbs and peanuts.", "de": "Nudeln und Sauce hineinwerfen, mit Kräutern und Erdnüssen servieren."}, "timer_seconds": 240}
+      ],
+      "tags": ["vegan", "tangy"]
+    },
+    {
+      "id": "padthai-pescatarian-medium-540",
+      "dish_id": "padthai",
+      "title": {"en": "pad thai", "de": "Pad Thai"},
+      "subtitle": {"en": "prawn & peanut rice noodles", "de": "Garnelen-Pad-Thai mit Erdnüssen"},
+      "diet": "pescatarian",
+      "effort": "medium",
+      "calories_per_serving": 540,
+      "time_minutes": 35,
+      "servings": 2,
+      "contains": ["shellfish", "fish", "egg", "peanuts", "soy", "gluten"],
+      "attributes": ["medium", "≤60", "≤600", "stir-fry", "dinner"],
+      "cuisine_tags": ["thai", "asian", "street-food"],
+      "partition_id": "core",
+      "ingredients": [
+        {"ingredient_id": "rice-noodles", "name": {"en": "rice noodles", "de": "Reisnudeln"}, "quantity": 150, "unit": "g"},
+        {"ingredient_id": "shrimp", "name": {"en": "prawns", "de": "Garnelen"}, "quantity": 150, "unit": "g"},
+        {"ingredient_id": "egg", "name": {"en": "egg", "de": "Ei"}, "quantity": 2, "unit": "piece"},
+        {"ingredient_id": "peanuts", "name": {"en": "peanuts", "de": "Erdnüsse"}, "quantity": 2, "unit": "tbsp"},
+        {"ingredient_id": "fish-sauce", "name": {"en": "fish sauce", "de": "Fischsauce"}, "quantity": 2, "unit": "tbsp"},
+        {"ingredient_id": "tamarind", "name": {"en": "tamarind paste", "de": "Tamarindenpaste"}, "quantity": 1, "unit": "tbsp"},
+        {"ingredient_id": "garlic", "name": {"en": "garlic", "de": "Knoblauch"}, "quantity": 2, "unit": "clove"},
+        {"ingredient_id": "cilantro", "name": {"en": "cilantro", "de": "Koriander"}, "quantity": 1, "unit": "handful"},
+        {"ingredient_id": "lime", "name": {"en": "lime", "de": "Limette"}, "quantity": 1, "unit": "piece"}
+      ],
+      "method": [
+        {"text": {"en": "Soak noodles in warm water.", "de": "Nudeln in warmem Wasser einweichen."}, "timer_seconds": 900},
+        {"text": {"en": "Stir-fry garlic and prawns.", "de": "Knoblauch und Garnelen anbraten."}, "timer_seconds": 180},
+        {"text": {"en": "Add noodles, sauce, and eggs; toss until silky.", "de": "Nudeln, Sauce und Eier hinzufügen; glänzend vermengen."}, "timer_seconds": 300},
+        {"text": {"en": "Serve topped with peanuts and herbs.", "de": "Mit Erdnüssen und Kräutern servieren."}, "timer_seconds": 0}
+      ],
+      "tags": ["pescatarian", "tangy"]
+    },
+    {
+      "id": "alfredo-classic-easy-620",
+      "dish_id": "alfredo",
+      "title": {"en": "alfredo", "de": "Alfredo"},
+      "subtitle": {"en": "fettuccine alfredo", "de": "Fettuccine Alfredo"},
+      "diet": "classic",
+      "effort": "easy",
+      "calories_per_serving": 620,
+      "time_minutes": 20,
+      "servings": 2,
+      "contains": ["dairy", "egg", "gluten"],
+      "attributes": ["easy", "≤30", "≤800", "simmer", "lunch", "dinner"],
+      "cuisine_tags": ["italian", "comfort"],
+      "partition_id": "core",
+      "ingredients": [
+        {"ingredient_id": "pasta", "name": {"en": "fettuccine", "de": "Fettuccine"}, "quantity": 200, "unit": "g"},
+        {"ingredient_id": "butter", "name": {"en": "butter", "de": "Butter"}, "quantity": 50, "unit": "g"},
+        {"ingredient_id": "parmesan", "name": {"en": "parmesan", "de": "Parmesan"}, "quantity": 60, "unit": "g"},
+        {"ingredient_id": "garlic", "name": {"en": "garlic", "de": "Knoblauch"}, "quantity": 1, "unit": "clove"},
+        {"ingredient_id": "cream", "name": {"en": "heavy cream", "de": "Sahne"}, "quantity": 120, "unit": "ml"},
+        {"ingredient_id": "olive-oil", "name": {"en": "olive oil", "de": "Olivenöl"}, "quantity": 1, "unit": "tbsp"}
+      ],
+      "method": [
+        {"text": {"en": "Boil pasta in salted water until al dente.", "de": "Nudeln in gesalzenem Wasser al dente kochen."}, "timer_seconds": 600},
+        {"text": {"en": "Melt butter, gently sauté garlic.", "de": "Butter schmelzen, Knoblauch anschwitzen."}, "timer_seconds": 120},
+        {"text": {"en": "Whisk in cream and parmesan off the heat.", "de": "Vom Herd nehmen und Sahne und Parmesan einrühren."}, "timer_seconds": 0},
+        {"text": {"en": "Toss pasta in the sauce with pasta water.", "de": "Nudeln mit etwas Nudelwasser in die Sauce geben."}, "timer_seconds": 0}
+      ],
+      "tags": ["comfort", "quick"]
+    },
+    {
+      "id": "alfredo-vegan-easy-480",
+      "dish_id": "alfredo",
+      "title": {"en": "alfredo", "de": "Alfredo"},
+      "subtitle": {"en": "creamy cashew alfredo", "de": "Cremige Cashew-Alfredo"},
+      "diet": "vegan",
+      "effort": "easy",
+      "calories_per_serving": 480,
+      "time_minutes": 25,
+      "servings": 2,
+      "contains": ["tree-nuts", "cashews", "gluten", "soy"],
+      "attributes": ["easy", "≤30", "≤600", "simmer", "lunch", "dinner"],
+      "cuisine_tags": ["italian", "comfort"],
+      "partition_id": "core",
+      "ingredients": [
+        {"ingredient_id": "pasta", "name": {"en": "fettuccine", "de": "Fettuccine"}, "quantity": 200, "unit": "g"},
+        {"ingredient_id": "cashews", "name": {"en": "soaked cashews", "de": "eingeweichte Cashewnüsse"}, "quantity": 80, "unit": "g"},
+        {"ingredient_id": "garlic", "name": {"en": "garlic", "de": "Knoblauch"}, "quantity": 1, "unit": "clove"},
+        {"ingredient_id": "lemon", "name": {"en": "lemon juice", "de": "Zitronensaft"}, "quantity": 1, "unit": "tbsp"},
+        {"ingredient_id": "olive-oil", "name": {"en": "olive oil", "de": "Olivenöl"}, "quantity": 1, "unit": "tbsp"},
+        {"ingredient_id": "nutritional-yeast", "name": {"en": "nutritional yeast", "de": "Hefeflocken"}, "quantity": 2, "unit": "tbsp"}
+      ],
+      "method": [
+        {"text": {"en": "Soak cashews in boiling water.", "de": "Cashewnüsse in kochendem Wasser einweichen."}, "timer_seconds": 1200},
+        {"text": {"en": "Blend cashews, garlic, lemon, yeast, and warm water until smooth.", "de": "Cashewnüsse, Knoblauch, Zitrone, Hefeflocken und warmes Wasser cremig pürieren."}, "timer_seconds": 120},
+        {"text": {"en": "Cook pasta, then toss with the sauce and pasta water.", "de": "Nudeln kochen und mit Sauce und Nudelwasser vermengen."}, "timer_seconds": 600}
+      ],
+      "tags": ["vegan", "creamy"]
+    },
+    {
+      "id": "alfredo-glutenfree-easy-500",
+      "dish_id": "alfredo",
+      "title": {"en": "alfredo", "de": "Alfredo"},
+      "subtitle": {"en": "gluten-free alfredo", "de": "Glutenfreies Alfredo"},
+      "diet": "gluten-free",
+      "effort": "easy",
+      "calories_per_serving": 500,
+      "time_minutes": 20,
+      "servings": 2,
+      "contains": ["dairy", "egg"],
+      "attributes": ["easy", "≤30", "≤600", "simmer", "lunch", "dinner"],
+      "cuisine_tags": ["italian", "comfort"],
+      "partition_id": "core",
+      "ingredients": [
+        {"ingredient_id": "pasta", "name": {"en": "brown-rice fettuccine", "de": "Reisfettuccine"}, "quantity": 200, "unit": "g"},
+        {"ingredient_id": "butter", "name": {"en": "butter", "de": "Butter"}, "quantity": 50, "unit": "g"},
+        {"ingredient_id": "parmesan", "name": {"en": "parmesan", "de": "Parmesan"}, "quantity": 60, "unit": "g"},
+        {"ingredient_id": "garlic", "name": {"en": "garlic", "de": "Knoblauch"}, "quantity": 1, "unit": "clove"},
+        {"ingredient_id": "cream", "name": {"en": "heavy cream", "de": "Sahne"}, "quantity": 120, "unit": "ml"}
+      ],
+      "method": [
+        {"text": {"en": "Boil gluten-free pasta gently.", "de": "Glutenfreie Nudeln vorsichtig kochen."}, "timer_seconds": 480},
+        {"text": {"en": "Make classic parmesan cream sauce.", "de": "Klassische Parmesan-Sahne-Sauce zubereiten."}, "timer_seconds": 180},
+        {"text": {"en": "Toss and season with black pepper.", "de": "Vermengen und mit schwarzem Pfeffer würzen."}, "timer_seconds": 0}
+      ],
+      "tags": ["gluten-free", "comfort"]
+    },
+    {
+      "id": "shakshuka-classic-easy-340",
+      "dish_id": "shakshuka",
+      "title": {"en": "shakshuka", "de": "Shakshuka"},
+      "subtitle": {"en": "eggs poached in spiced tomato sauce", "de": "In Tomatensauce pochierte Eier"},
+      "diet": "classic",
+      "effort": "easy",
+      "calories_per_serving": 340,
+      "time_minutes": 30,
+      "servings": 2,
+      "contains": ["egg", "dairy"],
+      "attributes": ["easy", "≤30", "≤400", "simmer", "breakfast", "brunch"],
+      "cuisine_tags": ["middle-eastern", "north-african"],
+      "partition_id": "core",
+      "ingredients": [
+        {"ingredient_id": "tomato", "name": {"en": "canned tomatoes", "de": "Dosentomaten"}, "quantity": 400, "unit": "g"},
+        {"ingredient_id": "egg", "name": {"en": "eggs", "de": "Eier"}, "quantity": 4, "unit": "piece"},
+        {"ingredient_id": "onion", "name": {"en": "onion", "de": "Zwiebel"}, "quantity": 1, "unit": "piece"},
+        {"ingredient_id": "garlic", "name": {"en": "garlic", "de": "Knoblauch"}, "quantity": 2, "unit": "clove"},
+        {"ingredient_id": "olive-oil", "name": {"en": "olive oil", "de": "Olivenöl"}, "quantity": 1, "unit": "tbsp"},
+        {"ingredient_id": "cumin", "name": {"en": "ground cumin", "de": "Kreuzkümmel"}, "quantity": 1, "unit": "tsp"},
+        {"ingredient_id": "paprika", "name": {"en": "smoked paprika", "de": "geräuchertes Paprikapulver"}, "quantity": 1, "unit": "tsp"},
+        {"ingredient_id": "feta", "name": {"en": "feta", "de": "Feta"}, "quantity": 30, "unit": "g"}
+      ],
+      "method": [
+        {"text": {"en": "Sauté onion and garlic until soft.", "de": "Zwiebel und Knoblauch weich dünsten."}, "timer_seconds": 300},
+        {"text": {"en": "Add tomatoes and spices; simmer 15 minutes.", "de": "Tomaten und Gewürze hinzufügen; 15 Minuten köcheln."}, "timer_seconds": 900},
+        {"text": {"en": "Make wells and slide in eggs. Cover until whites set.", "de": "Mulden drücken und Eier hineingleiten lassen. Zugedeckt stocken lassen."}, "timer_seconds": 420},
+        {"text": {"en": "Crumble feta and serve with bread.", "de": "Feta darüberbröseln und mit Brot servieren."}, "timer_seconds": 0}
+      ],
+      "tags": ["brunch", "spicy"]
+    },
+    {
+      "id": "shakshuka-vegan-easy-280",
+      "dish_id": "shakshuka",
+      "title": {"en": "shakshuka", "de": "Shakshuka"},
+      "subtitle": {"en": "silken tofu & tomato stew", "de": "Seidentofu-Tomateneintopf"},
+      "diet": "vegan",
+      "effort": "easy",
+      "calories_per_serving": 280,
+      "time_minutes": 25,
+      "servings": 2,
+      "contains": ["soy", "gluten"],
+      "attributes": ["easy", "≤30", "≤400", "simmer", "breakfast", "brunch"],
+      "cuisine_tags": ["middle-eastern", "north-african"],
+      "partition_id": "core",
+      "ingredients": [
+        {"ingredient_id": "tomato", "name": {"en": "canned tomatoes", "de": "Dosentomaten"}, "quantity": 400, "unit": "g"},
+        {"ingredient_id": "tofu", "name": {"en": "silken tofu", "de": "Seidentofu"}, "quantity": 300, "unit": "g"},
+        {"ingredient_id": "onion", "name": {"en": "onion", "de": "Zwiebel"}, "quantity": 1, "unit": "piece"},
+        {"ingredient_id": "garlic", "name": {"en": "garlic", "de": "Knoblauch"}, "quantity": 2, "unit": "clove"},
+        {"ingredient_id": "olive-oil", "name": {"en": "olive oil", "de": "Olivenöl"}, "quantity": 1, "unit": "tbsp"},
+        {"ingredient_id": "cumin", "name": {"en": "ground cumin", "de": "Kreuzkümmel"}, "quantity": 1, "unit": "tsp"},
+        {"ingredient_id": "paprika", "name": {"en": "smoked paprika", "de": "geräuchertes Paprikapulver"}, "quantity": 1, "unit": "tsp"},
+        {"ingredient_id": "tahini", "name": {"en": "tahini", "de": "Tahini"}, "quantity": 1, "unit": "tbsp"}
+      ],
+      "method": [
+        {"text": {"en": "Sauté onion and garlic in olive oil.", "de": "Zwiebel und Knoblauch in Olivenöl anschwitzen."}, "timer_seconds": 300},
+        {"text": {"en": "Simmer tomatoes and spices.", "de": "Tomaten und Gewürze köcheln lassen."}, "timer_seconds": 600},
+        {"text": {"en": "Spoon in large silken tofu cubes; cover to warm through.", "de": "Große Seidentofu-Würfel hinzufügen; zugedeckt warm werden lassen."}, "timer_seconds": 300},
+        {"text": {"en": "Drizzle tahini and serve with flatbread.", "de": "Mit Tahini beträufeln und mit Fladenbrot servieren."}, "timer_seconds": 0}
+      ],
+      "tags": ["vegan", "brunch"]
+    },
+    {
+      "id": "buddhabowl-vegan-easy-420",
+      "dish_id": "buddhabowl",
+      "title": {"en": "buddha bowl", "de": "Buddha Bowl"},
+      "subtitle": {"en": "roasted veggie & tahini bowl", "de": "Gebackenes Gemüse & Tahini Bowl"},
+      "diet": "vegan",
+      "effort": "easy",
+      "calories_per_serving": 420,
+      "time_minutes": 30,
+      "servings": 1,
+      "contains": ["sesame", "soy", "tree-nuts", "almonds"],
+      "attributes": ["easy", "≤30", "≤600", "roast", "lunch", "dinner"],
+      "cuisine_tags": ["modern", "bowl"],
+      "partition_id": "core",
+      "ingredients": [
+        {"ingredient_id": "chickpeas", "name": {"en": "cooked chickpeas", "de": "gekochte Kichererbsen"}, "quantity": 120, "unit": "g"},
+        {"ingredient_id": "sweet-potato", "name": {"en": "sweet potato", "de": "Süßkartoffel"}, "quantity": 150, "unit": "g"},
+        {"ingredient_id": "kale", "name": {"en": "kale", "de": "Grünkohl"}, "quantity": 60, "unit": "g"},
+        {"ingredient_id": "tahini", "name": {"en": "tahini", "de": "Tahini"}, "quantity": 1, "unit": "tbsp"},
+        {"ingredient_id": "lemon", "name": {"en": "lemon juice", "de": "Zitronensaft"}, "quantity": 1, "unit": "tbsp"},
+        {"ingredient_id": "olive-oil", "name": {"en": "olive oil", "de": "Olivenöl"}, "quantity": 1, "unit": "tbsp"},
+        {"ingredient_id": "almonds", "name": {"en": "sliced almonds", "de": " gehobelte Mandeln"}, "quantity": 1, "unit": "tbsp"},
+        {"ingredient_id": "quinoa", "name": {"en": "cooked quinoa", "de": "gekochte Quinoa"}, "quantity": 100, "unit": "g"}
+      ],
+      "method": [
+        {"text": {"en": "Roast cubed sweet potato at 200 °C.", "de": "Süßkartoffelwürfel bei 200 °C backen."}, "timer_seconds": 1500},
+        {"text": {"en": "Massage kale with lemon and a pinch of salt.", "de": "Grünkohl mit Zitrone und Salz massieren."}, "timer_seconds": 0},
+        {"text": {"en": "Whisk tahini, lemon, and water for dressing.", "de": "Tahini, Zitrone und Wasser zum Dressing verrühren."}, "timer_seconds": 0},
+        {"text": {"en": "Assemble bowl with warm components and almonds.", "de": "Schüssel mit warmen Komponenten und Mandeln anrichten."}, "timer_seconds": 0}
+      ],
+      "tags": ["healthy", "bowl"]
+    },
+    {
+      "id": "buddhabowl-chicken-easy-460",
+      "dish_id": "buddhabowl",
+      "title": {"en": "buddha bowl", "de": "Buddha Bowl"},
+      "subtitle": {"en": "lemon chicken & grains bowl", "de": "Zitronen-Hähnchen-Bowl"},
+      "diet": "classic",
+      "effort": "easy",
+      "calories_per_serving": 460,
+      "time_minutes": 30,
+      "servings": 1,
+      "contains": ["poultry"],
+      "attributes": ["easy", "≤30", "≤600", "pan-fry", "roast", "lunch", "dinner"],
+      "cuisine_tags": ["modern", "bowl"],
+      "partition_id": "core",
+      "ingredients": [
+        {"ingredient_id": "chicken", "name": {"en": "chicken breast", "de": "Hähnchenbrust"}, "quantity": 120, "unit": "g"},
+        {"ingredient_id": "quinoa", "name": {"en": "cooked quinoa", "de": "gekochte Quinoa"}, "quantity": 100, "unit": "g"},
+        {"ingredient_id": "cucumber", "name": {"en": "cucumber", "de": "Gurke"}, "quantity": 0.5, "unit": "piece"},
+        {"ingredient_id": "tomato", "name": {"en": "cherry tomatoes", "de": "Kirschtomaten"}, "quantity": 6, "unit": "piece"},
+        {"ingredient_id": "lemon", "name": {"en": "lemon", "de": "Zitrone"}, "quantity": 0.5, "unit": "piece"},
+        {"ingredient_id": "olive-oil", "name": {"en": "olive oil", "de": "Olivenöl"}, "quantity": 1, "unit": "tbsp"},
+        {"ingredient_id": "yogurt", "name": {"en": "yogurt", "de": "Joghurt"}, "quantity": 2, "unit": "tbsp"}
+      ],
+      "method": [
+        {"text": {"en": "Season chicken and pan-fry until cooked through.", "de": "Hähnchen würzen und durchbraten."}, "timer_seconds": 420},
+        {"text": {"en": "Roast tomatoes until blistered.", "de": "Tomaten rösten, bis sie aufplatzen."}, "timer_seconds": 600},
+        {"text": {"en": "Whisk lemon, olive oil, and yogurt into dressing.", "de": "Zitrone, Olivenöl und Joghurt zum Dressing verrühren."}, "timer_seconds": 0},
+        {"text": {"en": "Arrange over warm quinoa and serve.", "de": "Über warmer Quinoa anrichten und servieren."}, "timer_seconds": 0}
+      ],
+      "tags": ["protein", "bowl"]
+    },
+    {
+      "id": "buddhabowl-salmon-easy-480",
+      "dish_id": "buddhabowl",
+      "title": {"en": "buddha bowl", "de": "Buddha Bowl"},
+      "subtitle": {"en": "ginger-lime salmon bowl", "de": "Ingwer-Limetten-Lachs-Bowl"},
+      "diet": "pescatarian",
+      "effort": "easy",
+      "calories_per_serving": 480,
+      "time_minutes": 25,
+      "servings": 1,
+      "contains": ["fish"],
+      "attributes": ["easy", "≤30", "≤600", "bake", "lunch", "dinner"],
+      "cuisine_tags": ["modern", "bowl"],
+      "partition_id": "core",
+      "ingredients": [
+        {"ingredient_id": "salmon", "name": {"en": "salmon fillet", "de": "Lachsfilet"}, "quantity": 120, "unit": "g"},
+        {"ingredient_id": "rice", "name": {"en": "cooked rice", "de": "gekochter Reis"}, "quantity": 120, "unit": "g"},
+        {"ingredient_id": "cucumber", "name": {"en": "cucumber", "de": "Gurke"}, "quantity": 0.5, "unit": "piece"},
+        {"ingredient_id": "lime", "name": {"en": "lime", "de": "Limette"}, "quantity": 1, "unit": "piece"},
+        {"ingredient_id": "ginger", "name": {"en": "fresh ginger", "de": "frischer Ingwer"}, "quantity": 1, "unit": "tbsp"},
+        {"ingredient_id": "soy-sauce", "name": {"en": "soy sauce", "de": "Sojasauce"}, "quantity": 1, "unit": "tbsp"},
+        {"ingredient_id": "sesame", "name": {"en": "sesame seeds", "de": "Sesamkörner"}, "quantity": 1, "unit": "tsp"}
+      ],
+      "method": [
+        {"text": {"en": "Bake salmon with ginger and soy sauce.", "de": "Lachs mit Ingwer und Sojasauce backen."}, "timer_seconds": 900},
+        {"text": {"en": "Steam rice if not already cooked.", "de": "Reis dämpfen, falls noch nicht gekocht."}, "timer_seconds": 0},
+        {"text": {"en": "Slice cucumber and prepare lime wedges.", "de": "Gurke schneiden und Limettenschnitze vorbereiten."}, "timer_seconds": 0},
+        {"text": {"en": "Assemble bowl, finish with sesame.", "de": "Schüssel anrichten, mit Sesam garnieren."}, "timer_seconds": 0}
+      ],
+      "tags": ["omega-3", "bowl"]
+    }
+  ]
+}
