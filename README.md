@@ -38,6 +38,14 @@ The implementations are preserved as the models produced them — including
 their READMEs, structure, and quirks. That divergence is the point of the
 experiment.
 
+The one-shot output lives in history: the **first commit** that touches a
+directory is exactly what that model produced in a single run. Every commit
+after it is a human-directed improvement — I intend to actually use the app
+(the Claude Fable 5 version), not just compare models, so it keeps getting
+worked on. To see a model's untouched output, check out that directory's
+first commit. See [issue #2](https://github.com/TheMorpheus407/morphcook/issues/2)
+for the motivation.
+
 ## Running a version
 
 ```sh
