@@ -5725,14 +5725,14 @@
       "frequency_tier": "high"
     },
     {
-      "id": "nuka-cola",
+      "id": "nuckla-coka",
       "name": {
-        "en": "nuka-cola",
-        "de": "Nuka-Cola"
+        "en": "nuckla-coka",
+        "de": "Nuckla-Coka"
       },
       "hero": {
-        "en": "caramel-bright cola syrup, citrus peels, vanilla, and warm spice in our unofficial rebuild of nuka-cola.",
-        "de": "Karamell, Zitrusschale, Vanille und warme Gewürze: unsere inoffiziell nachgebaute Nuka-Cola."
+        "en": "caramel-bright cola syrup, citrus peels, vanilla, and warm spice in our unofficial rebuild of nuckla-coka.",
+        "de": "Karamell, Zitrusschale, Vanille und warme Gewürze: unsere inoffiziell nachgebaute Nuckla-Coka."
       },
       "caption": {
         "en": "bottle-cap sparkle, no shortcuts",
@@ -5740,10 +5740,10 @@
       },
       "stripe": "#a66a32",
       "recipes": [
-        "nuka-cola-classic-easy-400",
-        "nuka-cola-classic-easy-600",
-        "nuka-cola-classic-medium-400",
-        "nuka-cola-classic-medium-600"
+        "nuckla-coka-classic-easy-400",
+        "nuckla-coka-classic-easy-600",
+        "nuckla-coka-classic-medium-400",
+        "nuckla-coka-classic-medium-600"
       ],
       "partition_id": "pop-culture",
       "secondary_partitions": [],
@@ -5756,14 +5756,14 @@
       "frequency_tier": "medium"
     },
     {
-      "id": "leblanc-curry",
+      "id": "leblonc-curry",
       "name": {
-        "en": "leblanc curry",
-        "de": "LeBlanc-Curry"
+        "en": "leblonc curry",
+        "de": "LeBlonc-Curry"
       },
       "hero": {
-        "en": "our unofficial rebuild of leblanc curry folds coffee, grated apple, and honey into a patient dark roux.",
-        "de": "unser inoffiziell nachgebautes LeBlanc-Curry bekommt Kaffee, geriebenen Apfel und Honig in einer langsam dunkel gerösteten Mehlschwitze."
+        "en": "our unofficial rebuild of leblonc curry folds coffee, grated apple, and honey into a patient dark roux.",
+        "de": "unser inoffiziell nachgebautes LeBlonc-Curry bekommt Kaffee, geriebenen Apfel und Honig in einer langsam dunkel gerösteten Mehlschwitze."
       },
       "caption": {
         "en": "dark roux, soft rice, quiet secrets",
@@ -5771,19 +5771,19 @@
       },
       "stripe": "#8a6a3f",
       "recipes": [
-        "leblanc-curry-classic-easy-600",
-        "leblanc-curry-classic-easy-800",
-        "leblanc-curry-classic-medium-600",
-        "leblanc-curry-classic-medium-800",
-        "leblanc-curry-vegetarian-easy-600",
-        "leblanc-curry-vegetarian-easy-800",
-        "leblanc-curry-vegetarian-medium-600",
-        "leblanc-curry-vegetarian-medium-800",
-        "leblanc-curry-vegan-easy-600",
-        "leblanc-curry-vegan-easy-800",
-        "leblanc-curry-vegan-medium-600",
-        "leblanc-curry-vegan-medium-800",
-        "leblanc-curry-gluten-free-easy-600"
+        "leblonc-curry-classic-easy-600",
+        "leblonc-curry-classic-easy-800",
+        "leblonc-curry-classic-medium-600",
+        "leblonc-curry-classic-medium-800",
+        "leblonc-curry-vegetarian-easy-600",
+        "leblonc-curry-vegetarian-easy-800",
+        "leblonc-curry-vegetarian-medium-600",
+        "leblonc-curry-vegetarian-medium-800",
+        "leblonc-curry-vegan-easy-600",
+        "leblonc-curry-vegan-easy-800",
+        "leblonc-curry-vegan-medium-600",
+        "leblonc-curry-vegan-medium-800",
+        "leblonc-curry-gluten-free-easy-600"
       ],
       "partition_id": "pop-culture",
       "secondary_partitions": [
@@ -5798,14 +5798,14 @@
       "frequency_tier": "medium"
     },
     {
-      "id": "krabby-patty",
+      "id": "crabby-patty",
       "name": {
-        "en": "krabby patty",
-        "de": "Krabbenburger"
+        "en": "crabby patty",
+        "de": "Krabbelburger"
       },
       "hero": {
-        "en": "our unofficial rebuild of the krabby patty, griddled and glossy with a sweet-tangy secret sauce under the crunch.",
-        "de": "unser inoffiziell nachgebauter Krabbenburger: gebraten, knackig geschichtet und mit süß-saurer Geheimsauce."
+        "en": "our unofficial rebuild of the crabby patty, griddled and glossy with a sweet-tangy secret sauce under the crunch.",
+        "de": "unser inoffiziell nachgebauter Krabbelburger: gebraten, knackig geschichtet und mit süß-saurer Geheimsauce."
       },
       "caption": {
         "en": "secret sauce, real skillet",
@@ -5813,19 +5813,19 @@
       },
       "stripe": "#b9824a",
       "recipes": [
-        "krabby-patty-classic-easy-600",
-        "krabby-patty-classic-easy-800",
-        "krabby-patty-classic-medium-600",
-        "krabby-patty-classic-medium-800",
-        "krabby-patty-vegetarian-easy-600",
-        "krabby-patty-vegetarian-easy-800",
-        "krabby-patty-vegetarian-medium-600",
-        "krabby-patty-vegetarian-medium-800",
-        "krabby-patty-vegan-easy-600",
-        "krabby-patty-vegan-easy-800",
-        "krabby-patty-vegan-medium-600",
-        "krabby-patty-vegan-medium-800",
-        "krabby-patty-gluten-free-easy-600"
+        "crabby-patty-classic-easy-600",
+        "crabby-patty-classic-easy-800",
+        "crabby-patty-classic-medium-600",
+        "crabby-patty-classic-medium-800",
+        "crabby-patty-vegetarian-easy-600",
+        "crabby-patty-vegetarian-easy-800",
+        "crabby-patty-vegetarian-medium-600",
+        "crabby-patty-vegetarian-medium-800",
+        "crabby-patty-vegan-easy-600",
+        "crabby-patty-vegan-easy-800",
+        "crabby-patty-vegan-medium-600",
+        "crabby-patty-vegan-medium-800",
+        "crabby-patty-gluten-free-easy-600"
       ],
       "partition_id": "pop-culture",
       "secondary_partitions": [],
@@ -5838,14 +5838,14 @@
       "frequency_tier": "medium"
     },
     {
-      "id": "butterbeer",
+      "id": "butterbrew",
       "name": {
-        "en": "butterbeer",
-        "de": "Butterbier"
+        "en": "butterbrew",
+        "de": "Butterbräu"
       },
       "hero": {
-        "en": "our unofficial rebuild of butterbeer pours golden and cozy, with real butterscotch under a soft cream cap.",
-        "de": "unser inoffiziell nachgebautes Butterbier: goldwarm, karamellig und mit weicher Sahnehaube."
+        "en": "our unofficial rebuild of butterbrew pours golden and cozy, with real butterscotch under a soft cream cap.",
+        "de": "unser inoffiziell nachgebautes Butterbräu: goldwarm, karamellig und mit weicher Sahnehaube."
       },
       "caption": {
         "en": "butterscotch, spice, cloud of cream",
@@ -5853,14 +5853,14 @@
       },
       "stripe": "#b8864a",
       "recipes": [
-        "butterbeer-classic-easy-400",
-        "butterbeer-classic-easy-600",
-        "butterbeer-classic-medium-400",
-        "butterbeer-classic-medium-600",
-        "butterbeer-vegan-easy-400",
-        "butterbeer-vegan-easy-600",
-        "butterbeer-vegan-medium-400",
-        "butterbeer-vegan-medium-600"
+        "butterbrew-classic-easy-400",
+        "butterbrew-classic-easy-600",
+        "butterbrew-classic-medium-400",
+        "butterbrew-classic-medium-600",
+        "butterbrew-vegan-easy-400",
+        "butterbrew-vegan-easy-600",
+        "butterbrew-vegan-medium-400",
+        "butterbrew-vegan-medium-600"
       ],
       "partition_id": "pop-culture",
       "secondary_partitions": [
@@ -5875,14 +5875,14 @@
       "frequency_tier": "medium"
     },
     {
-      "id": "lembas",
+      "id": "lembras",
       "name": {
-        "en": "lembas",
-        "de": "Lembas"
+        "en": "lembras",
+        "de": "Lembras"
       },
       "hero": {
-        "en": "our unofficial rebuild of lembas bakes up golden, honeyed, and sturdy enough for the long pocket-warm road.",
-        "de": "Lembas, inoffiziell nachgebaut: goldgelb, honigsanft und fest genug für jede Tasche."
+        "en": "our unofficial rebuild of lembras bakes up golden, honeyed, and sturdy enough for the long pocket-warm road.",
+        "de": "Lembras, inoffiziell nachgebaut: goldgelb, honigsanft und fest genug für jede Tasche."
       },
       "caption": {
         "en": "one square, miles of comfort",
@@ -5890,14 +5890,14 @@
       },
       "stripe": "#b99b62",
       "recipes": [
-        "lembas-classic-easy-400",
-        "lembas-classic-easy-600",
-        "lembas-classic-medium-400",
-        "lembas-classic-medium-600",
-        "lembas-vegan-easy-400",
-        "lembas-vegan-easy-600",
-        "lembas-vegan-medium-400",
-        "lembas-vegan-medium-600"
+        "lembras-classic-easy-400",
+        "lembras-classic-easy-600",
+        "lembras-classic-medium-400",
+        "lembras-classic-medium-600",
+        "lembras-vegan-easy-400",
+        "lembras-vegan-easy-600",
+        "lembras-vegan-medium-400",
+        "lembras-vegan-medium-600"
       ],
       "partition_id": "pop-culture",
       "secondary_partitions": [

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "corpus_version": "2026.07.2",
+  "corpus_version": "2026.07.3",
   "generated_by": "morphcook pipeline",
   "loading_strategy": {
     "at_launch": [
@@ -188,11 +188,11 @@
         "onigiri",
         "beef-stew",
         "nachos",
-        "nuka-cola",
-        "leblanc-curry",
-        "krabby-patty",
-        "butterbeer",
-        "lembas",
+        "nuckla-coka",
+        "leblonc-curry",
+        "crabby-patty",
+        "butterbrew",
+        "lembras",
         "sea-salt-ice-cream"
       ]
     }
@@ -212,7 +212,7 @@
         "chicken-stir-fry",
         "katsudon",
         "onigiri",
-        "leblanc-curry"
+        "leblonc-curry"
       ]
     },
     {
@@ -222,8 +222,8 @@
         "mushroom-soup",
         "pumpkin-soup",
         "beef-stew",
-        "butterbeer",
-        "lembas"
+        "butterbrew",
+        "lembras"
       ]
     },
     {

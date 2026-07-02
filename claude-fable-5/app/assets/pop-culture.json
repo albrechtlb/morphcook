@@ -15984,11 +15984,11 @@
       }
     },
     {
-      "id": "nuka-cola-classic-easy-400",
-      "dish_id": "nuka-cola",
+      "id": "nuckla-coka-classic-easy-400",
+      "dish_id": "nuckla-coka",
       "title": {
-        "en": "citrus caramel nuka-cola",
-        "de": "Zitrus-Karamell-Nuka-Cola"
+        "en": "citrus caramel nuckla-coka",
+        "de": "Zitrus-Karamell-Nuckla-Coka"
       },
       "caption": {
         "en": "little bubbles, big bottle-cap mood",
@@ -16158,11 +16158,11 @@
       }
     },
     {
-      "id": "nuka-cola-classic-easy-600",
-      "dish_id": "nuka-cola",
+      "id": "nuckla-coka-classic-easy-600",
+      "dish_id": "nuckla-coka",
       "title": {
-        "en": "cream-top caramel nuka-cola",
-        "de": "Karamell-Nuka-Cola mit Kokoskrone"
+        "en": "cream-top caramel nuckla-coka",
+        "de": "Karamell-Nuckla-Coka mit Kokoskrone"
       },
       "caption": {
         "en": "sticky spoon, fizzy little victory",
@@ -16310,7 +16310,7 @@
         {
           "text": {
             "en": "divide the syrup between 4 tall glasses. top each with 250 ml cold sparkling water, stir once, and serve while the foam is still being cute.",
-            "de": "Verteile den Sirup auf 4 hohe Gläser. Fülle jedes Glas mit 250 ml kaltem Sprudelwasser auf, rühre einmal um und serviere die Nuka-Cola, solange der Schaum noch steht."
+            "de": "Verteile den Sirup auf 4 hohe Gläser. Fülle jedes Glas mit 250 ml kaltem Sprudelwasser auf, rühre einmal um und serviere die Nuckla-Coka, solange der Schaum noch steht."
           }
         }
       ],
@@ -16330,11 +16330,11 @@
       }
     },
     {
-      "id": "nuka-cola-classic-medium-400",
-      "dish_id": "nuka-cola",
+      "id": "nuckla-coka-classic-medium-400",
+      "dish_id": "nuckla-coka",
       "title": {
-        "en": "deep-spice nuka-cola",
-        "de": "Nuka-Cola mit dunklen Gewürzen"
+        "en": "deep-spice nuckla-coka",
+        "de": "Nuckla-Coka mit dunklen Gewürzen"
       },
       "caption": {
         "en": "slow caramel, bright little fizz",
@@ -16515,19 +16515,19 @@
       }
     },
     {
-      "id": "nuka-cola-classic-medium-600",
-      "dish_id": "nuka-cola",
+      "id": "nuckla-coka-classic-medium-600",
+      "dish_id": "nuckla-coka",
       "title": {
-        "en": "black-caramel nuka-cola",
-        "de": "Dunkelkaramell-Nuka-Cola"
+        "en": "blue shimmer nuckla-coka float",
+        "de": "Blauschimmer-Nuckla-Coka"
       },
       "caption": {
-        "en": "dark sugar, soft fizz, midnight spoon",
-        "de": "Dunkler Zucker, leiser Sprudel"
+        "en": "blue fizz, sticky wrists",
+        "de": "Blaue Perlen am Glas"
       },
       "intro": {
-        "en": "take the caramel past polite amber, then feed it citrus and ginger while it is still a little dramatic. the long covered steep makes the spice rounded, and coconut milk turns the glass plush; chill the syrup before bubbles arrive or it will sulk flat.",
-        "de": "Du kochst den Zucker dunkel, bis er herb duftet, und gibst dann Zitrusschale, Ingwer und Gewürze dazu. Beim langen Ziehen wird der Sirup rund; die Kokosmilch kommt erst ins kalte Glas, damit der Sprudel lebendig bleibt."
+        "en": "blue shimmer nuckla-coka starts with caramel pushed just to the edge, then citrus peels and spice pull it back into pop-shop territory. the butterfly pea blooms in the coconut cap, so keep the heat gentle and the fizz cold.",
+        "de": "Für diese Nuckla-Coka kochst du den Zucker dunkel genug, dass er nach Karamell duftet, aber nicht bitter wird. Zitrusschalen ziehen nur kurz mit; das Schmetterlingserbsenpulver rührst du kalt in die Kokosmilch, damit der Blauton klar bleibt."
       },
       "variant": {
         "diet": "classic",
@@ -16547,89 +16547,63 @@
         "lactose-free",
         "gluten-free",
         "medium",
-        "gt60",
+        "le60",
         "le600",
         "simmer"
       ],
       "meal": [
+        "lunch",
         "dinner"
       ],
-      "time_minutes": 90,
-      "servings": 4,
-      "calories_per_serving": 560,
+      "time_minutes": 58,
+      "servings": 2,
+      "calories_per_serving": 545,
       "macros": {
-        "calories": 560,
-        "protein_g": 2,
-        "carbs_g": 107,
-        "fat_g": 14
+        "calories": 545,
+        "protein_g": 3,
+        "carbs_g": 73,
+        "fat_g": 27
       },
       "ingredients": [
         {
           "ingredient_id": "sugar",
-          "qty": 280,
+          "qty": 130,
           "unit": "g",
           "note": {
-            "en": "for the dark caramel",
-            "de": "für den dunklen Karamell"
-          }
-        },
-        {
-          "ingredient_id": "brown-sugar",
-          "qty": 120,
-          "unit": "g",
-          "note": {
-            "en": "for molasses depth",
-            "de": "für malzige Tiefe"
+            "en": "for the caramel syrup",
+            "de": "für den Karamellsirup"
           }
         },
         {
           "ingredient_id": "lemon",
-          "qty": 2,
+          "qty": 1,
           "unit": "piece",
           "note": {
-            "en": "scrubbed; peel in wide strips, juice saved",
-            "de": "heiß abgewaschen; Schale in breiten Streifen, Saft auffangen"
+            "en": "scrubbed; peel in strips, juice reserved",
+            "de": "gewaschen; Schale in Streifen, Saft auffangen"
           }
         },
         {
           "ingredient_id": "lime",
-          "qty": 2,
+          "qty": 1,
           "unit": "piece",
           "note": {
-            "en": "scrubbed; peel in wide strips, juice saved",
-            "de": "heiß abgewaschen; Schale in breiten Streifen, Saft auffangen"
-          }
-        },
-        {
-          "ingredient_id": "ginger",
-          "qty": 35,
-          "unit": "g",
-          "note": {
-            "en": "thinly sliced",
-            "de": "in dünne Scheiben geschnitten"
-          }
-        },
-        {
-          "ingredient_id": "vanilla-extract",
-          "qty": 1,
-          "unit": "tbsp",
-          "note": {
-            "en": "stirred into the hot syrup",
-            "de": "kommt in den heißen Sirup"
+            "en": "scrubbed; peel in strips, juice reserved",
+            "de": "gewaschen; Schale in Streifen, Saft auffangen"
           }
         },
         {
           "ingredient_id": "cinnamon",
-          "qty": 2,
-          "unit": "tsp",
+          "qty": 1,
+          "unit": "piece",
           "note": {
-            "en": "ground",
-            "de": "gemahlen"
+            "en": "broken stick",
+            "de": "gebrochene Stange"
           }
         },
         {
           "ingredient_id": "star-anise",
-          "qty": 3,
+          "qty": 2,
           "unit": "piece",
           "note": {
             "en": "whole",
@@ -16637,87 +16611,126 @@
           }
         },
         {
+          "ingredient_id": "vanilla-extract",
+          "qty": 2,
+          "unit": "tsp",
+          "note": {
+            "en": "stirred into the hot syrup",
+            "de": "kommt in den heißen Sirup"
+          }
+        },
+        {
+          "ingredient_id": "butterfly-pea-powder",
+          "qty": 1,
+          "unit": "tsp",
+          "note": {
+            "en": "for the blue coconut cap",
+            "de": "für die blaue Kokoshaube"
+          }
+        },
+        {
           "ingredient_id": "coconut-milk",
-          "qty": 280,
+          "qty": 300,
           "unit": "ml",
           "note": {
-            "en": "well shaken",
-            "de": "gut geschüttelt"
+            "en": "full-fat and well chilled",
+            "de": "vollfett und gut gekühlt"
           }
         },
         {
           "ingredient_id": "sparkling-water",
-          "qty": 900,
+          "qty": 500,
           "unit": "ml",
           "note": {
             "en": "ice-cold",
             "de": "eiskalt"
+          }
+        },
+        {
+          "ingredient_id": "salt",
+          "qty": 1,
+          "unit": "pinch",
+          "note": {
+            "en": "for the coconut milk",
+            "de": "für die Kokosmilch"
           }
         }
       ],
       "steps": [
         {
           "text": {
-            "en": "scrub the lemons and limes. strip off the peel with a peeler, leaving the white pith behind, then halve and squeeze the fruit; keep peel and juice separate. slice the ginger thinly.",
-            "de": "Wasche Zitronen und Limetten heiß ab. Schäle die Schale mit einem Sparschäler in breiten Streifen ab, ohne viel Weißes mitzunehmen, dann halbiere und presse die Früchte; halte Schale und Saft getrennt. Schneide den Ingwer dünn."
+            "en": "strip the lemon and lime peel into wide curls, leaving the white pith behind. squeeze all the juice from both fruits and save it.",
+            "de": "Schäle die Schale von Zitrone und Limette in breiten Streifen ab; das Weiße bleibt möglichst an der Frucht. Presse beide Früchte aus und stell den Saft bereit."
           }
         },
         {
           "text": {
-            "en": "combine the sugar and brown sugar in a wide heavy pan with 60 ml water. cook over medium-high heat to 170°c, swirling the pan and keeping the spoon out, until the caramel is mahogany and smells faintly smoky, 12 minutes.",
-            "de": "Gib Zucker und braunen Zucker mit 60 ml Wasser in einen weiten, schweren Topf. Koche alles bei mittelhoher Hitze unter Schwenken auf 170 °c, bis der Karamell mahagonifarben ist und leicht rauchig duftet, 12 Minuten."
-          },
-          "timer_minutes": 12
+            "en": "whisk the butterfly pea powder and salt into the cold coconut milk until the color is even. keep it in the fridge while the syrup gets moody.",
+            "de": "Rühre Schmetterlingserbsenpulver und Salz in die kalte Kokosmilch, bis sie gleichmäßig blau ist. Stell sie in den Kühlschrank, solange der Sirup kocht."
+          }
         },
         {
           "text": {
-            "en": "pull the pan from the heat and carefully pour in 450 ml hot water; it will rage, so give it space. return to medium heat, stir in the lemon peel, lime peel, ginger, vanilla extract, cinnamon, star anise, and a tiny pinch of salt, then simmer 8 minutes.",
-            "de": "Nimm den Topf vom Herd und gieße vorsichtig 450 ml heißes Wasser dazu; es brodelt heftig, also halte Abstand. Stelle den Topf wieder auf mittlere Hitze, rühre Zitronenschale, Limettenschale, Ingwer, Vanilleextrakt, Zimt, Sternanis und eine kleine Prise Salz ein und lasse alles 8 Minuten leise köcheln."
+            "en": "put the sugar and 60 ml water in a small saucepan. cook over medium-high heat for 10 minutes, swirling the pan, until the caramel reaches 170°c and turns deep amber.",
+            "de": "Gib Zucker und 60 ml Wasser in einen kleinen Topf. Erhitze alles bei mittlerer bis hoher Hitze 10 Minuten, schwenke den Topf und warte, bis der Karamell 170 °C erreicht und dunkel bernsteinfarben ist."
+          },
+          "timer_minutes": 10
+        },
+        {
+          "text": {
+            "en": "take the pan off the heat and slowly stir in 220 ml water; it will jump, so give it room. add the citrus peels, both juices, cinnamon, star anise, and vanilla extract, then simmer at 90-95°c for 14 minutes.",
+            "de": "Nimm den Topf vom Herd und rühre langsam 220 ml Wasser ein; es zischt kräftig. Gib Zitrusschalen, beide Säfte, Zimt, Sternanis und Vanilleextrakt dazu und lass alles bei 90-95 °C 14 Minuten leise köcheln."
+          },
+          "timer_minutes": 14
+        },
+        {
+          "text": {
+            "en": "cover the pan off the heat and steep for 18 minutes. strain through a fine sieve, pressing the peels once, then discard the spices.",
+            "de": "Deck den Topf ab und lass den Sirup 18 Minuten ziehen. Gieß ihn durch ein feines Sieb, drück die Schalen einmal aus und entsorge die Gewürze."
+          },
+          "timer_minutes": 18
+        },
+        {
+          "text": {
+            "en": "set the syrup bowl in a cold-water bath for 8 minutes, stirring twice, until it is barely warm.",
+            "de": "Stell die Schüssel mit Sirup 8 Minuten in ein kaltes Wasserbad und rühre zweimal um, bis er nur noch lauwarm ist."
           },
           "timer_minutes": 8
         },
         {
           "text": {
-            "en": "cover the pan, turn off the heat, and steep 45 minutes. stir in the lemon and lime juice for the last 5 minutes so the citrus stays bright.",
-            "de": "Decke den Topf ab, schalte die Hitze aus und lasse den Sirup 45 Minuten ziehen. Rühre Zitronen- und Limettensaft erst in den letzten 5 Minuten ein, damit die Säure frisch bleibt."
-          },
-          "timer_minutes": 45
+            "en": "divide the syrup between 2 chilled tall glasses. pour in 250 ml sparkling water per glass and stir once, because the bubbles hate micromanagement.",
+            "de": "Verteile den Sirup auf 2 gekühlte hohe Gläser. Gieß pro Glas 250 ml eiskaltes Sprudelwasser dazu und rühre einmal um."
+          }
         },
         {
           "text": {
-            "en": "strain the syrup through a fine sieve into a metal bowl set in an ice bath, pressing the ginger and peels with a spoon. chill, stirring now and then, until below 10°c, about 20 minutes.",
-            "de": "Gieße den Sirup durch ein feines Sieb in eine Metallschüssel im Eisbad und drücke Ingwer und Schalen mit einem Löffel aus. Kühle ihn unter gelegentlichem Rühren auf unter 10 °c, etwa 20 Minuten."
-          },
-          "timer_minutes": 20
-        },
-        {
-          "text": {
-            "en": "shake the coconut milk until smooth. divide all the cold syrup among 4 ice-filled glasses, add 70 ml coconut milk to each, top each with 225 ml sparkling water, and stir once, lazily.",
-            "de": "Schüttle die Kokosmilch glatt. Verteile den kalten Sirup auf 4 Gläser mit Eis, gib je 70 ml Kokosmilch dazu, fülle jedes Glas mit 225 ml Sprudelwasser auf und rühre einmal gelassen um."
+            "en": "pour the blue coconut milk over the back of a spoon so it floats on top. drink while the rim still looks like a tiny storm.",
+            "de": "Gieß die blaue Kokosmilch über einen Löffelrücken, damit sie oben schwimmt. Trink die Nuckla-Coka, solange der Rand noch nach kleinem Sturm aussieht."
           }
         }
       ],
       "tags": {
         "en": [
-          "soda",
-          "caramel",
-          "citrus",
-          "spiced"
+          "cola",
+          "float",
+          "blue soda",
+          "caramel syrup"
         ],
         "de": [
-          "Limonade",
-          "Karamell",
-          "Zitrus",
-          "Gewürze"
+          "Cola",
+          "Kokoshaube",
+          "Karamellsirup",
+          "Sprudel"
         ]
       }
     },
     {
-      "id": "leblanc-curry-classic-easy-600",
-      "dish_id": "leblanc-curry",
+      "id": "leblonc-curry-classic-easy-600",
+      "dish_id": "leblonc-curry",
       "title": {
-        "en": "coffee-apple chicken leblanc curry",
-        "de": "Kaffee-Apfel-Hähnchen-LeBlanc-Curry"
+        "en": "coffee-apple chicken leblonc curry",
+        "de": "Kaffee-Apfel-Hähnchen-LeBlonc-Curry"
       },
       "caption": {
         "en": "espresso roux, small kitchen thunder",
@@ -16909,11 +16922,11 @@
       }
     },
     {
-      "id": "leblanc-curry-classic-easy-800",
-      "dish_id": "leblanc-curry",
+      "id": "leblonc-curry-classic-easy-800",
+      "dish_id": "leblonc-curry",
       "title": {
-        "en": "dark roux beef leblanc curry",
-        "de": "Rinderhack-LeBlanc-Curry mit dunkler Mehlschwitze"
+        "en": "dark roux beef leblonc curry",
+        "de": "Rinderhack-LeBlonc-Curry mit dunkler Mehlschwitze"
       },
       "caption": {
         "en": "butter roux, beef, one secret spoon",
@@ -17118,11 +17131,11 @@
       }
     },
     {
-      "id": "leblanc-curry-classic-medium-600",
-      "dish_id": "leblanc-curry",
+      "id": "leblonc-curry-classic-medium-600",
+      "dish_id": "leblonc-curry",
       "title": {
-        "en": "pumpkin chicken leblanc curry",
-        "de": "Kürbis-Hähnchen-LeBlanc-Curry"
+        "en": "pumpkin chicken leblonc curry",
+        "de": "Kürbis-Hähnchen-LeBlonc-Curry"
       },
       "caption": {
         "en": "coffee shadows, pumpkin glow",
@@ -17313,11 +17326,11 @@
       }
     },
     {
-      "id": "leblanc-curry-classic-medium-800",
-      "dish_id": "leblanc-curry",
+      "id": "leblonc-curry-classic-medium-800",
+      "dish_id": "leblonc-curry",
       "title": {
-        "en": "braised beef leblanc curry",
-        "de": "Geschmortes Rindfleisch-LeBlanc-Curry"
+        "en": "braised beef leblonc curry",
+        "de": "Geschmortes Rindfleisch-LeBlonc-Curry"
       },
       "caption": {
         "en": "coffee deepens the old brown roux",
@@ -17509,11 +17522,11 @@
       }
     },
     {
-      "id": "leblanc-curry-vegetarian-easy-600",
-      "dish_id": "leblanc-curry",
+      "id": "leblonc-curry-vegetarian-easy-600",
+      "dish_id": "leblonc-curry",
       "title": {
-        "en": "paneer apple leblanc curry",
-        "de": "Paneer-Apfel-LeBlanc-Curry"
+        "en": "paneer apple leblonc curry",
+        "de": "Paneer-Apfel-LeBlonc-Curry"
       },
       "caption": {
         "en": "paneer, coffee, one shiny spoon",
@@ -17688,11 +17701,11 @@
       }
     },
     {
-      "id": "leblanc-curry-vegetarian-easy-800",
-      "dish_id": "leblanc-curry",
+      "id": "leblonc-curry-vegetarian-easy-800",
+      "dish_id": "leblonc-curry",
       "title": {
-        "en": "halloumi apple leblanc curry",
-        "de": "Halloumi-Apfel-LeBlanc-Curry"
+        "en": "halloumi apple leblonc curry",
+        "de": "Halloumi-Apfel-LeBlonc-Curry"
       },
       "caption": {
         "en": "golden cheese, coffee-dark sauce",
@@ -17866,11 +17879,11 @@
       }
     },
     {
-      "id": "leblanc-curry-vegetarian-medium-600",
-      "dish_id": "leblanc-curry",
+      "id": "leblonc-curry-vegetarian-medium-600",
+      "dish_id": "leblonc-curry",
       "title": {
-        "en": "roasted pumpkin paneer leblanc curry",
-        "de": "Geröstetes Kürbis-Paneer-LeBlanc-Curry"
+        "en": "roasted pumpkin paneer leblonc curry",
+        "de": "Geröstetes Kürbis-Paneer-LeBlonc-Curry"
       },
       "caption": {
         "en": "brown roux, orange corners, hush",
@@ -18060,11 +18073,11 @@
       }
     },
     {
-      "id": "leblanc-curry-vegetarian-medium-800",
-      "dish_id": "leblanc-curry",
+      "id": "leblonc-curry-vegetarian-medium-800",
+      "dish_id": "leblonc-curry",
       "title": {
-        "en": "mushroom halloumi leblanc curry",
-        "de": "Champignon-Halloumi-LeBlanc-Curry"
+        "en": "mushroom halloumi leblonc curry",
+        "de": "Champignon-Halloumi-LeBlonc-Curry"
       },
       "caption": {
         "en": "fried cheese, coffee, rainy windows",
@@ -18271,11 +18284,11 @@
       }
     },
     {
-      "id": "leblanc-curry-vegan-easy-600",
-      "dish_id": "leblanc-curry",
+      "id": "leblonc-curry-vegan-easy-600",
+      "dish_id": "leblonc-curry",
       "title": {
-        "en": "chickpea apple leblanc curry",
-        "de": "Kichererbsen-Apfel-LeBlanc-Curry"
+        "en": "chickpea apple leblonc curry",
+        "de": "Kichererbsen-Apfel-LeBlonc-Curry"
       },
       "caption": {
         "en": "chickpeas, coffee, low flame",
@@ -18478,11 +18491,11 @@
       }
     },
     {
-      "id": "leblanc-curry-vegan-easy-800",
-      "dish_id": "leblanc-curry",
+      "id": "leblonc-curry-vegan-easy-800",
+      "dish_id": "leblonc-curry",
       "title": {
-        "en": "tofu apple leblanc curry",
-        "de": "Tofu-Apfel-LeBlanc-Curry"
+        "en": "tofu apple leblonc curry",
+        "de": "Tofu-Apfel-LeBlonc-Curry"
       },
       "caption": {
         "en": "tofu, coffee, warm pot steam",
@@ -18680,11 +18693,11 @@
       }
     },
     {
-      "id": "leblanc-curry-vegan-medium-600",
-      "dish_id": "leblanc-curry",
+      "id": "leblonc-curry-vegan-medium-600",
+      "dish_id": "leblonc-curry",
       "title": {
-        "en": "maple-apple pumpkin leblanc curry",
-        "de": "Ahorn-Apfel-Kürbis-LeBlanc-Curry"
+        "en": "maple-apple pumpkin leblonc curry",
+        "de": "Ahorn-Apfel-Kürbis-LeBlonc-Curry"
       },
       "caption": {
         "en": "maple gloss on a brown little moon",
@@ -18872,11 +18885,11 @@
       }
     },
     {
-      "id": "leblanc-curry-vegan-medium-800",
-      "dish_id": "leblanc-curry",
+      "id": "leblonc-curry-vegan-medium-800",
+      "dish_id": "leblonc-curry",
       "title": {
-        "en": "seitan dark-roux leblanc curry",
-        "de": "Seitan-LeBlanc-Curry mit dunkler Mehlschwitze"
+        "en": "seitan dark-roux leblonc curry",
+        "de": "Seitan-LeBlonc-Curry mit dunkler Mehlschwitze"
       },
       "caption": {
         "en": "seitan, coffee, the long brown glow",
@@ -19090,11 +19103,11 @@
       }
     },
     {
-      "id": "leblanc-curry-gluten-free-easy-600",
-      "dish_id": "leblanc-curry",
+      "id": "leblonc-curry-gluten-free-easy-600",
+      "dish_id": "leblonc-curry",
       "title": {
-        "en": "rice-bowl leblanc curry",
-        "de": "Reisschalen-LeBlanc-Curry"
+        "en": "rice-bowl leblonc curry",
+        "de": "Reisschalen-LeBlonc-Curry"
       },
       "caption": {
         "en": "apple, coffee, glossy brown comfort",
@@ -19297,11 +19310,11 @@
       }
     },
     {
-      "id": "krabby-patty-classic-easy-600",
-      "dish_id": "krabby-patty",
+      "id": "crabby-patty-classic-easy-600",
+      "dish_id": "crabby-patty",
       "title": {
-        "en": "crisp-edge krabby patty",
-        "de": "Knusperrand-Krabbenburger"
+        "en": "crisp-edge crabby patty",
+        "de": "Knusperrand-Krabbelburger"
       },
       "caption": {
         "en": "sauce on the lid",
@@ -19482,11 +19495,11 @@
       }
     },
     {
-      "id": "krabby-patty-classic-easy-800",
-      "dish_id": "krabby-patty",
+      "id": "crabby-patty-classic-easy-800",
+      "dish_id": "crabby-patty",
       "title": {
-        "en": "cheddar-gloss krabby patty",
-        "de": "Cheddarglanz-Krabbenburger"
+        "en": "cheddar-gloss crabby patty",
+        "de": "Cheddarglanz-Krabbelburger"
       },
       "caption": {
         "en": "two napkins, worth it",
@@ -19682,11 +19695,11 @@
       }
     },
     {
-      "id": "krabby-patty-classic-medium-600",
-      "dish_id": "krabby-patty",
+      "id": "crabby-patty-classic-medium-600",
+      "dish_id": "crabby-patty",
       "title": {
-        "en": "pickle-chop krabby patty",
-        "de": "Gurkenstückchen-Krabbenburger"
+        "en": "pickle-chop crabby patty",
+        "de": "Gurkenstückchen-Krabbelburger"
       },
       "caption": {
         "en": "tiny pickles, big skillet glow",
@@ -19873,11 +19886,11 @@
       }
     },
     {
-      "id": "krabby-patty-classic-medium-800",
-      "dish_id": "krabby-patty",
+      "id": "crabby-patty-classic-medium-800",
+      "dish_id": "crabby-patty",
       "title": {
-        "en": "butter-basted krabby patty",
-        "de": "Butterglanz-Krabbenburger"
+        "en": "butter-basted crabby patty",
+        "de": "Butterglanz-Krabbelburger"
       },
       "caption": {
         "en": "skillet shine, pickle snap",
@@ -20081,11 +20094,11 @@
       }
     },
     {
-      "id": "krabby-patty-vegetarian-easy-600",
-      "dish_id": "krabby-patty",
+      "id": "crabby-patty-vegetarian-easy-600",
+      "dish_id": "crabby-patty",
       "title": {
-        "en": "halloumi-squeak krabby patty",
-        "de": "Halloumi-Knusper-Krabbenburger"
+        "en": "halloumi-squeak crabby patty",
+        "de": "Halloumi-Knusper-Krabbelburger"
       },
       "caption": {
         "en": "squeak under the sauce",
@@ -20275,11 +20288,11 @@
       }
     },
     {
-      "id": "krabby-patty-vegetarian-easy-800",
-      "dish_id": "krabby-patty",
+      "id": "crabby-patty-vegetarian-easy-800",
+      "dish_id": "crabby-patty",
       "title": {
-        "en": "halloumi-cheddar lace krabby patty",
-        "de": "Halloumi-Cheddar-Spitzen-Krabbenburger"
+        "en": "halloumi-cheddar lace crabby patty",
+        "de": "Halloumi-Cheddar-Spitzen-Krabbelburger"
       },
       "caption": {
         "en": "salty lace, pink sauce",
@@ -20469,11 +20482,11 @@
       }
     },
     {
-      "id": "krabby-patty-vegetarian-medium-600",
-      "dish_id": "krabby-patty",
+      "id": "crabby-patty-vegetarian-medium-600",
+      "dish_id": "crabby-patty",
       "title": {
-        "en": "portobello-sizzle krabby patty",
-        "de": "Portobello-Zisch-Krabbenburger"
+        "en": "portobello-sizzle crabby patty",
+        "de": "Portobello-Zisch-Krabbelburger"
       },
       "caption": {
         "en": "mushroom shine, pickle grin",
@@ -20670,11 +20683,11 @@
       }
     },
     {
-      "id": "krabby-patty-vegetarian-medium-800",
-      "dish_id": "krabby-patty",
+      "id": "crabby-patty-vegetarian-medium-800",
+      "dish_id": "crabby-patty",
       "title": {
-        "en": "black-bean crust krabby patty",
-        "de": "Bohnenkruste-Krabbenburger"
+        "en": "black-bean crust crabby patty",
+        "de": "Bohnenkruste-Krabbelburger"
       },
       "caption": {
         "en": "pickle brine on your sleeve",
@@ -20873,11 +20886,11 @@
       }
     },
     {
-      "id": "krabby-patty-vegan-easy-600",
-      "dish_id": "krabby-patty",
+      "id": "crabby-patty-vegan-easy-600",
+      "dish_id": "crabby-patty",
       "title": {
-        "en": "chickpea-oat krabby patty",
-        "de": "Kichererbsen-Hafer-Krabbenburger"
+        "en": "chickpea-oat crabby patty",
+        "de": "Kichererbsen-Hafer-Krabbelburger"
       },
       "caption": {
         "en": "oat crust, pickle wink",
@@ -21062,11 +21075,11 @@
       }
     },
     {
-      "id": "krabby-patty-vegan-easy-800",
-      "dish_id": "krabby-patty",
+      "id": "crabby-patty-vegan-easy-800",
+      "dish_id": "crabby-patty",
       "title": {
-        "en": "melt-lid krabby patty",
-        "de": "Schmelzdeckel-Krabbenburger"
+        "en": "melt-lid crabby patty",
+        "de": "Schmelzdeckel-Krabbelburger"
       },
       "caption": {
         "en": "glossy lid, pickle moon",
@@ -21263,11 +21276,11 @@
       }
     },
     {
-      "id": "krabby-patty-vegan-medium-600",
-      "dish_id": "krabby-patty",
+      "id": "crabby-patty-vegan-medium-600",
+      "dish_id": "crabby-patty",
       "title": {
-        "en": "black-bean griddle krabby patty",
-        "de": "Bohnenpfannen-Krabbenburger"
+        "en": "black-bean griddle crabby patty",
+        "de": "Bohnenpfannen-Krabbelburger"
       },
       "caption": {
         "en": "beans, buns, little sauce grin",
@@ -21453,11 +21466,11 @@
       }
     },
     {
-      "id": "krabby-patty-vegan-medium-800",
-      "dish_id": "krabby-patty",
+      "id": "crabby-patty-vegan-medium-800",
+      "dish_id": "crabby-patty",
       "title": {
-        "en": "seitan-gloss krabby patty",
-        "de": "Seitanglanz-Krabbenburger"
+        "en": "seitan-gloss crabby patty",
+        "de": "Seitanglanz-Krabbelburger"
       },
       "caption": {
         "en": "sauce tucked under crunch",
@@ -21647,11 +21660,11 @@
       }
     },
     {
-      "id": "krabby-patty-gluten-free-easy-600",
-      "dish_id": "krabby-patty",
+      "id": "crabby-patty-gluten-free-easy-600",
+      "dish_id": "crabby-patty",
       "title": {
-        "en": "iceberg-cup krabby patty",
-        "de": "Eisbergschalen-Krabbenburger"
+        "en": "iceberg-cup crabby patty",
+        "de": "Eisbergschalen-Krabbelburger"
       },
       "caption": {
         "en": "crisp cups, sauce smudge",
@@ -21659,7 +21672,7 @@
       },
       "intro": {
         "en": "the iceberg cups do the holding, crisp and a little dramatic, while the beef gets pressed hard so the edges frill. keep the sauce thick and tuck it under the tomato; it clings there, loyal as a small kitchen secret.",
-        "de": "Eisbergblätter geben dem Krabbenburger Halt und bleiben kühl, wenn du die Rippen flach schneidest. Drück das Hack erst in der heißen Pfanne breit; so bräunt der Rand, während die dicke Sauce unter der Tomate wartet."
+        "de": "Eisbergblätter geben dem Krabbelburger Halt und bleiben kühl, wenn du die Rippen flach schneidest. Drück das Hack erst in der heißen Pfanne breit; so bräunt der Rand, während die dicke Sauce unter der Tomate wartet."
       },
       "variant": {
         "diet": "gluten-free",
@@ -21824,7 +21837,7 @@
           "skillet"
         ],
         "de": [
-          "Krabbenburger",
+          "Krabbelburger",
           "Eisbergsalat",
           "Pfanne",
           "Geheimsauce"
@@ -21832,11 +21845,11 @@
       }
     },
     {
-      "id": "butterbeer-classic-easy-400",
-      "dish_id": "butterbeer",
+      "id": "butterbrew-classic-easy-400",
+      "dish_id": "butterbrew",
       "title": {
-        "en": "golden butterscotch butterbeer",
-        "de": "Goldenes Karamell-Butterbier"
+        "en": "golden butterscotch butterbrew",
+        "de": "Goldenes Karamell-Butterbräu"
       },
       "caption": {
         "en": "tiny cream hat, big caramel mood",
@@ -21844,7 +21857,7 @@
       },
       "intro": {
         "en": "brown sugar and butter get a short, brave bubble before the milk goes in, so the drink tastes like real stovetop butterscotch with a soft edge. skim milk keeps the cup nimble; add the fizz at the end so it sighs, then crown it while the foam still feels shy.",
-        "de": "Der Zucker darf kurz mit Butter blubbern, bevor die Milch dazukommt; so schmeckt das Butterbier rund und warm. Die Kohlensäure kommt erst am Schluss in die Tasse, damit sie noch kitzelt, und die kleine Sahnehaube bleibt weich und luftig."
+        "de": "Der Zucker darf kurz mit Butter blubbern, bevor die Milch dazukommt; so schmeckt das Butterbräu rund und warm. Die Kohlensäure kommt erst am Schluss in die Tasse, damit sie noch kitzelt, und die kleine Sahnehaube bleibt weich und luftig."
       },
       "variant": {
         "diet": "classic",
@@ -21999,19 +22012,19 @@
       }
     },
     {
-      "id": "butterbeer-classic-easy-600",
-      "dish_id": "butterbeer",
+      "id": "butterbrew-classic-easy-600",
+      "dish_id": "butterbrew",
       "title": {
-        "en": "brown sugar butterbeer",
-        "de": "Sahniges Butterkaramell-Butterbier"
+        "en": "brown sugar butterbrew",
+        "de": "Sahniges Butterkaramell-Butterbräu"
       },
       "caption": {
         "en": "butter shine, cream cap, hush",
         "de": "Butterglanz und dicke Sahnehaube"
       },
       "intro": {
-        "en": "this butterbeer starts as a quick pan caramel: brown sugar cooked in butter until the bubbles slow and the pan smells toasted. whole milk stretches it into a cup, and sparkling water goes in off the heat so the drink keeps a small wink of fizz.",
-        "de": "Dieses Butterbier beginnt mit braunem Zucker, der in Butter ruhig blubbert und röstig duftet. Die Milch kommt erst dazu, wenn der Topf warm nach Karamell riecht; das Sprudelwasser wartet bis zum Schluss, damit der Becher frisch bleibt."
+        "en": "this butterbrew starts as a quick pan caramel: brown sugar cooked in butter until the bubbles slow and the pan smells toasted. whole milk stretches it into a cup, and sparkling water goes in off the heat so the drink keeps a small wink of fizz.",
+        "de": "Dieses Butterbräu beginnt mit braunem Zucker, der in Butter ruhig blubbert und röstig duftet. Die Milch kommt erst dazu, wenn der Topf warm nach Karamell riecht; das Sprudelwasser wartet bis zum Schluss, damit der Becher frisch bleibt."
       },
       "variant": {
         "diet": "classic",
@@ -22167,8 +22180,8 @@
         },
         {
           "text": {
-            "en": "shake the chilled cream in its jar for 45 to 60 seconds until thick but still pourable. pour the butterbeer into the heat-safe glasses and spoon the cream cap over the top.",
-            "de": "Schüttle die gekühlte Sahne im Glas 45 bis 60 Sekunden, bis sie dick, aber noch gießbar ist. Verteile das Butterbier auf die hitzefesten Gläser und löffle die Sahnehaube darauf."
+            "en": "shake the chilled cream in its jar for 45 to 60 seconds until thick but still pourable. pour the butterbrew into the heat-safe glasses and spoon the cream cap over the top.",
+            "de": "Schüttle die gekühlte Sahne im Glas 45 bis 60 Sekunden, bis sie dick, aber noch gießbar ist. Verteile das Butterbräu auf die hitzefesten Gläser und löffle die Sahnehaube darauf."
           }
         }
       ],
@@ -22188,19 +22201,19 @@
       }
     },
     {
-      "id": "butterbeer-classic-medium-400",
-      "dish_id": "butterbeer",
+      "id": "butterbrew-classic-medium-400",
+      "dish_id": "butterbrew",
       "title": {
-        "en": "chilled caramel cap butterbeer",
-        "de": "Sprudelndes Karamellhauben-Butterbier"
+        "en": "chilled caramel cap butterbrew",
+        "de": "Sprudelndes Karamellhauben-Butterbräu"
       },
       "caption": {
         "en": "cold fizz under a cream moon",
         "de": "Kalter Sprudel, warme Karamellseele"
       },
       "intro": {
-        "en": "this butterbeer starts with a darker brown-sugar bubble, so the drink tastes toasted before the fizz arrives. skim milk cools the syrup without weighing it down; add the sparkling water after chilling, or the bubbles will wander off and sulk.",
-        "de": "Für dieses Butterbier kochst du den braunen Zucker etwas dunkler, bis er nach Toffee riecht und Tiefe bekommt. Die Magermilch zieht den Sirup glatt; der Sprudel kommt erst kalt dazu, damit die Haube weich oben bleibt."
+        "en": "this butterbrew starts with a darker brown-sugar bubble, so the drink tastes toasted before the fizz arrives. skim milk cools the syrup without weighing it down; add the sparkling water after chilling, or the bubbles will wander off and sulk.",
+        "de": "Für dieses Butterbräu kochst du den braunen Zucker etwas dunkler, bis er nach Toffee riecht und Tiefe bekommt. Die Magermilch zieht den Sirup glatt; der Sprudel kommt erst kalt dazu, damit die Haube weich oben bleibt."
       },
       "variant": {
         "diet": "classic",
@@ -22369,11 +22382,11 @@
       }
     },
     {
-      "id": "butterbeer-classic-medium-600",
-      "dish_id": "butterbeer",
+      "id": "butterbrew-classic-medium-600",
+      "dish_id": "butterbrew",
       "title": {
-        "en": "spiced brown butter butterbeer",
-        "de": "Geröstetes Butterkaramell-Butterbier"
+        "en": "spiced brown butter butterbrew",
+        "de": "Geröstetes Butterkaramell-Butterbräu"
       },
       "caption": {
         "en": "toasty butter, sleepy spice, cream snow",
@@ -22381,7 +22394,7 @@
       },
       "intro": {
         "en": "brown the butter until it smells like a bakery at dusk, then catch it with brown sugar before the milk goes in. the spices steep gently, so the drink tastes rounded rather than dusty. keep the heat low once the cream joins; scorched milk has a loud little tantrum.",
-        "de": "Du bräunst die Butter zuerst, damit das Karamell nussig und tief wird. Die Gewürze ziehen in warmer Milch aus und werden danach entfernt, so bleibt das Butterbier weich und nicht körnig. Sobald Sahne im Topf ist, hältst du die Hitze klein."
+        "de": "Du bräunst die Butter zuerst, damit das Karamell nussig und tief wird. Die Gewürze ziehen in warmer Milch aus und werden danach entfernt, so bleibt das Butterbräu weich und nicht körnig. Sobald Sahne im Topf ist, hältst du die Hitze klein."
       },
       "variant": {
         "diet": "classic",
@@ -22532,8 +22545,8 @@
         },
         {
           "text": {
-            "en": "pour the hot butterbeer into three warm mugs and spoon the vanilla cream on top. serve at once, while the cap slowly melts into the gold.",
-            "de": "Fülle das heiße Butterbier in drei vorgewärmte Becher und setze die Vanillesahne darauf. Serviere es sofort, solange die Haube langsam ins Goldene schmilzt."
+            "en": "pour the hot butterbrew into three warm mugs and spoon the vanilla cream on top. serve at once, while the cap slowly melts into the gold.",
+            "de": "Fülle das heiße Butterbräu in drei vorgewärmte Becher und setze die Vanillesahne darauf. Serviere es sofort, solange die Haube langsam ins Goldene schmilzt."
           }
         }
       ],
@@ -22553,19 +22566,19 @@
       }
     },
     {
-      "id": "butterbeer-vegan-easy-400",
-      "dish_id": "butterbeer",
+      "id": "butterbrew-vegan-easy-400",
+      "dish_id": "butterbrew",
       "title": {
-        "en": "oat butterscotch butterbeer",
-        "de": "Hafer-Karamell-Butterbier"
+        "en": "oat butterscotch butterbrew",
+        "de": "Hafer-Karamell-Butterbräu"
       },
       "caption": {
         "en": "oat foam, caramel fizz, warm hands",
         "de": "Haferhaube, Karamellsprudel, warme Hände"
       },
       "intro": {
-        "en": "quick butterbeer keeps its charm in the syrup: brown sugar foams with plant butter until it smells like a tiny fair stall. keep the heat kind; scorched sugar turns bossy fast. add fizz in the glass so the cup stays golden and perky.",
-        "de": "Beim Butterbier gibst du dem Sirup die Bühne: brauner Zucker schäumt mit Pflanzenbutter, bis er nach Karamell riecht. Die Hafermilch wärmst du nur sanft, und den Sprudel gießt du erst im Glas dazu."
+        "en": "quick butterbrew keeps its charm in the syrup: brown sugar foams with plant butter until it smells like a tiny fair stall. keep the heat kind; scorched sugar turns bossy fast. add fizz in the glass so the cup stays golden and perky.",
+        "de": "Beim Butterbräu gibst du dem Sirup die Bühne: brauner Zucker schäumt mit Pflanzenbutter, bis er nach Karamell riecht. Die Hafermilch wärmst du nur sanft, und den Sprudel gießt du erst im Glas dazu."
       },
       "variant": {
         "diet": "vegan",
@@ -22737,11 +22750,11 @@
       }
     },
     {
-      "id": "butterbeer-vegan-easy-600",
-      "dish_id": "butterbeer",
+      "id": "butterbrew-vegan-easy-600",
+      "dish_id": "butterbrew",
       "title": {
-        "en": "velvet oat butterbeer",
-        "de": "Samtiges Hafer-Butterbier"
+        "en": "velvet oat butterbrew",
+        "de": "Samtiges Hafer-Butterbräu"
       },
       "caption": {
         "en": "thick cream, caramel, fizzy little sigh",
@@ -22898,13 +22911,13 @@
       ],
       "tags": {
         "en": [
-          "butterbeer",
+          "butterbrew",
           "butterscotch",
           "sparkling drink",
           "cream cap"
         ],
         "de": [
-          "Butterbier",
+          "Butterbräu",
           "Karamell",
           "Sprudelgetränk",
           "Sahnehaube"
@@ -22912,11 +22925,11 @@
       }
     },
     {
-      "id": "butterbeer-vegan-medium-400",
-      "dish_id": "butterbeer",
+      "id": "butterbrew-vegan-medium-400",
+      "dish_id": "butterbrew",
       "title": {
-        "en": "dark oat caramel butterbeer",
-        "de": "Dunkles Haferkaramell-Butterbier"
+        "en": "dark oat caramel butterbrew",
+        "de": "Dunkles Haferkaramell-Butterbräu"
       },
       "caption": {
         "en": "cold caramel, shy spice, soft foam",
@@ -22924,7 +22937,7 @@
       },
       "intro": {
         "en": "cook the sugar until it smells like a rainy shop window, then loosen it with oat milk before it gets ideas. chilling the syrup gives the fizz a clean snap, and the shaken cream cap lands soft and a little dramatic.",
-        "de": "Du kochst den Zucker etwas dunkler, damit das Butterbier Tiefe bekommt und nicht nur süß schmeckt. Der kalte Sirup mischt sich sauber mit Sprudel, die geschüttelte Haube bleibt weich und fällt langsam in den Becher."
+        "de": "Du kochst den Zucker etwas dunkler, damit das Butterbräu Tiefe bekommt und nicht nur süß schmeckt. Der kalte Sirup mischt sich sauber mit Sprudel, die geschüttelte Haube bleibt weich und fällt langsam in den Becher."
       },
       "variant": {
         "diet": "vegan",
@@ -23073,13 +23086,13 @@
       ],
       "tags": {
         "en": [
-          "butterbeer",
+          "butterbrew",
           "oat caramel",
           "cold drink",
           "spiced"
         ],
         "de": [
-          "Butterbier",
+          "Butterbräu",
           "Haferkaramell",
           "Kaltgetränk",
           "Gewürzt"
@@ -23087,11 +23100,11 @@
       }
     },
     {
-      "id": "butterbeer-vegan-medium-600",
-      "dish_id": "butterbeer",
+      "id": "butterbrew-vegan-medium-600",
+      "dish_id": "butterbrew",
       "title": {
-        "en": "coconut butterscotch butterbeer",
-        "de": "Kokos-Karamell-Butterbier"
+        "en": "coconut butterscotch butterbrew",
+        "de": "Kokos-Karamell-Butterbräu"
       },
       "caption": {
         "en": "coconut gloss, spice, cream on top",
@@ -23099,7 +23112,7 @@
       },
       "intro": {
         "en": "the drink starts as patient coconut butterscotch, darker than it looks at first and glossy when the spoon leaves a clear path. warm the cup gently after the rest; rushed sugar sulks, and gritty caramel has a long memory.",
-        "de": "Dieses Butterbier bekommt seinen Glanz aus langsam eingekochter Kokosmilch und braunem Zucker. Lass den Topf klein blubbern, nicht wild kochen; sobald der Löffel eine Spur zieht, ist die Basis bereit für die kühle Haube."
+        "de": "Dieses Butterbräu bekommt seinen Glanz aus langsam eingekochter Kokosmilch und braunem Zucker. Lass den Topf klein blubbern, nicht wild kochen; sobald der Löffel eine Spur zieht, ist die Basis bereit für die kühle Haube."
       },
       "variant": {
         "diet": "vegan",
@@ -23245,13 +23258,13 @@
       ],
       "tags": {
         "en": [
-          "butterbeer",
+          "butterbrew",
           "butterscotch",
           "hot drink",
           "coconut"
         ],
         "de": [
-          "Butterbier",
+          "Butterbräu",
           "Karamell",
           "Heißgetränk",
           "Kokos"
@@ -23259,11 +23272,11 @@
       }
     },
     {
-      "id": "lembas-classic-easy-400",
-      "dish_id": "lembas",
+      "id": "lembras-classic-easy-400",
+      "dish_id": "lembras",
       "title": {
-        "en": "honey oat lembas",
-        "de": "Honig-Hafer-Lembas"
+        "en": "honey oat lembras",
+        "de": "Honig-Hafer-Lembras"
       },
       "caption": {
         "en": "a pocket square with nerve",
@@ -23405,7 +23418,7 @@
         {
           "text": {
             "en": "bake for 21 minutes, until the top is honey-gold and the scored lines have opened a little.",
-            "de": "Backe das Lembas 21 Minuten, bis die Oberflaeche honiggold ist und die eingeritzten Linien leicht aufgehen."
+            "de": "Backe das Lembras 21 Minuten, bis die Oberflaeche honiggold ist und die eingeritzten Linien leicht aufgehen."
           },
           "timer_minutes": 21
         },
@@ -23419,13 +23432,13 @@
       ],
       "tags": {
         "en": [
-          "lembas",
+          "lembras",
           "honey oat",
           "travel bread",
           "baking"
         ],
         "de": [
-          "Lembas",
+          "Lembras",
           "Honig-Hafer",
           "Reisebrot",
           "Backen"
@@ -23433,19 +23446,19 @@
       }
     },
     {
-      "id": "lembas-classic-easy-600",
-      "dish_id": "lembas",
+      "id": "lembras-classic-easy-600",
+      "dish_id": "lembras",
       "title": {
-        "en": "buttered almond lembas",
-        "de": "Butter-Mandel-Lembas"
+        "en": "buttered almond lembras",
+        "de": "Butter-Mandel-Lembras"
       },
       "caption": {
         "en": "golden squares for coat pockets",
         "de": "Goldene Quadrate für Manteltaschen"
       },
       "intro": {
-        "en": "this lembas leans rich and compact, with cold butter rubbed through flour so the crumb snaps first and then softens. honey and milk bind it quickly; chill the scored slab before baking so the squares keep their corners.",
-        "de": "Dieses Lembas wird mürbe und satt, weil die kalte Butter erst ins Mehl gerieben wird. Honig und Milch halten den Teig zusammen; kühle die Platte vor dem Backen, dann bleiben die eingeschnittenen Stücke sauber und fest."
+        "en": "this lembras leans rich and compact, with cold butter rubbed through flour so the crumb snaps first and then softens. honey and milk bind it quickly; chill the scored slab before baking so the squares keep their corners.",
+        "de": "Dieses Lembras wird mürbe und satt, weil die kalte Butter erst ins Mehl gerieben wird. Honig und Milch halten den Teig zusammen; kühle die Platte vor dem Backen, dann bleiben die eingeschnittenen Stücke sauber und fest."
       },
       "variant": {
         "diet": "classic",
@@ -23575,7 +23588,7 @@
         {
           "text": {
             "en": "bake for 16 minutes, until the edges turn honey-gold and the center feels set when nudged. if the middle still sticks, give it 2 minutes more.",
-            "de": "Backe das Lembas 16 Minuten, bis die Ränder honiggold sind und die Mitte bei leichtem Druck fest wirkt. Klebt sie noch, gib ihr 2 Minuten mehr."
+            "de": "Backe das Lembras 16 Minuten, bis die Ränder honiggold sind und die Mitte bei leichtem Druck fest wirkt. Klebt sie noch, gib ihr 2 Minuten mehr."
           },
           "timer_minutes": 16
         },
@@ -23603,19 +23616,19 @@
       }
     },
     {
-      "id": "lembas-classic-medium-400",
-      "dish_id": "lembas",
+      "id": "lembras-classic-medium-400",
+      "dish_id": "lembras",
       "title": {
-        "en": "saffron buckwheat lembas",
-        "de": "Safran-Buchweizen-Lembas"
+        "en": "saffron buckwheat lembras",
+        "de": "Safran-Buchweizen-Lembras"
       },
       "caption": {
         "en": "saffron dust for the road",
         "de": "Safranstaub in der Tasche"
       },
       "intro": {
-        "en": "buckwheat gives this lembas a toasted, almost nutty hush, while saffron stains the milk gold before the dough ever meets heat. the short chill matters: it lets the flours drink, so the squares cut clean and bake with crisp little edges.",
-        "de": "Buchweizen gibt diesem Lembas Wärme und Biss, der Safran zieht erst in der Milch und färbt den Teig schon vor dem Backen. Die kurze Kühlschrankruhe ist wichtig: Danach lässt sich alles sauber ritzen und die Ränder werden knusprig."
+        "en": "buckwheat gives this lembras a toasted, almost nutty hush, while saffron stains the milk gold before the dough ever meets heat. the short chill matters: it lets the flours drink, so the squares cut clean and bake with crisp little edges.",
+        "de": "Buchweizen gibt diesem Lembras Wärme und Biss, der Safran zieht erst in der Milch und färbt den Teig schon vor dem Backen. Die kurze Kühlschrankruhe ist wichtig: Danach lässt sich alles sauber ritzen und die Ränder werden knusprig."
       },
       "variant": {
         "diet": "classic",
@@ -23779,13 +23792,13 @@
       ],
       "tags": {
         "en": [
-          "lembas",
+          "lembras",
           "baking",
           "travel food",
           "saffron"
         ],
         "de": [
-          "Lembas",
+          "Lembras",
           "Backen",
           "Reiseproviant",
           "Safran"
@@ -23793,11 +23806,11 @@
       }
     },
     {
-      "id": "lembas-classic-medium-600",
-      "dish_id": "lembas",
+      "id": "lembras-classic-medium-600",
+      "dish_id": "lembras",
       "title": {
-        "en": "pressed honey almond lembas",
-        "de": "Gepresstes Honig-Mandel-Lembas"
+        "en": "pressed honey almond lembras",
+        "de": "Gepresstes Honig-Mandel-Lembras"
       },
       "caption": {
         "en": "honey shine under paper",
@@ -23978,11 +23991,11 @@
       }
     },
     {
-      "id": "lembas-vegan-easy-400",
-      "dish_id": "lembas",
+      "id": "lembras-vegan-easy-400",
+      "dish_id": "lembras",
       "title": {
-        "en": "maple oat lembas",
-        "de": "Ahorn-Hafer-Lembas"
+        "en": "maple oat lembras",
+        "de": "Ahorn-Hafer-Lembras"
       },
       "caption": {
         "en": "small gold for tired pockets",
@@ -24137,19 +24150,19 @@
       }
     },
     {
-      "id": "lembas-vegan-easy-600",
-      "dish_id": "lembas",
+      "id": "lembras-vegan-easy-600",
+      "dish_id": "lembras",
       "title": {
-        "en": "pressed sesame-oat lembas",
-        "de": "Gepresstes Sesam-Hafer-Lembas"
+        "en": "pressed sesame-oat lembras",
+        "de": "Gepresstes Sesam-Hafer-Lembras"
       },
       "caption": {
         "en": "sesame edges for later",
         "de": "Sesamränder für später"
       },
       "intro": {
-        "en": "toasted oats and sunflower seeds give this lembas its sandy little snap, while tahini and maple press it into a sturdy square. let the slab rest before baking; the oats drink up the gloss and come out ready for pocket weather.",
-        "de": "Geröstete Haferflocken und Sonnenblumenkerne machen dieses Lembas kernig, Tahin und Ahornsirup halten den Teig zusammen. Gib ihm kurz Ruhe vor dem Backen; so wird der Krumen fest, ohne trocken zu wirken."
+        "en": "toasted oats and sunflower seeds give this lembras its sandy little snap, while tahini and maple press it into a sturdy square. let the slab rest before baking; the oats drink up the gloss and come out ready for pocket weather.",
+        "de": "Geröstete Haferflocken und Sonnenblumenkerne machen dieses Lembras kernig, Tahin und Ahornsirup halten den Teig zusammen. Gib ihm kurz Ruhe vor dem Backen; so wird der Krumen fest, ohne trocken zu wirken."
       },
       "variant": {
         "diet": "vegan",
@@ -24319,27 +24332,27 @@
         {
           "text": {
             "en": "bake at 180°c for 18 minutes, until the edges bronze and the center looks matte.",
-            "de": "Backe das Lembas bei 180 °C 18 Minuten, bis die Ränder goldbraun sind und die Mitte matt aussieht."
+            "de": "Backe das Lembras bei 180 °C 18 Minuten, bis die Ränder goldbraun sind und die Mitte matt aussieht."
           },
           "timer_minutes": 18
         },
         {
           "text": {
             "en": "cool in the tin for 8 minutes, then lift out and cut along the scored lines. leave the pieces unwrapped until the steam is gone.",
-            "de": "Lass das Lembas 8 Minuten in der Form abkühlen, hebe es heraus und schneide es an den Linien. Wickle die Stücke erst ein, wenn kein Dampf mehr aufsteigt."
+            "de": "Lass das Lembras 8 Minuten in der Form abkühlen, hebe es heraus und schneide es an den Linien. Wickle die Stücke erst ein, wenn kein Dampf mehr aufsteigt."
           },
           "timer_minutes": 8
         }
       ],
       "tags": {
         "en": [
-          "lembas",
+          "lembras",
           "baking",
           "sesame",
           "travel food"
         ],
         "de": [
-          "Lembas",
+          "Lembras",
           "Backen",
           "Sesam",
           "Reisebrot"
@@ -24347,19 +24360,19 @@
       }
     },
     {
-      "id": "lembas-vegan-medium-400",
-      "dish_id": "lembas",
+      "id": "lembras-vegan-medium-400",
+      "dish_id": "lembras",
       "title": {
-        "en": "flaxbound saffron lembas",
-        "de": "Safran-Leinsamen-Lembas"
+        "en": "flaxbound saffron lembras",
+        "de": "Safran-Leinsamen-Lembras"
       },
       "caption": {
         "en": "sunny slabs, quiet crumbs",
         "de": "Sonnige Stücke, ruhige Krume"
       },
       "intro": {
-        "en": "this lembas starts with a hot flax gel, which gives the crumb a firm little backbone. toast the buckwheat only until it smells nutty, then pull it from the heat; one extra minute can turn it stern. deep scoring while warm gives clean squares later.",
-        "de": "Dieses Lembas bekommt Bindung durch heißen Leinsamenbrei; dadurch wird die Krume fest, aber nicht trocken. Röste das Buchweizenmehl nur, bis es nussig duftet, sonst kippt es ins Herbe. Tiefes Einschneiden noch warm sorgt später für saubere Stücke."
+        "en": "this lembras starts with a hot flax gel, which gives the crumb a firm little backbone. toast the buckwheat only until it smells nutty, then pull it from the heat; one extra minute can turn it stern. deep scoring while warm gives clean squares later.",
+        "de": "Dieses Lembras bekommt Bindung durch heißen Leinsamenbrei; dadurch wird die Krume fest, aber nicht trocken. Röste das Buchweizenmehl nur, bis es nussig duftet, sonst kippt es ins Herbe. Tiefes Einschneiden noch warm sorgt später für saubere Stücke."
       },
       "variant": {
         "diet": "vegan",
@@ -24522,7 +24535,7 @@
         {
           "text": {
             "en": "bake for 22 minutes, until the top is matte and the underside is pale gold.",
-            "de": "Backe das Lembas 22 Minuten, bis die Oberfläche matt und die Unterseite hellgolden ist."
+            "de": "Backe das Lembras 22 Minuten, bis die Oberfläche matt und die Unterseite hellgolden ist."
           },
           "timer_minutes": 22
         },
@@ -24550,19 +24563,19 @@
       }
     },
     {
-      "id": "lembas-vegan-medium-600",
-      "dish_id": "lembas",
+      "id": "lembras-vegan-medium-600",
+      "dish_id": "lembras",
       "title": {
-        "en": "coconut pumpkin-seed lembas",
-        "de": "Kokos-Kürbiskern-Lembas"
+        "en": "coconut pumpkin-seed lembras",
+        "de": "Kokos-Kürbiskern-Lembras"
       },
       "caption": {
         "en": "thick gold for the long walk",
         "de": "dickes Gold für lange Wege"
       },
       "intro": {
-        "en": "coconut milk makes these lembas squares plush before the oven firms them into pocket food. chill the dough hard, then cut it thick; the cold edges bake clean while the middle stays a little solemn and sweet.",
-        "de": "Kokosmilch gibt diesem Lembas eine satte Krume, ohne dass es weich zerfällt. Der Teig ruht kalt und wird dick geschnitten; so bleiben die Kanten sauber und die Mitte wird dicht, mürbe und gut für unterwegs."
+        "en": "coconut milk makes these lembras squares plush before the oven firms them into pocket food. chill the dough hard, then cut it thick; the cold edges bake clean while the middle stays a little solemn and sweet.",
+        "de": "Kokosmilch gibt diesem Lembras eine satte Krume, ohne dass es weich zerfällt. Der Teig ruht kalt und wird dick geschnitten; so bleiben die Kanten sauber und die Mitte wird dicht, mürbe und gut für unterwegs."
       },
       "variant": {
         "diet": "vegan",
@@ -24711,21 +24724,21 @@
         },
         {
           "text": {
-            "en": "cool on the tray for 10 minutes, then move the lembas to a rack until barely warm. wrap once cool, because the crumb settles as it rests.",
-            "de": "Lass das Lembas 10 Minuten auf dem Blech abkühlen und lege es dann auf ein Gitter, bis es nur noch lauwarm ist. Wickle es erst kalt ein, denn die Krume setzt sich beim Ruhen."
+            "en": "cool on the tray for 10 minutes, then move the lembras to a rack until barely warm. wrap once cool, because the crumb settles as it rests.",
+            "de": "Lass das Lembras 10 Minuten auf dem Blech abkühlen und lege es dann auf ein Gitter, bis es nur noch lauwarm ist. Wickle es erst kalt ein, denn die Krume setzt sich beim Ruhen."
           },
           "timer_minutes": 10
         }
       ],
       "tags": {
         "en": [
-          "lembas",
+          "lembras",
           "baking",
           "travel food",
           "maple"
         ],
         "de": [
-          "Lembas",
+          "Lembras",
           "Backen",
           "Reisegebäck",
           "Ahorn"

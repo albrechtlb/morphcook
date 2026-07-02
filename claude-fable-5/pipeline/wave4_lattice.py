@@ -303,18 +303,22 @@ THEME_GUARDRAILS = (
     "the FOOD. The cooking itself stays completely real and honest — the "
     "theme changes no ingredient, no technique, no number.")
 
-# Recreations invert the homage rule for ONE name: the fictional dish
-# itself. Everything else about the franchise stays out of the copy.
+# Recreations relax the homage rule for ONE name: a SOUNDALIKE of the
+# fictional dish itself. Everything else about the franchise stays out.
 RECREATION_GUARDRAILS = (
     "Recreation ground rules (non-negotiable): this dish is a FICTIONAL "
     "dish from a franchise, recreated with real ingredients. Its name is "
-    "the name fans know — EN the common English fan name (lowercase, like "
-    "all dish names), DE the German dub name where one exists. That ONE "
-    "name is the only franchise word allowed: no character names, no "
+    "a SOUNDALIKE of the fan name — one playful twist off the original, "
+    "instantly decodable, never the literal mark ('Nuckla-Coka' for a "
+    "certain wasteland soda, 'Butterbräu', 'Krabbelburger'). Twist BOTH "
+    "languages, including the German dub name; when the fictional name "
+    "is generic food words with no trademark ('lemon cakes', 'sea-salt "
+    "ice cream'), the real words stand as-is. That soundalike is the "
+    "only franchise-adjacent word allowed: no character names, no "
     "place-of-origin lore dumps, no quoted lines, no franchise/company "
-    "names anywhere in the copy — the dish name carries all the "
-    "recognition. The dish entry's hero or caption must read naturally as "
-    "an unofficial fan recreation ('our unofficial rebuild', 'inoffiziell "
+    "names anywhere in the copy — the name carries all the recognition. "
+    "The dish entry's hero or caption must read naturally as an "
+    "unofficial fan recreation ('our unofficial rebuild', 'inoffiziell "
     "nachgebaut') — charming, not legalese. The recipes themselves are "
     "real, honest cooking that chases the fiction's described look and "
     "taste; every ingredient is real and every number is true.")
@@ -1059,10 +1063,13 @@ def scout_slots(ctx, requested_name, theme="", recreation=False):
     if requested_name and recreation:
         request = (f'The dish to add: "{requested_name}" — a FICTIONAL '
                    "dish from a franchise, to be recreated with real "
-                   "ingredients. Use the name fans actually know it by in "
-                   "both languages (DE = the German dub name where one "
-                   "exists), then design the real-world baseline that "
-                   "chases its described look and taste.")
+                   "ingredients. Name it with a soundalike fans instantly "
+                   "decode (one twist off the original, both languages — "
+                   "twist the German dub name too); generic food words "
+                   "without trademark stand as-is. Then design the "
+                   "real-world baseline that chases its described look "
+                   "and taste. If the request already gives the "
+                   "soundalike, keep it.")
     elif requested_name:
         request = (f'The dish to add: "{requested_name}". Research its '
                    "canonical form (correct spelling and diacritics in both "
@@ -1612,13 +1619,16 @@ def self_test():
           and THEME_GUARDRAILS in themed_request)
     check("unthemed request untouched",
           "pop-culture" not in scout_slots(ctx, "okonomiyaki")["REQUEST"])
-    rec_request = scout_slots(ctx, "nuka cola", theme="wasteland soda",
+    rec_request = scout_slots(ctx, "nuckla coka", theme="wasteland soda",
                               recreation=True)["REQUEST"]
     check("recreation request carries carve-out + guardrails",
           "FICTIONAL" in rec_request
           and RECREATION_GUARDRAILS in rec_request
           and "does NOT make this a duplicate" in rec_request
           and THEME_GUARDRAILS not in rec_request)
+    check("recreation guardrails demand soundalike naming",
+          "SOUNDALIKE" in RECREATION_GUARDRAILS
+          and "never the literal mark" in RECREATION_GUARDRAILS)
     rec_path = WORK / "themes" / "self-test-recreation-dish.md"
     rec_path.parent.mkdir(parents=True, exist_ok=True)
     rec_path.write_text(RECREATION_MARKER + "\n\nwasteland soda brief\n")

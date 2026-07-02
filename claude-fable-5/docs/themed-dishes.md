@@ -7,19 +7,23 @@ different guardrails:
    tips its hat to gaming and nerd culture — allusion only, never a
    franchise word.
 2. **Fan recreations** (`--theme --recreation`): fictional dishes from
-   franchises, recreated with real ingredients — nuka cola, Krabbenburger,
-   LeBlanc curry. Here the fictional dish's *name* is used literally
-   (EN fan name + DE dub name), and only that name: no character names, no
-   quotes, no franchise names in the copy. Each recreation's dish copy
-   reads naturally as an unofficial fan recreation, and the in-app FAQ
-   (`fan-recreations`) carries the not-affiliated disclaimer.
+   franchises, recreated with real ingredients under **soundalike names**
+   — Nuckla-Coka, Krabbelburger, Butterbräu, LeBlonc curry, Lembras. One
+   playful twist off the original in both languages (German dub names get
+   twisted too), instantly decodable, never the literal mark; fictional
+   names that are generic food words ("lemon cakes", "sea-salt ice
+   cream") stand as-is. The soundalike is the only franchise-adjacent
+   word allowed: no character names, no quotes, no franchise names in
+   the copy. Each recreation's dish copy reads naturally as an
+   unofficial fan recreation, and the in-app FAQ (`fan-recreations`)
+   carries the not-affiliated disclaimer.
 
-**IP stance (recreations):** using fictional dish names in a commercial
-app is a deliberate, revisitable decision — the names are the recognition
-and the point, the disclaimer and unofficial framing are the mitigation,
-and the corpus only ships via store releases, so a legal review can gate
-any release. To retreat to allusive naming, re-run the affected dishes
-with a homage brief instead; nothing else changes.
+**IP stance (recreations):** soundalikes instead of literal marks —
+recognition survives the twist, the twist plus unofficial framing and
+the FAQ disclaimer keep the trademark distance. Literal fictional-dish
+names were shipped briefly on 2026-07-02 and renamed the same day; the
+corpus only ships via store releases, so a legal skim can still gate
+any release.
 
 ## The contract
 
@@ -58,11 +62,11 @@ pipeline/wave4_lattice.py --jobs 6      # writes all queued lattices, merges
 # let codex pick the dish for a theme
 pipeline/wave4_lattice.py --suggest-dish --theme "cozy farm-sim harvest food"
 
-# a fan recreation of a fictional dish (literal fan name, unofficial framing)
-pipeline/wave4_lattice.py --new-dish "nuka cola" --recreation \
-  --theme "The wasteland's favorite bottled soda: caramel-bright,
-           citrus-sharp, faintly glowing. Recreate as a from-scratch
-           cola syrup + sparkling water."
+# a fan recreation of a fictional dish (soundalike name, unofficial framing)
+pipeline/wave4_lattice.py --new-dish "nuckla coka" --recreation \
+  --theme "Soundalike of the wasteland's favorite bottled soda:
+           caramel-bright, citrus-sharp, faintly glowing. Recreate as a
+           from-scratch cola syrup + sparkling water."
 ```
 
 The brief is persisted per dish under `pipeline/wave4/themes/<dish-id>.md`,
