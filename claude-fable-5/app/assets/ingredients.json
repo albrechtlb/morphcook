@@ -388,6 +388,14 @@
           "flags": [
             "high-fodmap"
           ]
+        },
+        {
+          "id": "pumpkin",
+          "name": {
+            "en": "pumpkin",
+            "de": "Kürbis"
+          },
+          "flags": []
         }
       ]
     },
@@ -1090,6 +1098,19 @@
           "flags": [
             "gluten",
             "high-fodmap"
+          ],
+          "children": [
+            {
+              "id": "panko",
+              "name": {
+                "en": "panko breadcrumbs",
+                "de": "Panko"
+              },
+              "flags": [
+                "gluten",
+                "high-fodmap"
+              ]
+            }
           ]
         },
         {
@@ -1370,7 +1391,17 @@
           "name": {
             "en": "corn tortillas",
             "de": "Mais-Tortillas"
-          }
+          },
+          "children": [
+            {
+              "id": "tortilla-chips",
+              "name": {
+                "en": "tortilla chips",
+                "de": "Tortilla-Chips"
+              },
+              "flags": []
+            }
+          ]
         },
         {
           "id": "wheat-tortilla",
@@ -2239,6 +2270,16 @@
           },
           "flags": [
             "fish"
+          ]
+        },
+        {
+          "id": "umeboshi",
+          "name": {
+            "en": "umeboshi (pickled plum)",
+            "de": "Umeboshi (eingelegte Pflaume)"
+          },
+          "flags": [
+            "high-fodmap"
           ]
         }
       ]

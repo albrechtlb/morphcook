@@ -7,11 +7,15 @@ efficient loading and incremental updates.
 
 | Partition | File | Contents | Loaded |
 |---|---|---|---|
-| `core` | `core-recipes.json` | top ~80% most-used recipes (8 dishes) | at launch |
+| `core` | `core-recipes.json` | top ~80% most-used recipes | at launch |
 | `extended` | `extended-recipes.json` | rarely-used long-tail dishes | on demand |
 | `cuisine-italian` | `cuisine-italian.json` | Italian discovery partition | on demand |
 | `cuisine-asian` | `cuisine-asian.json` | Asian discovery partition | on demand |
 | `cuisine-middle-eastern` | `cuisine-middle-eastern.json` | Middle-Eastern discovery partition | on demand |
+| `cuisine-indian` | `cuisine-indian.json` | Indian discovery partition | on demand |
+| `cuisine-mexican` | `cuisine-mexican.json` | Mexican discovery partition | on demand |
+| `cuisine-european` | `cuisine-european.json` | European discovery partition | on demand |
+| `pop-culture` | `pop-culture.json` | gaming & nerd-culture homage dishes (see [themed-dishes.md](themed-dishes.md)) | on demand |
 
 `partition-manifest.json` is the registry: partition definitions, the
 loading strategy (`at_launch` vs `on_demand`), cross-references, and the

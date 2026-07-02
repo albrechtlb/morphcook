@@ -38,6 +38,7 @@ flutter:
     - assets/cuisine-indian.json
     - assets/cuisine-mexican.json
     - assets/cuisine-european.json
+    - assets/pop-culture.json
     - assets/dishes.json
     - assets/ontology.json
     - assets/ingredients.json

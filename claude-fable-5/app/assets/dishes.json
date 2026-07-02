@@ -5413,6 +5413,316 @@
         "comfort-food"
       ],
       "frequency_tier": "high"
+    },
+    {
+      "id": "cinnamon-rolls",
+      "name": {
+        "en": "cinnamon rolls",
+        "de": "Zimtschnecken"
+      },
+      "hero": {
+        "en": "soft cinnamon spirals for the adventurer who definitely found them legally",
+        "de": "Weiche Zimtschnecken für Abenteurer, die ihren süßen Fund ganz bestimmt bezahlt haben."
+      },
+      "caption": {
+        "en": "guard the sweet hoard",
+        "de": "Den süßen Hort gut bewachen."
+      },
+      "stripe": "#b07a4f",
+      "recipes": [
+        "cinnamon-rolls-classic-easy-400",
+        "cinnamon-rolls-classic-easy-600",
+        "cinnamon-rolls-classic-medium-400",
+        "cinnamon-rolls-classic-medium-600",
+        "cinnamon-rolls-vegan-easy-400",
+        "cinnamon-rolls-vegan-easy-600",
+        "cinnamon-rolls-vegan-medium-400",
+        "cinnamon-rolls-vegan-medium-600",
+        "cinnamon-rolls-gluten-free-easy-400"
+      ],
+      "partition_id": "pop-culture",
+      "secondary_partitions": [],
+      "cuisine_tags": [
+        "american",
+        "dessert",
+        "baking",
+        "gaming"
+      ],
+      "frequency_tier": "medium"
+    },
+    {
+      "id": "chocolate-cake",
+      "name": {
+        "en": "chocolate cake",
+        "de": "Schokoladenkuchen"
+      },
+      "hero": {
+        "en": "a dark, tender layer cake that passes every test and keeps the promise on the plate.",
+        "de": "Ein dunkler, saftiger Schokoladenkuchen, der den Test besteht und sein Versprechen hält."
+      },
+      "caption": {
+        "en": "test complete, cake confirmed",
+        "de": "Test bestanden, Kuchen echt"
+      },
+      "stripe": "#6b3f36",
+      "recipes": [
+        "chocolate-cake-classic-medium-400",
+        "chocolate-cake-classic-medium-600",
+        "chocolate-cake-classic-hard-400",
+        "chocolate-cake-classic-hard-600",
+        "chocolate-cake-vegan-medium-400",
+        "chocolate-cake-vegan-medium-600",
+        "chocolate-cake-vegan-hard-400",
+        "chocolate-cake-vegan-hard-600",
+        "chocolate-cake-gluten-free-medium-400"
+      ],
+      "partition_id": "pop-culture",
+      "secondary_partitions": [],
+      "cuisine_tags": [
+        "american",
+        "dessert",
+        "baking",
+        "gaming"
+      ],
+      "frequency_tier": "medium"
+    },
+    {
+      "id": "mushroom-soup",
+      "name": {
+        "en": "mushroom soup",
+        "de": "Pilzsuppe"
+      },
+      "hero": {
+        "en": "a deep, earthy bowl for careful foragers, wholesome even when the mushrooms look dramatic.",
+        "de": "eine erdige Schüssel Waldwärme für vorsichtige Sammler, gemütlich und ganz harmlos."
+      },
+      "caption": {
+        "en": "not suspicious, just forest comfort",
+        "de": "Harmlos, nur Wald im Topf"
+      },
+      "stripe": "#8b7a5a",
+      "recipes": [
+        "mushroom-soup-classic-easy-400",
+        "mushroom-soup-classic-easy-600",
+        "mushroom-soup-classic-medium-400",
+        "mushroom-soup-classic-medium-600",
+        "mushroom-soup-vegan-easy-400",
+        "mushroom-soup-vegan-easy-600",
+        "mushroom-soup-vegan-medium-400",
+        "mushroom-soup-vegan-medium-600"
+      ],
+      "partition_id": "pop-culture",
+      "secondary_partitions": [
+        "cuisine-european"
+      ],
+      "cuisine_tags": [
+        "european",
+        "soup",
+        "comfort-food",
+        "gaming"
+      ],
+      "frequency_tier": "high"
+    },
+    {
+      "id": "pumpkin-soup",
+      "name": {
+        "en": "pumpkin soup",
+        "de": "Kürbissuppe"
+      },
+      "hero": {
+        "en": "a copper pot of autumn glow, ladled after the last pumpkin leaves the patch.",
+        "de": "ein Topf goldener Herbst, gekocht nach dem letzten Gang durchs Beet."
+      },
+      "caption": {
+        "en": "first frost, full bowl",
+        "de": "Frost am Zaun, Suppe im Topf"
+      },
+      "stripe": "#b98245",
+      "recipes": [
+        "pumpkin-soup-classic-easy-400",
+        "pumpkin-soup-classic-easy-600",
+        "pumpkin-soup-classic-medium-400",
+        "pumpkin-soup-classic-medium-600",
+        "pumpkin-soup-vegan-easy-400",
+        "pumpkin-soup-vegan-easy-600",
+        "pumpkin-soup-vegan-medium-400",
+        "pumpkin-soup-vegan-medium-600"
+      ],
+      "partition_id": "pop-culture",
+      "secondary_partitions": [
+        "cuisine-european"
+      ],
+      "cuisine_tags": [
+        "european",
+        "soup",
+        "comfort-food",
+        "gaming"
+      ],
+      "frequency_tier": "medium"
+    },
+    {
+      "id": "katsudon",
+      "name": {
+        "en": "katsudon",
+        "de": "Katsudon"
+      },
+      "hero": {
+        "en": "crispy tonkatsu tucked into soft egg and rice, because discipline deserves a bowl",
+        "de": "Knuspriges Tonkatsu, weiches Ei und Reis für den Moment, in dem sich Disziplin auszahlt."
+      },
+      "caption": {
+        "en": "win first, bowl later",
+        "de": "erst siegen, dann löffeln"
+      },
+      "stripe": "#b88752",
+      "recipes": [
+        "katsudon-classic-easy-600",
+        "katsudon-classic-easy-800",
+        "katsudon-classic-medium-600",
+        "katsudon-classic-medium-800",
+        "katsudon-vegetarian-easy-600",
+        "katsudon-vegetarian-easy-800",
+        "katsudon-vegetarian-medium-600",
+        "katsudon-vegetarian-medium-800",
+        "katsudon-vegan-easy-600",
+        "katsudon-vegan-easy-800",
+        "katsudon-vegan-medium-600",
+        "katsudon-vegan-medium-800"
+      ],
+      "partition_id": "pop-culture",
+      "secondary_partitions": [
+        "cuisine-asian"
+      ],
+      "cuisine_tags": [
+        "japanese",
+        "rice",
+        "bowl",
+        "anime"
+      ],
+      "frequency_tier": "medium"
+    },
+    {
+      "id": "onigiri",
+      "name": {
+        "en": "onigiri",
+        "de": "Onigiri"
+      },
+      "hero": {
+        "en": "a warm little triangle of rice and nori, definitely not a donut, packed for the next training arc.",
+        "de": "Ein salziges Reisdreieck im Nori-Mantel, ganz sicher kein Donut, bereit für die nächste Trainingsrunde."
+      },
+      "caption": {
+        "en": "definitely not a donut",
+        "de": "Ganz sicher kein Donut"
+      },
+      "stripe": "#6f7355",
+      "recipes": [
+        "onigiri-classic-easy-400",
+        "onigiri-classic-easy-600",
+        "onigiri-classic-medium-400",
+        "onigiri-classic-medium-600",
+        "onigiri-vegetarian-easy-400",
+        "onigiri-vegetarian-easy-600",
+        "onigiri-vegetarian-medium-400",
+        "onigiri-vegetarian-medium-600",
+        "onigiri-vegan-easy-400",
+        "onigiri-vegan-easy-600",
+        "onigiri-vegan-medium-400",
+        "onigiri-vegan-medium-600"
+      ],
+      "partition_id": "pop-culture",
+      "secondary_partitions": [
+        "cuisine-asian"
+      ],
+      "cuisine_tags": [
+        "japanese",
+        "rice",
+        "bento",
+        "anime"
+      ],
+      "frequency_tier": "medium"
+    },
+    {
+      "id": "beef-stew",
+      "name": {
+        "en": "beef stew",
+        "de": "Rindereintopf"
+      },
+      "hero": {
+        "en": "a deep, slow-simmered bowl for muddy boots, low lamplight, and the quest you can start tomorrow.",
+        "de": "ein kräftiger, langsam geschmorter Eintopf für nasse Stiefel, warmes Licht und den Aufbruch morgen."
+      },
+      "caption": {
+        "en": "quest tomorrow, stew tonight",
+        "de": "Aufbruch morgen, Eintopf heute"
+      },
+      "stripe": "#8a5a3b",
+      "recipes": [
+        "beef-stew-classic-easy-400",
+        "beef-stew-classic-easy-600",
+        "beef-stew-classic-medium-400",
+        "beef-stew-classic-medium-600",
+        "beef-stew-vegetarian-easy-400",
+        "beef-stew-vegetarian-easy-600",
+        "beef-stew-vegetarian-medium-400",
+        "beef-stew-vegetarian-medium-600",
+        "beef-stew-vegan-easy-400",
+        "beef-stew-vegan-easy-600",
+        "beef-stew-vegan-medium-400",
+        "beef-stew-vegan-medium-600"
+      ],
+      "partition_id": "pop-culture",
+      "secondary_partitions": [
+        "cuisine-european"
+      ],
+      "cuisine_tags": [
+        "european",
+        "stew",
+        "comfort-food",
+        "gaming"
+      ],
+      "frequency_tier": "high"
+    },
+    {
+      "id": "nachos",
+      "name": {
+        "en": "nachos",
+        "de": "Nachos"
+      },
+      "hero": {
+        "en": "a tray of crunchy chips, melted cheese, and jalapeños waits by the couch for one more round.",
+        "de": "Ein Blech voller knuspriger Chips, geschmolzenem Käse und Jalapeños wartet auf die nächste Couchrunde."
+      },
+      "caption": {
+        "en": "one more round, extra jalapeños",
+        "de": "Noch eine Runde, extra Jalapeños."
+      },
+      "stripe": "#b57a3a",
+      "recipes": [
+        "nachos-classic-easy-400",
+        "nachos-classic-easy-600",
+        "nachos-classic-medium-400",
+        "nachos-classic-medium-600",
+        "nachos-vegetarian-easy-400",
+        "nachos-vegetarian-easy-600",
+        "nachos-vegetarian-medium-400",
+        "nachos-vegetarian-medium-600",
+        "nachos-vegan-easy-400",
+        "nachos-vegan-easy-600",
+        "nachos-vegan-medium-400",
+        "nachos-vegan-medium-600"
+      ],
+      "partition_id": "pop-culture",
+      "secondary_partitions": [
+        "cuisine-mexican"
+      ],
+      "cuisine_tags": [
+        "tex-mex",
+        "mexican",
+        "snack",
+        "gaming"
+      ],
+      "frequency_tier": "high"
     }
   ]
 }

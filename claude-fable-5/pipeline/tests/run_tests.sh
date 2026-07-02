@@ -32,6 +32,16 @@ check "per-stage agent flags are accepted" \
 check "wave4 lattice pipeline self-test" \
   python3 "$DIR/../wave4_lattice.py" --self-test
 
+# Partition files come from the manifest — a partition added there is
+# covered here automatically.
+PARTITION_FILES=()
+while IFS= read -r rel; do
+  PARTITION_FILES+=("$ASSETS/$(basename "$rel")")
+done < <(jq -r '.partitions[].file' "$ASSETS/partition-manifest.json")
+
+check "every manifest partition file exists" bash -c '
+  for f in '"${PARTITION_FILES[*]@Q}"'; do [ -f "$f" ] || exit 1; done'
+
 # --- shipped corpus parses ---
 for f in "$ASSETS"/*.json; do
   check "parses: $(basename "$f")" jq empty "$f"
@@ -39,9 +49,9 @@ done
 
 # --- schema validation (full when check-jsonschema is available) ---
 if command -v check-jsonschema >/dev/null 2>&1; then
-  for partition in core-recipes extended-recipes cuisine-italian \
-                   cuisine-asian cuisine-middle-eastern; do
-    jq -c '.recipes[]' "$ASSETS/$partition.json" | while read -r recipe; do
+  for pf in "${PARTITION_FILES[@]}"; do
+    partition="$(basename "$pf" .json)"
+    jq -c '.recipes[]' "$pf" | while read -r recipe; do
       echo "$recipe" > /tmp/morphcook-recipe-test.json
       check-jsonschema --schemafile "$SCHEMAS/recipe.schema.json" \
         /tmp/morphcook-recipe-test.json >/dev/null
@@ -59,22 +69,19 @@ fi
 # --- quality-gate invariants (jq only) ---
 check "all recipe dish_ids exist in dishes.json" bash -c '
   dishes=$(jq -r ".dishes[].id" "'"$ASSETS"'/dishes.json")
-  for f in "'"$ASSETS"'"/core-recipes.json "'"$ASSETS"'"/extended-recipes.json \
-           "'"$ASSETS"'"/cuisine-*.json; do
+  for f in '"${PARTITION_FILES[*]@Q}"'; do
     for d in $(jq -r ".recipes[].dish_id" "$f"); do
       grep -qx "$d" <<< "$dishes" || exit 1
     done
   done'
 
 check "no duplicate recipe ids across partitions" bash -c '
-  ids=$(jq -r ".recipes[].id" "'"$ASSETS"'"/core-recipes.json \
-    "'"$ASSETS"'"/extended-recipes.json "'"$ASSETS"'"/cuisine-*.json)
+  ids=$(jq -r ".recipes[].id" '"${PARTITION_FILES[*]@Q}"')
   [ "$(wc -l <<< "$ids")" = "$(sort -u <<< "$ids" | wc -l)" ]'
 
 check "ontology flags referenced by recipes exist" bash -c '
   flags=$(jq -r ".contains_flags[].id" "'"$ASSETS"'/ontology.json")
-  for f in "'"$ASSETS"'"/core-recipes.json "'"$ASSETS"'"/extended-recipes.json \
-           "'"$ASSETS"'"/cuisine-*.json; do
+  for f in '"${PARTITION_FILES[*]@Q}"'; do
     for c in $(jq -r ".recipes[].contains[]" "$f" | sort -u); do
       grep -qx "$c" <<< "$flags" || { echo "$c"; exit 1; }
     done

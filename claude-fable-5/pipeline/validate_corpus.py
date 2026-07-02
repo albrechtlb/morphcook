@@ -58,6 +58,11 @@ class Ctx:
         self.compounds = {c["id"]: set(c["expands_to"])
                           for c in self.ont["compound_flags"]}
         self.techniques = set(self.ont["attributes"]["technique"])
+        # The app-side contract test rejects any attribute outside this
+        # vocabulary — mirror it here so nothing ships past the pipeline.
+        self.known_attrs = set(self.ont["diet_labels"])
+        for values in self.ont["attributes"].values():
+            self.known_attrs.update(values)
         self.ing_flags = {}   # id -> inherited flag set
         def walk(node, inherited):
             flags = set(node.get("flags", [])) | inherited
@@ -188,6 +193,9 @@ def check_recipe(r, ctx, errors, warnings, dish_id=None):
     retired = attrs & RETIRED_ATTRS
     if retired:
         err(f"retired attributes {sorted(retired)}")
+    unknown_attrs = attrs - ctx.known_attrs - RETIRED_ATTRS
+    if unknown_attrs:
+        err(f"unknown attributes {sorted(unknown_attrs)}")
     for cid, expansion in ctx.compounds.items():
         qualifies = not (contains & expansion)
         if cid == "lactose-free":
