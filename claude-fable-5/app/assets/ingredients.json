@@ -823,6 +823,18 @@
           "flags": [
             "dairy"
           ]
+        },
+        {
+          "id": "sweetened-condensed-milk",
+          "name": {
+            "en": "sweetened condensed milk",
+            "de": "gezuckerte Kondensmilch"
+          },
+          "flags": [
+            "dairy",
+            "added-sugar",
+            "high-fodmap"
+          ]
         }
       ]
     },
@@ -2281,6 +2293,22 @@
           "flags": [
             "high-fodmap"
           ]
+        },
+        {
+          "id": "sparkling-water",
+          "name": {
+            "en": "sparkling water",
+            "de": "Sprudelwasser"
+          },
+          "flags": []
+        },
+        {
+          "id": "butterfly-pea-powder",
+          "name": {
+            "en": "butterfly pea powder",
+            "de": "Schmetterlingserbsenpulver"
+          },
+          "flags": []
         }
       ]
     },

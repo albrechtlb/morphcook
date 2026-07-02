@@ -303,18 +303,43 @@ THEME_GUARDRAILS = (
     "the FOOD. The cooking itself stays completely real and honest — the "
     "theme changes no ingredient, no technique, no number.")
 
+# Recreations invert the homage rule for ONE name: the fictional dish
+# itself. Everything else about the franchise stays out of the copy.
+RECREATION_GUARDRAILS = (
+    "Recreation ground rules (non-negotiable): this dish is a FICTIONAL "
+    "dish from a franchise, recreated with real ingredients. Its name is "
+    "the name fans know — EN the common English fan name (lowercase, like "
+    "all dish names), DE the German dub name where one exists. That ONE "
+    "name is the only franchise word allowed: no character names, no "
+    "place-of-origin lore dumps, no quoted lines, no franchise/company "
+    "names anywhere in the copy — the dish name carries all the "
+    "recognition. The dish entry's hero or caption must read naturally as "
+    "an unofficial fan recreation ('our unofficial rebuild', 'inoffiziell "
+    "nachgebaut') — charming, not legalese. The recipes themselves are "
+    "real, honest cooking that chases the fiction's described look and "
+    "taste; every ingredient is real and every number is true.")
+
+RECREATION_MARKER = "mode: recreation"
+
 
 def theme_note(dish_id):
     """The dish's theme brief as a prompt block ('' for unthemed dishes).
 
     Saved by apply_scout for --theme dishes; read at every later stage so
-    themed generation survives interrupts and resumed runs.
+    themed generation survives interrupts and resumed runs. A first line
+    of 'mode: recreation' switches the guardrails from homage to
+    fan-recreation (literal fictional dish name allowed).
     """
     path = WORK / "themes" / f"{dish_id}.md"
     if not path.exists():
         return ""
+    text = path.read_text().strip()
+    if text.startswith(RECREATION_MARKER):
+        brief = text[len(RECREATION_MARKER):].strip()
+        return ("## Theme (fan recreation of a fictional dish)\n\n"
+                + brief + "\n\n" + RECREATION_GUARDRAILS)
     return ("## Theme (homage, never trademark)\n\n"
-            + path.read_text().strip() + "\n\n" + THEME_GUARDRAILS)
+            + text + "\n\n" + THEME_GUARDRAILS)
 
 
 # ------------------------------------------------------------------- codex
@@ -1022,8 +1047,23 @@ def mech_scout_errors(ctx, doc, requested_name):
     return errors
 
 
-def scout_slots(ctx, requested_name, theme=""):
-    if requested_name:
+THEMED_ROUTING = (
+    "Routing for themed dishes: partition_id is 'pop-culture'; "
+    "cuisine_tags carry one theme tag (e.g. 'gaming', 'game-night', "
+    "'anime') alongside the dish's real cuisine tags; add the natural "
+    "cuisine partition to secondary_partitions when one genuinely "
+    "applies.")
+
+
+def scout_slots(ctx, requested_name, theme="", recreation=False):
+    if requested_name and recreation:
+        request = (f'The dish to add: "{requested_name}" — a FICTIONAL '
+                   "dish from a franchise, to be recreated with real "
+                   "ingredients. Use the name fans actually know it by in "
+                   "both languages (DE = the German dub name where one "
+                   "exists), then design the real-world baseline that "
+                   "chases its described look and taste.")
+    elif requested_name:
         request = (f'The dish to add: "{requested_name}". Research its '
                    "canonical form (correct spelling and diacritics in both "
                    "languages) and fill in everything else.")
@@ -1038,16 +1078,24 @@ def scout_slots(ctx, requested_name, theme=""):
                    "(breakfast/dessert/weeknight dinners), and pick "
                    "something people genuinely cook and crave — not a "
                    "novelty.")
-    if theme:
+    if recreation:
+        request += (
+            "\n\nThis recreation joins MorphCook's pop-culture shelf.\n\n"
+            "## Theme brief\n\n" + theme.strip() + "\n\n"
+            + RECREATION_GUARDRAILS + "\n\n" + THEMED_ROUTING + "\n\n"
+            "IMPORTANT — recreations and the duplicate rule: a related "
+            "real archetype existing in the corpus (a fictional burger "
+            "vs. burger, a fictional curry vs. japanese-curry) does NOT "
+            "make this a duplicate. The fictional identity is the dish: "
+            "people seek and cook THIS recreation by name. Judge only "
+            "whether the recreation itself is distinct and honestly "
+            "cookable.")
+    elif theme:
         request += (
             "\n\nThis dish joins MorphCook's pop-culture shelf: real, "
             "canonical dishes whose entry copy tips its hat to gaming and "
             "nerd culture.\n\n## Theme brief\n\n" + theme.strip() + "\n\n"
-            + THEME_GUARDRAILS + "\n\nRouting for themed dishes: "
-            "partition_id is 'pop-culture'; cuisine_tags carry one theme "
-            "tag (e.g. 'gaming', 'game-night') alongside the dish's real "
-            "cuisine tags; add the natural cuisine partition to "
-            "secondary_partitions when one genuinely applies. The dish "
+            + THEME_GUARDRAILS + "\n\n" + THEMED_ROUTING + " The dish "
             "name stays the food's canonical name — hero and caption "
             "carry the wink.")
     return {
@@ -1062,7 +1110,8 @@ def scout_slots(ctx, requested_name, theme=""):
 def scout_stage(args, ctx, requested_name):
     """Research one new dish's baseline (entry + missing ingredients)."""
     label = requested_name or "(suggest)"
-    slots = scout_slots(ctx, requested_name, theme=args.theme)
+    slots = scout_slots(ctx, requested_name, theme=args.theme,
+                        recreation=args.recreation)
     latest, older, prev = [], [], None
     for attempt in range(1, args.max_attempts + 1):
         log("scout", f"{label}: researching (attempt {attempt})")
@@ -1107,7 +1156,7 @@ def insert_ingredient(ing_doc, parent_id, node):
     return any(walk(root) for root in ing_doc["nodes"])
 
 
-def apply_scout(ctx, doc, theme=""):
+def apply_scout(ctx, doc, theme="", recreation=False):
     """Persist an accepted scout result: catalog additions + pending dish."""
     new_ings = doc.get("new_ingredients") or []
     if new_ings:
@@ -1129,8 +1178,10 @@ def apply_scout(ctx, doc, theme=""):
     if theme:
         theme_path = WORK / "themes" / f"{doc['dish']['id']}.md"
         theme_path.parent.mkdir(parents=True, exist_ok=True)
-        theme_path.write_text(theme.strip() + "\n")
-        log("scout", f"theme brief saved for '{doc['dish']['id']}'")
+        prefix = RECREATION_MARKER + "\n\n" if recreation else ""
+        theme_path.write_text(prefix + theme.strip() + "\n")
+        log("scout", f"theme brief saved for '{doc['dish']['id']}'"
+                     + (" (recreation)" if recreation else ""))
     log("scout", f"dish '{doc['dish']['id']}' queued (pending until its "
                  "lattice ships)")
 
@@ -1561,6 +1612,25 @@ def self_test():
           and THEME_GUARDRAILS in themed_request)
     check("unthemed request untouched",
           "pop-culture" not in scout_slots(ctx, "okonomiyaki")["REQUEST"])
+    rec_request = scout_slots(ctx, "nuka cola", theme="wasteland soda",
+                              recreation=True)["REQUEST"]
+    check("recreation request carries carve-out + guardrails",
+          "FICTIONAL" in rec_request
+          and RECREATION_GUARDRAILS in rec_request
+          and "does NOT make this a duplicate" in rec_request
+          and THEME_GUARDRAILS not in rec_request)
+    rec_path = WORK / "themes" / "self-test-recreation-dish.md"
+    rec_path.parent.mkdir(parents=True, exist_ok=True)
+    rec_path.write_text(RECREATION_MARKER + "\n\nwasteland soda brief\n")
+    try:
+        rec_note = theme_note("self-test-recreation-dish")
+        check("recreation marker switches guardrails",
+              "wasteland soda brief" in rec_note
+              and RECREATION_GUARDRAILS in rec_note
+              and RECREATION_MARKER not in rec_note
+              and THEME_GUARDRAILS not in rec_note)
+    finally:
+        rec_path.unlink()
 
     for name, template in ctx.prompts.items():
         slots = set(re.findall(r"\{\{([A-Z_]+)\}\}", template))
@@ -1621,6 +1691,11 @@ def main():
                          "the pop-culture shelf; the brief steers homage "
                          "copy (hero, captions, intros) while the recipes "
                          "stay real food — trademark-free by contract")
+    ap.add_argument("--recreation", action="store_true",
+                    help="with --new-dish + --theme: the dish is a "
+                         "fictional franchise dish recreated with real "
+                         "ingredients — its fan name is used literally "
+                         "(docs/themed-dishes.md covers the IP stance)")
     ap.add_argument("--queue-only", action="store_true",
                     help="with --new-dish: scout and queue the baseline "
                          "only; a later run writes the lattice (queue "
@@ -1645,6 +1720,8 @@ def main():
 
     if args.theme and not (args.new_dish or args.suggest_dish):
         sys.exit("--theme requires --new-dish or --suggest-dish")
+    if args.recreation and not (args.new_dish and args.theme):
+        sys.exit("--recreation requires --new-dish and --theme")
     if args.queue_only and not args.new_dish:
         sys.exit("--queue-only requires --new-dish")
 
@@ -1704,7 +1781,8 @@ def main():
     try:
         if args.new_dish:
             doc = scout_stage(args, ctx, args.new_dish)
-            apply_scout(ctx, doc, theme=args.theme)
+            apply_scout(ctx, doc, theme=args.theme,
+                        recreation=args.recreation)
             if args.queue_only:
                 print(f"\n{doc['dish']['id']} queued — a normal run writes "
                       "its lattice and ships it at merge")

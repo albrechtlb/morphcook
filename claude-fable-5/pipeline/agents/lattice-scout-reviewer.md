@@ -19,7 +19,12 @@ Reject (`approved: false`) for any of these:
    cookbook would print?), an EN name that isn't the dish's common name.
 2. **Duplicate in disguise.** The dish (or a trivial variation of it)
    already exists in the list. Diet/effort variants of existing dishes are
-   the lattice's job, not a new dish.
+   the lattice's job, not a new dish. EXCEPTION: when the request below
+   declares a fan recreation of a fictional dish, a related real archetype
+   in the list is NOT a duplicate — the fictional identity is the dish.
+   For recreations, judge instead that the name is the one fans actually
+   use (DE = the German dub name where one exists), that the baseline is
+   honestly cookable, and that the copy reads as an unofficial recreation.
 3. **Ingredient flag errors — the safety gate.** For every proposed new
    ingredient, audit the flags against the closed vocabulary: a missing
    allergen flag (gluten on a wheat product, tree-nuts on a nut, fish on a
@@ -38,6 +43,10 @@ Reject (`approved: false`) for any of these:
 
 Do not reject for taste — if it's a real dish people cook, correctly named
 and routed, it passes.
+
+## The request this proposal answers
+
+{{REQUEST}}
 
 ## The proposal under review
 
