@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "corpus_version": "2026.07.3",
+  "corpus_version": "2026.07.4",
   "generated_by": "morphcook pipeline",
   "loading_strategy": {
     "at_launch": [
@@ -193,7 +193,66 @@
         "crabby-patty",
         "butterbrew",
         "lembras",
-        "sea-salt-ice-cream"
+        "sea-salt-ice-cream",
+        "sweetroll",
+        "black-forest-cake",
+        "butterscotch-cinnamon-pie",
+        "well-done-steak",
+        "sandvich",
+        "beer-basted-ribs",
+        "pink-frosted-donuts",
+        "bacon-pancakes",
+        "creamy-heart-soup",
+        "gotchop-pork-roast",
+        "treacle-tart",
+        "pumpkin-pasties",
+        "lemon-cakes",
+        "turkish-delight",
+        "cheese-buns",
+        "lamb-plum-stew",
+        "fish-fingers-and-custard",
+        "the-moist-baker",
+        "plomek-soup",
+        "blue-milk",
+        "apple-cabbage-stew",
+        "sticky-honey-roast",
+        "complete-breakfast",
+        "pocket-puffs",
+        "monster-cake",
+        "honey-cakes",
+        "oyakodon",
+        "karaage",
+        "omurice",
+        "baked-apples",
+        "pumpkin-pie",
+        "stuffed-mushrooms",
+        "peach-shortcake",
+        "bacon-and-eggs",
+        "cherry-pie",
+        "smores",
+        "hot-dogs",
+        "loaded-baked-potatoes",
+        "mitarashi-dango",
+        "melonpan",
+        "taiyaki",
+        "elswhere-fondue",
+        "boiled-creme-treat",
+        "suspicious-stew",
+        "dragonbreath-chili",
+        "mirelark-cakes",
+        "sundown-sarsaparilla",
+        "fancy-lasses-snack-cakes",
+        "nice-cream",
+        "glammburger",
+        "pawffins",
+        "estos-broth",
+        "hasperot-wrap",
+        "ronton-wrap",
+        "popplets",
+        "cauldron-cakes",
+        "everything-burrito",
+        "wonko-bars",
+        "dubious-food"
       ]
     }
   ],
@@ -212,7 +271,15 @@
         "chicken-stir-fry",
         "katsudon",
         "onigiri",
-        "leblonc-curry"
+        "leblonc-curry",
+        "gotchop-pork-roast",
+        "oyakodon",
+        "karaage",
+        "omurice",
+        "mitarashi-dango",
+        "melonpan",
+        "taiyaki",
+        "dubious-food"
       ]
     },
     {
@@ -223,7 +290,29 @@
         "pumpkin-soup",
         "beef-stew",
         "butterbrew",
-        "lembras"
+        "lembras",
+        "sweetroll",
+        "black-forest-cake",
+        "beer-basted-ribs",
+        "creamy-heart-soup",
+        "treacle-tart",
+        "pumpkin-pasties",
+        "lemon-cakes",
+        "cheese-buns",
+        "fish-fingers-and-custard",
+        "plomek-soup",
+        "apple-cabbage-stew",
+        "sticky-honey-roast",
+        "pocket-puffs",
+        "monster-cake",
+        "honey-cakes",
+        "baked-apples",
+        "stuffed-mushrooms",
+        "elswhere-fondue",
+        "boiled-creme-treat",
+        "suspicious-stew",
+        "estos-broth",
+        "cauldron-cakes"
       ]
     },
     {
@@ -236,14 +325,19 @@
     {
       "partition_id": "cuisine-mexican",
       "dish_ids": [
-        "nachos"
+        "nachos",
+        "dragonbreath-chili",
+        "everything-burrito"
       ]
     },
     {
       "partition_id": "cuisine-middle-eastern",
       "dish_ids": [
         "doener",
-        "shakshuka"
+        "shakshuka",
+        "turkish-delight",
+        "lamb-plum-stew",
+        "hasperot-wrap"
       ]
     },
     {
