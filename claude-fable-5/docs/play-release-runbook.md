@@ -46,7 +46,14 @@ python3 deploy/publish_play.py \
 
 Promote internal → production either in the Console UI or by re-running
 with `--track production` (optionally `--rollout 0.2` for a staged 20%
-rollout).
+rollout). Distinct notes per language: `--notes-en` / `--notes-de`.
+
+> Known false alarm: without Android SDK `cmdline-tools`, `flutter build
+> appbundle` exits 1 AFTER producing a valid AAB ("failed to strip debug
+> symbols" — it cannot run its own post-build check). Verify manually
+> (`llvm-readelf -S` on the bundled .so files shows zero `.debug_*`
+> sections; `jarsigner -verify` passes) or install cmdline-tools via
+> sdkmanager to silence it.
 
 ## Secrets inventory (all gitignored, back them up!)
 
