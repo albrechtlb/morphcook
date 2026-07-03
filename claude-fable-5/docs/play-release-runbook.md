@@ -55,6 +55,16 @@ rollout). Distinct notes per language: `--notes-en` / `--notes-de`.
 > sections; `jarsigner -verify` passes) or install cmdline-tools via
 > sdkmanager to silence it.
 
+> First production release: the API commit fails with "Release in track
+> targeting no countries" until someone sets Production →
+> Countries/regions ONCE in the Play Console UI (no API exists;
+> `edits.countryavailability` is read-only, and `countryTargeting` on a
+> release is only valid for staged rollouts). One-time human step.
+
+Working credential on this machine: the shared automation service
+account key `~/.ssh/n8nproject-474010-2aeea0b85e7a.json` (same one the
+`~/scripts/play-*.sh` helpers use; `openssl` via `nix-shell -p openssl`).
+
 ## Secrets inventory (all gitignored, back them up!)
 
 | File | What | If lost |
