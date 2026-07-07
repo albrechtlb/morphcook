@@ -1,0 +1,64 @@
+{
+  "ingredients": [
+    {
+      "id": "tofu",
+      "name": {"en": "Tofu", "de": "Tofu"},
+      "description": {
+        "en": "A plant-based protein made from coagulated soy milk. Comes in various textures from silken to extra-firm.",
+        "de": "Ein pflanzliches Protein aus koagulierter Sojamilch. Erhältlich in verschiedenen Texturen von seidig bis extra-fest."
+      },
+      "usage_tips": {
+        "en": "Press tofu before cooking to remove excess water. Marinades penetrate better after pressing. For crispy texture, coat in cornstarch before frying.",
+        "de": "Tofu vor dem Kochen pressen, um überschüssiges Wasser zu entfernen. Marinaden dringen nach dem Pressen besser ein. Für knusprige Textur in Speisestärke wenden vor dem Braten."
+      },
+      "storage": {
+        "en": "Store unopened packages in refrigerator. After opening, submerge in water and change daily - keeps 3-5 days.",
+        "de": "Ungöffnete Packungen im Kühlschrank lagern. Nach dem Öffnen in Wasser untertauchen und täglich wechseln - hält 3-5 Tage."
+      },
+      "where_to_find": {
+        "en": "Refrigerated section near cheese/dairy alternatives, or shelf-stable boxes in Asian foods aisle.",
+        "de": "Kühlregal nahe Käse/Milchalternativen, oder haltbare Boxen in der Asien-Abteilung."
+      }
+    },
+    {
+      "id": "tamarind",
+      "name": {"en": "Tamarind", "de": "Tamarinde"},
+      "description": {
+        "en": "A tropical fruit with a sweet-sour pulp used extensively in Asian and Latin American cuisines. Adds distinctive tanginess.",
+        "de": "Eine tropische Frucht mit süß-saurem Fruchtfleisch, die extensiv in asiatischen und lateinamerikanischen Küchen verwendet wird."
+      },
+      "usage_tips": {
+        "en": "Use tamarind paste for convenience. Soak tamarind block in warm water, strain, and use the liquid. A little goes a long way.",
+        "de": "Verwende Tamarindenpaste für Komfort. Tamarindenblock in warmem Wasser einweichen, abseihen und die Flüssigkeit verwenden. Ein wenig davon geht weit."
+      },
+      "storage": {
+        "en": "Paste keeps in refrigerator for months. Dried pods store in airtight container in cool place for up to a year.",
+        "de": "Paste hält sich im Kühlschrank monatelang. Getrocknete Schoten in luftdichtem Behälter an kühlem Ort bis zu einem Jahr lagern."
+      },
+      "where_to_find": {
+        "en": "Asian grocery stores, international aisle of well-stocked supermarkets, or online.",
+        "de": "Asiatische Lebensmittelgeschäfte, internationale Abteilung gut sortierter Supermärkte, oder online."
+      }
+    },
+    {
+      "id": "parmesan",
+      "name": {"en": "Parmesan", "de": "Parmesan"},
+      "description": {
+        "en": "A hard, aged Italian cheese with granular texture and nutty flavor. Traditionally made from cow's milk.",
+        "de": "Ein harter, gereifter italienischer Käse mit körniger Textur und nussigem Geschmack. Traditionell aus Kuhmilch hergestellt."
+      },
+      "usage_tips": {
+        "en": "Grate fresh just before serving for best flavor. The rind can be added to soups and stews for depth. Use vegetable peeler for elegant shavings.",
+        "de": "Frisch reiben unmittelbar vor dem Servieren für besten Geschmack. Die Rinde kann für mehr Tiefe in Suppen und Eintöpfen hinzugefügt werden."
+      },
+      "storage": {
+        "en": "Wrap tightly in refrigerator for up to 2 months. Grated freezes well for 6+ months.",
+        "de": "Fest einwickeln im Kühlschrank bis zu 2 Monate lagern. Gerieben friert bis zu 6+ Monate gut ein."
+      },
+      "where_to_find": {
+        "en": "Cheese section of any supermarket. Look for 'Parmigiano-Reggiano' for authentic Italian version.",
+        "de": "Käseabteilung jedes Supermarkts. Achte auf 'Parmigiano-Reggiano' für authentische italienische Version."
+      }
+    }
+  ]
+}

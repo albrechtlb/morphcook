@@ -1,0 +1,134 @@
+{
+  "faqs": [
+    {
+      "id": "what-is-morphcook",
+      "category": "general",
+      "question": {
+        "en": "What is MorphCook?",
+        "de": "Was ist MorphCook?"
+      },
+      "answer": {
+        "en": "MorphCook is a recipe app that adapts to your dietary needs. Instead of filtering out recipes you can't eat, we provide complete alternative versions of every dish for different diets.",
+        "de": "MorphCook ist eine Rezept-App, die sich an deine Ernährungsbedürfnisse anpasst. Anstatt Rezepte, die du nicht essen kannst, auszufiltern, bieten wir vollständige alternative Versionen jedes Gerichts für verschiedene Diäten."
+      },
+      "tags": ["overview", "dietary"]
+    },
+    {
+      "id": "how-variants-work",
+      "category": "features",
+      "question": {
+        "en": "How do recipe variants work?",
+        "de": "Wie funktionieren Rezeptvarianten?"
+      },
+      "answer": {
+        "en": "Each dish has multiple complete recipes - one for each dietary preference. When you select 'Vegan Döner', you get a fully-authored vegan recipe, not a modified version of the classic. All variants are written from scratch.",
+        "de": "Jedes Gericht hat mehrere vollständige Rezepte - eines für jede Ernährungspräferenz. Wenn du 'Veganer Döner' wählst, erhältst du ein vollständig verfasstes veganes Rezept, keine modifizierte Version des Klassikers. Alle Varianten sind von Grund auf neu geschrieben."
+      },
+      "tags": ["variants", "recipes"]
+    },
+    {
+      "id": "dietary-matching",
+      "category": "dietary",
+      "question": {
+        "en": "How does dietary matching work?",
+        "de": "Wie funktioniert die Diät-Anpassung?"
+      },
+      "answer": {
+        "en": "During onboarding, you tell us your dietary restrictions and preferences. We then show you only recipes that match your needs. You can also avoid specific ingredients (like cilantro or apples) in addition to broad categories (like all dairy).",
+        "de": "Während des Onboardings teilst du uns deine Ernährungseinschränkungen und Vorlieben mit. Wir zeigen dir dann nur Rezepte, die deinen Bedürfnissen entsprechen. Du kannst auch spezifische Zutaten (wie Koriander oder Äpfel) zusätzlich zu breiten Kategorien (wie alle Milchprodukte) vermeiden."
+      },
+      "tags": ["dietary", "profile", "avoidance"]
+    },
+    {
+      "id": "halal-kosher",
+      "category": "dietary",
+      "question": {
+        "en": "Are recipes halal or kosher certified?",
+        "de": "Sind die Rezepte halal- oder koscher-zertifiziert?"
+      },
+      "answer": {
+        "en": "We do not claim 'halal-certified' or 'kosher-certified' status. Our recipes use halal-compatible or kosher-compatible ingredients only. Certification is a property of sourcing and supervision, not of a recipe text.",
+        "de": "Wir beanspruchen keinen 'halal-zertifizierten' oder 'koscher-zertifizierten' Status. Unsere Rezepte verwenden nur halal-kompatible oder koscher-kompatible Zutaten. Zertifizierung ist eine Eigenschaft von Bezug und Aufsicht, nicht von einem Rezepttext."
+      },
+      "tags": ["halal", "kosher", "certification"]
+    },
+    {
+      "id": "offline-usage",
+      "category": "technical",
+      "question": {
+        "en": "Can I use MorphCook offline?",
+        "de": "Kann ich MorphCook offline nutzen?"
+      },
+      "answer": {
+        "en": "Yes! MorphCook is fully offline. All recipes are stored on your device. No internet connection is required after initial download.",
+        "de": "Ja! MorphCook ist vollständig offline. Alle Rezepte sind auf deinem Gerät gespeichert. Nach dem anfänglichen Download ist keine Internetverbindung erforderlich."
+      },
+      "tags": ["offline", "storage"]
+    },
+    {
+      "id": "backup-restore",
+      "category": "technical",
+      "question": {
+        "en": "How do I backup my data?",
+        "de": "Wie sichere ich meine Daten?"
+      },
+      "answer": {
+        "en": "Go to Settings > Backup & Restore. You can export your profile, saved recipes, meal plans, and history to a JSON file. This file can be imported to any MorphCook installation. You can also password-protect your backup for privacy.",
+        "de": "Gehe zu Einstellungen > Backup & Wiederherstellung. Du kannst dein Profil, gespeicherte Rezepte, Essenspläne und Verlauf in eine JSON-Datei exportieren. Diese Datei kann in jede MorphCook-Installation importiert werden. Du kannst dein Backup auch passwortgeschützen für mehr Privatsphäre."
+      },
+      "tags": ["backup", "restore", "privacy"]
+    },
+    {
+      "id": "cook-mode",
+      "category": "features",
+      "question": {
+        "en": "What is Cook Mode?",
+        "de": "Was ist der Koch-Modus?"
+      },
+      "answer": {
+        "en": "Cook Mode is a full-screen, step-by-step cooking assistant. It shows one step at a time, has a timer for timed steps, and lets you adjust servings. The screen stays awake so you don't have to unlock your phone with dirty hands.",
+        "de": "Der Koch-Modus ist ein Vollbild-Schritt-für-Schritt-Kochassistent. Er zeigt einen Schritt nach dem anderen, hat einen Timer für zeitgesteuerte Schritte und lässt dich die Portionen anpassen. Der Bildschirm bleibt aktiv, damit du dein Handy nicht mit schmutzigen Händen entsperren musst."
+      },
+      "tags": ["cook mode", "cooking", "timer"]
+    },
+    {
+      "id": "shopping-list",
+      "category": "features",
+      "question": {
+        "en": "How does the shopping list work?",
+        "de": "Wie funktioniert die Einkaufsliste?"
+      },
+      "answer": {
+        "en": "Add recipes to your shopping list, and we'll aggregate ingredients intelligently. If two recipes need garlic, we combine them. We also convert units (ml to tbsp) and group items by aisle for efficient shopping.",
+        "de": "Füge Rezepte zu deiner Einkaufsliste hinzu, und wir aggregieren Zutaten intelligent. Wenn zwei Rezepte Knoblauch benötigen, kombinieren wir sie. Wir konvertieren auch Einheiten (ml zu EL) und gruppieren Artikel nach Gang für effizientes Einkaufen."
+      },
+      "tags": ["shopping", "aggregation", "units"]
+    },
+    {
+      "id": "meal-planning",
+      "category": "features",
+      "question": {
+        "en": "How does meal planning work?",
+        "de": "Wie funktioniert die Essensplanung?"
+      },
+      "answer": {
+        "en": "Use the weekly grid (Mon-Sun) to plan breakfast, lunch, and dinner. Tap a slot to assign a recipe from your cookbook or search. You can drag-and-drop recipes between slots, and one-tap export your plan to the shopping list.",
+        "de": "Nutze das wöchentliche Raster (Mo-So), um Frühstück, Mittag- und Abendessen zu planen. Tippe auf ein Feld, um ein Rezept aus deinem Kochbuch oder der Suche zuzuweisen. Du kannst Rezepte per Drag-and-Drop zwischen Feldern verschieben und deinen Plan mit einem Tippen in die Einkaufsliste exportieren."
+      },
+      "tags": ["meal planning", "weekly", "grid"]
+    },
+    {
+      "id": "languages",
+      "category": "general",
+      "question": {
+        "en": "What languages are supported?",
+        "de": "Welche Sprachen werden unterstützt?"
+      },
+      "answer": {
+        "en": "MorphCook currently supports English (EN) and German (DE). All recipes, UI elements, and FAQs are available in both languages. You can switch languages in Settings.",
+        "de": "MorphCook unterstützt derzeit Englisch (EN) und Deutsch (DE). Alle Rezepte, UI-Elemente und FAQs sind in beiden Sprachen verfügbar. Du kannst die Sprache in den Einstellungen umschalten."
+      },
+      "tags": ["language", "EN", "DE", "bilingual"]
+    }
+  ]
+}
