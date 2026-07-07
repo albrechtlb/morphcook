@@ -1,0 +1,188 @@
+[
+  {
+    "id": "doener-classic-easy-600",
+    "dish_id": "doener",
+    "title": {"en": "spiced chicken döner", "de": "gewürzter Hähnchen-Döner"},
+    "diet": "classic",
+    "effort": "easy",
+    "calorie_level": "600",
+    "calories_per_serving": 610,
+    "time_minutes": 30,
+    "servings": 2,
+    "contains": ["poultry", "dairy", "gluten"],
+    "attributes": ["classic", "easy", "halal-compatible", "sauté", "dinner"],
+    "tags": ["street-food", "dinner", "wrap"],
+    "meal_types": ["lunch", "dinner"],
+    "ingredients": [
+      {"id": "chicken", "name": {"en": "chicken strips", "de": "Hähnchenstreifen"}, "amount": 280, "unit": "g", "aisle": "protein"},
+      {"id": "flatbread", "name": {"en": "flatbread", "de": "Fladenbrot"}, "amount": 2, "unit": "piece", "aisle": "bakery"},
+      {"id": "yogurt", "name": {"en": "yogurt", "de": "Joghurt"}, "amount": 90, "unit": "ml", "aisle": "dairy"},
+      {"id": "garlic", "name": {"en": "garlic", "de": "Knoblauch"}, "amount": 2, "unit": "clove", "aisle": "produce"},
+      {"id": "cabbage", "name": {"en": "red cabbage", "de": "Rotkohl"}, "amount": 120, "unit": "g", "aisle": "produce"}
+    ],
+    "steps": [
+      {"text": {"en": "Brown the chicken with cumin, paprika, salt, and a little oil until the edges go crisp.", "de": "Hähnchen mit Kreuzkümmel, Paprika, Salz und etwas Öl braten, bis die Ränder knusprig sind."}, "timer_seconds": 480},
+      {"text": {"en": "Stir yogurt with grated garlic and a pinch of salt.", "de": "Joghurt mit geriebenem Knoblauch und Salz verrühren."}, "timer_seconds": 0},
+      {"text": {"en": "Warm flatbread, tuck in cabbage and chicken, then spoon sauce over everything.", "de": "Fladenbrot wärmen, Kohl und Hähnchen einlegen, Sauce darüber löffeln."}, "timer_seconds": 120}
+    ],
+    "macros": {"protein": 38, "carbs": 58, "fat": 23}
+  },
+  {
+    "id": "doener-vegan-easy-600",
+    "dish_id": "doener",
+    "title": {"en": "seitan döner", "de": "Seitan-Döner"},
+    "diet": "vegan",
+    "effort": "easy",
+    "calorie_level": "600",
+    "calories_per_serving": 585,
+    "time_minutes": 28,
+    "servings": 2,
+    "contains": ["gluten", "soy"],
+    "attributes": ["vegan", "easy", "sauté", "dinner"],
+    "tags": ["street-food", "vegan", "wrap"],
+    "meal_types": ["lunch", "dinner"],
+    "ingredients": [
+      {"id": "seitan", "name": {"en": "seitan ribbons", "de": "Seitanstreifen"}, "amount": 260, "unit": "g", "aisle": "protein"},
+      {"id": "flatbread", "name": {"en": "flatbread", "de": "Fladenbrot"}, "amount": 2, "unit": "piece", "aisle": "bakery"},
+      {"id": "tahini", "name": {"en": "tahini", "de": "Tahini"}, "amount": 3, "unit": "tbsp", "aisle": "pantry"},
+      {"id": "garlic", "name": {"en": "garlic", "de": "Knoblauch"}, "amount": 2, "unit": "clove", "aisle": "produce"},
+      {"id": "cucumber", "name": {"en": "cucumber", "de": "Gurke"}, "amount": 100, "unit": "g", "aisle": "produce"}
+    ],
+    "steps": [
+      {"text": {"en": "Sear seitan with paprika, cumin, and a splash of soy until deeply browned.", "de": "Seitan mit Paprika, Kreuzkümmel und etwas Sojasauce kräftig anbraten."}, "timer_seconds": 420},
+      {"text": {"en": "Whisk tahini, garlic, lemon, and water into a pale sauce.", "de": "Tahini, Knoblauch, Zitrone und Wasser zu heller Sauce rühren."}, "timer_seconds": 0},
+      {"text": {"en": "Wrap with cucumber and sauce. Eat while the paper is still warm.", "de": "Mit Gurke und Sauce einwickeln. Essen, solange das Papier warm ist."}, "timer_seconds": 0}
+    ],
+    "macros": {"protein": 34, "carbs": 62, "fat": 21}
+  },
+  {
+    "id": "doener-halal-easy-600",
+    "dish_id": "doener",
+    "title": {"en": "sumac chicken döner", "de": "Sumach-Hähnchen-Döner"},
+    "diet": "halal",
+    "effort": "easy",
+    "calorie_level": "600",
+    "calories_per_serving": 590,
+    "time_minutes": 32,
+    "servings": 2,
+    "contains": ["poultry", "dairy", "gluten"],
+    "attributes": ["halal-compatible", "easy", "dinner"],
+    "tags": ["halal", "street-food", "wrap"],
+    "meal_types": ["lunch", "dinner"],
+    "ingredients": [
+      {"id": "chicken", "name": {"en": "chicken", "de": "Hähnchen"}, "amount": 280, "unit": "g", "aisle": "protein"},
+      {"id": "flatbread", "name": {"en": "flatbread", "de": "Fladenbrot"}, "amount": 2, "unit": "piece", "aisle": "bakery"},
+      {"id": "yogurt", "name": {"en": "yogurt", "de": "Joghurt"}, "amount": 75, "unit": "ml", "aisle": "dairy"},
+      {"id": "sumac", "name": {"en": "sumac", "de": "Sumach"}, "amount": 2, "unit": "tsp", "aisle": "spices"}
+    ],
+    "steps": [
+      {"text": {"en": "Cook chicken with sumac, cumin, and salt until juicy and browned.", "de": "Hähnchen mit Sumach, Kreuzkümmel und Salz saftig braten."}, "timer_seconds": 480},
+      {"text": {"en": "Fold into bread with yogurt sauce and crunchy salad.", "de": "Mit Joghurtsauce und knackigem Salat ins Brot falten."}, "timer_seconds": 0}
+    ],
+    "macros": {"protein": 39, "carbs": 55, "fat": 22}
+  },
+  {
+    "id": "alfredo-classic-easy-600",
+    "dish_id": "alfredo",
+    "title": {"en": "peppery fettuccine alfredo", "de": "pfeffrige Fettuccine Alfredo"},
+    "diet": "classic",
+    "effort": "easy",
+    "calorie_level": "600",
+    "calories_per_serving": 640,
+    "time_minutes": 25,
+    "servings": 2,
+    "contains": ["dairy", "gluten"],
+    "attributes": ["classic", "easy", "simmer", "dinner"],
+    "tags": ["italian", "comfort"],
+    "meal_types": ["dinner"],
+    "ingredients": [
+      {"id": "fettuccine", "name": {"en": "fettuccine", "de": "Fettuccine"}, "amount": 180, "unit": "g", "aisle": "pantry"},
+      {"id": "cream", "name": {"en": "cream", "de": "Sahne"}, "amount": 160, "unit": "ml", "aisle": "dairy"},
+      {"id": "parmesan", "name": {"en": "parmesan", "de": "Parmesan"}, "amount": 50, "unit": "g", "aisle": "dairy"},
+      {"id": "black-pepper", "name": {"en": "black pepper", "de": "schwarzer Pfeffer"}, "amount": 1, "unit": "tsp", "aisle": "spices"}
+    ],
+    "steps": [
+      {"text": {"en": "Boil pasta until just tender; keep a mug of pasta water.", "de": "Pasta knapp gar kochen; eine Tasse Pastawasser aufheben."}, "timer_seconds": 600},
+      {"text": {"en": "Warm cream, melt in parmesan, and loosen with pasta water until glossy.", "de": "Sahne wärmen, Parmesan schmelzen und mit Pastawasser glänzend rühren."}, "timer_seconds": 180}
+    ],
+    "macros": {"protein": 21, "carbs": 70, "fat": 31}
+  },
+  {
+    "id": "alfredo-vegan-easy-600",
+    "dish_id": "alfredo",
+    "title": {"en": "cashew oat alfredo", "de": "Cashew-Hafer-Alfredo"},
+    "diet": "vegan",
+    "effort": "easy",
+    "calorie_level": "600",
+    "calories_per_serving": 605,
+    "time_minutes": 30,
+    "servings": 2,
+    "contains": ["gluten", "tree-nuts"],
+    "attributes": ["vegan", "easy", "simmer", "dinner"],
+    "tags": ["italian", "vegan", "comfort"],
+    "meal_types": ["dinner"],
+    "ingredients": [
+      {"id": "fettuccine", "name": {"en": "fettuccine", "de": "Fettuccine"}, "amount": 180, "unit": "g", "aisle": "pantry"},
+      {"id": "cashews", "name": {"en": "cashews", "de": "Cashews"}, "amount": 60, "unit": "g", "aisle": "pantry"},
+      {"id": "oat-milk", "name": {"en": "oat milk", "de": "Hafermilch"}, "amount": 180, "unit": "ml", "aisle": "dairy-free"},
+      {"id": "garlic", "name": {"en": "garlic", "de": "Knoblauch"}, "amount": 1, "unit": "clove", "aisle": "produce"}
+    ],
+    "steps": [
+      {"text": {"en": "Blend soaked cashews, oat milk, garlic, lemon, and salt until velvet-smooth.", "de": "Eingeweichte Cashews, Hafermilch, Knoblauch, Zitrone und Salz samtig mixen."}, "timer_seconds": 0},
+      {"text": {"en": "Toss sauce with hot pasta until it clings like a soft sweater.", "de": "Sauce mit heißer Pasta schwenken, bis sie weich haftet."}, "timer_seconds": 180}
+    ],
+    "macros": {"protein": 19, "carbs": 76, "fat": 25}
+  },
+  {
+    "id": "pad-thai-classic-easy-600",
+    "dish_id": "pad-thai",
+    "title": {"en": "tamarind shrimp pad thai", "de": "Tamarinden-Garnelen-Pad-Thai"},
+    "diet": "classic",
+    "effort": "easy",
+    "calorie_level": "600",
+    "calories_per_serving": 620,
+    "time_minutes": 35,
+    "servings": 2,
+    "contains": ["shellfish", "egg", "peanuts", "fish"],
+    "attributes": ["classic", "easy", "stir-fry", "dinner"],
+    "tags": ["thai", "noodles"],
+    "meal_types": ["lunch", "dinner"],
+    "ingredients": [
+      {"id": "rice-noodles", "name": {"en": "rice noodles", "de": "Reisnudeln"}, "amount": 180, "unit": "g", "aisle": "pantry"},
+      {"id": "shrimp", "name": {"en": "shrimp", "de": "Garnelen"}, "amount": 180, "unit": "g", "aisle": "protein"},
+      {"id": "egg", "name": {"en": "egg", "de": "Ei"}, "amount": 2, "unit": "piece", "aisle": "dairy"},
+      {"id": "peanuts", "name": {"en": "peanuts", "de": "Erdnüsse"}, "amount": 30, "unit": "g", "aisle": "pantry"}
+    ],
+    "steps": [
+      {"text": {"en": "Soak noodles until bendy, then drain.", "de": "Nudeln einweichen, bis sie biegsam sind, dann abgießen."}, "timer_seconds": 600},
+      {"text": {"en": "Stir-fry shrimp, egg, noodles, and tamarind sauce until glossy.", "de": "Garnelen, Ei, Nudeln und Tamarindensauce glänzend pfannenrühren."}, "timer_seconds": 360}
+    ],
+    "macros": {"protein": 32, "carbs": 82, "fat": 18}
+  },
+  {
+    "id": "pad-thai-vegan-easy-600",
+    "dish_id": "pad-thai",
+    "title": {"en": "tofu tamarind pad thai", "de": "Tofu-Tamarinden-Pad-Thai"},
+    "diet": "vegan",
+    "effort": "easy",
+    "calorie_level": "600",
+    "calories_per_serving": 590,
+    "time_minutes": 35,
+    "servings": 2,
+    "contains": ["soy", "peanuts"],
+    "attributes": ["vegan", "easy", "stir-fry", "dinner"],
+    "tags": ["thai", "vegan", "noodles"],
+    "meal_types": ["lunch", "dinner"],
+    "ingredients": [
+      {"id": "rice-noodles", "name": {"en": "rice noodles", "de": "Reisnudeln"}, "amount": 180, "unit": "g", "aisle": "pantry"},
+      {"id": "tofu", "name": {"en": "tofu", "de": "Tofu"}, "amount": 220, "unit": "g", "aisle": "protein"},
+      {"id": "peanuts", "name": {"en": "peanuts", "de": "Erdnüsse"}, "amount": 25, "unit": "g", "aisle": "pantry"},
+      {"id": "bean-sprouts", "name": {"en": "bean sprouts", "de": "Bohnensprossen"}, "amount": 120, "unit": "g", "aisle": "produce"}
+    ],
+    "steps": [
+      {"text": {"en": "Crisp tofu cubes in a hot pan.", "de": "Tofuwürfel in heißer Pfanne knusprig braten."}, "timer_seconds": 420},
+      {"text": {"en": "Add noodles, tamarind, sprouts, and peanuts; toss until bright and tangled.", "de": "Nudeln, Tamarinde, Sprossen und Erdnüsse zugeben; hell und verschlungen schwenken."}, "timer_seconds": 240}
+    ],
+    "macros": {"protein": 27, "carbs": 84, "fat": 17}
+  }
+]

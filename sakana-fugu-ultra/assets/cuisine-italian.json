@@ -1,0 +1,20 @@
+[
+  {
+    "id": "alfredo-classic-easy-600",
+    "dish_id": "alfredo",
+    "title": {"en": "peppery fettuccine alfredo", "de": "pfeffrige Fettuccine Alfredo"},
+    "diet": "classic",
+    "effort": "easy",
+    "calorie_level": "600",
+    "calories_per_serving": 640,
+    "time_minutes": 25,
+    "servings": 2,
+    "contains": ["dairy", "gluten"],
+    "attributes": ["classic", "easy", "simmer", "dinner"],
+    "tags": ["italian", "comfort"],
+    "meal_types": ["dinner"],
+    "ingredients": [{"id": "fettuccine", "name": {"en": "fettuccine", "de": "Fettuccine"}, "amount": 180, "unit": "g", "aisle": "pantry"}],
+    "steps": [{"text": {"en": "Boil pasta and coat with peppered parmesan cream.", "de": "Pasta kochen und mit pfeffriger Parmesansahne überziehen."}, "timer_seconds": 600}],
+    "macros": {"protein": 21, "carbs": 70, "fat": 31}
+  }
+]

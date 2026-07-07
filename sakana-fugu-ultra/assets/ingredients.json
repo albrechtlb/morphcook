@@ -1,0 +1,26 @@
+[
+  {"id": "dairy", "name": {"en": "all dairy", "de": "alle Milchprodukte"}, "children": [
+    {"id": "cow-milk", "name": {"en": "cow milk", "de": "Kuhmilch"}, "children": [
+      {"id": "milk", "name": {"en": "milk", "de": "Milch"}, "children": []},
+      {"id": "cream", "name": {"en": "cream", "de": "Sahne"}, "children": []},
+      {"id": "yogurt", "name": {"en": "yogurt", "de": "Joghurt"}, "children": []}
+    ]},
+    {"id": "cheese", "name": {"en": "cheese", "de": "Käse"}, "children": [
+      {"id": "parmesan", "name": {"en": "parmesan", "de": "Parmesan"}, "children": []},
+      {"id": "halloumi", "name": {"en": "halloumi", "de": "Halloumi"}, "children": []}
+    ]}
+  ]},
+  {"id": "nuts", "name": {"en": "all nuts", "de": "alle Nüsse"}, "children": [
+    {"id": "tree-nuts", "name": {"en": "tree nuts", "de": "Baumnüsse"}, "children": [
+      {"id": "cashews", "name": {"en": "cashews", "de": "Cashews"}, "children": []},
+      {"id": "almonds", "name": {"en": "almonds", "de": "Mandeln"}, "children": []}
+    ]},
+    {"id": "peanuts", "name": {"en": "peanuts", "de": "Erdnüsse"}, "children": []}
+  ]},
+  {"id": "herbs", "name": {"en": "herbs", "de": "Kräuter"}, "children": [
+    {"id": "cilantro", "name": {"en": "cilantro", "de": "Koriander"}, "children": []}
+  ]},
+  {"id": "nightshades", "name": {"en": "nightshades", "de": "Nachtschatten"}, "children": [
+    {"id": "bell-pepper", "name": {"en": "bell pepper", "de": "Paprika"}, "children": []}
+  ]}
+]

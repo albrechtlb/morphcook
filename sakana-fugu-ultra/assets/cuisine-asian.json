@@ -1,0 +1,20 @@
+[
+  {
+    "id": "pad-thai-vegan-easy-600",
+    "dish_id": "pad-thai",
+    "title": {"en": "tofu tamarind pad thai", "de": "Tofu-Tamarinden-Pad-Thai"},
+    "diet": "vegan",
+    "effort": "easy",
+    "calorie_level": "600",
+    "calories_per_serving": 590,
+    "time_minutes": 35,
+    "servings": 2,
+    "contains": ["soy", "peanuts"],
+    "attributes": ["vegan", "easy", "stir-fry", "dinner"],
+    "tags": ["thai", "vegan", "noodles"],
+    "meal_types": ["lunch", "dinner"],
+    "ingredients": [{"id": "tofu", "name": {"en": "tofu", "de": "Tofu"}, "amount": 220, "unit": "g", "aisle": "protein"}],
+    "steps": [{"text": {"en": "Crisp tofu, then toss with noodles and tamarind.", "de": "Tofu knusprig braten, dann mit Nudeln und Tamarinde schwenken."}, "timer_seconds": 420}],
+    "macros": {"protein": 27, "carbs": 84, "fat": 17}
+  }
+]
