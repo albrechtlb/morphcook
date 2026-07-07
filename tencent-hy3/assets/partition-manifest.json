@@ -1,0 +1,52 @@
+{
+  "version": "1.0.0",
+  "partitions": [
+    {
+      "id": "core",
+      "name": {"en": "Core Recipes", "de": "Kernrezepte"},
+      "description": {"en": "Top 80% most-used recipes", "de": "Top 80% der meistgenutzten Rezepte"},
+      "file": "core-recipes.json",
+      "load_strategy": "eager",
+      "priority": 1
+    },
+    {
+      "id": "extended",
+      "name": {"en": "Extended Collection", "de": "Erweiterte Sammlung"},
+      "description": {"en": "Remaining 20% rarely-used dishes", "de": "Verbleibende 20% selten genutzter Gerichte"},
+      "file": "extended-recipes.json",
+      "load_strategy": "lazy",
+      "priority": 2
+    },
+    {
+      "id": "cuisine-italian",
+      "name": {"en": "Italian Cuisine", "de": "Italienische Küche"},
+      "description": {"en": "Italian dishes and recipes", "de": "Italienische Gerichte und Rezepte"},
+      "file": "cuisine-italian.json",
+      "load_strategy": "lazy",
+      "priority": 3
+    },
+    {
+      "id": "cuisine-asian",
+      "name": {"en": "Asian Cuisine", "de": "Asiatische Küche"},
+      "description": {"en": "Asian dishes and recipes", "de": "Asiatische Gerichte und Rezepte"},
+      "file": "cuisine-asian.json",
+      "load_strategy": "lazy",
+      "priority": 3
+    },
+    {
+      "id": "cuisine-middle-eastern",
+      "name": {"en": "Middle Eastern Cuisine", "de": "Mittlere Oster-Küche"},
+      "description": {"en": "Middle Eastern dishes and recipes", "de": "Mittlere Oster-Gerichte und Rezepte"},
+      "file": "cuisine-middle-eastern.json",
+      "load_strategy": "lazy",
+      "priority": 3
+    }
+  ],
+  "cross_references": {
+    "dish_to_partitions": {
+      "doener": ["core", "cuisine-middle-eastern"],
+      "alfredo": ["core", "cuisine-italian"],
+      "pad-thai": ["core", "cuisine-asian"]
+    }
+  }
+}

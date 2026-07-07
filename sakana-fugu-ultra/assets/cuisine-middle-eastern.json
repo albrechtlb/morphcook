@@ -1,0 +1,20 @@
+[
+  {
+    "id": "doener-vegan-easy-600",
+    "dish_id": "doener",
+    "title": {"en": "seitan döner", "de": "Seitan-Döner"},
+    "diet": "vegan",
+    "effort": "easy",
+    "calorie_level": "600",
+    "calories_per_serving": 585,
+    "time_minutes": 28,
+    "servings": 2,
+    "contains": ["gluten", "soy"],
+    "attributes": ["vegan", "easy", "sauté", "dinner"],
+    "tags": ["street-food", "vegan", "wrap"],
+    "meal_types": ["lunch", "dinner"],
+    "ingredients": [{"id": "seitan", "name": {"en": "seitan ribbons", "de": "Seitanstreifen"}, "amount": 260, "unit": "g", "aisle": "protein"}],
+    "steps": [{"text": {"en": "Sear seitan and wrap with tahini sauce.", "de": "Seitan anbraten und mit Tahinisauce einwickeln."}, "timer_seconds": 420}],
+    "macros": {"protein": 34, "carbs": 62, "fat": 21}
+  }
+]

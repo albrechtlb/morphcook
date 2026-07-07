@@ -1,0 +1,51 @@
+{
+  "tofu": {
+    "name": {"en": "tofu", "de": "Tofu"},
+    "description": {"en": "Soy-bean curd that soaks up marinades like a sponge. Press it, cube it, sear it.", "de": "Sojabohnenquark, der Marinaden wie ein Schwamm aufsaugt. Pressen, würfeln, anbraten."},
+    "usage": {"en": "Best when pressed for 15 minutes and coated in cornstarch before frying.", "de": "Am besten 15 Minuten gepresst und vor dem Braten mit Speisestärke bestäubt."},
+    "storage": {"en": "Submerged in fresh water, sealed, up to one week.", "de": "In frischem Wasser, luftdicht verschlossen, bis zu einer Woche."},
+    "where_to_find": {"en": "Refrigerated produce or Asian aisle.", "de": "Kühlregal oder Asia-Abteilung."}
+  },
+  "seitan": {
+    "name": {"en": "seitan", "de": "Seitan"},
+    "description": {"en": "Wheat gluten with a chewy, meaty bite. A vegan staple for hearty dishes.", "de": "Weizengluten mit bissfester, fleischähnlicher Konsistenz. Ein veganer Klassiker für herzhafte Gerichte."},
+    "usage": {"en": "Slice thin and pan-fry until crispy edges form.", "de": "Dünn schneiden und anbraten, bis die Kanten knusprig sind."},
+    "storage": {"en": "In simmering broth, refrigerated, 5-7 days.", "de": "In leichter Brühe im Kühlschrank, 5-7 Tage."},
+    "where_to_find": {"en": "Refrigerated vegan section or homemade from vital wheat gluten.", "de": "Veganes Kühlregal oder selbstgemacht aus Weizengluten."}
+  },
+  "tahini": {
+    "name": {"en": "tahini", "de": "Tahini"},
+    "description": {"en": "Sesame seed paste, creamy and nutty. The backbone of hummus and dressings.", "de": "Sesampaste, cremig und nussig. Das Rückgrat von Hummus und Dressings."},
+    "usage": {"en": "Whisk with lemon and water to loosen before dressing.", "de": "Vor dem Dressing mit Zitrone und Wasser verquirlen, damit es flüssiger wird."},
+    "storage": {"en": "Refrigerate after opening; stir the separated oil back in.", "de": "Nach dem Öffnen kühl lagern; das abgesetzte Öl wieder einrühren."},
+    "where_to_find": {"en": "Middle Eastern or nut-butter aisle.", "de": "Orientalische Abteilung oder Nussbutter-Regal."}
+  },
+  "rice-noodles": {
+    "name": {"en": "rice noodles", "de": "Reisnudeln"},
+    "description": {"en": "Gluten-free noodles made from rice flour and water. Tender when soaked.", "de": "Glutenfreie Nudeln aus Reismehl und Wasser. Zart, wenn sie eingeweicht wurden."},
+    "usage": {"en": "Soak in warm water until pliable, then stir-fry briefly.", "de": "In warmem Wasser einweichen, bis sie biegsam sind, dann kurz anbraten."},
+    "storage": {"en": "Dry pantry; cooked noodles keep 2 days.", "de": "Trocken lagern; gekochte Nudeln halten 2 Tage."},
+    "where_to_find": {"en": "Asian aisle.", "de": "Asia-Abteilung."}
+  },
+  "fish-sauce": {
+    "name": {"en": "fish sauce", "de": "Fischsauce"},
+    "description": {"en": "Fermented anchovy condiment. Salty, savory, and deeply umami.", "de": "Fermentiertes Sardellen-Würzmittel. Salzig, herzhaft und intensiv umami."},
+    "usage": {"en": "Use sparingly; balance with lime and palm sugar.", "de": "Sparsam verwenden; mit Limette und Palmzucker ausbalancieren."},
+    "storage": {"en": "Room temperature for years.", "de": "Jahrelang bei Raumtemperatur haltbar."},
+    "where_to_find": {"en": "Asian aisle or online.", "de": "Asia-Abteilung oder online."}
+  },
+  "garlic": {
+    "name": {"en": "garlic", "de": "Knoblauch"},
+    "description": {"en": "The aromatic foundation of countless savory dishes.", "de": "Das aromatische Fundament unzähliger herzhafter Gerichte."},
+    "usage": {"en": "Mince fine and bloom in oil 30 seconds before adding liquid.", "de": "Fein hacken und 30 Sekunden in Öl anschwitzen, bevor Flüssigkeit hinzukommt."},
+    "storage": {"en": "Cool, dry, dark place.", "de": "Kühl, trocken und dunkel lagern."},
+    "where_to_find": {"en": "Produce section.", "de": "Obst- und Gemüseabteilung."}
+  },
+  "cilantro": {
+    "name": {"en": "cilantro", "de": "Koriander"},
+    "description": {"en": "Fresh herb with bright, citrusy leaves. Divides opinion but lifts salads and curries.", "de": "Frisches Kraut mit hellen, zitrussigen Blättern. Spaltet Meinungen, aber belebt Salate und Currys."},
+    "usage": {"en": "Add leaves at the end of cooking to keep flavor fresh.", "de": "Blätter erst am Ende des Kochens hinzufügen, um das Aroma frisch zu halten."},
+    "storage": {"en": "Stems in water, loosely covered, in the fridge.", "de": "Stiele in Wasser, locker abgedeckt, im Kühlschrank."},
+    "where_to_find": {"en": "Fresh herbs section.", "de": "Frische Kräuter-Abteilung."}
+  }
+}

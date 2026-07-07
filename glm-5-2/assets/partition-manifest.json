@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "partitions": [
+    {
+      "id": "core-recipes",
+      "file": "partitions/core-recipes.json",
+      "description": "Top 80% most-used recipes, loaded at launch.",
+      "frequency_tier": "core",
+      "load_strategy": "preload"
+    },
+    {
+      "id": "extended-recipes",
+      "file": "partitions/extended-recipes.json",
+      "description": "Remaining 20% rarely-used dishes.",
+      "frequency_tier": "extended",
+      "load_strategy": "on_demand"
+    },
+    {
+      "id": "cuisine-italian",
+      "file": "partitions/cuisine-italian.json",
+      "description": "Italian cuisine partition for discovery.",
+      "frequency_tier": "secondary",
+      "load_strategy": "on_demand"
+    },
+    {
+      "id": "cuisine-asian",
+      "file": "partitions/cuisine-asian.json",
+      "description": "Asian cuisine partition for discovery.",
+      "frequency_tier": "secondary",
+      "load_strategy": "on_demand"
+    },
+    {
+      "id": "cuisine-middle-eastern",
+      "file": "partitions/cuisine-middle-eastern.json",
+      "description": "Middle-Eastern cuisine partition for discovery.",
+      "frequency_tier": "secondary",
+      "load_strategy": "on_demand"
+    }
+  ],
+  "version": "1.0.0"
+}

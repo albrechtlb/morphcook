@@ -1,0 +1,171 @@
+{
+  "recipes": [
+    {
+      "id": "doener-classic",
+      "dish_id": "doener",
+      "variant_label": {
+        "en": "Classic",
+        "de": "Klassisch"
+      },
+      "diet": "classic",
+      "effort": "easy",
+      "time_minutes": 25,
+      "calories_per_serving": 620,
+      "contains": ["beef", "gluten", "dairy"],
+      "attributes": ["easy", "≤30", "≤800"],
+      "servings": 2,
+      "ingredients": [
+        {"id": "beef-chuck", "name": {"en": "beef chuck", "de": "Rindfleisch"}, "amount": 300, "unit": "g"},
+        {"id": "flatbread", "name": {"en": "flatbread", "de": "Fladenbrot"}, "amount": 2, "unit": "pcs"},
+        {"id": "yogurt", "name": {"en": "yogurt", "de": "Joghurt"}, "amount": 100, "unit": "g"},
+        {"id": "cabbage", "name": {"en": "white cabbage", "de": "Weißkohl"}, "amount": 200, "unit": "g"},
+        {"id": "tomato", "name": {"en": "tomato", "de": "Tomate"}, "amount": 2, "unit": "pcs"},
+        {"id": "onion", "name": {"en": "onion", "de": "Zwiebel"}, "amount": 1, "unit": "pcs"}
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "text": {"en": "Slice the beef thinly and season with salt and paprika.", "de": "Fleisch dünn scheiden und mit Salz und Paprika würzen."}
+        },
+        {
+          "order": 2,
+          "text": {"en": "Grill the meat until cooked through, about 5-7 minutes.", "de": "Fleisch grillen bis durchgegart, ca. 5-7 Minuten."}
+        },
+        {
+          "order": 3,
+          "text": {"en": "Warm the flatbread and slice the vegetables.", "de": "Fladenbrot erwärmen und Gemüse schneiden."}
+        },
+        {
+          "order": 4,
+          "text": {"en": "Assemble: bread, meat, vegetables, yogurt sauce.", "de": "Zusammenbauen: Brot, Fleisch, Gemüse, Joghurtsauce."}
+        }
+      ],
+      "tags": ["street food", "quick", "grilled"]
+    },
+    {
+      "id": "doener-vegan",
+      "dish_id": "doener",
+      "variant_label": {
+        "en": "Vegan",
+        "de": "Vegan"
+      },
+      "diet": "vegan",
+      "effort": "easy",
+      "time_minutes": 25,
+      "calories_per_serving": 480,
+      "contains": ["gluten", "soy"],
+      "attributes": ["easy", "≤30", "≤600"],
+      "servings": 2,
+      "ingredients": [
+        {"id": "tofu", "name": {"en": "tofu", "de": "Tofu"}, "amount": 300, "unit": "g"},
+        {"id": "flatbread", "name": {"en": "flatbread", "de": "Fladenbrot"}, "amount": 2, "unit": "pcs"},
+        {"id": "vegan-yogurt", "name": {"en": "vegan yogurt", "de": "Veganer Joghurt"}, "amount": 100, "unit": "g"},
+        {"id": "cabbage", "name": {"en": "white cabbage", "de": "Weißkohl"}, "amount": 200, "unit": "g"},
+        {"id": "tomato", "name": {"en": "tomato", "de": "Tomate"}, "amount": 2, "unit": "pcs"},
+        {"id": "onion", "name": {"en": "onion", "de": "Zwiebel"}, "amount": 1, "unit": "pcs"}
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "text": {"en": "Press tofu and slice thinly. Marinate with spices.", "de": "Tofu pressen und dünn scheiden. Mit Gewürzen marinieren."}
+        },
+        {
+          "order": 2,
+          "text": {"en": "Pan-fry tofu until golden and crispy.", "de": "Tofu in der Pfanne goldbraun braten."}
+        },
+        {
+          "order": 3,
+          "text": {"en": "Warm the flatbread and prepare vegetables.", "de": "Fladenbrot erwärmen und Gemüse vorbereiten."}
+        },
+        {
+          "order": 4,
+          "text": {"en": "Assemble with vegan yogurt sauce.", "de": "Mit veganer Joghurtsauce zusammensetzen."}
+        }
+      ],
+      "tags": ["street food", "vegan", "quick"]
+    },
+    {
+      "id": "alfredo-classic",
+      "dish_id": "alfredo",
+      "variant_label": {
+        "en": "Classic",
+        "de": "Klassisch"
+      },
+      "diet": "classic",
+      "effort": "easy",
+      "time_minutes": 20,
+      "calories_per_serving": 720,
+      "contains": ["dairy", "gluten", "egg"],
+      "attributes": ["easy", "≤30", ">800"],
+      "servings": 2,
+      "ingredients": [
+        {"id": "fettuccine", "name": {"en": "fettuccine", "de": "Fettuccine"}, "amount": 250, "unit": "g"},
+        {"id": "butter", "name": {"en": "butter", "de": "Butter"}, "amount": 50, "unit": "g"},
+        {"id": "cream", "name": {"en": "heavy cream", "de": "Sahne"}, "amount": 200, "unit": "ml"},
+        {"id": "parmesan", "name": {"en": "parmesan", "de": "Parmesan"}, "amount": 100, "unit": "g"},
+        {"id": "garlic", "name": {"en": "garlic", "de": "Knoblauch"}, "amount": 2, "unit": "cloves"}
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "text": {"en": "Boil pasta in salted water until al dente.", "de": "Pasta in Salzwasser al dente kochen."}
+        },
+        {
+          "order": 2,
+          "text": {"en": "Melt butter in a pan, add minced garlic.", "de": "Butter in Pfanne schmelzen, Knoblauch hinzufügen."}
+        },
+        {
+          "order": 3,
+          "text": {"en": "Add cream and simmer for 2 minutes.", "de": "Sahne hinzufügen und 2 Minuten köcheln."}
+        },
+        {
+          "order": 4,
+          "text": {"en": "Toss pasta with sauce and parmesan.", "de": "Pasta mit Sauce und Parmesan vermengen."}
+        }
+      ],
+      "tags": ["pasta", "creamy", "italian"]
+    },
+    {
+      "id": "padthai-classic",
+      "dish_id": "pad-thai",
+      "variant_label": {
+        "en": "Classic",
+        "de": "Klassisch"
+      },
+      "diet": "classic",
+      "effort": "medium",
+      "time_minutes": 30,
+      "calories_per_serving": 540,
+      "contains": ["shellfish", "egg", "peanuts", "gluten"],
+      "attributes": ["medium", "≤30", "≤600"],
+      "servings": 2,
+      "ingredients": [
+        {"id": "rice-noodles", "name": {"en": "rice noodles", "de": "Reisnudeln"}, "amount": 200, "unit": "g"},
+        {"id": "shrimp", "name": {"en": "shrimp", "de": "Garnelen"}, "amount": 200, "unit": "g"},
+        {"id": "egg", "name": {"en": "eggs", "de": "Eier"}, "amount": 2, "unit": "pcs"},
+        {"id": "bean-sprouts", "name": {"en": "bean sprouts", "de": "Sojasprossen"}, "amount": 100, "unit": "g"},
+        {"id": "peanuts", "name": {"en": "peanuts", "de": "Erdnüsse"}, "amount": 50, "unit": "g"},
+        {"id": "tamarind", "name": {"en": "tamarind paste", "de": "Tamarindenpaste"}, "amount": 2, "unit": "tbsp"}
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "text": {"en": "Soak rice noodles in warm water for 15 minutes.", "de": "Reisnudeln 15 Minuten in warmem Wasser einweichen."}
+        },
+        {
+          "order": 2,
+          "text": {"en": "Scramble eggs in a hot wok, then set aside.", "de": "Eier im Wok rühren, dann beiseite stellen."}
+        },
+        {
+          "order": 3,
+          "text": {"en": "Cook shrimp, then add noodles and sauce.", "de": "Garnelen kochen, dann Nudeln und Sauce hinzufügen."}
+        },
+        {
+          "order": 4,
+          "text": {"en": "Toss with sprouts and top with peanuts.", "de": "Mit Sprossen vermengen und mit Erdnüssen toppen."}
+        }
+      ],
+      "tags": ["thai", "noodles", "stir-fry"]
+    }
+  ]
+}

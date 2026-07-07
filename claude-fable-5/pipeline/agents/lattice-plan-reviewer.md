@@ -51,6 +51,8 @@ it. Quote the exact cell ids / legacy ids you object to in feedback.
 
 {{DISH_JSON}}
 
+{{MODE_NOTES}}
+
 ## Current recipes (full — to judge the legacy map)
 
 {{CURRENT_RECIPES_JSON}}

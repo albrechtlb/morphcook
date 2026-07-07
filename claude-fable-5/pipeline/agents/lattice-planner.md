@@ -142,6 +142,8 @@ bucket first.
 
 {{DISH_JSON}}
 
+{{MODE_NOTES}}
+
 ## Current recipes (full)
 
 {{CURRENT_RECIPES_JSON}}

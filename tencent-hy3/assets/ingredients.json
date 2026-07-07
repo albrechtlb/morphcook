@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "id": "dairy",
+      "name": {"en": "Dairy", "de": "Milchprodukte"},
+      "children": [
+        {
+          "id": "cow-milk",
+          "name": {"en": "Cow Milk", "de": "Kuhmilch"},
+          "children": [
+            {"id": "whole-milk", "name": {"en": "Whole Milk", "de": "Vollmilch"}},
+            {"id": "skim-milk", "name": {"en": "Skim Milk", "de": "Magermilch"}}
+          ]
+        },
+        {
+          "id": "goat-milk",
+          "name": {"en": "Goat Milk", "de": "Ziegenmilch"}
+        },
+        {
+          "id": "cheese",
+          "name": {"en": "Cheese", "de": "Käse"},
+          "children": [
+            {"id": "parmesan", "name": {"en": "Parmesan", "de": "Parmesan"}},
+            {"id": "feta", "name": {"en": "Feta", "de": "Feta"}},
+            {"id": "mozzarella", "name": {"en": "Mozzarella", "de": "Mozzarella"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nuts",
+      "name": {"en": "Nuts", "de": "Nüsse"},
+      "children": [
+        {
+          "id": "tree-nuts",
+          "name": {"en": "Tree Nuts", "de": "Baumnüsse"},
+          "children": [
+            {"id": "almonds", "name": {"en": "Almonds", "de": "Mandeln"}},
+            {"id": "walnuts", "name": {"en": "Walnuts", "de": "Walnüsse"}},
+            {"id": "pistachios", "name": {"en": "Pistachios", "de": "Pistazien"}},
+            {"id": "cashews", "name": {"en": "Cashews", "de": "Cashewnüsse"}},
+            {"id": "pecans", "name": {"en": "Pecans", "de": "Pekannüsse"}}
+          ]
+        },
+        {
+          "id": "peanuts",
+          "name": {"en": "Peanuts", "de": "Erdnüsse"},
+          "note": "Legume, but colloquially grouped with nuts"
+        }
+      ]
+    },
+    {
+      "id": "meat",
+      "name": {"en": "Meat", "de": "Fleisch"},
+      "children": [
+        {"id": "pork", "name": {"en": "Pork", "de": "Schweinefleisch"}},
+        {"id": "beef", "name": {"en": "Beef", "de": "Rindfleisch"}},
+        {"id": "lamb", "name": {"en": "Lamb", "de": "Lamm"}},
+        {"id": "poultry", "name": {"en": "Poultry", "de": "Geflügel"}}
+      ]
+    },
+    {
+      "id": "seafood",
+      "name": {"en": "Seafood", "de": "Meeresfrüchte"},
+      "children": [
+        {"id": "fish", "name": {"en": "Fish", "de": "Fisch"}},
+        {"id": "shellfish", "name": {"en": "Shellfish", "de": "Krustentiere"}},
+        {"id": "molluscs", "name": {"en": "Molluscs", "de": "Weichtiere"}}
+      ]
+    },
+    {
+      "id": "vegetables",
+      "name": {"en": "Vegetables", "de": "Gemüse"},
+      "children": [
+        {"id": "cabbage", "name": {"en": "Cabbage", "de": "Kohl"}},
+        {"id": "tomato", "name": {"en": "Tomato", "de": "Tomate"}},
+        {"id": "onion", "name": {"en": "Onion", "de": "Zwiebel"}},
+        {"id": "garlic", "name": {"en": "Garlic", "de": "Knoblauch"}},
+        {"id": "bean-sprouts", "name": {"en": "Bean Sprouts", "de": "Sojasprossen"}}
+      ]
+    },
+    {
+      "id": "grains",
+      "name": {"en": "Grains", "de": "Getreide"},
+      "children": [
+        {"id": "flatbread", "name": {"en": "Flatbread", "de": "Fladenbrot"}},
+        {"id": "fettuccine", "name": {"en": "Fettuccine", "de": "Fettuccine"}},
+        {"id": "rice-noodles", "name": {"en": "Rice Noodles", "de": "Reisnudeln"}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2382 @@
+{
+  "schema_version": 1,
+  "recipes": [
+    {
+      "id": "doener-classic-easy-low",
+      "dish_id": "doener",
+      "title": {
+        "en": "lamb döner",
+        "de": "lamm döner"
+      },
+      "diet": "classic",
+      "effort": "easy",
+      "calorie_level": "low",
+      "extra_tags": [],
+      "contains": [
+        "lamb",
+        "beef",
+        "gluten",
+        "dairy",
+        "nightshades"
+      ],
+      "attributes": {
+        "effort": "easy",
+        "time_bucket": "<=30",
+        "calorie_bucket": "<=600",
+        "technique": [
+          "grill",
+          "sauté"
+        ],
+        "meal_type": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      "time_minutes": 20,
+      "calories_per_serving": 480,
+      "macros": {
+        "protein": 30,
+        "carbs": 54,
+        "fat": 16
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "onion",
+          "name": {
+            "en": "onion",
+            "de": "zwiebel"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "tomato",
+          "name": {
+            "en": "tomato",
+            "de": "tomate"
+          },
+          "quantity": 2.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "bell-pepper",
+          "name": {
+            "en": "bell pepper",
+            "de": "paprika"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "cumin",
+          "name": {
+            "en": "cumin",
+            "de": "kreuzkümmel"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "paprika",
+          "name": {
+            "en": "paprika",
+            "de": "paprikapulver"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "chili",
+          "name": {
+            "en": "chili",
+            "de": "chili"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "lamb",
+          "name": {
+            "en": "lamb shoulder",
+            "de": "lamm Schulter"
+          },
+          "quantity": 400,
+          "unit": "g",
+          "aisle": "meat"
+        },
+        {
+          "id": "beef",
+          "name": {
+            "en": "beef mince",
+            "de": "rinderhack"
+          },
+          "quantity": 200,
+          "unit": "g",
+          "aisle": "meat"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. lamb & beef, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. lamb & beef, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. grill.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. grill."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the lamb & beef and cook with intent — let the edges catch colour.",
+            "de": "den lamb & beef zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "middle-eastern",
+        "street-food",
+        "grill",
+        "sauté",
+        "lunch",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "middle-eastern",
+        "street-food"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "doener-classic-easy-high",
+      "dish_id": "doener",
+      "title": {
+        "en": "lamb döner",
+        "de": "lamm döner"
+      },
+      "diet": "classic",
+      "effort": "easy",
+      "calorie_level": "high",
+      "extra_tags": [],
+      "contains": [
+        "lamb",
+        "beef",
+        "gluten",
+        "dairy",
+        "nightshades"
+      ],
+      "attributes": {
+        "effort": "easy",
+        "time_bucket": "<=30",
+        "calorie_bucket": "<=800",
+        "technique": [
+          "grill",
+          "sauté"
+        ],
+        "meal_type": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      "time_minutes": 20,
+      "calories_per_serving": 720,
+      "macros": {
+        "protein": 45,
+        "carbs": 81,
+        "fat": 24
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "onion",
+          "name": {
+            "en": "onion",
+            "de": "zwiebel"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "tomato",
+          "name": {
+            "en": "tomato",
+            "de": "tomate"
+          },
+          "quantity": 2.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "bell-pepper",
+          "name": {
+            "en": "bell pepper",
+            "de": "paprika"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "cumin",
+          "name": {
+            "en": "cumin",
+            "de": "kreuzkümmel"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "paprika",
+          "name": {
+            "en": "paprika",
+            "de": "paprikapulver"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "chili",
+          "name": {
+            "en": "chili",
+            "de": "chili"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "lamb",
+          "name": {
+            "en": "lamb shoulder",
+            "de": "lamm Schulter"
+          },
+          "quantity": 400,
+          "unit": "g",
+          "aisle": "meat"
+        },
+        {
+          "id": "beef",
+          "name": {
+            "en": "beef mince",
+            "de": "rinderhack"
+          },
+          "quantity": 200,
+          "unit": "g",
+          "aisle": "meat"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. lamb & beef, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. lamb & beef, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. grill.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. grill."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the lamb & beef and cook with intent — let the edges catch colour.",
+            "de": "den lamb & beef zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "middle-eastern",
+        "street-food",
+        "grill",
+        "sauté",
+        "lunch",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "middle-eastern",
+        "street-food"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "doener-classic-medium-low",
+      "dish_id": "doener",
+      "title": {
+        "en": "lamb döner",
+        "de": "lamm döner"
+      },
+      "diet": "classic",
+      "effort": "medium",
+      "calorie_level": "low",
+      "extra_tags": [],
+      "contains": [
+        "lamb",
+        "beef",
+        "gluten",
+        "dairy",
+        "nightshades"
+      ],
+      "attributes": {
+        "effort": "medium",
+        "time_bucket": "<=60",
+        "calorie_bucket": "<=600",
+        "technique": [
+          "grill",
+          "sauté"
+        ],
+        "meal_type": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      "time_minutes": 45,
+      "calories_per_serving": 500,
+      "macros": {
+        "protein": 31,
+        "carbs": 56,
+        "fat": 17
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "onion",
+          "name": {
+            "en": "onion",
+            "de": "zwiebel"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "tomato",
+          "name": {
+            "en": "tomato",
+            "de": "tomate"
+          },
+          "quantity": 2.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "bell-pepper",
+          "name": {
+            "en": "bell pepper",
+            "de": "paprika"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "cumin",
+          "name": {
+            "en": "cumin",
+            "de": "kreuzkümmel"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "paprika",
+          "name": {
+            "en": "paprika",
+            "de": "paprikapulver"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "chili",
+          "name": {
+            "en": "chili",
+            "de": "chili"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "lamb",
+          "name": {
+            "en": "lamb shoulder",
+            "de": "lamm Schulter"
+          },
+          "quantity": 400,
+          "unit": "g",
+          "aisle": "meat"
+        },
+        {
+          "id": "beef",
+          "name": {
+            "en": "beef mince",
+            "de": "rinderhack"
+          },
+          "quantity": 200,
+          "unit": "g",
+          "aisle": "meat"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. lamb & beef, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. lamb & beef, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. grill.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. grill."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the lamb & beef and cook with intent — let the edges catch colour.",
+            "de": "den lamb & beef zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "middle-eastern",
+        "street-food",
+        "grill",
+        "sauté",
+        "lunch",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "middle-eastern",
+        "street-food"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "doener-classic-medium-high",
+      "dish_id": "doener",
+      "title": {
+        "en": "lamb döner",
+        "de": "lamm döner"
+      },
+      "diet": "classic",
+      "effort": "medium",
+      "calorie_level": "high",
+      "extra_tags": [],
+      "contains": [
+        "lamb",
+        "beef",
+        "gluten",
+        "dairy",
+        "nightshades"
+      ],
+      "attributes": {
+        "effort": "medium",
+        "time_bucket": "<=60",
+        "calorie_bucket": "<=800",
+        "technique": [
+          "grill",
+          "sauté"
+        ],
+        "meal_type": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      "time_minutes": 45,
+      "calories_per_serving": 740,
+      "macros": {
+        "protein": 46,
+        "carbs": 83,
+        "fat": 25
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "onion",
+          "name": {
+            "en": "onion",
+            "de": "zwiebel"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "tomato",
+          "name": {
+            "en": "tomato",
+            "de": "tomate"
+          },
+          "quantity": 2.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "bell-pepper",
+          "name": {
+            "en": "bell pepper",
+            "de": "paprika"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "cumin",
+          "name": {
+            "en": "cumin",
+            "de": "kreuzkümmel"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "paprika",
+          "name": {
+            "en": "paprika",
+            "de": "paprikapulver"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "chili",
+          "name": {
+            "en": "chili",
+            "de": "chili"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "lamb",
+          "name": {
+            "en": "lamb shoulder",
+            "de": "lamm Schulter"
+          },
+          "quantity": 400,
+          "unit": "g",
+          "aisle": "meat"
+        },
+        {
+          "id": "beef",
+          "name": {
+            "en": "beef mince",
+            "de": "rinderhack"
+          },
+          "quantity": 200,
+          "unit": "g",
+          "aisle": "meat"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. lamb & beef, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. lamb & beef, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. grill.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. grill."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the lamb & beef and cook with intent — let the edges catch colour.",
+            "de": "den lamb & beef zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "middle-eastern",
+        "street-food",
+        "grill",
+        "sauté",
+        "lunch",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "middle-eastern",
+        "street-food"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "doener-vegetarian-easy-low",
+      "dish_id": "doener",
+      "title": {
+        "en": "halloumi döner",
+        "de": "halloumi döner"
+      },
+      "diet": "vegetarian",
+      "effort": "easy",
+      "calorie_level": "low",
+      "extra_tags": [],
+      "contains": [
+        "dairy",
+        "gluten",
+        "nightshades"
+      ],
+      "attributes": {
+        "effort": "easy",
+        "time_bucket": "<=30",
+        "calorie_bucket": "<=600",
+        "technique": [
+          "grill",
+          "sauté"
+        ],
+        "meal_type": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      "time_minutes": 20,
+      "calories_per_serving": 480,
+      "macros": {
+        "protein": 30,
+        "carbs": 54,
+        "fat": 16
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "onion",
+          "name": {
+            "en": "onion",
+            "de": "zwiebel"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "tomato",
+          "name": {
+            "en": "tomato",
+            "de": "tomate"
+          },
+          "quantity": 2.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "bell-pepper",
+          "name": {
+            "en": "bell pepper",
+            "de": "paprika"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "cumin",
+          "name": {
+            "en": "cumin",
+            "de": "kreuzkümmel"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "paprika",
+          "name": {
+            "en": "paprika",
+            "de": "paprikapulver"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "chili",
+          "name": {
+            "en": "chili",
+            "de": "chili"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "cheese",
+          "name": {
+            "en": "halloumi",
+            "de": "halloumi"
+          },
+          "quantity": 250,
+          "unit": "g",
+          "aisle": "dairy"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. halloumi, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. halloumi, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. grill.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. grill."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the halloumi and cook with intent — let the edges catch colour.",
+            "de": "den halloumi zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "middle-eastern",
+        "street-food",
+        "grill",
+        "sauté",
+        "lunch",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "middle-eastern",
+        "street-food"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "doener-vegetarian-easy-high",
+      "dish_id": "doener",
+      "title": {
+        "en": "halloumi döner",
+        "de": "halloumi döner"
+      },
+      "diet": "vegetarian",
+      "effort": "easy",
+      "calorie_level": "high",
+      "extra_tags": [],
+      "contains": [
+        "dairy",
+        "gluten",
+        "nightshades"
+      ],
+      "attributes": {
+        "effort": "easy",
+        "time_bucket": "<=30",
+        "calorie_bucket": "<=800",
+        "technique": [
+          "grill",
+          "sauté"
+        ],
+        "meal_type": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      "time_minutes": 20,
+      "calories_per_serving": 720,
+      "macros": {
+        "protein": 45,
+        "carbs": 81,
+        "fat": 24
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "onion",
+          "name": {
+            "en": "onion",
+            "de": "zwiebel"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "tomato",
+          "name": {
+            "en": "tomato",
+            "de": "tomate"
+          },
+          "quantity": 2.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "bell-pepper",
+          "name": {
+            "en": "bell pepper",
+            "de": "paprika"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "cumin",
+          "name": {
+            "en": "cumin",
+            "de": "kreuzkümmel"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "paprika",
+          "name": {
+            "en": "paprika",
+            "de": "paprikapulver"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "chili",
+          "name": {
+            "en": "chili",
+            "de": "chili"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "cheese",
+          "name": {
+            "en": "halloumi",
+            "de": "halloumi"
+          },
+          "quantity": 250,
+          "unit": "g",
+          "aisle": "dairy"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. halloumi, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. halloumi, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. grill.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. grill."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the halloumi and cook with intent — let the edges catch colour.",
+            "de": "den halloumi zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "middle-eastern",
+        "street-food",
+        "grill",
+        "sauté",
+        "lunch",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "middle-eastern",
+        "street-food"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "doener-vegetarian-medium-low",
+      "dish_id": "doener",
+      "title": {
+        "en": "halloumi döner",
+        "de": "halloumi döner"
+      },
+      "diet": "vegetarian",
+      "effort": "medium",
+      "calorie_level": "low",
+      "extra_tags": [],
+      "contains": [
+        "dairy",
+        "gluten",
+        "nightshades"
+      ],
+      "attributes": {
+        "effort": "medium",
+        "time_bucket": "<=60",
+        "calorie_bucket": "<=600",
+        "technique": [
+          "grill",
+          "sauté"
+        ],
+        "meal_type": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      "time_minutes": 45,
+      "calories_per_serving": 500,
+      "macros": {
+        "protein": 31,
+        "carbs": 56,
+        "fat": 17
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "onion",
+          "name": {
+            "en": "onion",
+            "de": "zwiebel"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "tomato",
+          "name": {
+            "en": "tomato",
+            "de": "tomate"
+          },
+          "quantity": 2.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "bell-pepper",
+          "name": {
+            "en": "bell pepper",
+            "de": "paprika"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "cumin",
+          "name": {
+            "en": "cumin",
+            "de": "kreuzkümmel"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "paprika",
+          "name": {
+            "en": "paprika",
+            "de": "paprikapulver"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "chili",
+          "name": {
+            "en": "chili",
+            "de": "chili"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "cheese",
+          "name": {
+            "en": "halloumi",
+            "de": "halloumi"
+          },
+          "quantity": 250,
+          "unit": "g",
+          "aisle": "dairy"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. halloumi, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. halloumi, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. grill.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. grill."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the halloumi and cook with intent — let the edges catch colour.",
+            "de": "den halloumi zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "middle-eastern",
+        "street-food",
+        "grill",
+        "sauté",
+        "lunch",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "middle-eastern",
+        "street-food"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "doener-vegetarian-medium-high",
+      "dish_id": "doener",
+      "title": {
+        "en": "halloumi döner",
+        "de": "halloumi döner"
+      },
+      "diet": "vegetarian",
+      "effort": "medium",
+      "calorie_level": "high",
+      "extra_tags": [],
+      "contains": [
+        "dairy",
+        "gluten",
+        "nightshades"
+      ],
+      "attributes": {
+        "effort": "medium",
+        "time_bucket": "<=60",
+        "calorie_bucket": "<=800",
+        "technique": [
+          "grill",
+          "sauté"
+        ],
+        "meal_type": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      "time_minutes": 45,
+      "calories_per_serving": 740,
+      "macros": {
+        "protein": 46,
+        "carbs": 83,
+        "fat": 25
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "onion",
+          "name": {
+            "en": "onion",
+            "de": "zwiebel"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "tomato",
+          "name": {
+            "en": "tomato",
+            "de": "tomate"
+          },
+          "quantity": 2.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "bell-pepper",
+          "name": {
+            "en": "bell pepper",
+            "de": "paprika"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "cumin",
+          "name": {
+            "en": "cumin",
+            "de": "kreuzkümmel"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "paprika",
+          "name": {
+            "en": "paprika",
+            "de": "paprikapulver"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "chili",
+          "name": {
+            "en": "chili",
+            "de": "chili"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "cheese",
+          "name": {
+            "en": "halloumi",
+            "de": "halloumi"
+          },
+          "quantity": 250,
+          "unit": "g",
+          "aisle": "dairy"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. halloumi, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. halloumi, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. grill.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. grill."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the halloumi and cook with intent — let the edges catch colour.",
+            "de": "den halloumi zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "middle-eastern",
+        "street-food",
+        "grill",
+        "sauté",
+        "lunch",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "middle-eastern",
+        "street-food"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "doener-vegan-easy-low",
+      "dish_id": "doener",
+      "title": {
+        "en": "seitan döner",
+        "de": "seitan döner"
+      },
+      "diet": "vegan",
+      "effort": "easy",
+      "calorie_level": "low",
+      "extra_tags": [],
+      "contains": [
+        "gluten",
+        "soy",
+        "nightshades"
+      ],
+      "attributes": {
+        "effort": "easy",
+        "time_bucket": "<=30",
+        "calorie_bucket": "<=600",
+        "technique": [
+          "grill",
+          "sauté"
+        ],
+        "meal_type": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      "time_minutes": 20,
+      "calories_per_serving": 480,
+      "macros": {
+        "protein": 30,
+        "carbs": 54,
+        "fat": 16
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "onion",
+          "name": {
+            "en": "onion",
+            "de": "zwiebel"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "tomato",
+          "name": {
+            "en": "tomato",
+            "de": "tomate"
+          },
+          "quantity": 2.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "bell-pepper",
+          "name": {
+            "en": "bell pepper",
+            "de": "paprika"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "cumin",
+          "name": {
+            "en": "cumin",
+            "de": "kreuzkümmel"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "paprika",
+          "name": {
+            "en": "paprika",
+            "de": "paprikapulver"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "chili",
+          "name": {
+            "en": "chili",
+            "de": "chili"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "seitan",
+          "name": {
+            "en": "seitan",
+            "de": "seitan"
+          },
+          "quantity": 300,
+          "unit": "g",
+          "aisle": "asian"
+        },
+        {
+          "id": "soy",
+          "name": {
+            "en": "soy sauce",
+            "de": "sojasauce"
+          },
+          "quantity": 3,
+          "unit": "tbsp",
+          "aisle": "asian"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. seitan, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. seitan, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. grill.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. grill."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the seitan and cook with intent — let the edges catch colour.",
+            "de": "den seitan zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "middle-eastern",
+        "street-food",
+        "grill",
+        "sauté",
+        "lunch",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "middle-eastern",
+        "street-food"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "doener-vegan-easy-high",
+      "dish_id": "doener",
+      "title": {
+        "en": "seitan döner",
+        "de": "seitan döner"
+      },
+      "diet": "vegan",
+      "effort": "easy",
+      "calorie_level": "high",
+      "extra_tags": [],
+      "contains": [
+        "gluten",
+        "soy",
+        "nightshades"
+      ],
+      "attributes": {
+        "effort": "easy",
+        "time_bucket": "<=30",
+        "calorie_bucket": "<=800",
+        "technique": [
+          "grill",
+          "sauté"
+        ],
+        "meal_type": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      "time_minutes": 20,
+      "calories_per_serving": 720,
+      "macros": {
+        "protein": 45,
+        "carbs": 81,
+        "fat": 24
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "onion",
+          "name": {
+            "en": "onion",
+            "de": "zwiebel"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "tomato",
+          "name": {
+            "en": "tomato",
+            "de": "tomate"
+          },
+          "quantity": 2.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "bell-pepper",
+          "name": {
+            "en": "bell pepper",
+            "de": "paprika"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "cumin",
+          "name": {
+            "en": "cumin",
+            "de": "kreuzkümmel"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "paprika",
+          "name": {
+            "en": "paprika",
+            "de": "paprikapulver"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "chili",
+          "name": {
+            "en": "chili",
+            "de": "chili"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "seitan",
+          "name": {
+            "en": "seitan",
+            "de": "seitan"
+          },
+          "quantity": 300,
+          "unit": "g",
+          "aisle": "asian"
+        },
+        {
+          "id": "soy",
+          "name": {
+            "en": "soy sauce",
+            "de": "sojasauce"
+          },
+          "quantity": 3,
+          "unit": "tbsp",
+          "aisle": "asian"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. seitan, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. seitan, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. grill.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. grill."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the seitan and cook with intent — let the edges catch colour.",
+            "de": "den seitan zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "middle-eastern",
+        "street-food",
+        "grill",
+        "sauté",
+        "lunch",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "middle-eastern",
+        "street-food"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "doener-vegan-medium-low",
+      "dish_id": "doener",
+      "title": {
+        "en": "seitan döner",
+        "de": "seitan döner"
+      },
+      "diet": "vegan",
+      "effort": "medium",
+      "calorie_level": "low",
+      "extra_tags": [],
+      "contains": [
+        "gluten",
+        "soy",
+        "nightshades"
+      ],
+      "attributes": {
+        "effort": "medium",
+        "time_bucket": "<=60",
+        "calorie_bucket": "<=600",
+        "technique": [
+          "grill",
+          "sauté"
+        ],
+        "meal_type": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      "time_minutes": 45,
+      "calories_per_serving": 500,
+      "macros": {
+        "protein": 31,
+        "carbs": 56,
+        "fat": 17
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "onion",
+          "name": {
+            "en": "onion",
+            "de": "zwiebel"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "tomato",
+          "name": {
+            "en": "tomato",
+            "de": "tomate"
+          },
+          "quantity": 2.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "bell-pepper",
+          "name": {
+            "en": "bell pepper",
+            "de": "paprika"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "cumin",
+          "name": {
+            "en": "cumin",
+            "de": "kreuzkümmel"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "paprika",
+          "name": {
+            "en": "paprika",
+            "de": "paprikapulver"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "chili",
+          "name": {
+            "en": "chili",
+            "de": "chili"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "seitan",
+          "name": {
+            "en": "seitan",
+            "de": "seitan"
+          },
+          "quantity": 300,
+          "unit": "g",
+          "aisle": "asian"
+        },
+        {
+          "id": "soy",
+          "name": {
+            "en": "soy sauce",
+            "de": "sojasauce"
+          },
+          "quantity": 3,
+          "unit": "tbsp",
+          "aisle": "asian"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. seitan, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. seitan, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. grill.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. grill."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the seitan and cook with intent — let the edges catch colour.",
+            "de": "den seitan zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "middle-eastern",
+        "street-food",
+        "grill",
+        "sauté",
+        "lunch",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "middle-eastern",
+        "street-food"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "doener-vegan-medium-high",
+      "dish_id": "doener",
+      "title": {
+        "en": "seitan döner",
+        "de": "seitan döner"
+      },
+      "diet": "vegan",
+      "effort": "medium",
+      "calorie_level": "high",
+      "extra_tags": [],
+      "contains": [
+        "gluten",
+        "soy",
+        "nightshades"
+      ],
+      "attributes": {
+        "effort": "medium",
+        "time_bucket": "<=60",
+        "calorie_bucket": "<=800",
+        "technique": [
+          "grill",
+          "sauté"
+        ],
+        "meal_type": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      "time_minutes": 45,
+      "calories_per_serving": 740,
+      "macros": {
+        "protein": 46,
+        "carbs": 83,
+        "fat": 25
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "onion",
+          "name": {
+            "en": "onion",
+            "de": "zwiebel"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "tomato",
+          "name": {
+            "en": "tomato",
+            "de": "tomate"
+          },
+          "quantity": 2.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "bell-pepper",
+          "name": {
+            "en": "bell pepper",
+            "de": "paprika"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "cumin",
+          "name": {
+            "en": "cumin",
+            "de": "kreuzkümmel"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "paprika",
+          "name": {
+            "en": "paprika",
+            "de": "paprikapulver"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "chili",
+          "name": {
+            "en": "chili",
+            "de": "chili"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "seitan",
+          "name": {
+            "en": "seitan",
+            "de": "seitan"
+          },
+          "quantity": 300,
+          "unit": "g",
+          "aisle": "asian"
+        },
+        {
+          "id": "soy",
+          "name": {
+            "en": "soy sauce",
+            "de": "sojasauce"
+          },
+          "quantity": 3,
+          "unit": "tbsp",
+          "aisle": "asian"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. seitan, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. seitan, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. grill.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. grill."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the seitan and cook with intent — let the edges catch colour.",
+            "de": "den seitan zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. regular base goes in now.",
+            "de": "die gewürze unterheben. probieren. normale basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "middle-eastern",
+        "street-food",
+        "grill",
+        "sauté",
+        "lunch",
+        "dinner"
+      ],
+      "cuisine_tags": [
+        "middle-eastern",
+        "street-food"
+      ],
+      "frequency_tier": "core"
+    },
+    {
+      "id": "doener-classic-medium-high-gf",
+      "dish_id": "doener",
+      "title": {
+        "en": "lamb döner",
+        "de": "lamm döner"
+      },
+      "diet": "classic",
+      "effort": "medium",
+      "calorie_level": "high",
+      "extra_tags": [
+        "gluten-free"
+      ],
+      "contains": [
+        "lamb",
+        "beef",
+        "dairy",
+        "nightshades"
+      ],
+      "attributes": {
+        "effort": "medium",
+        "time_bucket": "<=60",
+        "calorie_bucket": "<=800",
+        "technique": [
+          "grill",
+          "sauté"
+        ],
+        "meal_type": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      "time_minutes": 45,
+      "calories_per_serving": 740,
+      "macros": {
+        "protein": 46,
+        "carbs": 83,
+        "fat": 25
+      },
+      "servings": 4,
+      "ingredients": [
+        {
+          "id": "onion",
+          "name": {
+            "en": "onion",
+            "de": "zwiebel"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "garlic",
+          "name": {
+            "en": "garlic",
+            "de": "knoblauch"
+          },
+          "quantity": 3.0,
+          "unit": "cloves",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "tomato",
+          "name": {
+            "en": "tomato",
+            "de": "tomate"
+          },
+          "quantity": 2.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "bell-pepper",
+          "name": {
+            "en": "bell pepper",
+            "de": "paprika"
+          },
+          "quantity": 1.0,
+          "unit": "pcs",
+          "aisle": "vegetables"
+        },
+        {
+          "id": "cumin",
+          "name": {
+            "en": "cumin",
+            "de": "kreuzkümmel"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "paprika",
+          "name": {
+            "en": "paprika",
+            "de": "paprikapulver"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "chili",
+          "name": {
+            "en": "chili",
+            "de": "chili"
+          },
+          "quantity": 1.0,
+          "unit": "tsp",
+          "aisle": "spices"
+        },
+        {
+          "id": "lamb",
+          "name": {
+            "en": "lamb shoulder",
+            "de": "lamm Schulter"
+          },
+          "quantity": 400,
+          "unit": "g",
+          "aisle": "meat"
+        },
+        {
+          "id": "beef",
+          "name": {
+            "en": "beef mince",
+            "de": "rinderhack"
+          },
+          "quantity": 200,
+          "unit": "g",
+          "aisle": "meat"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": {
+            "en": "prep everything before the heat goes on. lamb & beef, veg, spice.",
+            "de": "bereite alles vor dem anbraten vor. lamb & beef, gemüse, gewürze."
+          },
+          "timer_seconds": 0
+        },
+        {
+          "n": 2,
+          "text": {
+            "en": "sauté the aromatics until they smell like dinner. grill.",
+            "de": "die aromen anbraten, bis es nach abendessen duftet. grill."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "n": 3,
+          "text": {
+            "en": "add the lamb & beef and cook with intent — let the edges catch colour.",
+            "de": "den lamb & beef zugeben und mit absicht garen — lass die ränder farbe annehmen."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "n": 4,
+          "text": {
+            "en": "fold the spice in. taste. gluten-free base goes in now.",
+            "de": "die gewürze unterheben. probieren. glutenfreie basis jetzt zugeben."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "n": 5,
+          "text": {
+            "en": "rest a minute, plate, and eat with your hands if the dish allows.",
+            "de": "eine minute ruhen lassen, anrichten, und mit händen essen, wenn es das gericht erlaubt."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "tags": [
+        "middle-eastern",
+        "street-food",
+        "grill",
+        "sauté",
+        "lunch",
+        "dinner",
+        "gluten-free"
+      ],
+      "cuisine_tags": [
+        "middle-eastern",
+        "street-food"
+      ],
+      "frequency_tier": "core"
+    }
+  ]
+}

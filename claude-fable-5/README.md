@@ -46,6 +46,8 @@ loops until both the mechanical validator and the reviewer pass
 pipeline/wave4_lattice.py              # all dishes, resumable, merges at the end
 pipeline/wave4_lattice.py --new-dish "pad see ew"   # research + lattice + ship
 pipeline/wave4_lattice.py --suggest-dish 3          # codex invents dishes (queued)
+pipeline/wave4_lattice.py --new-dish "nachos" --theme "game night ..."
+                                       # pop-culture shelf (docs/themed-dishes.md)
 pipeline/wave4_lattice.py --expand-coverage         # allergen-combination variants
 pipeline/wave4_lattice.py --forever                 # all of the above, endlessly
 pipeline/wave4_lattice.py --status     # progress, no agent calls

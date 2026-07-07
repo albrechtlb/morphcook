@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "partitions": [
+    {"id": "core", "path": "assets/core-recipes.json", "load": "launch"},
+    {"id": "extended", "path": "assets/extended-recipes.json", "load": "on_demand"},
+    {"id": "cuisine-italian", "path": "assets/cuisine-italian.json", "load": "on_demand"},
+    {"id": "cuisine-asian", "path": "assets/cuisine-asian.json", "load": "on_demand"},
+    {"id": "cuisine-middle-eastern", "path": "assets/cuisine-middle-eastern.json", "load": "on_demand"}
+  ]
+}

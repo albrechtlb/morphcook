@@ -94,8 +94,19 @@ def main():
                    choices=["internal", "alpha", "beta", "production"])
     p.add_argument("--rollout", type=float, default=1.0,
                    help="staged rollout fraction for production (0..1)")
-    p.add_argument("--notes", default="", help="release notes (en-US + de-DE)")
+    p.add_argument("--notes", default="",
+                   help="release notes (same text for en-US + de-DE)")
+    p.add_argument("--notes-en", default="", help="en-US release notes")
+    p.add_argument("--notes-de", default="", help="de-DE release notes")
+    p.add_argument("--countries", default="",
+                   help="country targeting for STAGED rollouts only "
+                        "('world' or comma list of ISO codes). A FIRST "
+                        "production release needs countries set once in "
+                        "the Play Console UI (Production → Countries/"
+                        "regions) — there is no API for that.")
     args = p.parse_args()
+    if args.notes and (args.notes_en or args.notes_de):
+        sys.exit("use either --notes or --notes-en/--notes-de, not both")
 
     token = access_token(args.key)
     print("· authenticated")
@@ -120,10 +131,19 @@ def main():
     if args.track == "production" and args.rollout < 1.0:
         release["status"] = "inProgress"
         release["userFraction"] = args.rollout
-    if args.notes:
+    if args.countries == "world":
+        release["countryTargeting"] = {"includeRestOfWorld": True}
+    elif args.countries:
+        release["countryTargeting"] = {
+            "countries": [c.strip().upper()
+                          for c in args.countries.split(",") if c.strip()]}
+    notes_en = args.notes_en or args.notes
+    notes_de = args.notes_de or args.notes
+    if notes_en or notes_de:
         release["releaseNotes"] = [
-            {"language": "en-US", "text": args.notes},
-            {"language": "de-DE", "text": args.notes},
+            {"language": lang, "text": text}
+            for lang, text in (("en-US", notes_en), ("de-DE", notes_de))
+            if text
         ]
     api(token, "PUT", f"{BASE}/edits/{edit_id}/tracks/{args.track}",
         payload={"track": args.track, "releases": [release]})

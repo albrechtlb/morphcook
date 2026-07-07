@@ -1,0 +1,67 @@
+{
+  "dishes": [
+    {
+      "id": "doener",
+      "canonical_name": {
+        "en": "Döner Kebab",
+        "de": "Döner Kebab"
+      },
+      "hero_text": {
+        "en": "The street food classic, reimagined",
+        "de": "Der Streetfood-Klassiker, neu interpretiert"
+      },
+      "cap_caption": {
+        "en": "Berlin's favorite midnight snack",
+        "de": "Berlins liebster Mitternachtssnack"
+      },
+      "stripe_color": "#E8A87C",
+      "variant_recipe_ids": ["doener-classic", "doener-vegan", "doener-keto", "doener-halal"],
+      "partition_id": "core",
+      "secondary_partitions": ["cuisine-middle-eastern"],
+      "cuisine_tags": ["turkish", "german"],
+      "frequency_tier": "high"
+    },
+    {
+      "id": "alfredo",
+      "canonical_name": {
+        "en": "Fettuccine Alfredo",
+        "de": "Fettuccine Alfredo"
+      },
+      "hero_text": {
+        "en": "Creamy comfort in every bite",
+        "de": "Cremige Textur in jedem Bissen"
+      },
+      "cap_caption": {
+        "en": "Roman elegance on a plate",
+        "de": "Römische Eleganz auf einem Teller"
+      },
+      "stripe_color": "#FFD700",
+      "variant_recipe_ids": ["alfredo-classic", "alfredo-vegan", "alfredo-glutenfree"],
+      "partition_id": "core",
+      "secondary_partitions": ["cuisine-italian"],
+      "cuisine_tags": ["italian"],
+      "frequency_tier": "high"
+    },
+    {
+      "id": "pad-thai",
+      "canonical_name": {
+        "en": "Pad Thai",
+        "de": "Pad Thai"
+      },
+      "hero_text": {
+        "en": "Sweet, sour, salty perfection",
+        "de": "Süß, sauer, salzig – perfekt"
+      },
+      "cap_caption": {
+        "en": "Thailand's gift to the world",
+        "de": "Thailands Geschenk an die Welt"
+      },
+      "stripe_color": "#FF6B6B",
+      "variant_recipe_ids": ["padthai-classic", "padthai-vegan", "padthai-keto"],
+      "partition_id": "core",
+      "secondary_partitions": ["cuisine-asian"],
+      "cuisine_tags": ["thai"],
+      "frequency_tier": "high"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "what-is-morphcook",
+      "category": "general",
+      "question": {"en": "What is MorphCook?", "de": "Was ist MorphCook?"},
+      "answer": {"en": "MorphCook is a recipe app that treats every dietary need as a first-class citizen. Each dish exists for every body, fully authored — not as a substitution.", "de": "MorphCook ist eine Rezept-App, die jede Ernährungsweise gleichberechtigt behandelt. Jedes Gericht existiert für jeden Körper, vollständig verfasst — nicht als Ersatz."},
+      "related_links": [{"label": {"en": "Profile settings", "de": "Profileinstellungen"}, "route": "/settings"}]
+    },
+    {
+      "id": "how-matching-works",
+      "category": "diet",
+      "question": {"en": "How does dietary matching work?", "de": "Wie funktioniert die Ernährungszuordnung?"},
+      "answer": {"en": "Recipes carry contains-flags and ingredient IDs. Your profile carries avoid-flags and avoid-ingredients. A recipe is visible only when no flag or ingredient you avoid appears in the recipe.", "de": "Rezepte tragen Enthält-Markierungen und Zutaten-IDs. Dein Profil enthält Vermeiden-Markierungen und Zutaten. Ein Rezept ist nur sichtbar, wenn keine vermiedene Markierung oder Zutat darin vorkommt."},
+      "related_links": [{"label": {"en": "Edit profile", "de": "Profil bearbeiten"}, "route": "/settings/profile"}]
+    },
+    {
+      "id": "why-recipes-hidden",
+      "category": "diet",
+      "question": {"en": "Why are some recipes hidden?", "de": "Warum sind einige Rezepte ausgeblendet?"},
+      "answer": {"en": "A recipe is hidden if it contains something you flagged or avoided, or if it exceeds your time or calorie budget. You can temporarily override filters on a dish's detail page.", "de": "Ein Rezept wird ausgeblendet, wenn es etwas enthält, das du vermeidest, oder dein Zeit- oder Kalorienbudget überschreitet. Auf der Gerichteseite kannst du Filter vorübergehend aufheben."},
+      "related_links": []
+    },
+    {
+      "id": "profile-vs-variant",
+      "category": "diet",
+      "question": {"en": "Can I try a variant outside my profile?", "de": "Kann ich eine Variante außerhalb meines Profils probieren?"},
+      "answer": {"en": "Yes. Your profile preselects variants but never locks them. Chips outside your profile are muted, and a note reminds you of the mismatch.", "de": "Ja. Dein Profil wählt Varianten vor, aber sperrt sie nie. Davon abweichende Chips sind gedämpft, und ein Hinweis erinnert dich an die Abweichung."},
+      "related_links": []
+    },
+    {
+      "id": "backup-format",
+      "category": "data",
+      "question": {"en": "What backup formats are supported?", "de": "Welche Sicherungsformate werden unterstützt?"},
+      "answer": {"en": "MorphCook exports a plain JSON file and a GZip-compressed JSON file side by side. You can optionally encrypt the JSON file with a password using AES-256-GCM.", "de": "MorphCook exportiert eine Klartext-JSON-Datei und eine GZip-komprimierte JSON-Datei nebeneinander. Optional kann die JSON-Datei mit einem Passwort per AES-256-GCM verschlüsselt werden."},
+      "related_links": [{"label": {"en": "Backup & restore", "de": "Sichern & Wiederherstellen"}, "route": "/settings/backup"}]
+    },
+    {
+      "id": "halal-kosher-note",
+      "category": "diet",
+      "question": {"en": "Does MorphCook certify recipes as halal or kosher?", "de": "Zertifiziert MorphCook Rezepte als halal oder koscher?"},
+      "answer": {"en": "No. We never claim halal or kosher certification. We only surface halal-compatible or kosher-compatible ingredients. Certification depends on sourcing and supervision.", "de": "Nein. Wir stellen keine halal- oder koscher-Zertifizierung in Aussicht. Wir zeigen nur halal- oder koscher-kompatible Zutaten. Die Zertifizierung hängt von Beschaffung und Aufsicht ab."},
+      "related_links": [{"label": {"en": "Diet settings", "de": "Ernährungseinstellungen"}, "route": "/settings/diet"}]
+    },
+    {
+      "id": "cook-mode-timer",
+      "category": "features",
+      "question": {"en": "How do timers work in cook mode?", "de": "Wie funktionieren Timer im Kochmodus?"},
+      "answer": {"en": "Each step can include a timer. Tap start to count down. When time is up, a visual flash alerts you if enabled in settings.", "de": "Jeder Schritt kann einen Timer enthalten. Tippe auf Start für den Countdown. Bei Ablauf erscheint ein visueller Blitz, falls in den Einstellungen aktiviert."},
+      "related_links": [{"label": {"en": "Accessibility settings", "de": "Barriereeinstellungen"}, "route": "/settings/accessibility"}]
+    },
+    {
+      "id": "shopping-list-insights",
+      "category": "features",
+      "question": {"en": "What are shopping insights?", "de": "Was sind Einkaufs-Einblicke?"},
+      "answer": {"en": "Insights show your most-used ingredients, variety score, and seasonal patterns based on your shopping list history.", "de": "Einblicke zeigen deine am häufigsten verwendeten Zutaten, einen Vielfaltsscore und saisonale Muster basierend auf deiner Einkaufslisten-Historie."},
+      "related_links": [{"label": {"en": "Shopping list", "de": "Einkaufsliste"}, "route": "/shopping"}]
+    },
+    {
+      "id": "language-support",
+      "category": "general",
+      "question": {"en": "Which languages are supported?", "de": "Welche Sprachen werden unterstützt?"},
+      "answer": {"en": "English and German at launch. The data model supports any number of languages — adding one is a data change, not a code change.", "de": "Englisch und Deutsch zum Start. Das Datenmodell unterstützt beliebig viele Sprachen — das Hinzufügen ist eine Datenänderung, keine Codeänderung."},
+      "related_links": [{"label": {"en": "Language", "de": "Sprache"}, "route": "/settings/language"}]
+    },
+    {
+      "id": "content-requests",
+      "category": "general",
+      "question": {"en": "What happens to my failed searches?", "de": "Was passiert mit meinen erfolglosen Suchen?"},
+      "answer": {"en": "Search queries that return no results are stored locally as content requests. You can export them with your backup to help the corpus team prioritize new dishes.", "de": "Suchanfragen ohne Ergebnisse werden lokal als Inhaltswünsche gespeichert. Du kannst sie mit deinem Backup exportieren, um dem Corpus-Team zu helfen, neue Gerichte zu priorisieren."},
+      "related_links": [{"label": {"en": "Backup", "de": "Sicherung"}, "route": "/settings/backup"}]
+    }
+  ]
+}

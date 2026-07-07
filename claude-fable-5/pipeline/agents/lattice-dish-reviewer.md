@@ -43,6 +43,8 @@ Do not bounce for taste. A coherent, honest, varied dish passes.
 
 {{DISH_JSON}}
 
+{{MODE_NOTES}}
+
 ## The plan
 
 {{PLAN_JSON}}

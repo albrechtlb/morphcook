@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "version": 1,
+  "partitions": [
+    {"id": "core", "file": "core-recipes.json", "preload": true},
+    {"id": "extended", "file": "extended-recipes.json", "preload": false},
+    {"id": "cuisine-italian", "file": "cuisine-italian.json", "preload": false},
+    {"id": "cuisine-asian", "file": "cuisine-asian.json", "preload": false},
+    {"id": "cuisine-middle-eastern", "file": "cuisine-middle-eastern.json", "preload": false}
+  ]
+}

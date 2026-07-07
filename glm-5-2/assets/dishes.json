@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "dishes": [
+    {
+      "id": "doener",
+      "canonical_name": {"en": "döner", "de": "döner"},
+      "hero_text": {"en": "street-corner classic, reimagined for every body", "de": "strassenklassiker, neu gedacht für jeden"},
+      "cap_caption": {"en": "berlin, late shift", "de": "berlin, nachtschicht"},
+      "stripe_color": "#C84B31",
+      "frequency_tier": "core",
+      "partition_id": "core-recipes",
+      "secondary_partitions": [],
+      "cuisine_tags": ["middle-eastern", "street-food"],
+      "variant_recipe_ids": [
+        "doener-classic-easy-low", "doener-classic-medium-high",
+        "doener-veg-easy-low", "doener-veg-medium-high",
+        "doener-vegan-easy-low", "doener-vegan-medium-high",
+        "doener-classic-medium-high-gf"
+      ]
+    },
+    {
+      "id": "alfredo",
+      "canonical_name": {"en": "alfredo", "de": "alfredo"},
+      "hero_text": {"en": "the silken roman ribbon, yours however you eat", "de": "die seidige römische bande, wie auch immer du isst"},
+      "cap_caption": {"en": "roma, trastevere", "de": "roma, trastevere"},
+      "stripe_color": "#E8B14F",
+      "frequency_tier": "core",
+      "partition_id": "core-recipes",
+      "secondary_partitions": ["cuisine-italian"],
+      "cuisine_tags": ["italian", "pasta"],
+      "variant_recipe_ids": [
+        "alfredo-classic-easy-low", "alfredo-classic-medium-high",
+        "alfredo-veg-easy-low", "alfredo-veg-medium-high",
+        "alfredo-vegan-easy-low", "alfredo-vegan-medium-high",
+        "alfredo-vegan-medium-high-gf"
+      ]
+    },
+    {
+      "id": "pad-thai",
+      "canonical_name": {"en": "pad thai", "de": "pad thai"},
+      "hero_text": {"en": "bangkok night-market tang, written three ways", "de": "bangkok nachtmarkt-würze, dreifach notiert"},
+      "cap_caption": {"en": "bangkok, sukhumvit", "de": "bangkok, sukhumvit"},
+      "stripe_color": "#5B8E7D",
+      "frequency_tier": "core",
+      "partition_id": "core-recipes",
+      "secondary_partitions": ["cuisine-asian"],
+      "cuisine_tags": ["asian", "noodles"],
+      "variant_recipe_ids": [
+        "pad-thai-classic-easy-low", "pad-thai-classic-medium-high",
+        "pad-thai-veg-easy-low", "pad-thai-veg-medium-high",
+        "pad-thai-vegan-easy-low", "pad-thai-vegan-medium-high"
+      ]
+    },
+    {
+      "id": "pancakes",
+      "canonical_name": {"en": "pancakes", "de": "pfannkuchen"},
+      "hero_text": {"en": "slow sunday morning stack, any which way", "de": "ruhiger sonntagmorgen-stapel, jeder art"},
+      "cap_caption": {"en": "home, sunday", "de": "zuhause, sonntag"},
+      "stripe_color": "#D9843E",
+      "frequency_tier": "core",
+      "partition_id": "core-recipes",
+      "secondary_partitions": [],
+      "cuisine_tags": ["breakfast", "american"],
+      "variant_recipe_ids": [
+        "pancakes-classic-easy-low", "pancakes-classic-medium-high",
+        "pancakes-veg-easy-low", "pancakes-veg-medium-high",
+        "pancakes-vegan-easy-low", "pancakes-vegan-medium-high"
+      ]
+    },
+    {
+      "id": "ramen",
+      "canonical_name": {"en": "ramen", "de": "ramen"},
+      "hero_text": {"en": "a bowl that holds the whole evening", "de": "eine schüssel, die den ganzen abend trägt"},
+      "cap_caption": {"en": "tokyo, midnight", "de": "tokyo, mitternacht"},
+      "stripe_color": "#7A4A3A",
+      "frequency_tier": "core",
+      "partition_id": "core-recipes",
+      "secondary_partitions": ["cuisine-asian"],
+      "cuisine_tags": ["asian", "soup", "japanese"],
+      "variant_recipe_ids": [
+        "ramen-classic-medium-high", "ramen-veg-medium-high",
+        "ramen-vegan-medium-high", "ramen-vegan-easy-low"
+      ]
+    },
+    {
+      "id": "burger",
+      "canonical_name": {"en": "burger", "de": "burger"},
+      "hero_text": {"en": "the diner puck, pressed for every eater", "de": "der diner-puck, für jeden esser gepresst"},
+      "cap_caption": {"en": "route 66, dusk", "de": "route 66, dämmerung"},
+      "stripe_color": "#A8553A",
+      "frequency_tier": "extended",
+      "partition_id": "extended-recipes",
+      "secondary_partitions": [],
+      "cuisine_tags": ["american", "grill"],
+      "variant_recipe_ids": [
+        "burger-classic-easy-low", "burger-classic-medium-high",
+        "burger-veg-easy-low", "burger-veg-medium-high",
+        "burger-vegan-easy-low", "burger-vegan-medium-high"
+      ]
+    },
+    {
+      "id": "risotto",
+      "canonical_name": {"en": "risotto", "de": "risotto"},
+      "hero_text": {"en": "stirred slowly, eaten slowly, for everyone", "de": "langsam gerührt, langsam gegessen, für alle"},
+      "cap_caption": {"en": "milano, winter", "de": "milano, winter"},
+      "stripe_color": "#B8893F",
+      "frequency_tier": "extended",
+      "partition_id": "extended-recipes",
+      "secondary_partitions": ["cuisine-italian"],
+      "cuisine_tags": ["italian", "rice"],
+      "variant_recipe_ids": [
+        "risotto-classic-medium-high", "risotto-veg-medium-high",
+        "risotto-vegan-medium-high", "risotto-vegan-easy-low"
+      ]
+    }
+  ]
+}

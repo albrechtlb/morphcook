@@ -1,0 +1,50 @@
+[
+  {
+    "id": "doener",
+    "name": {"en": "döner", "de": "Döner"},
+    "hero": {"en": "paper-wrapped warmth, bright pickles, and sauce down your wrist — authored for the way you eat today.", "de": "Papierwarme Fülle, helle Pickles und Sauce am Handgelenk — geschrieben für die Art, wie du heute isst."},
+    "caption": {"en": "late tram stop dinner", "de": "Abendessen an der Haltestelle"},
+    "stripe_color": "#d98673",
+    "recipe_ids": ["doener-classic-easy-600", "doener-classic-easy-800", "doener-classic-medium-600", "doener-classic-medium-800", "doener-vegetarian-easy-600", "doener-vegetarian-easy-800", "doener-vegetarian-medium-600", "doener-vegetarian-medium-800", "doener-vegan-easy-600", "doener-vegan-easy-800", "doener-vegan-medium-600", "doener-vegan-medium-800", "doener-halal-easy-600", "doener-gluten-free-easy-600"],
+    "partition_id": "core",
+    "secondary_partitions": ["cuisine-middle-eastern"],
+    "cuisine_tags": ["middle-eastern", "street-food"],
+    "frequency_tier": "core"
+  },
+  {
+    "id": "alfredo",
+    "name": {"en": "alfredo", "de": "Alfredo"},
+    "hero": {"en": "soft noodles, glossy sauce, black pepper like film grain.", "de": "Weiche Nudeln, glänzende Sauce, schwarzer Pfeffer wie Filmkorn."},
+    "caption": {"en": "cream-colored postcard", "de": "cremefarbene Postkarte"},
+    "stripe_color": "#a7ad85",
+    "recipe_ids": ["alfredo-classic-easy-600", "alfredo-vegan-easy-600", "alfredo-gluten-free-easy-600"],
+    "partition_id": "core",
+    "secondary_partitions": ["cuisine-italian"],
+    "cuisine_tags": ["italian", "comfort"],
+    "frequency_tier": "core"
+  },
+  {
+    "id": "pad-thai",
+    "name": {"en": "pad thai", "de": "Pad Thai"},
+    "hero": {"en": "tamarind shine, tangled noodles, a little crunch in the margins.", "de": "Tamarindenglanz, verschlungene Nudeln, ein kleines Knuspern am Rand."},
+    "caption": {"en": "neon noodles, calm bowl", "de": "Neonnudeln, ruhige Schale"},
+    "stripe_color": "#5f9d95",
+    "recipe_ids": ["pad-thai-classic-easy-600", "pad-thai-vegan-easy-600", "pad-thai-nut-free-easy-600"],
+    "partition_id": "core",
+    "secondary_partitions": ["cuisine-asian"],
+    "cuisine_tags": ["asian", "thai"],
+    "frequency_tier": "core"
+  },
+  {
+    "id": "porridge",
+    "name": {"en": "porridge", "de": "Porridge"},
+    "hero": {"en": "morning oats, jammy fruit, quiet spoonfuls.", "de": "Morgenhafer, marmeladige Früchte, stille Löffel."},
+    "caption": {"en": "breakfast page torn softly", "de": "sanft gerissene Frühstücksseite"},
+    "stripe_color": "#c9a66b",
+    "recipe_ids": ["porridge-classic-easy-400", "porridge-vegan-easy-400"],
+    "partition_id": "extended",
+    "secondary_partitions": [],
+    "cuisine_tags": ["breakfast"],
+    "frequency_tier": "extended"
+  }
+]

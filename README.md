@@ -15,7 +15,7 @@ ships bundled with the app.
 
 ## What this repository is
 
-One spec, five implementations. Each top-level directory contains a complete,
+One spec, seven implementations. Each top-level directory contains a complete,
 independent implementation of the MorphCook spec, built end-to-end by a
 different AI model as a comparison experiment:
 
@@ -25,6 +25,8 @@ different AI model as a comparison experiment:
 | `claude-opus-4-8/` | Claude Opus 4.8 |
 | `claude-opus-4-7/` | Claude Opus 4.7 |
 | `gemini-3-5-flash/` | Gemini 3.5 Flash |
+| `glm-5-2/` | GLM-5.2 |
+| `kimi-k2-7/` | Kimi K2.7 |
 | `minimax-m3/` | MiniMax M3 |
 
 Each directory carries the `SPEC.md` it was built against (the spec evolved
@@ -35,6 +37,14 @@ pipeline (`pipeline/`) and design docs (`docs/`).
 The implementations are preserved as the models produced them — including
 their READMEs, structure, and quirks. That divergence is the point of the
 experiment.
+
+The one-shot output lives in history: the **first commit** that touches a
+directory is exactly what that model produced in a single run. Every commit
+after it is a human-directed improvement — I intend to actually use the app
+(the Claude Fable 5 version), not just compare models, so it keeps getting
+worked on. To see a model's untouched output, check out that directory's
+first commit. See [issue #2](https://github.com/TheMorpheus407/morphcook/issues/2)
+for the motivation.
 
 ## Running a version
 
