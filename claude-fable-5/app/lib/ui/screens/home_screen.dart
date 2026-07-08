@@ -22,6 +22,8 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   // dishId -> the user's best visible variant (null = no variant passes).
   Map<String, Recipe?> _best = {};
+  // dishId -> a visible total-easy variant, for the after-work rail.
+  Map<String, Recipe> _quick = {};
   bool _loaded = false;
 
   @override
@@ -33,12 +35,22 @@ class _HomeScreenState extends State<HomeScreen> {
   Future<void> _recompute() async {
     final state = context.read<AppState>();
     final result = <String, Recipe?>{};
+    final quick = <String, Recipe>{};
     for (final dish in state.corpus.dishes) {
-      result[dish.id] = await state.bestVariant(dish.id);
+      final visible = await state.visibleVariants(dish.id);
+      result[dish.id] =
+          state.ranker.pickBest(visible, state.profile, state.history);
+      for (final recipe in visible) {
+        if (recipe.attributes.contains('total-easy')) {
+          quick[dish.id] = recipe;
+          break;
+        }
+      }
     }
     if (!mounted) return;
     setState(() {
       _best = result;
+      _quick = quick;
       _loaded = true;
     });
   }
@@ -86,6 +98,11 @@ class _HomeScreenState extends State<HomeScreen> {
               if (featured != null) ...[
                 SectionHeader(title: s('featuredToday')),
                 _featuredCard(featured, _best[featured.id]!, lang, state),
+              ],
+              if (_quick.isNotEmpty) ...[
+                const SizedBox(height: 12),
+                SectionHeader(title: s('totalEasySection')),
+                _totalEasyRail(visibleDishes, lang),
               ],
               const SizedBox(height: 12),
               SectionHeader(title: s('fromTheKitchen')),
@@ -202,6 +219,38 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ],
         ),
+      ),
+    );
+  }
+
+  /// Horizontal rail of dishes with a visible total-easy variant —
+  /// after-work food, one swipe away.
+  Widget _totalEasyRail(List<Dish> visibleDishes, String lang) {
+    final dishes =
+        visibleDishes.where((d) => _quick.containsKey(d.id)).toList();
+    return SizedBox(
+      height: 178,
+      child: ListView.separated(
+        scrollDirection: Axis.horizontal,
+        padding: const EdgeInsets.symmetric(vertical: 4),
+        itemCount: dishes.length,
+        separatorBuilder: (_, __) => const SizedBox(width: 12),
+        itemBuilder: (context, i) {
+          final dish = dishes[i];
+          final recipe = _quick[dish.id]!;
+          return SizedBox(
+            width: 150,
+            child: PolaroidCard(
+              stripe: _hex(dish.stripe),
+              title: dish.name.of(lang),
+              caption:
+                  '${recipe.timeMinutes} ${S(lang)('minutes')} · ${recipe.caloriesPerServing} kcal',
+              photoHeight: 72,
+              rotationSeed: i + 3,
+              onTap: () => _openDish(dish),
+            ),
+          );
+        },
       ),
     );
   }

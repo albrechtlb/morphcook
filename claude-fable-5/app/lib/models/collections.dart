@@ -53,8 +53,24 @@ DateTime weekStart(DateTime date) =>
     DateTime(date.year, date.month, date.day)
         .subtract(Duration(days: date.weekday - 1));
 
-/// Meal plan: week key -> "mon.dinner" -> recipe id.
+/// Meal plan: week key -> "mon.dinner" -> plan entry.
+///
+/// A plan entry is either a plain recipe id (a meal you cook) or
+/// `leftover:<recipeId>` (a portion left over from cooking that recipe
+/// earlier in the week). The string encoding keeps old backups and
+/// persisted plans loading unchanged.
 typedef MealPlanData = Map<String, Map<String, String>>;
+
+const _leftoverPrefix = 'leftover:';
+
+bool isLeftoverEntry(String entry) => entry.startsWith(_leftoverPrefix);
+
+/// The recipe id behind a plan entry, leftover or not.
+String plannedRecipeId(String entry) => isLeftoverEntry(entry)
+    ? entry.substring(_leftoverPrefix.length)
+    : entry;
+
+String leftoverEntry(String recipeId) => '$_leftoverPrefix$recipeId';
 
 /// One item on the shopping list (manually checked off by the user).
 class ShoppingItem {

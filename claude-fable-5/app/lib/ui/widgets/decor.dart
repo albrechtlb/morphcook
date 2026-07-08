@@ -48,6 +48,9 @@ class _StripePainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
+    // The diagonals overshoot the rect; without this clip they would bleed
+    // past the placeholder onto the card frame around it.
+    canvas.clipRect(Offset.zero & size);
     canvas.drawRect(Offset.zero & size,
         Paint()..color = color.withValues(alpha: 0.16));
     final paint = Paint()

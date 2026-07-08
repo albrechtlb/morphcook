@@ -7,7 +7,8 @@ import '../strings.dart';
 import '../theme.dart';
 import '../widgets/decor.dart';
 
-/// Smart shopping list: unit-aware aggregated items grouped by aisle.
+/// Smart shopping list: unit-aware aggregated items grouped by aisle,
+/// plus free-text items of your own (quantity-less, "own items" aisle).
 class ShoppingListScreen extends StatelessWidget {
   const ShoppingListScreen({super.key});
 
@@ -29,6 +30,11 @@ class ShoppingListScreen extends StatelessWidget {
         title: Text(s('shoppingList'),
             style: MorphText.display.copyWith(fontSize: 22)),
         actions: [
+          IconButton(
+            tooltip: s('addOwnItem'),
+            icon: const Icon(Icons.add, size: 20),
+            onPressed: () => _addOwnItem(context, state, s),
+          ),
           if (items.any((i) => i.checked))
             IconButton(
               tooltip: s('clearChecked'),
@@ -103,12 +109,49 @@ class ShoppingListScreen extends StatelessWidget {
                 ),
               ),
             ),
-            Text(qty.display,
-                style: MorphText.mono.copyWith(
-                    fontSize: 12, color: MorphColors.terracotta)),
+            if (item.unit.isNotEmpty)
+              Text(qty.displayFor(lang),
+                  style: MorphText.mono.copyWith(
+                      fontSize: 12, color: MorphColors.terracotta)),
           ],
         ),
       ),
     );
+  }
+
+  Future<void> _addOwnItem(
+      BuildContext context, AppState state, S s) async {
+    final controller = TextEditingController();
+    final text = await showDialog<String>(
+      context: context,
+      builder: (context) => AlertDialog(
+        backgroundColor: MorphColors.paper,
+        title: Text(s('addOwnItem'),
+            style: MorphText.display.copyWith(fontSize: 20)),
+        content: TextField(
+          controller: controller,
+          autofocus: true,
+          style: MorphText.mono.copyWith(fontSize: 13),
+          decoration: InputDecoration(
+            hintText: s('ownItemHint'),
+            hintStyle: MorphText.mono
+                .copyWith(fontSize: 13, color: MorphColors.inkFaint),
+          ),
+          onSubmitted: (v) => Navigator.pop(context, v),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: Text(s('cancel'), style: MorphText.label()),
+          ),
+          TextButton(
+            onPressed: () => Navigator.pop(context, controller.text),
+            child: Text(s('add'),
+                style: MorphText.label(color: MorphColors.teal)),
+          ),
+        ],
+      ),
+    );
+    if (text != null) await state.addManualShoppingItem(text);
   }
 }

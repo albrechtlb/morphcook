@@ -143,6 +143,42 @@ void main() {
       }
     });
 
+    test('fridge life and total-easy category are authored consistently',
+        () async {
+      final corpus = await loadRealCorpus();
+      for (final recipe in corpus.loadedRecipes) {
+        expect(recipe.fridgeLifeDays, inInclusiveRange(1, 7),
+            reason: '${recipe.id}: fridge_life_days out of range');
+        if (recipe.attributes.contains('total-easy')) {
+          expect(recipe.variant.effort, 'easy',
+              reason: '${recipe.id}: total-easy must sit on the easy '
+                  'variant level');
+          expect(recipe.timeMinutes, lessThanOrEqualTo(25),
+              reason: '${recipe.id}: total-easy but not quick');
+        }
+      }
+      // The category exists and is not empty — the after-work rail needs it.
+      expect(
+          corpus.loadedRecipes
+              .where((r) => r.attributes.contains('total-easy'))
+              .length,
+          greaterThanOrEqualTo(20));
+    });
+
+    test('every effort level is well represented (healthy mix)', () async {
+      final corpus = await loadRealCorpus();
+      final byEffort = <String, int>{};
+      for (final recipe in corpus.loadedRecipes) {
+        byEffort.update(recipe.variant.effort, (v) => v + 1,
+            ifAbsent: () => 1);
+      }
+      for (final effort in ['easy', 'medium', 'hard']) {
+        expect((byEffort[effort] ?? 0) / corpus.loadedRecipes.length,
+            greaterThanOrEqualTo(0.15),
+            reason: 'effort $effort under-represented: $byEffort');
+      }
+    });
+
     test('variant triples are unique within a dish (coverage variants '
         'share their base cell on purpose)', () async {
       // Coverage variants ("…-no-gluten-dairy") re-author a base cell free

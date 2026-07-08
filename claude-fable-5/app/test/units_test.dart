@@ -60,7 +60,30 @@ void main() {
     test('display trims trailing zeros', () {
       expect(const Quantity(2.0, 'tbsp').display, '2 tbsp');
       expect(const Quantity(2.5, 'tbsp').display, '2.5 tbsp');
-      expect(const Quantity(1.333333, 'cup').display, '1.33 cup');
+      expect(const Quantity(1.333333, 'cup').display, '1.33 cups');
+    });
+
+    test('english display pluralizes count units', () {
+      expect(const Quantity(1, 'clove').displayFor('en'), '1 clove');
+      expect(const Quantity(2, 'clove').displayFor('en'), '2 cloves');
+      expect(const Quantity(1, 'piece').displayFor('en'), '1 piece');
+      expect(const Quantity(3, 'piece').displayFor('en'), '3 pieces');
+    });
+
+    test('german display uses kitchen units and a decimal comma', () {
+      expect(const Quantity(2, 'tsp').displayFor('de'), '2 TL');
+      expect(const Quantity(1.5, 'tbsp').displayFor('de'), '1,5 EL');
+      expect(const Quantity(420, 'g').displayFor('de'), '420 g');
+      expect(const Quantity(1, 'clove').displayFor('de'), '1 Zehe');
+      expect(const Quantity(2, 'clove').displayFor('de'), '2 Zehen');
+      expect(const Quantity(2, 'piece').displayFor('de'), '2 Stück');
+      expect(const Quantity(1, 'pinch').displayFor('de'), '1 Prise');
+      expect(const Quantity(0.5, 'l').displayFor('de'), '0,5 l');
+    });
+
+    test('formatQuantity scales for portioning', () {
+      expect(formatQuantity(420 * 1.5, 'g', 'de'), '630 g');
+      expect(formatQuantity(1 * 2.5, 'clove', 'de'), '2,5 Zehen');
     });
 
     test('unknown units fall back to count behavior', () {

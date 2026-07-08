@@ -32,6 +32,58 @@ const Map<String, UnitDef> units = {
   'sprig': UnitDef('sprig', UnitFamily.count, 1),
 };
 
+/// Localized unit labels: (singular, plural) per language. Metric symbols
+/// stay symbols; spoon and count units get their German kitchen names
+/// (TL/EL, Stück, Zehe…).
+const Map<String, Map<String, (String, String)>> _unitLabels = {
+  'en': {
+    'tsp': ('tsp', 'tsp'),
+    'tbsp': ('tbsp', 'tbsp'),
+    'cup': ('cup', 'cups'),
+    'piece': ('piece', 'pieces'),
+    'clove': ('clove', 'cloves'),
+    'slice': ('slice', 'slices'),
+    'can': ('can', 'cans'),
+    'bunch': ('bunch', 'bunches'),
+    'pinch': ('pinch', 'pinches'),
+    'sprig': ('sprig', 'sprigs'),
+  },
+  'de': {
+    'tsp': ('TL', 'TL'),
+    'tbsp': ('EL', 'EL'),
+    'cup': ('Tasse', 'Tassen'),
+    'piece': ('Stück', 'Stück'),
+    'clove': ('Zehe', 'Zehen'),
+    'slice': ('Scheibe', 'Scheiben'),
+    'can': ('Dose', 'Dosen'),
+    'bunch': ('Bund', 'Bund'),
+    'pinch': ('Prise', 'Prisen'),
+    'sprig': ('Zweig', 'Zweige'),
+  },
+};
+
+/// Display label for a unit in [lang], pluralized by [amount].
+/// g/kg/ml/l pass through as metric symbols.
+String unitLabel(String unit, double amount, String lang) {
+  final labels = _unitLabels[lang]?[unit] ?? _unitLabels['en']?[unit];
+  if (labels == null) return unit;
+  return amount == 1 ? labels.$1 : labels.$2;
+}
+
+/// Trims trailing zeros and uses the language's decimal separator:
+/// 2.0 -> "2", 2.5 -> "2.5" (en) / "2,5" (de).
+String formatAmount(double amount, String lang) {
+  final rounded = (amount * 100).roundToDouble() / 100;
+  final text = rounded == rounded.roundToDouble()
+      ? rounded.round().toString()
+      : rounded.toString();
+  return lang == 'de' ? text.replaceAll('.', ',') : text;
+}
+
+/// One quantity line, localized: "420 g", "2 EL", "1 Zehe".
+String formatQuantity(double amount, String unit, String lang) =>
+    '${formatAmount(amount, lang)} ${unitLabel(unit, amount, lang)}';
+
 class Quantity {
   final double amount;
   final String unit;
@@ -79,11 +131,8 @@ class Quantity {
   }
 
   /// Trim trailing zeros: 2.0 -> "2", 2.5 -> "2.5".
-  String get display {
-    final rounded = (amount * 100).roundToDouble() / 100;
-    final text = rounded == rounded.roundToDouble()
-        ? rounded.round().toString()
-        : rounded.toString();
-    return '$text $unit';
-  }
+  String get display => displayFor('en');
+
+  /// Localized display: German gets kitchen unit names and a decimal comma.
+  String displayFor(String lang) => formatQuantity(amount, unit, lang);
 }

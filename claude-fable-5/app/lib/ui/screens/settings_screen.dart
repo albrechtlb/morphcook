@@ -178,9 +178,12 @@ class _SettingsScreenState extends State<SettingsScreen> {
             spacing: 6,
             runSpacing: 6,
             children: [
-              for (final effort in const ['easy', 'medium', 'hard'])
+              // 'mix' = no effort bias in ranking — the healthy blend.
+              for (final effort in const ['mix', 'easy', 'medium', 'hard'])
                 MonoChip(
-                  label: ontology.nameOf(effort, lang),
+                  label: effort == 'mix'
+                      ? s('effortMix')
+                      : ontology.nameOf(effort, lang),
                   selected: profile.preferredEffort == effort,
                   onTap: () => state.updateProfile(
                       profile.copyWith(preferredEffort: effort)),

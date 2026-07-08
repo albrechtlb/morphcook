@@ -21,7 +21,10 @@ class Profile {
     this.requiredAttributes = const {},
     this.maxTimeMinutes,
     this.calorieTarget,
-    this.preferredEffort = 'easy',
+    // 'mix' applies no effort bias when ranking variants — a healthy
+    // blend of easy and involved cooking. 'easy'/'medium'/'hard' bias
+    // toward that level.
+    this.preferredEffort = 'mix',
     this.showVariantTags = true,
     this.reduceMotion,
     this.visualAlertEnabled = true,
@@ -92,7 +95,7 @@ class Profile {
             json['required_attributes'] as List? ?? const []),
         maxTimeMinutes: json['max_time_minutes'] as int?,
         calorieTarget: json['calorie_target'] as int?,
-        preferredEffort: json['preferred_effort'] as String? ?? 'easy',
+        preferredEffort: json['preferred_effort'] as String? ?? 'mix',
         showVariantTags: json['show_variant_tags'] as bool? ?? true,
         reduceMotion: json['reduce_motion'] as bool?,
         visualAlertEnabled: json['visual_alert_enabled'] as bool? ?? true,

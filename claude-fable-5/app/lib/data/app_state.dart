@@ -151,6 +151,15 @@ class AppState extends ChangeNotifier {
     notifyListeners();
   }
 
+  /// Plans a leftover portion of [recipeId] into a slot — the meal is
+  /// eaten there, not cooked there. Excluded from shopping export.
+  Future<void> assignLeftover(
+      String weekKey, String slot, String recipeId) async {
+    _mealPlan.putIfAbsent(weekKey, () => {})[slot] = leftoverEntry(recipeId);
+    await _writeJson('meal_plan', _mealPlan);
+    notifyListeners();
+  }
+
   Future<void> clearMeal(String weekKey, String slot) async {
     _mealPlan[weekKey]?.remove(slot);
     if (_mealPlan[weekKey]?.isEmpty ?? false) _mealPlan.remove(weekKey);
@@ -190,6 +199,27 @@ class AppState extends ChangeNotifier {
         'shopping_list', _shoppingList.map((s) => s.toJson()).toList());
     await _writeJson('shopping_history',
         _shoppingHistory.map((s) => s.toJson()).toList());
+    notifyListeners();
+  }
+
+  /// A free-text line on the shopping list (coffee, dish soap…). Stored
+  /// with the typed text as its id — display falls back to the id for
+  /// anything the dictionary doesn't know. Quantity-less by design.
+  Future<void> addManualShoppingItem(String name) async {
+    final trimmed = name.trim();
+    if (trimmed.isEmpty) return;
+    _shoppingList = [
+      ..._shoppingList,
+      ShoppingItem(
+        ingredientId: trimmed,
+        qty: 0,
+        unit: '',
+        aisle: 'own',
+        addedAt: DateTime.now(),
+      ),
+    ];
+    await _writeJson(
+        'shopping_list', _shoppingList.map((s) => s.toJson()).toList());
     notifyListeners();
   }
 

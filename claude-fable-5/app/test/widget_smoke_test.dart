@@ -50,6 +50,8 @@ void main() {
     await tester.drag(homeScrollable, const Offset(0, -700));
     await tester.pumpAndSettle();
     expect(find.byType(PolaroidCard), findsWidgets);
+    await tester.ensureVisible(find.byType(PolaroidCard).first);
+    await tester.pumpAndSettle();
     await tester.tap(find.byType(PolaroidCard).first);
     await tester.pumpAndSettle();
     expect(find.byType(DishDetailScreen), findsOneWidget);

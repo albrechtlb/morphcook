@@ -97,6 +97,10 @@ class Recipe {
   final List<String> meal;
   final int timeMinutes;
   final int servings;
+
+  /// How many days leftovers keep in the fridge. Authored per recipe;
+  /// a conservative 2 days when a corpus entry predates the field.
+  final int fridgeLifeDays;
   final int caloriesPerServing;
   final Macros macros;
   final List<RecipeIngredient> ingredients;
@@ -115,6 +119,7 @@ class Recipe {
     required this.meal,
     required this.timeMinutes,
     required this.servings,
+    this.fridgeLifeDays = 2,
     required this.caloriesPerServing,
     required this.macros,
     required this.ingredients,
@@ -139,6 +144,7 @@ class Recipe {
         meal: List<String>.from(json['meal'] as List? ?? const []),
         timeMinutes: (json['time_minutes'] as num).round(),
         servings: (json['servings'] as num).round(),
+        fridgeLifeDays: (json['fridge_life_days'] as num?)?.round() ?? 2,
         caloriesPerServing: (json['calories_per_serving'] as num).round(),
         macros: Macros.fromJson(json['macros'] as Map<String, dynamic>),
         ingredients: (json['ingredients'] as List)

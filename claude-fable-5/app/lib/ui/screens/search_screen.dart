@@ -32,7 +32,7 @@ class _SearchScreenState extends State<SearchScreen> {
   bool _zeroLogged = false;
 
   static const _filterableTags = [
-    'vegan', 'vegetarian', 'gluten-free', 'halal', 'kosher',
+    'total-easy', 'vegan', 'vegetarian', 'gluten-free', 'halal', 'kosher',
     'easy', 'le15', 'le30', 'le400', 'bake', 'grill',
   ];
 

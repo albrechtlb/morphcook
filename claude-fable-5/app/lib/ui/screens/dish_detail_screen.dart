@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../../data/app_state.dart';
+import '../../logic/units.dart';
 import '../../models/dish.dart';
 import '../../models/recipe.dart';
 import '../strings.dart';
@@ -32,6 +33,14 @@ class _DishDetailScreenState extends State<DishDetailScreen> {
   String? _expandedDimension;
   bool _ignoreCalories = false;
   int _section = 0; // 0 ingredients, 1 method, 2 macros
+
+  /// User-chosen serving count; null = the recipe's own serving count.
+  /// Survives variant switches — the intent "I cook for 4" stays.
+  int? _servingsOverride;
+
+  int _servingsOf(Recipe recipe) => _servingsOverride ?? recipe.servings;
+
+  double _scaleOf(Recipe recipe) => _servingsOf(recipe) / recipe.servings;
 
   @override
   void initState() {
@@ -335,6 +344,10 @@ class _DishDetailScreenState extends State<DishDetailScreen> {
         _meta('${recipe.timeMinutes} ${s('minutes')}'),
         _meta('${recipe.caloriesPerServing} kcal ${s('perServing')}'),
         _meta(state.corpus.ontology.nameOf(recipe.variant.effort, lang)),
+        if (recipe.attributes.contains('total-easy'))
+          _meta(state.corpus.ontology.nameOf('total-easy', lang)),
+        _meta('${recipe.fridgeLifeDays} '
+            '${s(recipe.fridgeLifeDays == 1 ? 'fridgeDay' : 'fridgeDays')}'),
         if (state.profile.showVariantTags)
           for (final tag in recipe.tags.of(lang).take(3)) _meta(tag),
       ],
@@ -367,11 +380,14 @@ class _DishDetailScreenState extends State<DishDetailScreen> {
 
   Widget _ingredients(Recipe recipe, AppState state, S s) {
     final lang = state.lang;
+    final scale = _scaleOf(recipe);
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        _servingsStepper(recipe, s),
+        const SizedBox(height: 6),
         for (final ing in recipe.ingredients)
-          _ingredientLine(ing, state, lang),
+          _ingredientLine(ing, state, lang, scale),
         const SizedBox(height: 14),
         OutlinedButton.icon(
           onPressed: () => _addToShoppingList(recipe, state, s),
@@ -389,8 +405,37 @@ class _DishDetailScreenState extends State<DishDetailScreen> {
     );
   }
 
+  /// "portionen  − 2 +" — scales the ingredient list and what goes onto
+  /// the shopping list; the recipe text itself stays authored.
+  Widget _servingsStepper(Recipe recipe, S s) {
+    final servings = _servingsOf(recipe);
+    return Row(
+      children: [
+        Text('— ${s('servings')} ', style: MorphText.label()),
+        const Expanded(child: DashedDivider(height: 1)),
+        IconButton(
+          icon: const Icon(Icons.remove_circle_outline,
+              size: 20, color: MorphColors.terracotta),
+          onPressed: servings > 1
+              ? () => setState(() => _servingsOverride = servings - 1)
+              : null,
+        ),
+        Text('$servings',
+            style: MorphText.display
+                .copyWith(fontSize: 22, color: MorphColors.ink)),
+        IconButton(
+          icon: const Icon(Icons.add_circle_outline,
+              size: 20, color: MorphColors.terracotta),
+          onPressed: servings < 12
+              ? () => setState(() => _servingsOverride = servings + 1)
+              : null,
+        ),
+      ],
+    );
+  }
+
   Widget _ingredientLine(
-      RecipeIngredient ing, AppState state, String lang) {
+      RecipeIngredient ing, AppState state, String lang, double scale) {
     final node = state.corpus.dictionary.byId(ing.ingredientId);
     final name = node?.name.of(lang) ?? ing.ingredientId;
     final note = ing.note?.of(lang);
@@ -398,9 +443,7 @@ class _DishDetailScreenState extends State<DishDetailScreen> {
         !_previousIngredients.contains(ing.ingredientId);
     final hasGuide = state.corpus.guide.containsKey(ing.ingredientId);
 
-    final qty = ing.qty == ing.qty.roundToDouble()
-        ? ing.qty.round().toString()
-        : ing.qty.toString();
+    final qty = formatQuantity(ing.qty * scale, ing.unit, lang);
 
     return AnimatedContainer(
       duration: const Duration(milliseconds: 600),
@@ -413,7 +456,7 @@ class _DishDetailScreenState extends State<DishDetailScreen> {
         children: [
           SizedBox(
             width: 78,
-            child: Text('$qty ${ing.unit}',
+            child: Text(qty,
                 style: MorphText.mono.copyWith(
                     fontSize: 12, color: MorphColors.terracotta)),
           ),
@@ -528,7 +571,8 @@ class _DishDetailScreenState extends State<DishDetailScreen> {
 
   Future<void> _addToShoppingList(
       Recipe recipe, AppState state, S s) async {
-    await state.addToShoppingList([(recipe, 1.0)]);
+    // The chosen serving count scales the exported quantities.
+    await state.addToShoppingList([(recipe, _scaleOf(recipe))]);
     if (!mounted) return;
     ScaffoldMessenger.of(context)
         .showSnackBar(SnackBar(content: Text(s('addedToList'))));

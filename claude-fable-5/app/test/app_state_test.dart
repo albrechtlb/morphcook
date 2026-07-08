@@ -53,6 +53,39 @@ void main() {
     expect(state.mealPlan['2026-W24']?.containsKey('tue.dinner'), isFalse);
   });
 
+  test('leftover entries round-trip and decode to their recipe', () async {
+    final state = await buildState();
+    await state.assignMeal('2026-W24', 'mon.dinner', 'curry-chickpea');
+    await state.assignLeftover('2026-W24', 'tue.lunch', 'curry-chickpea');
+
+    final entry = state.mealPlan['2026-W24']!['tue.lunch']!;
+    expect(isLeftoverEntry(entry), isTrue);
+    expect(plannedRecipeId(entry), 'curry-chickpea');
+    // The cook slot stays a plain entry.
+    final cookEntry = state.mealPlan['2026-W24']!['mon.dinner']!;
+    expect(isLeftoverEntry(cookEntry), isFalse);
+    expect(plannedRecipeId(cookEntry), 'curry-chickpea');
+
+    // Moving a leftover keeps its leftover-ness.
+    await state.moveMeal('2026-W24', 'tue.lunch', 'wed.dinner');
+    expect(isLeftoverEntry(state.mealPlan['2026-W24']!['wed.dinner']!),
+        isTrue);
+  });
+
+  test('manual shopping items are quantity-less and toggle like the rest',
+      () async {
+    final state = await buildState();
+    await state.addManualShoppingItem('  coffee filters  ');
+    await state.addManualShoppingItem('');
+    expect(state.shoppingList.length, 1);
+    final item = state.shoppingList.single;
+    expect(item.ingredientId, 'coffee filters');
+    expect(item.unit, isEmpty);
+    expect(item.aisle, 'own');
+    await state.toggleShoppingItem(0);
+    expect(state.shoppingList.single.checked, isTrue);
+  });
+
   test('shopping list aggregates and records history for insights',
       () async {
     final state = await buildState();
