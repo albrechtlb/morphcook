@@ -13,11 +13,11 @@ jobs:
           channel: 'stable'
       - run: flutter pub get
         working-directory: claude-fable-5/app
-      - run: flutter build apk --debug
+      - run: flutter build apk --release
         working-directory: claude-fable-5/app
       - uses: actions/upload-artifact@v4
         with:
           name: morphcook-apk
-          path: claude-fable-5/app/build/app/outputs/flutter-apk/app-debug.apk
+          path: claude-fable-5/app/build/app/outputs/flutter-apk/app-release.apk
 
   
