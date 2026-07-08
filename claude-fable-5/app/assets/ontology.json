@@ -79,7 +79,8 @@
     "effort": ["easy", "medium", "hard"],
     "time_bucket": ["le15", "le30", "le60", "gt60"],
     "calorie_bucket": ["le400", "le600", "le800", "gt800"],
-    "technique": ["bake", "saute", "simmer", "raw", "grill", "fry", "steam", "roast", "broil", "pan-fry", "deep-fry", "stir-fry", "poach", "blanch"]
+    "technique": ["bake", "saute", "simmer", "raw", "grill", "fry", "steam", "roast", "broil", "pan-fry", "deep-fry", "stir-fry", "poach", "blanch"],
+    "category": ["total-easy"]
   },
   "diet_labels": ["classic", "vegetarian", "vegan", "pescatarian", "halal", "kosher", "keto", "gluten-free", "low-fodmap", "sugar-free", "lactose-free", "high-protein", "light", "nut-free"],
   "diet_label_names": {
@@ -102,6 +103,7 @@
     "easy": {"en": "easy", "de": "einfach"},
     "medium": {"en": "medium", "de": "mittel"},
     "hard": {"en": "involved", "de": "aufwendig"},
+    "total-easy": {"en": "total easy", "de": "total easy"},
     "le15": {"en": "≤ 15 min", "de": "≤ 15 Min."},
     "le30": {"en": "≤ 30 min", "de": "≤ 30 Min."},
     "le60": {"en": "≤ 60 min", "de": "≤ 60 Min."},

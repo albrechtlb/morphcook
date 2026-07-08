@@ -35,7 +35,8 @@
         "le30",
         "le400",
         "pan-fry",
-        "raw"
+        "raw",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -173,7 +174,8 @@
           "Pfanne",
           "Straßenküche"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tacos-classic",
@@ -345,7 +347,8 @@
           "Mexikanisch",
           "Feierabendküche"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tacos-classic-medium-400",
@@ -536,7 +539,8 @@
           "Rotkohl",
           "Pfannengericht"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tacos-fish",
@@ -705,7 +709,8 @@
           "Limette",
           "Rotkohl"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tacos-vegetarian-easy-400",
@@ -742,7 +747,8 @@
         "le30",
         "le400",
         "pan-fry",
-        "raw"
+        "raw",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -903,7 +909,8 @@
           "Radieschen",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tacos-vegetarian-easy-600",
@@ -1095,7 +1102,8 @@
           "Avocado",
           "Schnelles Abendessen"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tacos-vegetarian-medium-400",
@@ -1295,7 +1303,8 @@
           "Limettenjoghurt",
           "Rotkohl"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tacos-vegetarian-medium-600",
@@ -1488,7 +1497,8 @@
           "Bohnen",
           "Straßenküche"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "tacos-vegan-easy-400",
@@ -1526,7 +1536,8 @@
         "le30",
         "le400",
         "saute",
-        "raw"
+        "raw",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -1674,7 +1685,8 @@
           "Schnelles Mittagessen",
           "Frische Salsa"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tacos-vegan",
@@ -1860,7 +1872,8 @@
           "Walnüsse",
           "Tacos"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tacos-vegan-medium-400",
@@ -2062,7 +2075,8 @@
           "Kürbiskerne",
           "Grillplatte"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tacos-vegan-medium-600",
@@ -2247,7 +2261,8 @@
           "Avocado",
           "Straßenküche"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tacos-keto-no-dairy",
@@ -2283,7 +2298,8 @@
         "le30",
         "le400",
         "pan-fry",
-        "raw"
+        "raw",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -2428,7 +2444,8 @@
           "Pfanne",
           "Knack"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tacos-fish-no-dairy",
@@ -2597,7 +2614,8 @@
           "Kokos",
           "Limette"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tacos-vegetarian-easy-400-no-dairy",
@@ -2635,7 +2653,8 @@
         "le30",
         "le400",
         "pan-fry",
-        "raw"
+        "raw",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -2790,7 +2809,8 @@
           "Limette",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tacos-vegetarian-easy-600-no-dairy",
@@ -2990,7 +3010,8 @@
           "Avocado",
           "Schnelles Abendessen"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tacos-vegetarian-medium-400-no-dairy",
@@ -3198,7 +3219,8 @@
           "Tahin",
           "Rotkohl"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tacos-vegetarian-medium-600-no-dairy",
@@ -3397,7 +3419,8 @@
           "Mais",
           "Straßenküche"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tacos-vegan-no-nuts",
@@ -3577,7 +3600,8 @@
           "Pfanne",
           "Tacos"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tacos-vegan-medium-600-no-soy",
@@ -3758,7 +3782,8 @@
           "Kürbiskerne",
           "Straßenküche"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tacos-classic-no-fodmap",
@@ -3930,7 +3955,8 @@
           "Mexikanisch",
           "Feierabendküche"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tacos-vegetarian-easy-600-no-fodmap",
@@ -4130,7 +4156,8 @@
           "Radieschen",
           "Schnelles Abendessen"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tacos-vegetarian-medium-600-no-fodmap",
@@ -4335,7 +4362,8 @@
           "Paneer",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tacos-vegan-easy-400-no-fodmap",
@@ -4517,7 +4545,8 @@
           "Schnelles Mittagessen",
           "Radieschen-Salsa"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tacos-vegan-no-fodmap",
@@ -4697,7 +4726,8 @@
           "Gurke",
           "Tacos"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "burrito-bowl-classic-easy-600",
@@ -4894,7 +4924,8 @@
           "Limette",
           "Meal-Prep"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "burrito-bowl-classic",
@@ -5072,7 +5103,8 @@
           "Mexikanisch",
           "Vorkochen"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "burrito-bowl-classic-medium-600",
@@ -5279,7 +5311,8 @@
           "Quinoa",
           "Blechgemüse"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "burrito-bowl-classic-medium-800",
@@ -5478,7 +5511,8 @@
           "Ofengemüse",
           "Reisschüssel"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "burrito-bowl-vegetarian-easy-600",
@@ -5687,7 +5721,8 @@
           "Gebratener Halloumi",
           "Römersalat"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "burrito-bowl-vegetarian-easy-800",
@@ -5886,7 +5921,8 @@
           "Limette",
           "Avocado"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "burrito-bowl-vegetarian-medium-600",
@@ -6092,7 +6128,8 @@
           "Süßkartoffel",
           "Limettencreme"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "burrito-bowl-vegetarian-medium-800",
@@ -6300,7 +6337,8 @@
           "Paneer",
           "Vorkochen"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "burrito-bowl-vegan",
@@ -6478,7 +6516,8 @@
           "Feierabend",
           "Reisgericht"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "burrito-bowl-vegan-easy-800",
@@ -6684,7 +6723,8 @@
           "Schwarze Bohnen",
           "Alltagsküche"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "burrito-bowl-vegan-medium-600",
@@ -6884,7 +6924,8 @@
           "Röstgemüse",
           "Schwarze Bohnen"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "burrito-bowl-vegan-medium-800",
@@ -7086,7 +7127,8 @@
           "Ofenpaprika",
           "Vorkochen"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "burrito-bowl-vegan-medium-800-no-gluten",
@@ -7289,7 +7331,8 @@
           "Ofenpaprika",
           "Quinoa"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "burrito-bowl-vegetarian-easy-600-no-dairy",
@@ -7488,7 +7531,8 @@
           "Kokoslimette",
           "Römersalat"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "burrito-bowl-vegetarian-easy-800-no-dairy",
@@ -7688,7 +7732,8 @@
           "Limette",
           "Avocado"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "burrito-bowl-vegetarian-medium-600-no-dairy",
@@ -7897,7 +7942,8 @@
           "Gerösteter Mais",
           "Quinoa"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "burrito-bowl-vegetarian-medium-800-no-dairy",
@@ -8106,7 +8152,8 @@
           "Tofu",
           "Röstpaprika"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "burrito-bowl-vegan-no-soy",
@@ -8286,7 +8333,8 @@
           "Tortilla-Knusper",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "burrito-bowl-classic-easy-600-no-fodmap",
@@ -8479,7 +8527,8 @@
           "Paprika",
           "Limette"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "burrito-bowl-classic-no-fodmap",
@@ -8672,7 +8721,8 @@
           "Mexikanisch",
           "Tortilla-Knusper"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "burrito-bowl-classic-medium-600-no-fodmap",
@@ -8877,7 +8927,8 @@
           "Quinoa",
           "Röstpaprika"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "burrito-bowl-classic-medium-800-no-fodmap",
@@ -9076,7 +9127,8 @@
           "Reisschüssel",
           "Knusper-Tortilla"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "burrito-bowl-vegetarian-easy-600-no-fodmap",
@@ -9274,7 +9326,8 @@
           "Paprikareis",
           "Limettenkoriander"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "burrito-bowl-vegetarian-easy-800-no-fodmap",
@@ -9474,7 +9527,8 @@
           "Tortilla",
           "Limette"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "burrito-bowl-vegetarian-medium-600-no-fodmap",
@@ -9680,7 +9734,8 @@
           "Quinoa",
           "Röstpaprika"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "burrito-bowl-vegetarian-medium-800-no-fodmap",
@@ -9887,7 +9942,8 @@
           "Halloumi",
           "Limette"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "burrito-bowl-vegan-no-fodmap",
@@ -10072,7 +10128,8 @@
           "Mais",
           "Reisgericht"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "burrito-bowl-vegan-easy-800-no-fodmap",
@@ -10274,7 +10331,8 @@
           "Tortillastreifen",
           "Limettenreis"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "burrito-bowl-vegan-medium-600-no-fodmap",
@@ -10476,7 +10534,8 @@
           "Paprika-Tofu",
           "Geröstete Paprika"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "burrito-bowl-vegan-medium-800-no-fodmap",
@@ -10677,7 +10736,8 @@
           "Ofengemüse",
           "Limettenreis"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "quesadilla-classic-easy-400",
@@ -10875,7 +10935,8 @@
           "Maistortilla",
           "Schnelle Küche"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "quesadilla-classic",
@@ -10911,7 +10972,8 @@
         "easy",
         "le30",
         "le600",
-        "pan-fry"
+        "pan-fry",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -11036,7 +11098,8 @@
           "Käse",
           "Mexikanisch"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "quesadilla-classic-medium-400",
@@ -11234,7 +11297,8 @@
           "Cheddar",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "quesadilla-classic-medium-600",
@@ -11428,7 +11492,8 @@
           "Schwarze Bohnen",
           "Mais"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "quesadilla-vegan-easy-400",
@@ -11466,7 +11531,8 @@
         "le400",
         "saute",
         "steam",
-        "pan-fry"
+        "pan-fry",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -11612,7 +11678,8 @@
           "Pfannengericht",
           "Limette"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "quesadilla-vegan",
@@ -11649,7 +11716,8 @@
         "easy",
         "le30",
         "le600",
-        "pan-fry"
+        "pan-fry",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -11770,7 +11838,8 @@
           "Rauchig",
           "Soulfood"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "quesadilla-vegan-medium-400",
@@ -11961,7 +12030,8 @@
           "Pfanne",
           "Koriander"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "quesadilla-vegan-medium-600",
@@ -12156,7 +12226,8 @@
           "Avocado",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "quesadilla-gluten-free",
@@ -12192,7 +12263,8 @@
         "easy",
         "le30",
         "le600",
-        "pan-fry"
+        "pan-fry",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -12322,7 +12394,8 @@
           "Käsig",
           "Mexikanisch"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "quesadilla-classic-no-gluten",
@@ -12359,7 +12432,8 @@
         "le30",
         "le600",
         "saute",
-        "pan-fry"
+        "pan-fry",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -12500,7 +12574,8 @@
           "Käse",
           "Mais"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "quesadilla-classic-medium-600-no-gluten",
@@ -12690,7 +12765,8 @@
           "Röstpaprika",
           "Mais-Tortillas"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "quesadilla-vegan-no-gluten",
@@ -12877,7 +12953,8 @@
           "Mais-Tortilla",
           "Tofu"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "quesadilla-vegan-medium-600-no-gluten",
@@ -13083,7 +13160,8 @@
           "Kürbiskerne",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "quesadilla-classic-easy-400-no-dairy",
@@ -13280,7 +13358,8 @@
           "Maistortilla",
           "Schnelle Küche"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "quesadilla-classic-no-dairy",
@@ -13465,7 +13544,8 @@
           "Schmelzend",
           "Mexikanisch"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "quesadilla-classic-medium-400-no-dairy",
@@ -13659,7 +13739,8 @@
           "Tomatensalsa",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "quesadilla-classic-medium-600-no-dairy",
@@ -13856,7 +13937,8 @@
           "Schwarze Bohnen",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "quesadilla-gluten-free-no-dairy",
@@ -14052,7 +14134,8 @@
           "Pfannengericht",
           "Mexikanisch"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "quesadilla-classic-no-fodmap",
@@ -14237,7 +14320,8 @@
           "Käse",
           "Tomate"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "quesadilla-vegan-medium-600-no-fodmap",
@@ -14432,7 +14516,8 @@
           "Tofu",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "chili-classic-easy-400",
@@ -14608,7 +14693,8 @@
           "Vorkochen",
           "Rind"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "chili-classic-easy-600",
@@ -14786,7 +14872,8 @@
           "Vorratsküche",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "chili-classic-medium-400",
@@ -14805,7 +14892,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -14818,7 +14905,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le400",
         "saute",
@@ -14993,7 +15080,8 @@
           "Vorrat",
           "Rind"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "chili-classic",
@@ -15012,7 +15100,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -15025,7 +15113,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "saute",
@@ -15170,7 +15258,8 @@
           "Eintopf",
           "Leises Köcheln"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "chili-vegetarian-easy-400",
@@ -15364,7 +15453,8 @@
           "Feierabend",
           "Eintopf"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "chili-vegetarian-easy-600",
@@ -15564,7 +15654,8 @@
           "Tex-Mex",
           "Eintopf"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "chili-vegetarian-medium-400",
@@ -15583,7 +15674,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -15598,7 +15689,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le400",
         "roast",
@@ -15765,7 +15856,8 @@
           "Schwarze Bohnen",
           "Vorkochen"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "chili-vegetarian-medium-600",
@@ -15784,7 +15876,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -15798,7 +15890,7 @@
         "kosher",
         "sugar-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "saute",
@@ -15966,7 +16058,8 @@
           "Kidneybohnen",
           "Rauchig"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "chili-vegan-easy-400",
@@ -16161,7 +16254,8 @@
           "Eintopf",
           "Vorkochen"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "chili-vegan",
@@ -16344,7 +16438,8 @@
           "Vorratsküche",
           "Vorkochen"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "chili-vegan-medium-400",
@@ -16363,7 +16458,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -16378,7 +16473,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le400",
         "roast",
@@ -16527,7 +16622,8 @@
           "Geröstete Aubergine",
           "Tex-Mex"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "chili-vegan-medium-600",
@@ -16546,7 +16642,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -16561,7 +16657,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "roast",
@@ -16730,7 +16826,8 @@
           "Raucharoma",
           "Vorkochen"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "chili-vegetarian-easy-600-no-dairy",
@@ -16931,7 +17028,8 @@
           "Tex-Mex",
           "Eintopf"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "chili-vegetarian-medium-600-no-dairy",
@@ -16950,7 +17048,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -16966,7 +17064,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "saute",
@@ -17134,7 +17232,8 @@
           "Kidneybohnen",
           "Rauchig"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "chili-vegan-no-soy",
@@ -17325,7 +17424,8 @@
           "Bohnentopf",
           "Vorkochen"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "chili-classic-easy-400-no-fodmap",
@@ -17508,7 +17608,8 @@
           "Rind",
           "Fodmaparm"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "chili-classic-easy-600-no-fodmap",
@@ -17687,7 +17788,8 @@
           "Eintopf",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "chili-classic-medium-400-no-fodmap",
@@ -17706,7 +17808,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -17719,7 +17821,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le400",
         "broil",
@@ -17895,7 +17997,8 @@
           "Röstpaprika",
           "Rind"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "chili-classic-no-fodmap",
@@ -17914,7 +18017,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -17927,7 +18030,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "saute",
@@ -18074,7 +18177,8 @@
           "Röstmais",
           "Leises Köcheln"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "chili-vegetarian-easy-400-no-fodmap",
@@ -18276,7 +18380,8 @@
           "Feierabend",
           "Eintopf"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "chili-vegetarian-easy-600-no-fodmap",
@@ -18483,7 +18588,8 @@
           "Tex-Mex",
           "Eintopf"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "chili-vegetarian-medium-400-no-fodmap",
@@ -18502,7 +18608,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -18518,7 +18624,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le400",
         "roast",
@@ -18687,7 +18793,8 @@
           "Tempeh",
           "Vorkochen"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "chili-vegetarian-medium-600-no-fodmap",
@@ -18706,7 +18813,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -18720,7 +18827,7 @@
         "low-fodmap",
         "sugar-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "roast",
@@ -18889,7 +18996,8 @@
           "Röstmais",
           "Tomaten"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "chili-vegan-easy-400-no-fodmap",
@@ -19091,7 +19199,8 @@
           "Paprika",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "chili-vegan-no-fodmap",
@@ -19281,7 +19390,8 @@
           "Quinoatopf",
           "Vorkochen"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "chili-vegan-medium-400-no-fodmap",
@@ -19300,7 +19410,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -19315,7 +19425,7 @@
         "low-fodmap",
         "sugar-free",
         "lactose-free",
-        "medium",
+        "hard",
         "le60",
         "le400",
         "pan-fry",
@@ -19468,7 +19578,8 @@
           "Paprika",
           "Tex-Mex"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "chili-vegan-medium-600-no-fodmap",
@@ -19487,7 +19598,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -19503,7 +19614,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "roast",
@@ -19679,7 +19790,8 @@
           "Kartoffeln",
           "Vorkochen"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "enchiladas-classic-easy-600",
@@ -19871,7 +19983,8 @@
           "Überbacken",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "enchiladas-classic-easy-800",
@@ -20061,7 +20174,8 @@
           "Cheddar",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "enchiladas-classic-medium-600",
@@ -20080,7 +20194,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -20093,7 +20207,7 @@
         "low-fodmap",
         "sugar-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "poach",
@@ -20235,7 +20349,8 @@
           "Rauchsauce",
           "Enchiladas"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "enchiladas-classic",
@@ -20254,7 +20369,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -20267,7 +20382,7 @@
         "kosher",
         "gluten-free",
         "sugar-free",
-        "medium",
+        "hard",
         "le60",
         "le800",
         "poach",
@@ -20404,7 +20519,8 @@
           "Hähnchen",
           "Rote Sauce"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "enchiladas-vegetarian-easy-600",
@@ -20584,7 +20700,8 @@
           "Mais",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "enchiladas-vegetarian-easy-800",
@@ -20784,7 +20901,8 @@
           "Halloumi",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "enchiladas-vegetarian-medium-600",
@@ -20803,7 +20921,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -20817,7 +20935,7 @@
         "low-fodmap",
         "sugar-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "roast",
@@ -20971,7 +21089,8 @@
           "Spinat",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "enchiladas-vegetarian-medium-800",
@@ -20990,7 +21109,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -21004,7 +21123,7 @@
         "low-fodmap",
         "sugar-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le800",
         "roast",
@@ -21161,7 +21280,8 @@
           "Ofengericht",
           "Tomatensauce"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "enchiladas-vegan-easy-600",
@@ -21337,7 +21457,8 @@
           "Mais",
           "Vorratsküche"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "enchiladas-vegan-easy-800",
@@ -21518,7 +21639,8 @@
           "Schwarze Bohnen",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "enchiladas-vegan",
@@ -21537,7 +21659,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -21552,7 +21674,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "roast",
@@ -21715,7 +21837,8 @@
           "Ofengericht",
           "Tomatensauce"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "enchiladas-vegan-medium-800",
@@ -21734,7 +21857,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -21749,7 +21872,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le800",
         "roast",
@@ -21916,7 +22039,8 @@
           "Süßkartoffel",
           "Schwarze Bohnen"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "enchiladas-classic-easy-600-no-dairy",
@@ -22108,7 +22232,8 @@
           "Überbacken",
           "Kürbiskerne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "enchiladas-classic-easy-800-no-dairy",
@@ -22294,7 +22419,8 @@
           "Kürbiskerne",
           "Tomatensauce"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "enchiladas-classic-medium-600-no-dairy",
@@ -22313,7 +22439,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -22326,7 +22452,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "poach",
@@ -22476,7 +22602,8 @@
           "Rote Sauce",
           "Enchiladas"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "enchiladas-classic-no-dairy",
@@ -22495,7 +22622,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -22508,7 +22635,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le800",
         "poach",
@@ -22654,7 +22781,8 @@
           "Kürbiskern-Sauce",
           "Rote Sauce"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "enchiladas-vegetarian-easy-600-no-dairy",
@@ -22832,7 +22960,8 @@
           "Kürbiskerne",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "enchiladas-vegetarian-easy-800-no-dairy",
@@ -23034,7 +23163,8 @@
           "Tempeh",
           "Süßkartoffel"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "enchiladas-vegetarian-medium-600-no-dairy",
@@ -23053,7 +23183,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [],
@@ -23067,7 +23197,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "saute",
@@ -23228,7 +23358,8 @@
           "Kürbiskerne",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "enchiladas-vegetarian-medium-800-no-dairy",
@@ -23247,7 +23378,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -23263,7 +23394,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le800",
         "saute",
@@ -23416,7 +23547,8 @@
           "Kernkruste",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "enchiladas-classic-easy-800-no-fodmap",
@@ -23610,7 +23742,8 @@
           "Rote Paprika",
           "Cheddar"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "enchiladas-classic-no-fodmap",
@@ -23629,7 +23762,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -23642,7 +23775,7 @@
         "low-fodmap",
         "gluten-free",
         "sugar-free",
-        "medium",
+        "hard",
         "gt60",
         "le800",
         "broil",
@@ -23797,7 +23930,8 @@
           "Hähnchen",
           "Karottensauce"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "enchiladas-vegan-easy-600-no-fodmap",
@@ -23985,7 +24119,8 @@
           "Karotte",
           "Rote Sauce"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "enchiladas-vegan-easy-800-no-fodmap",
@@ -24167,7 +24302,8 @@
           "Kartoffel",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "enchiladas-vegan-no-fodmap",
@@ -24186,7 +24322,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -24202,7 +24338,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "saute",
@@ -24358,7 +24494,8 @@
           "Kürbiskerne",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "enchiladas-vegan-medium-800-no-fodmap",
@@ -24377,7 +24514,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -24393,7 +24530,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le800",
         "roast",
@@ -24563,7 +24700,8 @@
           "Tofu",
           "Kürbiskerne"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "fajitas-classic-easy-400",
@@ -24750,7 +24888,8 @@
           "Hähnchen",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-classic-easy-600",
@@ -24936,7 +25075,8 @@
           "Pfanne",
           "Tex-Mex"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-classic-medium-400",
@@ -25127,7 +25267,8 @@
           "Hähnchen",
           "Limette"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-classic-medium-600",
@@ -25324,7 +25465,8 @@
           "Fajitas",
           "Avocado"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegetarian-easy-400",
@@ -25517,7 +25659,8 @@
           "Mais",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegetarian-easy-600",
@@ -25723,7 +25866,8 @@
           "Pfanne",
           "Tex-Mex"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegetarian-medium-400",
@@ -25918,7 +26062,8 @@
           "Pfannengericht",
           "Texmex"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegetarian-medium-600",
@@ -26125,7 +26270,8 @@
           "Paprika",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegan-easy-400",
@@ -26304,7 +26450,8 @@
           "Schwarze Bohnen",
           "Schnelles Abendessen"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegan-easy-600",
@@ -26494,7 +26641,8 @@
           "Pfanne",
           "Avocado"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegan-medium-400",
@@ -26687,7 +26835,8 @@
           "Pfanne",
           "Limette"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegan-medium-600",
@@ -26902,7 +27051,8 @@
           "Pfanne",
           "Limette"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-classic-easy-600-no-gluten",
@@ -27088,7 +27238,8 @@
           "Mais-Tortillas",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-classic-medium-600-no-gluten",
@@ -27285,7 +27436,8 @@
           "Pfanne",
           "Fajitas"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegetarian-easy-600-no-gluten",
@@ -27491,7 +27643,8 @@
           "Maistortillas",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegetarian-medium-600-no-gluten",
@@ -27698,7 +27851,8 @@
           "Maisfladen",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegan-easy-600-no-gluten",
@@ -27884,7 +28038,8 @@
           "Mais-Tortillas",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegan-medium-600-no-gluten",
@@ -28093,7 +28248,8 @@
           "Maisfladen",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-classic-easy-600-no-dairy",
@@ -28275,7 +28431,8 @@
           "Pfanne",
           "Avocado"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegetarian-easy-600-no-dairy",
@@ -28488,7 +28645,8 @@
           "Pfanne",
           "Tex-Mex"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegetarian-medium-600-no-dairy",
@@ -28702,7 +28860,8 @@
           "Paprika",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegan-easy-600-no-soy",
@@ -28890,7 +29049,8 @@
           "Pfanne",
           "Avocado"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-classic-easy-400-no-fodmap",
@@ -29077,7 +29237,8 @@
           "Hähnchen",
           "Limette"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-classic-easy-600-no-fodmap",
@@ -29263,7 +29424,8 @@
           "Mais-Tortillas",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-classic-medium-600-no-fodmap",
@@ -29464,7 +29626,8 @@
           "Mais-Tortillas",
           "Zucchini"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegetarian-easy-400-no-fodmap",
@@ -29649,7 +29812,8 @@
           "Zucchini",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegetarian-easy-600-no-fodmap",
@@ -29848,7 +30012,8 @@
           "Pfanne",
           "Limette"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegetarian-medium-400-no-fodmap",
@@ -30043,7 +30208,8 @@
           "Ei",
           "Pfannengericht"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegetarian-medium-600-no-fodmap",
@@ -30257,7 +30423,8 @@
           "Zucchini",
           "Mais-Tortillas"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegan-easy-400-no-fodmap",
@@ -30444,7 +30611,8 @@
           "Kartoffeln",
           "Kürbiskerne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegan-medium-400-no-fodmap",
@@ -30640,7 +30808,8 @@
           "Zucchini",
           "Limette"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "fajitas-vegan-medium-600-no-fodmap",
@@ -30849,7 +31018,8 @@
           "Pfanne",
           "Limette"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "huevos-rancheros-classic-easy-400",
@@ -30887,7 +31057,8 @@
         "le30",
         "le400",
         "saute",
-        "pan-fry"
+        "pan-fry",
+        "total-easy"
       ],
       "meal": [
         "breakfast",
@@ -31038,7 +31209,8 @@
           "Frühstück",
           "Salsa"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "huevos-rancheros-classic-easy-600",
@@ -31232,7 +31404,8 @@
           "Bohnen",
           "Avocado"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "huevos-rancheros-classic-medium-400",
@@ -31426,7 +31599,8 @@
           "Schwarze Bohnen",
           "Eier"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "huevos-rancheros-classic-medium-600",
@@ -31621,7 +31795,8 @@
           "Schwarze Bohnen",
           "Mais-Tortillas"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "huevos-rancheros-vegan-easy-400",
@@ -31813,7 +31988,8 @@
           "Kichererbse",
           "Salsa"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "huevos-rancheros-vegan-easy-600",
@@ -32007,7 +32183,8 @@
           "Tofu",
           "Rancheros"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "huevos-rancheros-vegan-medium-400",
@@ -32216,7 +32393,8 @@
           "Röstsalsa",
           "Kichererbse"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "huevos-rancheros-vegan-medium-600",
@@ -32434,7 +32612,8 @@
           "Tofu",
           "Tostadas"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "huevos-rancheros-classic-easy-600-no-dairy",
@@ -32628,7 +32807,8 @@
           "Schwarze Bohnen",
           "Avocado"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "huevos-rancheros-classic-medium-600-no-dairy",
@@ -32819,7 +32999,8 @@
           "Schwarze Bohnen",
           "Geröstete Salsa"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "huevos-rancheros-classic-easy-400-no-egg",
@@ -32857,7 +33038,8 @@
         "le400",
         "saute",
         "simmer",
-        "pan-fry"
+        "pan-fry",
+        "total-easy"
       ],
       "meal": [
         "breakfast",
@@ -33011,7 +33193,8 @@
           "Bohnen",
           "Salsa"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "huevos-rancheros-classic-easy-600-no-egg",
@@ -33201,7 +33384,8 @@
           "Bohnen",
           "Avocado"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "huevos-rancheros-classic-medium-400-no-egg",
@@ -33394,7 +33578,8 @@
           "Röstsalsa",
           "Schwarze Bohnen"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "huevos-rancheros-classic-medium-600-no-egg",
@@ -33580,7 +33765,8 @@
           "Schwarze Bohnen",
           "Feta"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "huevos-rancheros-vegan-easy-600-no-soy",
@@ -33780,7 +33966,8 @@
           "Kichererbse",
           "Rancheros"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "huevos-rancheros-vegan-medium-600-no-soy",
@@ -33978,7 +34165,8 @@
           "Kürbiskerne",
           "Ofensalsa"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "huevos-rancheros-classic-easy-400-no-fodmap",
@@ -34016,7 +34204,8 @@
         "le30",
         "le400",
         "saute",
-        "pan-fry"
+        "pan-fry",
+        "total-easy"
       ],
       "meal": [
         "breakfast",
@@ -34166,7 +34355,8 @@
           "Frühstück",
           "Salsa"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "huevos-rancheros-classic-easy-600-no-fodmap",
@@ -34360,7 +34550,8 @@
           "Paprikasalsa",
           "Cheddar"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "huevos-rancheros-classic-medium-400-no-fodmap",
@@ -34561,7 +34752,8 @@
           "Knusperkartoffeln",
           "Spiegeleier"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "huevos-rancheros-classic-medium-600-no-fodmap",
@@ -34756,7 +34948,8 @@
           "Mais-Tortillas",
           "Feta"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "huevos-rancheros-vegan-easy-400-no-fodmap",
@@ -34956,7 +35149,8 @@
           "Tofu",
           "Salsa"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "huevos-rancheros-vegan-easy-600-no-fodmap",
@@ -35157,7 +35351,8 @@
           "Tofu",
           "Rancheros"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "huevos-rancheros-vegan-medium-400-no-fodmap",
@@ -35359,7 +35554,8 @@
           "Röstpaprika",
           "Tofu"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "huevos-rancheros-vegan-medium-600-no-fodmap",
@@ -35570,7 +35766,8 @@
           "Tofu",
           "Safran"
         ]
-      }
+      },
+      "fridge_life_days": 3
     }
   ]
 }

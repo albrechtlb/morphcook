@@ -188,7 +188,8 @@
           "Tomatensauce",
           "Schnelles Curry"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "butter-chicken-classic-easy-600",
@@ -364,7 +365,8 @@
           "Pfannengericht",
           "Wohlfühlessen"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "butter-chicken-light",
@@ -546,7 +548,8 @@
           "Joghurt",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "butter-chicken-classic",
@@ -736,7 +739,8 @@
           "Indisch",
           "Reisschale"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "butter-chicken-vegetarian-easy-400",
@@ -912,7 +916,8 @@
           "Brokkoli",
           "Schnelles Curry"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "butter-chicken-vegetarian-easy-600",
@@ -1103,7 +1108,8 @@
           "Basmati",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "butter-chicken-vegetarian-medium-400",
@@ -1285,7 +1291,8 @@
           "Tomatensauce",
           "Geröstet"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "butter-chicken-vegetarian-medium-600",
@@ -1488,7 +1495,8 @@
           "Tomatenmasala",
           "Basmati"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "butter-chicken-vegan-easy-400",
@@ -1689,7 +1697,8 @@
           "Pfannengericht",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "butter-chicken-vegan-easy-600",
@@ -1870,7 +1879,8 @@
           "Basmati",
           "Feierabendküche"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "butter-chicken-vegan-medium-400",
@@ -2048,7 +2058,8 @@
           "Röstgemüse",
           "Tomatensauce"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "butter-chicken-vegan",
@@ -2237,7 +2248,8 @@
           "Indisch",
           "Wohlfühlessen"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "butter-chicken-classic-easy-400-no-dairy",
@@ -2427,7 +2439,8 @@
           "Tomatencurry",
           "Pfannengericht"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "butter-chicken-classic-easy-600-no-dairy",
@@ -2599,7 +2612,8 @@
           "Pfannengericht",
           "Wohlfühlessen"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "butter-chicken-light-no-dairy",
@@ -2778,7 +2792,8 @@
           "Kokos",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "butter-chicken-classic-no-dairy",
@@ -2969,7 +2984,8 @@
           "Indisch",
           "Reisschale"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "butter-chicken-vegetarian-easy-400-no-dairy",
@@ -3154,7 +3170,8 @@
           "Zucchini",
           "Schnelles Curry"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "butter-chicken-vegetarian-easy-600-no-dairy",
@@ -3339,7 +3356,8 @@
           "Basmati",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "butter-chicken-vegetarian-medium-400-no-dairy",
@@ -3523,7 +3541,8 @@
           "Tomaten-Makhani",
           "Geröstet"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "butter-chicken-vegetarian-medium-600-no-dairy",
@@ -3731,7 +3750,8 @@
           "Eier",
           "Basmati"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "butter-chicken-vegan-easy-600-no-soy",
@@ -3911,7 +3931,8 @@
           "Basmati",
           "Feierabendküche"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "butter-chicken-classic-easy-600-no-fodmap",
@@ -4094,7 +4115,8 @@
           "Basmati",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "butter-chicken-light-no-fodmap",
@@ -4272,7 +4294,8 @@
           "Ingwer",
           "Herdgericht"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "butter-chicken-classic-no-fodmap",
@@ -4463,7 +4486,8 @@
           "Indisch",
           "Tomatensauce"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "butter-chicken-vegetarian-medium-400-no-fodmap",
@@ -4650,7 +4674,8 @@
           "Paprika",
           "Makhani"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "butter-chicken-vegan-easy-400-no-fodmap",
@@ -4859,7 +4884,8 @@
           "Tofu",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "butter-chicken-vegan-medium-400-no-fodmap",
@@ -5043,7 +5069,8 @@
           "Tofu",
           "Tomatensauce"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "butter-chicken-vegan-no-fodmap",
@@ -5226,7 +5253,8 @@
           "Safran",
           "Indisch"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "dal-classic",
@@ -5411,7 +5439,8 @@
           "Tarka",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "dal-classic-easy-600",
@@ -5608,7 +5637,8 @@
           "Kokos",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "dal-classic-medium-400",
@@ -5627,7 +5657,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -5642,7 +5672,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le400",
         "roast",
@@ -5810,7 +5840,8 @@
           "Gewürzöl",
           "Eintopf"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "dal-classic-medium-600",
@@ -5829,7 +5860,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -5844,7 +5875,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "saute",
@@ -5998,7 +6029,8 @@
           "Gewürzöl",
           "Kokos"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "dal-vegetarian-easy-400",
@@ -6176,7 +6208,8 @@
           "Joghurt",
           "Spinat"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "dal-paneer",
@@ -6361,7 +6394,8 @@
           "Ghee",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "dal-vegetarian-medium-400",
@@ -6380,7 +6414,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -6394,7 +6428,7 @@
         "kosher",
         "sugar-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le400",
         "roast",
@@ -6553,7 +6587,8 @@
           "Röstpaprika",
           "Gewürz-Ghee"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "dal-makhani",
@@ -6572,7 +6607,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -6586,7 +6621,7 @@
         "kosher",
         "sugar-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "saute",
@@ -6745,7 +6780,8 @@
           "Butter-Dal",
           "Sonntagstopf"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "dal-vegan-easy-400",
@@ -6928,7 +6964,8 @@
           "Spinat",
           "Limette"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "dal-vegan-easy-600",
@@ -7135,7 +7172,8 @@
           "Süßkartoffel",
           "Kokos"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "dal-vegan-medium-400",
@@ -7154,7 +7192,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -7169,7 +7207,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le400",
         "saute",
@@ -7328,7 +7366,8 @@
           "Zucchini",
           "Gewürzöl"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "dal-vegan-medium-600",
@@ -7347,7 +7386,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -7362,7 +7401,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "roast",
@@ -7515,7 +7554,8 @@
           "Süßkartoffel",
           "Kokos"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "dal-vegetarian-easy-400-no-dairy",
@@ -7695,7 +7735,8 @@
           "Möhren",
           "Ingwer"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "dal-paneer-no-dairy",
@@ -7882,7 +7923,8 @@
           "Kreuzkümmel",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "dal-vegetarian-medium-400-no-dairy",
@@ -7901,7 +7943,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -7916,7 +7958,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le400",
         "roast",
@@ -8075,7 +8117,8 @@
           "Aubergine",
           "Gewürzöl"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "dal-makhani-no-dairy",
@@ -8094,7 +8137,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -8109,7 +8152,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "saute",
@@ -8269,7 +8312,8 @@
           "Schmortopf",
           "Tomaten-Tarka"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "dal-classic-no-fodmap",
@@ -8454,7 +8498,8 @@
           "Edamame",
           "Tarka"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "dal-classic-easy-600-no-fodmap",
@@ -8643,7 +8688,8 @@
           "Ghee",
           "Kreuzkümmel"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "dal-classic-medium-400-no-fodmap",
@@ -8662,7 +8708,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -8677,7 +8723,7 @@
         "low-fodmap",
         "sugar-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le400",
         "roast",
@@ -8842,7 +8888,8 @@
           "Gewürzöl",
           "Fodmaparm"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "dal-classic-medium-600-no-fodmap",
@@ -8861,7 +8908,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -8876,7 +8923,7 @@
         "low-fodmap",
         "sugar-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "broil",
@@ -9042,7 +9089,8 @@
           "Röstpaprika",
           "Kreuzkümmel-Ghee"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "dal-vegetarian-easy-400-no-fodmap",
@@ -9234,7 +9282,8 @@
           "Paneer",
           "Spinat"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "dal-paneer-no-fodmap",
@@ -9416,7 +9465,8 @@
           "Kokos",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "dal-vegetarian-medium-400-no-fodmap",
@@ -9435,7 +9485,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -9450,7 +9500,7 @@
         "low-fodmap",
         "sugar-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le400",
         "saute",
@@ -9609,7 +9659,8 @@
           "Paneer",
           "Kreuzkümmel-Ghee"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "dal-makhani-no-fodmap",
@@ -9628,7 +9679,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -9643,7 +9694,7 @@
         "low-fodmap",
         "sugar-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "saute",
@@ -9806,7 +9857,8 @@
           "Butter-Dal",
           "Tomatentopf"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "dal-vegan-easy-400-no-fodmap",
@@ -9991,7 +10043,8 @@
           "Zucchini",
           "Zitrone"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "dal-vegan-easy-600-no-fodmap",
@@ -10200,7 +10253,8 @@
           "Tofu",
           "Reis"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "dal-vegan-medium-400-no-fodmap",
@@ -10219,7 +10273,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -10235,7 +10289,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le400",
         "saute",
@@ -10402,7 +10456,8 @@
           "Tofu",
           "Gewürzöl"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "dal-vegan-medium-600-no-fodmap",
@@ -10421,7 +10476,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -10437,7 +10492,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "roast",
@@ -10598,7 +10653,8 @@
           "Kokos",
           "Kürbiskerne"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "biryani-classic-medium-600",
@@ -10797,7 +10853,8 @@
           "Safran",
           "Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-classic-medium-800",
@@ -10987,7 +11044,8 @@
           "Safran",
           "Reis"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-classic-hard-600",
@@ -11185,7 +11243,8 @@
           "Reis",
           "Safran"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-chicken",
@@ -11384,7 +11443,8 @@
           "Dampfgaren",
           "Röstzwiebeln"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-veg",
@@ -11576,7 +11636,8 @@
           "Safran",
           "Festessen"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-vegetarian-medium-800",
@@ -11784,7 +11845,8 @@
           "Safran",
           "Kartoffel"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-vegetarian-hard-600",
@@ -11991,7 +12053,8 @@
           "Schichtreis",
           "Festessen"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-vegetarian-hard-800",
@@ -12198,7 +12261,8 @@
           "Safran",
           "Festessen"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-vegan",
@@ -12393,7 +12457,8 @@
           "Safran",
           "Schmortopf"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-vegan-medium-800",
@@ -12585,7 +12650,8 @@
           "Kichererbsen",
           "Reis"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-vegan-hard-600",
@@ -12781,7 +12847,8 @@
           "Kichererbsen",
           "Safran"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-vegan-hard-800",
@@ -12992,7 +13059,8 @@
           "Süßkartoffel",
           "Dum"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-classic-medium-600-no-dairy",
@@ -13198,7 +13266,8 @@
           "Tomate",
           "Safran"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-classic-medium-800-no-dairy",
@@ -13388,7 +13457,8 @@
           "Kokos",
           "Safran"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-classic-hard-600-no-dairy",
@@ -13586,7 +13656,8 @@
           "Paprika",
           "Safran"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-chicken-no-dairy",
@@ -13781,7 +13852,8 @@
           "Dampfgaren",
           "Schalotten"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-veg-no-dairy",
@@ -13975,7 +14047,8 @@
           "Safran",
           "Dampf"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-vegetarian-medium-800-no-dairy",
@@ -14192,7 +14265,8 @@
           "Eier",
           "Safran"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-vegetarian-hard-600-no-dairy",
@@ -14402,7 +14476,8 @@
           "Schichtreis",
           "Grüne Bohnen"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-vegetarian-hard-800-no-dairy",
@@ -14610,7 +14685,8 @@
           "Safran",
           "Dampf"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-classic-medium-800-no-fodmap",
@@ -14800,7 +14876,8 @@
           "Tomate",
           "Safran"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-classic-hard-600-no-fodmap",
@@ -15001,7 +15078,8 @@
           "Reis",
           "Safran"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-chicken-no-fodmap",
@@ -15200,7 +15278,8 @@
           "Hähnchen",
           "Dampfgaren"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-vegetarian-medium-800-no-fodmap",
@@ -15414,7 +15493,8 @@
           "Safran",
           "Paprika"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-vegetarian-hard-800-no-fodmap",
@@ -15628,7 +15708,8 @@
           "Safran",
           "Aubergine"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-vegan-no-fodmap",
@@ -15831,7 +15912,8 @@
           "Ingwer",
           "Safran"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-vegan-medium-800-no-fodmap",
@@ -16024,7 +16106,8 @@
           "Safran",
           "Reis"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-vegan-hard-600-no-fodmap",
@@ -16227,7 +16310,8 @@
           "Aubergine",
           "Safran"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "biryani-vegan-hard-800-no-fodmap",
@@ -16440,7 +16524,8 @@
           "Tofu",
           "Dum"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "palak-paneer-classic-easy-400",
@@ -16633,7 +16718,8 @@
           "Paneer",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "palak-paneer-classic-easy-600",
@@ -16810,7 +16896,8 @@
           "Paneer",
           "Pfannengericht"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "palak-paneer-classic-medium-400",
@@ -16999,7 +17086,8 @@
           "Spinat",
           "Paneer"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "palak-paneer-classic",
@@ -17195,7 +17283,8 @@
           "Spinat",
           "Paneer"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "palak-paneer-vegan-easy-400",
@@ -17384,7 +17473,8 @@
           "Schnelles Abendessen",
           "Grünes Curry"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "palak-paneer-vegan-easy-600",
@@ -17566,7 +17656,8 @@
           "Kokos",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "palak-tofu",
@@ -17769,7 +17860,8 @@
           "Tawa",
           "Curry"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "palak-paneer-vegan-medium-600",
@@ -17980,7 +18072,8 @@
           "Tempeh",
           "Kokos"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "palak-paneer-classic-easy-400-no-dairy",
@@ -18177,7 +18270,8 @@
           "Pfeffer",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "palak-paneer-classic-easy-600-no-dairy",
@@ -18364,7 +18458,8 @@
           "Limette",
           "Pfannengericht"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "palak-paneer-classic-medium-400-no-dairy",
@@ -18571,7 +18666,8 @@
           "Spinat",
           "Safran"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "palak-paneer-classic-no-dairy",
@@ -18774,7 +18870,8 @@
           "Spinat",
           "Goldene Würfel"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "palak-paneer-vegan-easy-600-no-soy",
@@ -18966,7 +19063,8 @@
           "Goldene Würfel",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "palak-tofu-no-soy",
@@ -19159,7 +19257,8 @@
           "Curry",
           "Spinat"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "palak-paneer-vegan-medium-600-no-soy",
@@ -19369,7 +19468,8 @@
           "Sonnenblumenkerne",
           "Spinat"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "palak-paneer-classic-easy-600-no-fodmap",
@@ -19555,7 +19655,8 @@
           "Paneer",
           "Fodmaparm"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "palak-paneer-classic-no-fodmap",
@@ -19751,7 +19852,8 @@
           "Spinat",
           "Paneer"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "palak-paneer-vegan-easy-400-no-fodmap",
@@ -19940,7 +20042,8 @@
           "Schnelles Abendessen",
           "Grünes Curry"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "palak-tofu-no-fodmap",
@@ -20139,7 +20242,8 @@
           "Kreuzkümmel",
           "Curry"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "palak-paneer-vegan-medium-600-no-fodmap",
@@ -20335,7 +20439,8 @@
           "Tofu",
           "Kokos"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tikka-masala-classic-easy-400",
@@ -20508,7 +20613,8 @@
           "Hähnchen",
           "Curry"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tikka-masala-classic-easy-600",
@@ -20691,7 +20797,8 @@
           "Pfannengericht",
           "Tomatensahne"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tikka-masala-light",
@@ -20873,7 +20980,8 @@
           "Grill",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tikka-masala-classic",
@@ -21044,7 +21152,8 @@
           "Grillröstung",
           "Wohlfühlessen"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tikka-masala-vegetarian-easy-400",
@@ -21223,7 +21332,8 @@
           "Paneer",
           "Curry"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tikka-masala-vegetarian-easy-600",
@@ -21401,7 +21511,8 @@
           "Paneer",
           "Wohlfühlessen"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tikka-masala-vegetarian-medium-400",
@@ -21586,7 +21697,8 @@
           "Brokkoli",
           "Grillofen"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tikka-masala-vegetarian-medium-600",
@@ -21766,7 +21878,8 @@
           "Ofengrill",
           "Wohlfühlessen"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tikka-masala-vegan-easy-400",
@@ -21938,7 +22051,8 @@
           "Brokkoli",
           "Curry"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tikka-masala-vegan-easy-600",
@@ -22139,7 +22253,8 @@
           "Blumenkohl",
           "Kokossauce"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tikka-masala-vegan-medium-400",
@@ -22315,7 +22430,8 @@
           "Brokkoli",
           "Ofenröstung"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tikka-masala-vegan",
@@ -22506,7 +22622,8 @@
           "Blumenkohl",
           "Kokos"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tikka-masala-classic-easy-400-no-dairy",
@@ -22702,7 +22819,8 @@
           "Hähnchen",
           "Curry"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tikka-masala-classic-easy-600-no-dairy",
@@ -22885,7 +23003,8 @@
           "Kokossauce",
           "Pfannengericht"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tikka-masala-light-no-dairy",
@@ -23071,7 +23190,8 @@
           "Grill",
           "Tomate"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tikka-masala-classic-no-dairy",
@@ -23246,7 +23366,8 @@
           "Grillröstung",
           "Tomatensauce"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tikka-masala-vegetarian-easy-400-no-dairy",
@@ -23433,7 +23554,8 @@
           "Tofu",
           "Curry"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tikka-masala-vegetarian-easy-600-no-dairy",
@@ -23617,7 +23739,8 @@
           "Tofu",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tikka-masala-vegetarian-medium-400-no-dairy",
@@ -23804,7 +23927,8 @@
           "Aubergine",
           "Backofengrill"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tikka-masala-vegetarian-medium-600-no-dairy",
@@ -23984,7 +24108,8 @@
           "Cashewsauce",
           "Ofengrill"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tikka-masala-classic-easy-600-no-fodmap",
@@ -24163,7 +24288,8 @@
           "Ghee-Pfanne",
           "Frühlingsgrün"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tikka-masala-light-no-fodmap",
@@ -24349,7 +24475,8 @@
           "Backofengrill",
           "Ingwer"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tikka-masala-classic-no-fodmap",
@@ -24521,7 +24648,8 @@
           "Grillröstung",
           "Ingwer"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tikka-masala-vegetarian-medium-600-no-fodmap",
@@ -24704,7 +24832,8 @@
           "Ingwer",
           "Ofengrill"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tikka-masala-vegan-easy-400-no-fodmap",
@@ -24882,7 +25011,8 @@
           "Grüne Bohnen",
           "Curry"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tikka-masala-vegan-easy-600-no-fodmap",
@@ -25085,7 +25215,8 @@
           "Kartoffel",
           "Kokossauce"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tikka-masala-vegan-medium-400-no-fodmap",
@@ -25266,7 +25397,8 @@
           "Zucchini",
           "Ofenröstung"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tikka-masala-vegan-no-fodmap",
@@ -25454,7 +25586,8 @@
           "Tofu",
           "Aubergine"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "chana-masala-classic-easy-400",
@@ -25654,7 +25787,8 @@
           "Feierabend",
           "Ingwer"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "chana-masala-classic-easy-600",
@@ -25861,7 +25995,8 @@
           "Reisschale",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "chana-masala-classic-medium-400",
@@ -25880,7 +26015,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -25895,7 +26030,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le400",
         "saute",
@@ -26055,7 +26190,8 @@
           "Pfanne",
           "Gewürze"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "chana-masala-classic-medium-600",
@@ -26074,7 +26210,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -26089,7 +26225,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "saute",
@@ -26270,7 +26406,8 @@
           "Tomatensauce",
           "Masala"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "chana-masala-classic-easy-400-no-fodmap",
@@ -26472,7 +26609,8 @@
           "Tomatensauce",
           "Frühlingszwiebelgrün"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "chana-masala-classic-easy-600-no-fodmap",
@@ -26687,7 +26825,8 @@
           "Ingwer",
           "Reisschale"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "chana-masala-classic-medium-400-no-fodmap",
@@ -26706,7 +26845,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -26722,7 +26861,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le400",
         "saute",
@@ -26870,7 +27009,8 @@
           "Ingwer",
           "Gewürze"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "chana-masala-classic-medium-600-no-fodmap",
@@ -26889,7 +27029,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -26905,7 +27045,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "saute",
@@ -27087,7 +27227,8 @@
           "Paprikasauce",
           "Ingwer"
         ]
-      }
+      },
+      "fridge_life_days": 2
     }
   ]
 }

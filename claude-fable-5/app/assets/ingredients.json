@@ -28,6 +28,10 @@
     "chilled": {
       "en": "chilled & plant-based",
       "de": "Kühlregal & Pflanzliches"
+    },
+    "own": {
+      "en": "your own items",
+      "de": "Eigene Einträge"
     }
   },
   "nodes": [

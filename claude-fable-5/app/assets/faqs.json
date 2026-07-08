@@ -395,8 +395,8 @@
         "de": "Wie funktioniert der Wochenplaner?"
       },
       "answer": {
-        "en": "it's a simple grid — monday through sunday, breakfast, lunch and dinner. tap any slot to drop in a recipe from your cookbook or search, drag things between slots when the week changes its mind, and export the whole plan to the shopping list with one tap. there's no auto-planning and no macro spreadsheet hiding underneath; it's a planner, not a coach.",
-        "de": "Es ist ein einfaches Raster — Montag bis Sonntag, Frühstück, Mittag- und Abendessen. Tipp auf ein Feld, um ein Rezept aus deinem Kochbuch oder der Suche einzusetzen, zieh Einträge zwischen den Feldern hin und her, wenn die Woche es sich anders überlegt, und exportiere den ganzen Plan mit einem Tipp in die Einkaufsliste. Es gibt keine automatische Planung und keine versteckte Makro-Tabelle darunter — es ist ein Planer, kein Coach."
+        "en": "it's a simple grid — monday through sunday, breakfast, lunch and dinner. tap any slot to drop in a recipe from your cookbook or search, drag things between slots when the week changes its mind, and export the whole plan to the shopping list with one tap. cooking a big batch? when a recipe makes more than one serving, the planner offers to spread the leftover portions over the next free slots — those slots are marked as leftovers, warn you when they outlive the recipe's fridge life, and stay off the shopping list, because you already bought everything on cooking day. there's no auto-planning and no macro spreadsheet hiding underneath; it's a planner, not a coach.",
+        "de": "Es ist ein einfaches Raster — Montag bis Sonntag, Frühstück, Mittag- und Abendessen. Tipp auf ein Feld, um ein Rezept aus deinem Kochbuch oder der Suche einzusetzen, zieh Einträge zwischen den Feldern hin und her, wenn die Woche es sich anders überlegt, und exportiere den ganzen Plan mit einem Tipp in die Einkaufsliste. Du kochst gleich einen großen Topf? Wenn ein Rezept mehr als eine Portion ergibt, bietet der Planer an, die Reste auf die nächsten freien Felder zu verteilen — diese Felder sind als Reste markiert, warnen dich, wenn sie die Haltbarkeit im Kühlschrank überschreiten, und tauchen nicht in der Einkaufsliste auf, denn eingekauft hast du schon am Kochtag. Es gibt keine automatische Planung und keine versteckte Makro-Tabelle darunter — es ist ein Planer, kein Coach."
       },
       "keywords": {
         "en": [
@@ -405,7 +405,10 @@
           "planner",
           "grid",
           "drag",
-          "export"
+          "export",
+          "leftovers",
+          "fridge",
+          "meal prep"
         ],
         "de": [
           "Wochenplan",
@@ -413,7 +416,11 @@
           "Planer",
           "Raster",
           "verschieben",
-          "exportieren"
+          "exportieren",
+          "Reste",
+          "Kühlschrank",
+          "Haltbarkeit",
+          "Mealprep"
         ]
       }
     },

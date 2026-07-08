@@ -188,7 +188,8 @@
           "Ofengericht",
           "Reisgericht"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "risotto-classic-easy-600",
@@ -385,7 +386,8 @@
           "Reis",
           "Wohlfühlessen"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "risotto-classic-medium-400",
@@ -575,7 +577,8 @@
           "Spinat",
           "Italienisch"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "risotto-mushroom",
@@ -751,7 +754,8 @@
           "Champignons",
           "Seelenwärmer"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "risotto-vegan-easy-400",
@@ -942,7 +946,8 @@
           "Ofengericht",
           "Zitrone"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "risotto-vegan-easy-600",
@@ -1144,7 +1149,8 @@
           "Reis",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "risotto-vegan-medium-400",
@@ -1347,7 +1353,8 @@
           "Spinat",
           "Italienisch"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "risotto-vegan",
@@ -1530,7 +1537,8 @@
           "Italienisch",
           "Wohlfühlessen"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "risotto-classic-easy-400-no-dairy",
@@ -1715,7 +1723,8 @@
           "Salbei",
           "Topfgericht"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "risotto-classic-easy-600-no-dairy",
@@ -1908,7 +1917,8 @@
           "Olivenöl",
           "Reis"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "risotto-classic-medium-400-no-dairy",
@@ -2102,7 +2112,8 @@
           "Rosmarin",
           "Italienisch"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "risotto-mushroom-no-dairy",
@@ -2282,7 +2293,8 @@
           "Safran",
           "Löffelgeduld"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "risotto-classic-easy-600-no-fodmap",
@@ -2479,7 +2491,8 @@
           "Reis",
           "Wohlfühlessen"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "risotto-classic-medium-400-no-fodmap",
@@ -2669,7 +2682,8 @@
           "Schnittlauch",
           "Italienisch"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "risotto-mushroom-no-fodmap",
@@ -2866,7 +2880,8 @@
           "Safran",
           "Seelenwärmer"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "risotto-vegan-easy-400-no-fodmap",
@@ -3065,7 +3080,8 @@
           "Zitrone",
           "Schnittlauch"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "risotto-vegan-easy-600-no-fodmap",
@@ -3267,7 +3283,8 @@
           "Reis",
           "Salbei"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "risotto-vegan-medium-400-no-fodmap",
@@ -3470,7 +3487,8 @@
           "Schnittlauch",
           "Italienisch"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "risotto-vegan-no-fodmap",
@@ -3650,7 +3668,8 @@
           "Italienisch",
           "Wohlfühlessen"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "lasagna-classic-medium-600",
@@ -3855,7 +3874,8 @@
           "Ofengericht",
           "Tomate"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-classic-medium-800",
@@ -4061,7 +4081,8 @@
           "Béchamel",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-classic-hard-600",
@@ -4251,7 +4272,8 @@
           "Champignons",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-classic",
@@ -4437,7 +4459,8 @@
           "Ofenpasta",
           "Sonntagsessen"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-vegetarian-medium-600",
@@ -4643,7 +4666,8 @@
           "Ofenpasta",
           "Béchamel"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-vegetarian-medium-800",
@@ -4846,7 +4870,8 @@
           "Ricotta",
           "Ofenpasta"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "lasagna-vegetarian",
@@ -5033,7 +5058,8 @@
           "Champignons",
           "Ofenpasta"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-vegetarian-hard-800",
@@ -5247,7 +5273,8 @@
           "Langsames Ragù",
           "Ofenpasta"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-vegan-medium-600",
@@ -5419,7 +5446,8 @@
           "Ofengericht",
           "Abendessen"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-vegan-medium-800",
@@ -5617,7 +5645,8 @@
           "Champignons",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "lasagna-vegan-hard-600",
@@ -5808,7 +5837,8 @@
           "Linsen",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-vegan-hard-800",
@@ -6006,7 +6036,8 @@
           "Champignonragù",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-gluten-free-hard-800",
@@ -6219,7 +6250,8 @@
           "Gemüsebänder",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-classic-medium-600-no-gluten",
@@ -6431,7 +6463,8 @@
           "Gemüsebänder",
           "Tomate"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-classic-medium-800-no-gluten",
@@ -6644,7 +6677,8 @@
           "Béchamel",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-classic-hard-600-no-gluten",
@@ -6853,7 +6887,8 @@
           "Aubergine",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-classic-no-gluten",
@@ -7042,7 +7077,8 @@
           "Kartoffelschichten",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-vegetarian-medium-600-no-gluten",
@@ -7247,7 +7283,8 @@
           "Tomatenauflauf",
           "Ofenessen"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-vegetarian-medium-800-no-gluten",
@@ -7460,7 +7497,8 @@
           "Aubergine",
           "Ricotta"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "lasagna-vegetarian-no-gluten",
@@ -7650,7 +7688,8 @@
           "Zucchini",
           "Ofenschichten"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-vegetarian-hard-800-no-gluten",
@@ -7865,7 +7904,8 @@
           "Ricotta",
           "Crêpe-Schichten"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "lasagna-vegan-medium-600-no-gluten",
@@ -8039,7 +8079,8 @@
           "Tofu",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-vegan-medium-800-no-gluten",
@@ -8235,7 +8276,8 @@
           "Aubergine",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-vegan-hard-600-no-gluten",
@@ -8430,7 +8472,8 @@
           "Kartoffeln",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-vegan-hard-800-no-gluten",
@@ -8638,7 +8681,8 @@
           "Paprikaragù",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-classic-medium-600-no-dairy",
@@ -8844,7 +8888,8 @@
           "Hafersauce",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-classic-medium-800-no-dairy",
@@ -9056,7 +9101,8 @@
           "Hafercreme",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-classic-hard-600-no-dairy",
@@ -9245,7 +9291,8 @@
           "Salbei",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-classic-no-dairy",
@@ -9431,7 +9478,8 @@
           "Olivenölsoße",
           "Ofenpasta"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-vegetarian-medium-600-no-dairy",
@@ -9647,7 +9695,8 @@
           "Ofenpasta",
           "Tomatensauce"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-vegetarian-medium-800-no-dairy",
@@ -9861,7 +9910,8 @@
           "Spinat",
           "Nudelauflauf"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-vegetarian-no-dairy",
@@ -10056,7 +10106,8 @@
           "Spinat",
           "Ofenpasta"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-vegetarian-hard-800-no-dairy",
@@ -10272,7 +10323,8 @@
           "Champignons",
           "Ofenpasta"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "lasagna-gluten-free-hard-800-no-dairy",
@@ -10485,7 +10537,8 @@
           "Süßkartoffel",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-classic-medium-600-no-fodmap",
@@ -10697,7 +10750,8 @@
           "Kartoffel",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-classic-medium-800-no-fodmap",
@@ -10912,7 +10966,8 @@
           "Buchweizen",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-classic-hard-600-no-fodmap",
@@ -11108,7 +11163,8 @@
           "Buchweizen",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-classic-no-fodmap",
@@ -11294,7 +11350,8 @@
           "Buchweizencrêpes",
           "Ofenessen"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-vegetarian-medium-600-no-fodmap",
@@ -11503,7 +11560,8 @@
           "Zucchini",
           "Ofenschichten"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-vegetarian-medium-800-no-fodmap",
@@ -11717,7 +11775,8 @@
           "Röstpaprika",
           "Ofenschichten"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "lasagna-vegetarian-no-fodmap",
@@ -11909,7 +11968,8 @@
           "Röstpaprika",
           "Ofengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-vegetarian-hard-800-no-fodmap",
@@ -12123,7 +12183,8 @@
           "Karottenragù",
           "Pfannkuchenschichten"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "lasagna-vegan-hard-600-no-fodmap",
@@ -12313,7 +12374,8 @@
           "Röstpaprika",
           "Tofu-Ragù"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pizza-classic-easy-600",
@@ -12510,7 +12572,8 @@
           "Pfanne",
           "Basilikum"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pizza-classic-easy-800",
@@ -12680,7 +12743,8 @@
           "Ofengericht",
           "Basilikum"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pizza-classic-medium-600",
@@ -12699,7 +12763,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -12713,7 +12777,7 @@
         "halal",
         "kosher",
         "sugar-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "bake"
@@ -12861,7 +12925,8 @@
           "Dünner Boden",
           "Tomaten"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pizza-classic",
@@ -12880,7 +12945,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -12894,7 +12959,7 @@
         "halal",
         "kosher",
         "sugar-free",
-        "medium",
+        "hard",
         "gt60",
         "le800",
         "bake"
@@ -13027,7 +13092,8 @@
           "Heißer Stein",
           "Backen"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pizza-vegan-easy-600",
@@ -13202,7 +13268,8 @@
           "Passata",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pizza-vegan-easy-800",
@@ -13392,7 +13459,8 @@
           "Pfanne",
           "Basilikum"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pizza-vegan",
@@ -13411,7 +13479,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -13426,7 +13494,7 @@
         "kosher",
         "sugar-free",
         "lactose-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "bake"
@@ -13553,7 +13621,8 @@
           "Hefeteig",
           "Backen"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pizza-vegan-medium-800",
@@ -13572,7 +13641,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -13587,7 +13656,7 @@
         "kosher",
         "sugar-free",
         "lactose-free",
-        "medium",
+        "hard",
         "gt60",
         "le800",
         "simmer",
@@ -13760,7 +13829,8 @@
           "Basilikum",
           "Gehzeit"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "pizza-gluten-free",
@@ -13779,7 +13849,7 @@
       },
       "variant": {
         "diet": "gluten-free",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -13793,7 +13863,7 @@
         "low-fodmap",
         "sugar-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "bake"
@@ -13928,7 +13998,8 @@
           "Backen",
           "Margherita"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pizza-classic-easy-600-no-gluten",
@@ -14134,7 +14205,8 @@
           "Basilikumöl",
           "Pfannenboden"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pizza-classic-easy-800-no-gluten",
@@ -14313,7 +14385,8 @@
           "Mozzarella",
           "Basilikum"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pizza-classic-medium-600-no-gluten",
@@ -14332,7 +14405,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -14346,7 +14419,7 @@
         "low-fodmap",
         "sugar-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "bake"
@@ -14526,7 +14599,8 @@
           "Buchweizenboden",
           "Basilikum"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pizza-classic-no-gluten",
@@ -14545,7 +14619,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -14559,7 +14633,7 @@
         "low-fodmap",
         "sugar-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le800",
         "bake"
@@ -14691,7 +14765,8 @@
           "Heißer Stein",
           "Knusperboden"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pizza-vegan-easy-600-no-gluten",
@@ -14870,7 +14945,8 @@
           "Pfanne",
           "Passata"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pizza-vegan-easy-800-no-gluten",
@@ -15077,7 +15153,8 @@
           "Pfanne",
           "Basilikum"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pizza-vegan-no-gluten",
@@ -15096,7 +15173,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [],
@@ -15110,7 +15187,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "bake"
@@ -15257,7 +15334,8 @@
           "Glutenfreier Teig",
           "Backen"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pizza-vegan-medium-800-no-gluten",
@@ -15276,7 +15354,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [],
@@ -15290,7 +15368,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le800",
         "simmer",
@@ -15463,7 +15541,8 @@
           "Buchweizen",
           "Basilikum"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "pizza-classic-easy-600-no-dairy",
@@ -15661,7 +15740,8 @@
           "Pfanne",
           "Tomate"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pizza-classic-easy-800-no-dairy",
@@ -15836,7 +15916,8 @@
           "Tomate",
           "Basilikum"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pizza-classic-medium-600-no-dairy",
@@ -15855,7 +15936,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -15870,7 +15951,7 @@
         "kosher",
         "sugar-free",
         "lactose-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "bake"
@@ -16018,7 +16099,8 @@
           "Heißes Blech",
           "Basilikum"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pizza-classic-no-dairy",
@@ -16037,7 +16119,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -16052,7 +16134,7 @@
         "kosher",
         "sugar-free",
         "lactose-free",
-        "medium",
+        "hard",
         "gt60",
         "le800",
         "bake",
@@ -16194,7 +16276,8 @@
           "Basilikumbrösel",
           "Heißer Stein"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pizza-gluten-free-no-dairy",
@@ -16213,7 +16296,7 @@
       },
       "variant": {
         "diet": "gluten-free",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [],
@@ -16227,7 +16310,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "bake"
@@ -16369,7 +16452,8 @@
           "Backen",
           "Basilikum"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "bolognese-classic-easy-600",
@@ -16545,7 +16629,8 @@
           "Feierabend",
           "Tomate"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "bolognese-classic-easy-800",
@@ -16745,7 +16830,8 @@
           "Tomate",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "bolognese-classic-medium-600",
@@ -16764,7 +16850,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -16778,7 +16864,7 @@
         "kosher",
         "sugar-free",
         "lactose-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "saute",
@@ -16921,7 +17007,8 @@
           "Tomatensauce",
           "Schmorsauce"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "bolognese-classic",
@@ -16940,7 +17027,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -16955,7 +17042,7 @@
       "attributes": [
         "kosher",
         "sugar-free",
-        "medium",
+        "hard",
         "gt60",
         "le800",
         "saute",
@@ -17108,7 +17195,8 @@
           "Rinderragù",
           "Sonntagssauce"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "bolognese-vegetarian-easy-600",
@@ -17293,7 +17381,8 @@
           "Tomatenragù",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "bolognese-vegetarian-easy-800",
@@ -17499,7 +17588,8 @@
           "Tomatenragù",
           "Pfannensauce"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "bolognese-vegetarian-medium-600",
@@ -17518,7 +17608,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -17533,7 +17623,7 @@
         "kosher",
         "sugar-free",
         "lactose-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "roast",
@@ -17684,7 +17774,8 @@
           "Ofengemüse",
           "Tomatensauce"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "bolognese-vegetarian-medium-800",
@@ -17703,7 +17794,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -17719,7 +17810,7 @@
         "pescatarian",
         "kosher",
         "sugar-free",
-        "medium",
+        "hard",
         "gt60",
         "le800",
         "saute",
@@ -17884,7 +17975,8 @@
           "Ragù",
           "Pilze"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "bolognese-vegan-easy-600",
@@ -18061,7 +18153,8 @@
           "Feierabendküche",
           "Italienisch"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "bolognese-vegan-easy-800",
@@ -18234,7 +18327,8 @@
           "Tomatenragù",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "bolognese-lentil",
@@ -18253,7 +18347,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -18269,7 +18363,7 @@
         "kosher",
         "sugar-free",
         "lactose-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "roast",
@@ -18421,7 +18515,8 @@
           "Linsen",
           "Sonntagsküche"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "bolognese-vegan-medium-800",
@@ -18440,7 +18535,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -18456,7 +18551,7 @@
         "kosher",
         "sugar-free",
         "lactose-free",
-        "medium",
+        "hard",
         "gt60",
         "le800",
         "pan-fry",
@@ -18625,7 +18720,8 @@
           "Spaghetti",
           "Rotwein"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "bolognese-gluten-free-medium-600",
@@ -18644,7 +18740,7 @@
       },
       "variant": {
         "diet": "gluten-free",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -18657,7 +18753,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "saute",
@@ -18811,7 +18907,8 @@
           "Tomatensauce",
           "Pfannengericht"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-classic-easy-600-no-gluten",
@@ -18987,7 +19084,8 @@
           "Ragù",
           "Tomate"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-classic-easy-800-no-gluten",
@@ -19194,7 +19292,8 @@
           "Tomate",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-classic-medium-600-no-gluten",
@@ -19213,7 +19312,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -19227,7 +19326,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "saute",
@@ -19370,7 +19469,8 @@
           "Tomatensauce",
           "Lorbeersauce"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-classic-no-gluten",
@@ -19389,7 +19489,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -19404,7 +19504,7 @@
         "kosher",
         "sugar-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le800",
         "saute",
@@ -19568,7 +19668,8 @@
           "Rinderragù",
           "Rote Sauce"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-vegetarian-easy-600-no-gluten",
@@ -19755,7 +19856,8 @@
           "Tomatenragù",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-vegetarian-easy-800-no-gluten",
@@ -19963,7 +20065,8 @@
           "Reisnudeln",
           "Tomatensauce"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-vegetarian-medium-600-no-gluten",
@@ -19982,7 +20085,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -19998,7 +20101,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "roast",
@@ -20151,7 +20254,8 @@
           "Tofu-Ragù",
           "Tomatensauce"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-vegetarian-medium-800-no-gluten",
@@ -20170,7 +20274,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -20186,7 +20290,7 @@
         "kosher",
         "sugar-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le800",
         "saute",
@@ -20348,7 +20452,8 @@
           "Ragù",
           "Pilze"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-vegan-easy-600-no-gluten",
@@ -20529,7 +20634,8 @@
           "Tomatentopf",
           "Feierabendküche"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-vegan-easy-800-no-gluten",
@@ -20712,7 +20818,8 @@
           "Tomatenragù",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-lentil-no-gluten",
@@ -20731,7 +20838,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -20746,7 +20853,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "saute",
@@ -20907,7 +21014,8 @@
           "Linsen",
           "Tomatentopf"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-vegan-medium-800-no-gluten",
@@ -20926,7 +21034,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -20942,7 +21050,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le800",
         "roast",
@@ -21105,7 +21213,8 @@
           "Reisnudeln",
           "Rosmarin"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-classic-easy-800-no-dairy",
@@ -21305,7 +21414,8 @@
           "Tomate",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "bolognese-classic-no-dairy",
@@ -21324,7 +21434,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -21339,7 +21449,7 @@
         "kosher",
         "sugar-free",
         "lactose-free",
-        "medium",
+        "hard",
         "gt60",
         "le800",
         "saute",
@@ -21490,7 +21600,8 @@
           "Rotweinsauce",
           "Schmortopf"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "bolognese-vegetarian-easy-600-no-dairy",
@@ -21673,7 +21784,8 @@
           "Miso",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "bolognese-vegetarian-easy-800-no-dairy",
@@ -21889,7 +22001,8 @@
           "Tomatensauce",
           "Abendessen"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "bolognese-vegetarian-medium-800-no-dairy",
@@ -21908,7 +22021,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -21925,7 +22038,7 @@
         "kosher",
         "sugar-free",
         "lactose-free",
-        "medium",
+        "hard",
         "gt60",
         "le800",
         "saute",
@@ -22095,7 +22208,8 @@
           "Ragù",
           "Pilze"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "bolognese-vegan-easy-800-no-soy",
@@ -22279,7 +22393,8 @@
           "Kichererbsenragù",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "bolognese-classic-easy-600-no-fodmap",
@@ -22459,7 +22574,8 @@
           "Rind",
           "Tomate"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-classic-easy-800-no-fodmap",
@@ -22666,7 +22782,8 @@
           "Tomate",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-classic-no-fodmap",
@@ -22685,7 +22802,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -22699,7 +22816,7 @@
         "low-fodmap",
         "sugar-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le800",
         "saute",
@@ -22859,7 +22976,8 @@
           "Reisnudeln",
           "Rotwein"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-vegetarian-easy-600-no-fodmap",
@@ -23049,7 +23167,8 @@
           "Tomatensauce",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-vegetarian-easy-800-no-fodmap",
@@ -23257,7 +23376,8 @@
           "Sonnenblumenkerne",
           "Tomatenpfanne"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-vegetarian-medium-600-no-fodmap",
@@ -23276,7 +23396,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -23292,7 +23412,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "roast",
@@ -23451,7 +23571,8 @@
           "Auberginenragù",
           "Tomatensauce"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-vegetarian-medium-800-no-fodmap",
@@ -23470,7 +23591,7 @@
       },
       "variant": {
         "diet": "vegetarian",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -23485,7 +23606,7 @@
         "low-fodmap",
         "sugar-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le800",
         "roast",
@@ -23648,7 +23769,8 @@
           "Ragù",
           "Tofu"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-vegan-easy-600-no-fodmap",
@@ -23831,7 +23953,8 @@
           "Tomatensauce",
           "Feierabendküche"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-lentil-no-fodmap",
@@ -23850,7 +23973,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -23866,7 +23989,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "roast",
@@ -24030,7 +24153,8 @@
           "Tofu",
           "Schmorsauce"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "bolognese-vegan-medium-800-no-fodmap",
@@ -24049,7 +24173,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le800"
       },
       "contains": [
@@ -24065,7 +24189,7 @@
         "sugar-free",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le800",
         "roast",
@@ -24224,7 +24348,8 @@
           "Reisnudeln",
           "Röstkarotte"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "carbonara-classic-easy-600",
@@ -24396,7 +24521,8 @@
           "Pasta",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-classic",
@@ -24431,7 +24557,8 @@
         "le30",
         "le800",
         "pan-fry",
-        "simmer"
+        "simmer",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -24551,7 +24678,8 @@
           "Speck",
           "Feierabendküche"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "carbonara-classic-medium-600",
@@ -24736,7 +24864,8 @@
           "Pfeffer",
           "Pasta"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-classic-medium-800",
@@ -24907,7 +25036,8 @@
           "Speck",
           "Pfeffer"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-veggie",
@@ -25069,7 +25199,8 @@
           "Pilze",
           "Feierabendküche"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-vegetarian-easy-800",
@@ -25249,7 +25380,8 @@
           "Feierabend",
           "Pasta"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-vegetarian-medium-600",
@@ -25437,7 +25569,8 @@
           "Pfeffer",
           "Pasta"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-vegetarian-medium-800",
@@ -25617,7 +25750,8 @@
           "Pfefferbutter",
           "Carbonara"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-vegan-easy-600",
@@ -25792,7 +25926,8 @@
           "Zucchini",
           "Rauchig"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-vegan-easy-800",
@@ -25961,7 +26096,8 @@
           "Pasta",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-vegan-medium-600",
@@ -26161,7 +26297,8 @@
           "Nudeln",
           "Rauchpaprika"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-vegan-medium-800",
@@ -26370,7 +26507,8 @@
           "Pfeffer",
           "Pfannensauce"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-gluten-free",
@@ -26530,7 +26668,8 @@
           "Speck",
           "Feierabendküche"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "carbonara-classic-easy-600-no-gluten",
@@ -26704,7 +26843,8 @@
           "Speck",
           "Schnell"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "carbonara-classic-no-gluten",
@@ -26739,7 +26879,8 @@
         "le30",
         "le800",
         "pan-fry",
-        "simmer"
+        "simmer",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -26873,7 +27014,8 @@
           "Reisnudeln",
           "Feierabendküche"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "carbonara-classic-medium-600-no-gluten",
@@ -27065,7 +27207,8 @@
           "Reisnudeln",
           "Pfeffer"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "carbonara-classic-medium-800-no-gluten",
@@ -27245,7 +27388,8 @@
           "Speck",
           "Salbei"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "carbonara-veggie-no-gluten",
@@ -27283,7 +27427,8 @@
         "le30",
         "le600",
         "saute",
-        "simmer"
+        "simmer",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -27423,7 +27568,8 @@
           "Reisnudeln",
           "Schnelle Küche"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "carbonara-vegetarian-easy-800-no-gluten",
@@ -27613,7 +27759,8 @@
           "Reisnudeln",
           "Salbei"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "carbonara-vegetarian-medium-600-no-gluten",
@@ -27810,7 +27957,8 @@
           "Paprika",
           "Basilikum"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "carbonara-vegetarian-medium-800-no-gluten",
@@ -27998,7 +28146,8 @@
           "Carbonara",
           "Pfeffer"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "carbonara-vegan-easy-600-no-gluten",
@@ -28178,7 +28327,8 @@
           "Pfeffer",
           "Feierabendpasta"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "carbonara-vegan-easy-800-no-gluten",
@@ -28365,7 +28515,8 @@
           "Reisnudeln",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "carbonara-vegan-medium-600-no-gluten",
@@ -28573,7 +28724,8 @@
           "Tofu",
           "Pfefferöl"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "carbonara-vegan-medium-800-no-gluten",
@@ -28782,7 +28934,8 @@
           "Pfeffer",
           "Reisnudeln"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "carbonara-classic-easy-600-no-dairy",
@@ -28948,7 +29101,8 @@
           "Pasta",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-classic-no-dairy",
@@ -29111,7 +29265,8 @@
           "Pfeffer",
           "Feierabendküche"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "carbonara-classic-medium-600-no-dairy",
@@ -29312,7 +29467,8 @@
           "Ei",
           "Pfeffer"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-classic-medium-800-no-dairy",
@@ -29493,7 +29649,8 @@
           "Speck",
           "Sardelle"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "carbonara-veggie-no-dairy",
@@ -29668,7 +29825,8 @@
           "Eier",
           "Feierabendküche"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-vegetarian-easy-800-no-dairy",
@@ -29848,7 +30006,8 @@
           "Eigelb",
           "Pasta"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-vegetarian-medium-600-no-dairy",
@@ -30036,7 +30195,8 @@
           "Pfeffer",
           "Pasta"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-vegetarian-medium-800-no-dairy",
@@ -30233,7 +30393,8 @@
           "Kapernöl",
           "Carbonara"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-gluten-free-no-dairy",
@@ -30417,7 +30578,8 @@
           "Speck",
           "Schnelle Pfanne"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "carbonara-classic-easy-600-no-egg",
@@ -30600,7 +30762,8 @@
           "Speck",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-classic-no-egg",
@@ -30769,7 +30932,8 @@
           "Speck",
           "Parmesan"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-classic-medium-600-no-egg",
@@ -30953,7 +31117,8 @@
           "Pfeffer",
           "Pasta"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-classic-medium-800-no-egg",
@@ -31132,7 +31297,8 @@
           "Schweinebauch",
           "Salbei"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-veggie-no-egg",
@@ -31316,7 +31482,8 @@
           "Parmesan",
           "Feierabendküche"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-vegetarian-easy-800-no-egg",
@@ -31500,7 +31667,8 @@
           "Parmesan",
           "Pasta"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-vegetarian-medium-600-no-egg",
@@ -31702,7 +31870,8 @@
           "Parmesan",
           "Pfeffer"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-vegetarian-medium-800-no-egg",
@@ -31882,7 +32051,8 @@
           "Schwarzer Pfeffer",
           "Carbonara"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-gluten-free-no-egg",
@@ -32066,7 +32236,8 @@
           "Speck",
           "Pfeffer"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "carbonara-vegan-medium-600-no-soy",
@@ -32258,7 +32429,8 @@
           "Sonnenblumenkerne",
           "Pfeffer"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-vegan-medium-800-no-soy",
@@ -32465,7 +32637,8 @@
           "Pfeffer",
           "Pfannensauce"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "carbonara-vegetarian-easy-800-no-fodmap",
@@ -32664,7 +32837,8 @@
           "Reisnudeln",
           "Schnelle Pasta"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "carbonara-vegetarian-medium-800-no-fodmap",
@@ -32854,7 +33028,8 @@
           "Röstpaprika",
           "Schnittlauch"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tiramisu-light",
@@ -33014,7 +33189,8 @@
           "Kaffee",
           "Kakao"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tiramisu-classic-easy-600",
@@ -33182,7 +33358,8 @@
           "Mascarpone",
           "Vorbereitet"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tiramisu-classic-medium-400",
@@ -33201,7 +33378,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -33217,7 +33394,7 @@
         "pescatarian",
         "halal",
         "kosher",
-        "medium",
+        "hard",
         "le60",
         "le400",
         "steam",
@@ -33358,7 +33535,8 @@
           "Löffeldessert",
           "Kühlschrankkuchen"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tiramisu-classic",
@@ -33377,7 +33555,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -33393,7 +33571,7 @@
         "pescatarian",
         "halal",
         "kosher",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "raw"
@@ -33536,7 +33714,8 @@
           "Mascarpone",
           "Schichten"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tiramisu-vegan-easy-400",
@@ -33720,7 +33899,8 @@
           "Kokos",
           "Dessert"
         ]
-      }
+      },
+      "fridge_life_days": 5
     },
     {
       "id": "tiramisu-vegan-easy-600",
@@ -33929,7 +34109,8 @@
           "Kokos",
           "Dessert"
         ]
-      }
+      },
+      "fridge_life_days": 5
     },
     {
       "id": "tiramisu-vegan",
@@ -33948,7 +34129,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -33966,7 +34147,7 @@
         "halal",
         "kosher",
         "lactose-free",
-        "medium",
+        "hard",
         "le60",
         "le400",
         "bake",
@@ -34114,7 +34295,8 @@
           "Cashewcreme",
           "Ofenbiskuit"
         ]
-      }
+      },
+      "fridge_life_days": 5
     },
     {
       "id": "tiramisu-vegan-medium-600",
@@ -34133,7 +34315,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -34151,7 +34333,7 @@
         "halal",
         "kosher",
         "lactose-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "bake",
@@ -34331,7 +34513,8 @@
           "Schokolade",
           "Dessert"
         ]
-      }
+      },
+      "fridge_life_days": 5
     },
     {
       "id": "tiramisu-light-no-gluten",
@@ -34520,7 +34703,8 @@
           "Kakao",
           "Biskuit"
         ]
-      }
+      },
+      "fridge_life_days": 5
     },
     {
       "id": "tiramisu-classic-easy-600-no-gluten",
@@ -34722,7 +34906,8 @@
           "Mascarpone",
           "Kakao"
         ]
-      }
+      },
+      "fridge_life_days": 5
     },
     {
       "id": "tiramisu-classic-medium-400-no-gluten",
@@ -34741,7 +34926,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -34757,7 +34942,7 @@
         "halal",
         "kosher",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le400",
         "bake",
@@ -34920,7 +35105,8 @@
           "Zabaione",
           "Kühlschrankdessert"
         ]
-      }
+      },
+      "fridge_life_days": 5
     },
     {
       "id": "tiramisu-classic-no-gluten",
@@ -34939,7 +35125,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -34955,7 +35141,7 @@
         "halal",
         "kosher",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "bake",
@@ -35125,7 +35311,8 @@
           "Biskuit",
           "Mascarpone"
         ]
-      }
+      },
+      "fridge_life_days": 5
     },
     {
       "id": "tiramisu-vegan-no-gluten",
@@ -35144,7 +35331,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -35161,7 +35348,7 @@
         "low-fodmap",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le400",
         "bake",
@@ -35303,7 +35490,8 @@
           "Buchweizen",
           "Tofucreme"
         ]
-      }
+      },
+      "fridge_life_days": 5
     },
     {
       "id": "tiramisu-vegan-medium-600-no-gluten",
@@ -35322,7 +35510,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -35340,7 +35528,7 @@
         "low-fodmap",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "bake",
@@ -35518,7 +35706,8 @@
           "Mandel",
           "Dessert"
         ]
-      }
+      },
+      "fridge_life_days": 5
     },
     {
       "id": "tiramisu-light-no-dairy",
@@ -35695,7 +35884,8 @@
           "Espresso",
           "Kakao"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "tiramisu-classic-easy-600-no-dairy",
@@ -35878,7 +36068,8 @@
           "Eiercreme",
           "Vorbereitet"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tiramisu-classic-medium-400-no-dairy",
@@ -35897,7 +36088,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -35913,7 +36104,7 @@
         "halal",
         "kosher",
         "lactose-free",
-        "medium",
+        "hard",
         "le60",
         "le400",
         "steam",
@@ -36049,7 +36240,8 @@
           "Löffeldessert",
           "Gekühlt"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tiramisu-classic-no-dairy",
@@ -36068,7 +36260,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -36084,7 +36276,7 @@
         "halal",
         "kosher",
         "lactose-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "simmer"
@@ -36263,7 +36455,8 @@
           "Eiercreme",
           "Kokos"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "tiramisu-vegan-medium-600-no-nuts",
@@ -36282,7 +36475,7 @@
       },
       "variant": {
         "diet": "vegan",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -36299,7 +36492,7 @@
         "halal",
         "kosher",
         "lactose-free",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "bake",
@@ -36477,7 +36670,8 @@
           "Tofucreme",
           "Dessert"
         ]
-      }
+      },
+      "fridge_life_days": 5
     },
     {
       "id": "tiramisu-light-no-egg",
@@ -36650,7 +36844,8 @@
           "Ricotta",
           "Kakao"
         ]
-      }
+      },
+      "fridge_life_days": 5
     },
     {
       "id": "tiramisu-classic-easy-600-no-egg",
@@ -36840,7 +37035,8 @@
           "Mascarpone",
           "Gebäck"
         ]
-      }
+      },
+      "fridge_life_days": 5
     },
     {
       "id": "tiramisu-classic-medium-400-no-egg",
@@ -36859,7 +37055,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -36874,7 +37070,7 @@
         "pescatarian",
         "halal",
         "kosher",
-        "medium",
+        "hard",
         "le60",
         "le400",
         "bake",
@@ -37027,7 +37223,8 @@
           "Löffeldessert",
           "Kühlschrankkuchen"
         ]
-      }
+      },
+      "fridge_life_days": 5
     },
     {
       "id": "tiramisu-classic-no-egg",
@@ -37046,7 +37243,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -37061,7 +37258,7 @@
         "pescatarian",
         "halal",
         "kosher",
-        "medium",
+        "hard",
         "gt60",
         "le600",
         "bake",
@@ -37239,7 +37436,8 @@
           "Mascarpone",
           "Sahne"
         ]
-      }
+      },
+      "fridge_life_days": 5
     },
     {
       "id": "tiramisu-light-no-fodmap",
@@ -37439,7 +37637,8 @@
           "Creme",
           "Kakao"
         ]
-      }
+      },
+      "fridge_life_days": 5
     },
     {
       "id": "tiramisu-classic-easy-600-no-fodmap",
@@ -37627,7 +37826,8 @@
           "Hüttenkäsecreme",
           "Pfannenbiskuit"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "tiramisu-classic-medium-400-no-fodmap",
@@ -37646,7 +37846,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le400"
       },
       "contains": [
@@ -37662,7 +37862,7 @@
         "low-fodmap",
         "lactose-free",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le400",
         "bake",
@@ -37812,7 +38012,8 @@
           "Biskuitschichten",
           "Kühlschrankdessert"
         ]
-      }
+      },
+      "fridge_life_days": 5
     },
     {
       "id": "tiramisu-classic-no-fodmap",
@@ -37831,7 +38032,7 @@
       },
       "variant": {
         "diet": "classic",
-        "effort": "medium",
+        "effort": "hard",
         "calorie": "le600"
       },
       "contains": [
@@ -37847,7 +38048,7 @@
         "kosher",
         "low-fodmap",
         "gluten-free",
-        "medium",
+        "hard",
         "le60",
         "le600",
         "bake",
@@ -38018,7 +38219,8 @@
           "Eiercreme",
           "Schichten"
         ]
-      }
+      },
+      "fridge_life_days": 5
     },
     {
       "id": "pesto-pasta-classic-easy-600",
@@ -38056,7 +38258,8 @@
         "le600",
         "saute",
         "simmer",
-        "raw"
+        "raw",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -38185,7 +38388,8 @@
           "Feierabend",
           "Sonnenblumenkerne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pesto-pasta-nut-free",
@@ -38223,7 +38427,8 @@
         "le800",
         "pan-fry",
         "simmer",
-        "raw"
+        "raw",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -38373,7 +38578,8 @@
           "Kernknusper",
           "Feierabendküche"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pesto-pasta-classic-medium-600",
@@ -38571,7 +38777,8 @@
           "Zucchini",
           "Mörserpesto"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pesto-pasta-classic",
@@ -38743,7 +38950,8 @@
           "Mörser",
           "Sommer"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pesto-pasta-vegan-easy-600",
@@ -38782,7 +38990,8 @@
         "le600",
         "saute",
         "simmer",
-        "raw"
+        "raw",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -38934,7 +39143,8 @@
           "Feierabend",
           "Kerne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pesto-pasta-vegan",
@@ -38974,7 +39184,8 @@
         "le30",
         "le800",
         "pan-fry",
-        "raw"
+        "raw",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -39105,7 +39316,8 @@
           "Olivenknusper",
           "Feierabendküche"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pesto-pasta-vegan-medium-600",
@@ -39297,7 +39509,8 @@
           "Grünkohl",
           "Kürbiskerne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pesto-pasta-vegan-medium-800",
@@ -39494,7 +39707,8 @@
           "Rösttomaten",
           "Mörserpesto"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pesto-pasta-gluten-free-easy-600",
@@ -39531,7 +39745,8 @@
         "le30",
         "le600",
         "raw",
-        "simmer"
+        "simmer",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -39664,7 +39879,8 @@
           "Schnell",
           "Kernpesto"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "pesto-pasta-classic-easy-600-no-gluten",
@@ -39702,7 +39918,8 @@
         "le600",
         "simmer",
         "saute",
-        "raw"
+        "raw",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -39836,7 +40053,8 @@
           "Rucola",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "pesto-pasta-nut-free-no-gluten",
@@ -39874,7 +40092,8 @@
         "le800",
         "pan-fry",
         "simmer",
-        "raw"
+        "raw",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -40028,7 +40247,8 @@
           "Kürbiskerne",
           "Tomaten"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "pesto-pasta-classic-medium-600-no-gluten",
@@ -40235,7 +40455,8 @@
           "Brokkoli",
           "Pinienkerne"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "pesto-pasta-classic-no-gluten",
@@ -40424,7 +40645,8 @@
           "Walnüsse",
           "Mörser"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "pesto-pasta-vegan-easy-600-no-gluten",
@@ -40462,7 +40684,8 @@
         "le600",
         "saute",
         "simmer",
-        "raw"
+        "raw",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -40614,7 +40837,8 @@
           "Oliven",
           "Schnell"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "pesto-pasta-vegan-no-gluten",
@@ -40653,7 +40877,8 @@
         "le30",
         "le800",
         "pan-fry",
-        "raw"
+        "raw",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -40799,7 +41024,8 @@
           "Tahin",
           "Feierabendküche"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "pesto-pasta-vegan-medium-600-no-gluten",
@@ -41001,7 +41227,8 @@
           "Brokkoli",
           "Sonnenblumenkerne"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "pesto-pasta-vegan-medium-800-no-gluten",
@@ -41189,7 +41416,8 @@
           "Röstpaprika",
           "Basilikumpesto"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "pesto-pasta-classic-easy-600-no-dairy",
@@ -41228,7 +41456,8 @@
         "le600",
         "saute",
         "simmer",
-        "raw"
+        "raw",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -41366,7 +41595,8 @@
           "Kapern",
           "Feierabend"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pesto-pasta-nut-free-no-dairy",
@@ -41405,7 +41635,8 @@
         "le800",
         "pan-fry",
         "simmer",
-        "raw"
+        "raw",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -41551,7 +41782,8 @@
           "Kürbiskerne",
           "Schnelles Abendessen"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "pesto-pasta-classic-medium-600-no-dairy",
@@ -41753,7 +41985,8 @@
           "Brokkoli",
           "Pinienkerne"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pesto-pasta-classic-no-dairy",
@@ -41950,7 +42183,8 @@
           "Kapern",
           "Mandeln"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pesto-pasta-gluten-free-easy-600-no-dairy",
@@ -41987,7 +42221,8 @@
         "le30",
         "le600",
         "raw",
-        "simmer"
+        "simmer",
+        "total-easy"
       ],
       "meal": [
         "lunch",
@@ -42116,7 +42351,8 @@
           "Schnell",
           "Kürbiskernpesto"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "pesto-pasta-classic-no-nuts",
@@ -42312,7 +42548,8 @@
           "Mörser",
           "Brösel"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pesto-pasta-vegan-medium-800-no-nuts",
@@ -42508,7 +42745,8 @@
           "Röstpaprika",
           "Kernpesto"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "pesto-pasta-classic-no-fodmap",
@@ -42693,7 +42931,8 @@
           "Pinienkerne",
           "Mörser"
         ]
-      }
+      },
+      "fridge_life_days": 2
     },
     {
       "id": "gnocchi-classic-medium-400",
@@ -42894,7 +43133,8 @@
           "Tomate",
           "Hausküche"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "gnocchi-classic",
@@ -43092,7 +43332,8 @@
           "Handgemacht",
           "Wohlfühlküche"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "gnocchi-classic-hard-400",
@@ -43293,7 +43534,8 @@
           "Tomaten",
           "Handarbeit"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "gnocchi-classic-hard-600",
@@ -43508,7 +43750,8 @@
           "Rösttomaten",
           "Handarbeit"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "gnocchi-vegan-medium-400",
@@ -43723,7 +43966,8 @@
           "Passata",
           "Basilikum"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "gnocchi-vegan",
@@ -43906,7 +44150,8 @@
           "Knoblauch",
           "Kartoffelteig"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "gnocchi-vegan-hard-400",
@@ -44104,7 +44349,8 @@
           "Ofenpaprika",
           "Handarbeit"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "gnocchi-vegan-hard-600",
@@ -44303,7 +44549,8 @@
           "Kartoffeln",
           "Handarbeit"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "gnocchi-gluten-free-medium-400",
@@ -44497,7 +44744,8 @@
           "Tomaten",
           "Basilikum"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "gnocchi-classic-medium-400-no-gluten",
@@ -44698,7 +44946,8 @@
           "Zucchini",
           "Hausküche"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "gnocchi-classic-no-gluten",
@@ -44905,7 +45154,8 @@
           "Buchweizen",
           "Kartoffelteig"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "gnocchi-classic-hard-400-no-gluten",
@@ -45106,7 +45356,8 @@
           "Buchweizen",
           "Rösttomaten"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "gnocchi-classic-hard-600-no-gluten",
@@ -45321,7 +45572,8 @@
           "Salbeibutter",
           "Handarbeit"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "gnocchi-vegan-medium-400-no-gluten",
@@ -45528,7 +45780,8 @@
           "Tomaten",
           "Kapern"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "gnocchi-vegan-no-gluten",
@@ -45723,7 +45976,8 @@
           "Rosmarin",
           "Kartoffelteig"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "gnocchi-vegan-hard-400-no-gluten",
@@ -45930,7 +46184,8 @@
           "Safran",
           "Mais"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "gnocchi-vegan-hard-600-no-gluten",
@@ -46144,7 +46399,8 @@
           "Rosmarin",
           "Handarbeit"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "gnocchi-classic-medium-400-no-dairy",
@@ -46346,7 +46602,8 @@
           "Zucchini",
           "Pfannengericht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "gnocchi-classic-no-dairy",
@@ -46544,7 +46801,8 @@
           "Zitrone",
           "Handgemacht"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "gnocchi-classic-hard-400-no-dairy",
@@ -46736,7 +46994,8 @@
           "Rösttomaten",
           "Handarbeit"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "gnocchi-classic-hard-600-no-dairy",
@@ -46951,7 +47210,8 @@
           "Rösttomaten",
           "Kartoffelteig"
         ]
-      }
+      },
+      "fridge_life_days": 3
     },
     {
       "id": "gnocchi-classic-medium-400-no-egg",
@@ -47142,7 +47402,8 @@
           "Ricotta",
           "Spinat"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "gnocchi-classic-no-egg",
@@ -47339,7 +47600,8 @@
           "Kartoffelteig",
           "Pfannenglanz"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "gnocchi-classic-hard-400-no-egg",
@@ -47532,7 +47794,8 @@
           "Paprika",
           "Handarbeit"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "gnocchi-classic-hard-600-no-egg",
@@ -47730,7 +47993,8 @@
           "Braune Butter",
           "Handarbeit"
         ]
-      }
+      },
+      "fridge_life_days": 4
     },
     {
       "id": "gnocchi-gluten-free-medium-400-no-egg",
@@ -47932,7 +48196,8 @@
           "Zitrone",
           "Basilikum"
         ]
-      }
+      },
+      "fridge_life_days": 4
     }
   ]
 }

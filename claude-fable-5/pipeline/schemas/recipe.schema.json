@@ -61,6 +61,7 @@
     },
     "time_minutes": {"type": "integer", "minimum": 1},
     "servings": {"type": "integer", "minimum": 1},
+    "fridge_life_days": {"type": "integer", "minimum": 1, "maximum": 7},
     "calories_per_serving": {"type": "integer", "minimum": 1},
     "macros": {
       "type": "object",
