@@ -19,7 +19,14 @@ const _dimensions = ['diet', 'effort', 'calorie'];
 /// Unreachable combos are disabled with a note, never hidden.
 class DishDetailScreen extends StatefulWidget {
   final String dishId;
-  const DishDetailScreen({super.key, required this.dishId});
+
+  /// The variant to preselect — the one the user actually tapped (search
+  /// row, cookbook entry, total-easy rail). Without it the page falls
+  /// back to the profile-best variant.
+  final String? initialRecipeId;
+
+  const DishDetailScreen(
+      {super.key, required this.dishId, this.initialRecipeId});
 
   @override
   State<DishDetailScreen> createState() => _DishDetailScreenState();
@@ -54,11 +61,15 @@ class _DishDetailScreenState extends State<DishDetailScreen> {
     if (dish == null) return;
     final all = await state.corpus.variantsOf(dish);
     final best = await state.bestVariant(dish.id);
+    Recipe? initial;
+    for (final r in all) {
+      if (r.id == widget.initialRecipeId) initial = r;
+    }
     if (!mounted) return;
     setState(() {
       _dish = dish;
       _all = all;
-      _selected = best ?? (all.isNotEmpty ? all.first : null);
+      _selected = initial ?? best ?? (all.isNotEmpty ? all.first : null);
     });
   }
 

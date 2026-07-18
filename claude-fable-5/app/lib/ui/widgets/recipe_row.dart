@@ -34,9 +34,12 @@ class RecipeRow extends StatelessWidget {
         : Color(int.parse(dish.stripe.replaceFirst('#', '0xFF')));
 
     return InkWell(
+      // The row shows a specific variant — opening it must land on that
+      // variant, not on the profile-best one for the dish.
       onTap: onTap ??
           () => Navigator.of(context).push(MaterialPageRoute(
-              builder: (_) => DishDetailScreen(dishId: recipe.dishId))),
+              builder: (_) => DishDetailScreen(
+                  dishId: recipe.dishId, initialRecipeId: recipe.id))),
       child: Container(
         margin: const EdgeInsets.symmetric(vertical: 5),
         padding: const EdgeInsets.all(8),

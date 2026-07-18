@@ -110,7 +110,10 @@ void main() {
   test('visibleVariants respects the profile, bestVariant picks one',
       () async {
     final state = await buildState();
-    await state.updateProfile(const Profile(avoidFlags: {'vegan'}));
+    // preferredEffort pinned: with 'mix' the pick would depend on the
+    // wall-clock context bonus and this id assertion would be flaky.
+    await state.updateProfile(const Profile(
+        avoidFlags: {'vegan'}, preferredEffort: 'easy'));
     final variants = await state.visibleVariants('doener');
     expect(variants.map((r) => r.id), contains('doener-vegan'));
     expect(variants.map((r) => r.id), isNot(contains('doener-classic')));

@@ -247,7 +247,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   '${recipe.timeMinutes} ${S(lang)('minutes')} · ${recipe.caloriesPerServing} kcal',
               photoHeight: 72,
               rotationSeed: i + 3,
-              onTap: () => _openDish(dish),
+              onTap: () => _openDish(dish, recipeId: recipe.id),
             ),
           );
         },
@@ -280,10 +280,11 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Text(text.toLowerCase(), style: MorphText.label(size: 9)),
       );
 
-  void _openDish(Dish dish) {
+  void _openDish(Dish dish, {String? recipeId}) {
     Navigator.of(context)
         .push(MaterialPageRoute(
-            builder: (_) => DishDetailScreen(dishId: dish.id)))
+            builder: (_) => DishDetailScreen(
+                dishId: dish.id, initialRecipeId: recipeId)))
         .then((_) => _recompute());
   }
 }
